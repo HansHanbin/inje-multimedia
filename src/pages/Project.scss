@@ -1,0 +1,74 @@
+.project {
+  height: 1000vh;
+  margin-top: 200px;
+}
+
+.project-header {
+  margin-bottom: 60px;
+}
+
+.major-wrapper {
+  margin: 0 auto;
+  width: 20%;
+}
+
+.header-major {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  // 전공 폰트
+  .active {
+    background-color: aqua;
+    border-radius: 20px;
+    font-weight: 700;
+  }
+
+  .major-dc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+
+    cursor: pointer;
+  }
+
+  .major-vi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+
+    cursor: pointer;
+  }
+
+  .major-mm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+
+    cursor: pointer;
+  }
+}
+
+// 강의명 선택
+
+.class-wrapper {
+  display: flex;
+  div {
+    margin-right: 10px;
+  }
+}
+
+.class {
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.class-active {
+  font-weight: 800;
+}
