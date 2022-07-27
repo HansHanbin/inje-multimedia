@@ -1,0 +1,11 @@
+.features-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 45px;
+}
+
+.features-items {
+  width: 100%;
+  height: auto;
+}

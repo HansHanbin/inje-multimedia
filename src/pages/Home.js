@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import Header from "../components/Header";
+import { Link } from "react-router-dom";
 
 import "./Home.scss";
 
@@ -24,6 +25,9 @@ function Home() {
               <br /> 졸업전시회
             </h1>
           </div>
+          <Link to="/2022/project" className="section-project">
+            작품 보러가기
+          </Link>
           <div className="scrollDown-wrapper">
             <div className="scroll-down">
               scroll

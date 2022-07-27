@@ -72,3 +72,24 @@
 .class-active {
   font-weight: 800;
 }
+
+.project-features {
+  margin-top: 60px;
+  animation: description_move 1s forwards;
+}
+
+@keyframes description_move {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(30px);
+    opacity: 100;
+  }
+}

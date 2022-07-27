@@ -10,7 +10,9 @@
   scroll-snap-align: start;
   position: relative;
   padding-top: 300px;
+}
 
+.one {
   .section-title {
     right: 0;
     bottom: 120px;
@@ -26,6 +28,25 @@
     .title-main {
       font-size: 6rem;
     }
+  }
+}
+.section-project {
+  width: 350px;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 120px;
+  &:hover {
+    background-color: rgb(83, 83, 255);
+    color: #fdfdfd;
+    box-shadow: 0px 5px 10px rgba(148, 148, 148, 0.15);
   }
 }
 
@@ -56,7 +77,7 @@
 
 .indicator-wrapper {
   position: fixed;
-  top: 500px;
+  top: 300px;
   height: 200px;
   display: flex;
   flex-direction: column;

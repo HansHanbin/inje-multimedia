@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
+import FeaturesDCS from "../../components/Features/FeaturesDCS";
 import "./ProjectContents.scss";
 
 function ProjectDcontents() {
@@ -39,33 +40,34 @@ function ProjectDcontents() {
             </div>
           </div>
         </div>
-        <div className="project-dcstudio">
-          <div className="project-class">
-            <div className="class-wrapper">
-              <div
-                onClick={onStudioClick}
-                className={
-                  studioClick
-                    ? "class-studio class class-active"
-                    : "class-studio class"
-                }
-              >
-                디지털컨텐츠스튜디오
-              </div>
-              <div>|</div>
-              <div
-                onClick={onResearchClick}
-                className={
-                  researchClick
-                    ? "class-research class class-active"
-                    : "class-research class"
-                }
-              >
-                DC졸업연구
-              </div>
+
+        <div className="project-class">
+          <div className="class-wrapper">
+            <div
+              onClick={onStudioClick}
+              className={
+                studioClick
+                  ? "class-studio class class-active"
+                  : "class-studio class"
+              }
+            >
+              디지털컨텐츠스튜디오
+            </div>
+            <div>|</div>
+            <div
+              onClick={onResearchClick}
+              className={
+                researchClick
+                  ? "class-research class class-active"
+                  : "class-research class"
+              }
+            >
+              DC졸업연구
             </div>
           </div>
-          <div className="project-features"></div>
+        </div>
+        <div className="project-features">
+          <FeaturesDCS />
         </div>
       </div>
     </div>

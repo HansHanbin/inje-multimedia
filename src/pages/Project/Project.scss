@@ -58,6 +58,7 @@
   .description {
     width: 600px;
     display: none;
+
     font-size: 1.2rem;
     text-align: center;
     white-space: pre-wrap;
@@ -65,8 +66,12 @@
 }
 
 @keyframes description_move {
-  from {
+  0% {
     transform: translateY(0);
+    opacity: 0;
+  }
+
+  20% {
     opacity: 0;
   }
 

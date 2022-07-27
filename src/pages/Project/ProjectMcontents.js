@@ -39,34 +39,33 @@ function ProjectMcontents() {
             </div>
           </div>
         </div>
-        <div className="project-dcstudio">
-          <div className="project-class">
-            <div className="class-wrapper">
-              <div
-                onClick={onStudioClick}
-                className={
-                  studioClick
-                    ? "class-studio class class-active"
-                    : "class-studio class"
-                }
-              >
-                모션미디어스튜디오
-              </div>
-              <div>|</div>
-              <div
-                onClick={onResearchClick}
-                className={
-                  researchClick
-                    ? "class-research class class-active"
-                    : "class-research class"
-                }
-              >
-                MM졸업연구
-              </div>
+
+        <div className="project-class">
+          <div className="class-wrapper">
+            <div
+              onClick={onStudioClick}
+              className={
+                studioClick
+                  ? "class-studio class class-active"
+                  : "class-studio class"
+              }
+            >
+              모션미디어스튜디오
+            </div>
+            <div>|</div>
+            <div
+              onClick={onResearchClick}
+              className={
+                researchClick
+                  ? "class-research class class-active"
+                  : "class-research class"
+              }
+            >
+              MM졸업연구
             </div>
           </div>
-          <div className="project-features"></div>
         </div>
+        <div className="project-features"></div>
       </div>
     </div>
   );
