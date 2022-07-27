@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
-import "./Project.scss";
+import Header from "../../components/Header";
+import "./ProjectContents.scss";
 
-function ProjectDcontents() {
+function ProjectMcontents() {
   const [studioClick, setStudioClick] = useState(true);
   const [researchClick, setResearchClick] = useState(false);
 
@@ -23,18 +23,18 @@ function ProjectDcontents() {
   return (
     <div>
       <Header />
-      <div className="project">
+      <div className="project-contents">
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/project/dc-studio">
-                <div className="major-dc active">DC</div>
+              <Link to="/2022/project/dc">
+                <div className="major-dc ">DC</div>
               </Link>
-              <Link to="/project/vi-studio">
+              <Link to="/2022/project/vi">
                 <div className="major-vi">VI</div>
               </Link>
-              <Link to="/project/mm-studio">
-                <div className="major-mm">MM</div>
+              <Link to="/2022/project/mm">
+                <div className="major-mm active">MM</div>
               </Link>
             </div>
           </div>
@@ -50,7 +50,7 @@ function ProjectDcontents() {
                     : "class-studio class"
                 }
               >
-                디지털컨텐츠스튜디오
+                모션미디어스튜디오
               </div>
               <div>|</div>
               <div
@@ -61,7 +61,7 @@ function ProjectDcontents() {
                     : "class-research class"
                 }
               >
-                DC졸업연구
+                MM졸업연구
               </div>
             </div>
           </div>
@@ -72,4 +72,4 @@ function ProjectDcontents() {
   );
 }
 
-export default ProjectDcontents;
+export default ProjectMcontents;

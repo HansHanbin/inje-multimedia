@@ -12,7 +12,7 @@ function Header() {
   return (
     <>
       <div className="header">
-        <Link to="/">
+        <Link to="/2022">
           <div className="header-logo"></div>
           <div className="header-title">PRISM</div>
         </Link>
@@ -20,7 +20,7 @@ function Header() {
         <div className="header-navbar">
           <ul className="navbar-container">
             <li className="navbar-list">
-              <Link to="/about">About</Link>
+              <Link to="/2022/about">About</Link>
             </li>
             <li
               className="navbar-list"
@@ -28,13 +28,13 @@ function Header() {
               onMouseLeave={onMouseLeave}
             >
               {dropdown && <Dropdown />}
-              <Link to="/project/dc-studio">Project</Link>
+              <Link to="/2022/project">Project</Link>
             </li>
             <li className="navbar-list">
-              <Link to="/designer">Desginer</Link>
+              <Link to="/2022/designer">Desginer</Link>
             </li>
             <li className="navbar-list">
-              <Link to="/tags">Tags</Link>
+              <Link to="/2022/tags">Tags</Link>
             </li>
           </ul>
         </div>
