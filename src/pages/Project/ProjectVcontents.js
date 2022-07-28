@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
 import "./ProjectContents.scss";
+import FeaturesDCS from "../../components/Features/FeaturesDCS";
 
 function ProjectVcontents() {
   const [studioClick, setStudioClick] = useState(true);
@@ -20,6 +21,7 @@ function ProjectVcontents() {
       setResearchClick(true);
     }
   };
+
   return (
     <div>
       <Header />
@@ -65,7 +67,10 @@ function ProjectVcontents() {
             </div>
           </div>
         </div>
-        <div className="project-features"></div>
+        <div className="project-features">
+          <FeaturesDCS />
+          Test
+        </div>
       </div>
     </div>
   );

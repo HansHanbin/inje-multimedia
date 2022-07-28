@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../components/Header";
+import FeaturesDCS from "../../components/Features/FeaturesDCS";
 import "./ProjectContents.scss";
 
 function ProjectMcontents() {
@@ -65,7 +66,9 @@ function ProjectMcontents() {
             </div>
           </div>
         </div>
-        <div className="project-features"></div>
+        <div className="project-features">
+          <FeaturesDCS />
+        </div>
       </div>
     </div>
   );
