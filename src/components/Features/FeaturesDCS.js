@@ -4,6 +4,7 @@ import "./Features.scss";
 import img1 from "../../assets/images/example.png";
 
 function Features() {
+  // 이 아래부터는 사실상 Html. 다른 파일도 마찬가지!
   return (
     <>
       <div className="features-container">

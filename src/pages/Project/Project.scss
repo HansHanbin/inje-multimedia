@@ -80,3 +80,9 @@
     opacity: 100;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .project-wrapper {
+    flex-direction: column;
+  }
+}

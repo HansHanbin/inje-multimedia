@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./FeaturesItem.scss";
 import { Link } from "react-router-dom";
 
 function FeaturesItem(props) {
+  const screenWidth = window.innerWidth;
+
   return (
     <>
       <li className="features-item">

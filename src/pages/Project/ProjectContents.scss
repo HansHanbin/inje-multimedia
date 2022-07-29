@@ -92,3 +92,26 @@
     opacity: 100;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .project-contents {
+    margin: 120px 0 120px 0;
+  }
+  .major-wrapper {
+    margin: 0;
+    width: auto;
+  }
+  .project-class {
+    display: flex;
+    flex-direction: column;
+    .class-wrapper {
+      display: block;
+      :nth-child(1) {
+        margin-bottom: 10px;
+      }
+      :nth-child(2) {
+        display: none;
+      }
+    }
+  }
+}

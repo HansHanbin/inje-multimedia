@@ -21,6 +21,7 @@ function ProjectDcontents() {
       setResearchClick(true);
     }
   };
+
   return (
     <div>
       <Header />
