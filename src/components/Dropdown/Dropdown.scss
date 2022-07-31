@@ -28,7 +28,6 @@
   .dropdown-menu.clicked {
     width: 100%;
     height: auto;
-    background-color: rgb(139, 224, 255);
   }
   .dropdown-menu.clicked > li {
     height: 80px;
@@ -37,7 +36,6 @@
     padding-top: 25px;
     &:hover {
       font-weight: 700;
-      background: rgb(83, 83, 255);
     }
   }
 }
