@@ -1,0 +1,20 @@
+.cards {
+  width: 30%;
+  height: 60%;
+  padding: 60px;
+  box-shadow: 0px 0px 20px rgba(106, 106, 106, 0.25);
+  border-radius: 10px;
+  background-color: rgb(234, 245, 255);
+  .cards-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  .cards-icon {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-right: 30px;
+  }
+}

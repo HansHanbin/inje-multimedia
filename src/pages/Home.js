@@ -3,8 +3,6 @@ import "./Home.scss";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
-import "./Home.scss";
-
 function Home() {
   return (
     <>
@@ -55,6 +53,15 @@ function Home() {
           </div>
         </section>
         <section className="section four">
+          <div className="scrollDown-wrapper">
+            <div className="scroll-down">
+              scroll
+              <br />
+              down
+            </div>
+          </div>
+        </section>
+        <section className="section five">
           <div className="scrollDown-wrapper">
             <div className="scroll-down">
               scroll

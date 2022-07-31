@@ -60,9 +60,12 @@
   background-color: rgb(100, 100, 255);
 }
 .scrollDown-wrapper {
-  position: absolute;
-  bottom: 60px;
-  right: 745px;
+  width: 100%;
+  height: 91%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
   .scroll-down {
     border: 1px solid rgb(193, 193, 193);
     width: 70px;

@@ -33,9 +33,6 @@ function Header() {
             <li className="navbar-list">
               <Link to="/2022/designer">Desginer</Link>
             </li>
-            <li className="navbar-list">
-              <Link to="/2022/tags">Tags</Link>
-            </li>
           </ul>
         </div>
       </div>
