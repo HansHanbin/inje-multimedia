@@ -2,6 +2,9 @@ import React from "react";
 import Cards from "../components/Cards";
 import Header from "../components/Header";
 import "./About.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCirclePlay } from "@fortawesome/free-regular-svg-icons";
+import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
   return (
@@ -9,19 +12,30 @@ function About() {
       <Header />
       <div className="about">
         <div className="about-sections">
-          <div className="about-section-one section">
+          <div className="about-section-one about-section">
             <div className="section-one-wrapper">
+              <div className="one-title-mobile">About</div>
               <div className="one-text-warpper">
                 <div className="one-title">멀티미디어학부 졸업전시회</div>
                 <div className="one-description">
-                  제 123회 인제대학교 멀티미디어학부 졸업전시회에 오신걸
-                  환영합니다. <br />
-                  씹고 뜯고 맛보고 즐기다 가십셔 👍👍👍
+                  <span>
+                    제 123회 인제대학교 멀티미디어학부 졸업전시회에 오신걸
+                    환영합니다.
+                  </span>
+                  <span>씹고 뜯고 맛보고 즐기다 가십셔 👍👍👍</span>
+                  <FontAwesomeIcon icon={faCirclePlay} className="one-play" />
                 </div>
               </div>
             </div>
+            <div className="about-scrollDown-wrapper">
+              <div className="scroll-down">
+                <span>scroll</span>
+                <span>down</span>
+                <FontAwesomeIcon icon={faCaretDown} className="navBar-arrow" />
+              </div>
+            </div>
           </div>
-          <div className="about-section-two section">
+          <div className="about-section-two about-section">
             <div className="section-two-wrapper">
               <div className="two-title">학부소개</div>
               <div className="two-cards-wrapper">
@@ -48,8 +62,15 @@ function About() {
                 />
               </div>
             </div>
+            <div className="about-scrollDown-wrapper">
+              <div className="scroll-down">
+                <span>scroll</span>
+                <span>down</span>
+                <FontAwesomeIcon icon={faCaretDown} className="navBar-arrow" />
+              </div>
+            </div>
           </div>
-          <div className="about-section-three section">
+          <div className="about-section-three about-section">
             <div className="section-three-wrapper">
               <div className="three-title">Credit</div>
               <div className="three-top-wrapper">

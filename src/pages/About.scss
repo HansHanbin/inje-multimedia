@@ -5,10 +5,12 @@
   position: relative;
 }
 
-.section {
+.about-section {
   scroll-snap-align: start;
   position: relative;
-  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 // section 1
@@ -17,29 +19,42 @@
   height: 100vh;
 
   .section-one-wrapper {
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
   }
 
   .one-text-warpper {
-    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .one-title {
-    font-size: 3.8rem;
+    font-size: 5rem;
     text-align: center;
     font-weight: 700;
-    margin-bottom: 60px;
     animation: text_letterSpacing 1s ease-out forwards;
-    margin-top: 1px;
   }
+
   .one-description {
     font-size: 1.2rem;
     text-align: center;
     letter-spacing: 1.2px;
     animation: description_move 1s ease forwards;
+    display: flex;
+    flex-direction: column;
+    :nth-child(2) {
+      margin-bottom: 60px;
+    }
+  }
+  .one-play {
+    font-size: 2em;
+    color: #333;
+  }
+
+  .one-title-mobile {
+    display: none;
   }
 }
 
@@ -49,16 +64,19 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  position: absolute;
+  bottom: 60px;
 
   .scroll-down {
-    border: 1px solid rgb(193, 193, 193);
-    width: 70px;
-    height: 70px;
+    border: 1px solid #707070;
+    width: 80px;
+    height: 80px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    color: rgb(193, 193, 193);
+    color: #707070;
   }
 }
 
@@ -140,6 +158,94 @@
       font-weight: 700;
       margin-bottom: 30px;
     }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .about {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .about-section-one {
+    .one-title-mobile {
+      display: block;
+      font-weight: 700;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .one-title {
+      font-size: 3.5rem;
+    }
+  }
+  .about-section-two {
+    .two-title {
+      font-size: 1.5rem;
+    }
+  }
+
+  .about-section-three {
+    .three-title {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .section-one-wrapper,
+  .section-two-wrapper,
+  .section-three-wrapper {
+    height: 80vh;
+    margin-top: 100px;
+  }
+
+  // section one
+
+  .about-section-one {
+    .one-title-mobile {
+      display: block;
+      font-weight: 700;
+      text-align: center;
+      font-size: 1.5rem;
+    }
+
+    .one-text-warpper {
+      margin-top: 100px;
+      .one-title {
+        font-size: 1.5rem;
+        animation: none;
+      }
+      .one-description {
+        font-size: 1rem;
+        white-space: pre-wrap;
+        animation: none;
+        margin-top: 30px;
+        letter-spacing: 0;
+        :nth-child(2) {
+          margin-bottom: 30px;
+        }
+      }
+      .one-play {
+        margin: 0;
+      }
+    }
+  }
+  .about-section-two {
+    .two-title {
+      font-size: 1.5rem;
+    }
+  }
+  .about-section-three {
+    .three-title {
+      font-size: 1.5rem;
+    }
+  }
+
+  // section two
+
+  .about-section-two .two-cards-wrapper {
+    height: 500px;
   }
 }
 

@@ -53,7 +53,6 @@ function Header() {
           onClick={onClick}
         />
       </div>
-      <div className="header-background"></div>
     </>
   );
 }
