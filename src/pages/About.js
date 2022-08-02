@@ -38,29 +38,35 @@ function About() {
           <div className="about-section-two about-section">
             <div className="section-two-wrapper">
               <div className="two-title">학부소개</div>
-              <div className="two-cards-wrapper">
-                <Cards
-                  main={"Digital Contents"}
-                  sub={"디지털콘텐츠"}
-                  description={
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
-                  }
-                />
-                <Cards
-                  main={"Digital Contents"}
-                  sub={"디지털콘텐츠"}
-                  description={
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
-                  }
-                />
-                <Cards
-                  main={"Digital Contents"}
-                  sub={"디지털콘텐츠"}
-                  description={
-                    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
-                  }
-                />
-              </div>
+              <ul className="two-cards-wrapper">
+                <li className="cards-item">
+                  <Cards
+                    main={"Digital Contents"}
+                    sub={"디지털콘텐츠"}
+                    description={
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+                    }
+                  />
+                </li>
+                <li className="cards-item">
+                  <Cards
+                    main={"Motion Media"}
+                    sub={"모션미디어"}
+                    description={
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+                    }
+                  />
+                </li>
+                <li className="cards-item">
+                  <Cards
+                    main={"Visual Infomation"}
+                    sub={"비주얼인포메이션"}
+                    description={
+                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+                    }
+                  />
+                </li>
+              </ul>
             </div>
             <div className="about-scrollDown-wrapper">
               <div className="scroll-down">
@@ -133,6 +139,36 @@ function About() {
                     <span>홍보</span>
                     홍길동 홍길동 홍길동 홍길동 홍길동
                   </div>
+                </div>
+              </div>
+            </div>
+            <div className="about-scrollDown-wrapper-additional">
+              <div className="scroll-down">
+                <span>scroll</span>
+                <span>down</span>
+                <FontAwesomeIcon icon={faCaretDown} className="navBar-arrow" />
+              </div>
+            </div>
+          </div>
+          <div className="about-section-three-additional about-section">
+            <div className="three-title">Credit</div>
+            <div className="three-bottom-wrapper-additional">
+              <div className="people-team">
+                <div className="team-wrapper">
+                  <span>웹설계</span>
+                  홍길동 홍길동 홍길동 홍길동 홍길동
+                </div>
+                <div className="team-wrapper">
+                  <span>디자인</span>
+                  홍길동 홍길동 홍길동 홍길동 홍길동
+                </div>
+                <div className="team-wrapper">
+                  <span>코딩</span>
+                  홍길동 홍길동 홍길동 홍길동 홍길동
+                </div>
+                <div className="team-wrapper">
+                  <span>홍보</span>
+                  홍길동 홍길동 홍길동 홍길동 홍길동
                 </div>
               </div>
             </div>
