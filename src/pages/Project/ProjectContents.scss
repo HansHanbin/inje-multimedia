@@ -93,17 +93,14 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1023px) {
+  .project-contents {
+    padding: 0 30px 0 30px;
+  }
+
   .major-wrapper {
     margin: 0 auto;
     width: 30%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .major-wrapper {
-    margin: 0 auto;
-    width: 40%;
   }
 }
 
