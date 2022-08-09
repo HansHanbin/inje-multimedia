@@ -32,14 +32,14 @@ function Header() {
             </li>
             <li
               className="navbar-list"
-              onMouseEnter={onMouseEnter}
+              onMouseEnter={window.innerWidth > "1023" ? onMouseEnter : ""}
               onMouseLeave={onMouseLeave}
             >
               {dropdown && <Dropdown />}
               <div className="navbar-list-project">
                 <Link to="/2022/project">Project</Link>
                 &nbsp;
-                <FontAwesomeIcon icon={faCaretDown} className="navBar-arrow" />
+                <FontAwesomeIcon icon={faCaretDown} className="navbar-arrow" />
               </div>
             </li>
             <li className="navbar-list">
