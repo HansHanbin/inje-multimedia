@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -5,12 +7,11 @@
   list-style: none;
   color: inherit;
   box-sizing: border-box;
-  font-family: "Inter" !important;
+  font-family: "Noto Sans KR", sans-serif !important;
 }
 
 html {
   -ms-overflow-style: none;
-  font-family: "Inter";
 }
 
 body {
@@ -25,11 +26,6 @@ body {
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("./assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("ttf");
 }
 
 ul,

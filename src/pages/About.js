@@ -16,13 +16,9 @@ function About() {
             <div className="section-one-wrapper">
               <div className="one-title-mobile">About</div>
               <div className="one-text-warpper">
-                <div className="one-title">멀티미디어학부 졸업전시회</div>
+                <span className="one-title">멀티미디어학부 졸업전시회</span>
                 <div className="one-description">
-                  <span>
-                    제 123회 인제대학교 멀티미디어학부 졸업전시회에 오신걸
-                    환영합니다.
-                  </span>
-                  <span>씹고 뜯고 맛보고 즐기다 가십셔 👍👍👍</span>
+                  <div>프리즘처럼 빛나는 학생들의 모습을 확인해보세요!</div>
                   <FontAwesomeIcon icon={faCirclePlay} className="one-play" />
                 </div>
               </div>
@@ -76,6 +72,51 @@ function About() {
               </div>
             </div>
           </div>
+
+          <div className="about-section-four about-section">
+            <div className="section-four-wrapper">
+              <div className="four-title">Credit</div>
+              <div className="four-contents">
+                <div className="four-major-professor">지도교수</div>
+                <div className="four-major-wrapper">
+                  <div className="four-major four-major-dc">
+                    <div className="four-major-title">디지털콘텐츠</div>
+                    <div className="four-major-profile">
+                      <div className="profile-image"></div>
+                      <div className="profile-name">전우저 교수님</div>
+                    </div>
+                    <div className="four-major-profile">
+                      <div className="profile-image"></div>
+                      <div className="profile-name">이승희 교수님</div>
+                    </div>
+                  </div>
+                  <div className="four-major four-major-mm">
+                    <div className="four-major-title">모션미디어</div>
+                    <div className="four-major-profile">
+                      <div className="profile-image"></div>
+                      <div className="profile-name">김석래 교수님</div>
+                    </div>
+                    <div className="four-major-profile">
+                      <div className="profile-image"></div>
+                      <div className="profile-name">백제훈 교수님</div>
+                    </div>
+                  </div>
+                  <div className="four-major four-major-mm">
+                    <div className="four-major-title">비주얼인포메이션</div>
+                    <div className="four-major-profile">
+                      <div className="profile-image"></div>
+                      <div className="profile-name">박수진 교수님</div>
+                    </div>
+                    <div className="four-major-profile">
+                      <div className="profile-image"></div>
+                      <div className="profile-name">최인규 교수님</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="about-section-three about-section">
             <div className="section-three-wrapper">
               <div className="three-title">Credit</div>

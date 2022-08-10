@@ -30,10 +30,12 @@ function Home() {
           </Canvas>
 
           <div className="home-section-title">
-            <h4 className="title title-sub">2022 인제대학교</h4>
+            <h4 className="title title-sub">
+              2022 인제대학교 멀티미디어학부 졸업전시회
+            </h4>
             <h1 className="title title-main">
-              멀티미디어학부
-              <br /> 졸업전시회
+              Inje Univ. Divison of Multimedia <br />
+              2022 Graduation Exhibition
             </h1>
           </div>
           {/* <Link to="/2022/project" className="section-project">
