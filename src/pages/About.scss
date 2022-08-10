@@ -132,6 +132,9 @@
         font-weight: 700;
         margin-bottom: 30px;
       }
+      .vi {
+        letter-spacing: -1px;
+      }
     }
   }
 
@@ -186,6 +189,10 @@
     position: relative;
   }
 
+  .about-scrollDown-wrapper-additional {
+    display: none;
+  }
+
   .one-title-mobile,
   .two-title,
   .three-title {
@@ -215,7 +222,7 @@
 
   .about-section-two {
     .two-cards-wrapper {
-      padding: 20px;
+      padding: 20px 20px 20px 30px;
       display: flex;
       justify-content: flex-start;
       align-items: center;
@@ -223,8 +230,8 @@
       position: relative;
 
       .cards-item {
-        margin-right: 20px;
-        margin-left: 20px;
+        margin-right: 30px;
+
         > div {
           padding: 30px;
         }
@@ -297,22 +304,11 @@
   .about-section-two {
     .two-cards-wrapper {
       height: auto;
-      padding-left: 20px;
-      padding-right: 20px;
+
       display: flex;
       justify-content: flex-start;
       align-items: center;
       overflow-x: scroll;
-
-      position: relative;
-
-      .cards-item {
-        margin-right: 10px;
-        margin-left: 10px;
-        > div {
-          padding: 30px;
-        }
-      }
     }
   }
 
@@ -325,6 +321,7 @@
       width: 100%;
 
       .three-people-wrapper {
+        margin-bottom: 10%;
         span {
           margin-bottom: 10px;
         }
@@ -341,15 +338,26 @@
   }
 
   .about-section-three-additional {
-    display: block;
     height: 100vh;
+    display: flex;
+    align-items: center;
+
     .three-bottom-wrapper-additional {
       display: flex;
       .people-team {
         margin-top: 60%;
+        margin-top: 30px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        grid-gap: 45px;
       }
     }
   }
+
+  //scroll
+
   .about-scrollDown-wrapper,
   .about-scrollDown-wrapper-additional {
     display: flex;

@@ -94,7 +94,7 @@ function About() {
                       <span>백재훈 교수님</span>
                     </div>
                     <div className="people-wrapper">
-                      <span>비주얼인포메이션</span>
+                      <span className="vi">비주얼인포메이션</span>
                       <span>박수진 교수님</span>
                       <span>최인규 교수님</span>
                     </div>
@@ -114,7 +114,7 @@ function About() {
                       <span>홍길동</span>
                     </div>
                     <div className="people-wrapper">
-                      <span>비주얼인포메이션</span>
+                      <span className="vi">비주얼인포메이션</span>
                       <span>홍길동</span>
                       <span>홍길동</span>
                     </div>
@@ -156,19 +156,19 @@ function About() {
               <div className="people-team">
                 <div className="team-wrapper">
                   <span>웹설계</span>
-                  홍길동 홍길동 홍길동 홍길동 홍길동
+                  김시은&nbsp;&nbsp;구혜진&nbsp;&nbsp;서보현&nbsp;&nbsp;이영민&nbsp;&nbsp;조이현
                 </div>
                 <div className="team-wrapper">
                   <span>디자인</span>
-                  홍길동 홍길동 홍길동 홍길동 홍길동
+                  정주현&nbsp;&nbsp;김기성&nbsp;&nbsp;김나영&nbsp;&nbsp;조성래&nbsp;&nbsp;지창현
                 </div>
                 <div className="team-wrapper">
                   <span>코딩</span>
-                  홍길동 홍길동 홍길동 홍길동 홍길동
+                  이한빈&nbsp;&nbsp;남규리&nbsp;&nbsp;안도연&nbsp;&nbsp;이도현&nbsp;&nbsp;이민재
                 </div>
                 <div className="team-wrapper">
                   <span>홍보</span>
-                  홍길동 홍길동 홍길동 홍길동 홍길동
+                  박민규&nbsp;&nbsp;김문주&nbsp;&nbsp;신소현&nbsp;&nbsp;장은교&nbsp;&nbsp;최재희
                 </div>
               </div>
             </div>

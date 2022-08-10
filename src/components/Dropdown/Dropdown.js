@@ -12,7 +12,7 @@ const Dropdown = () => {
     <ul
       onClick={onClick}
       className={
-        window.innerWidth <= "930" ? "dropdown-menu clicked" : "dropdown-menu"
+        window.innerWidth <= "1023" ? "dropdown-menu clicked" : "dropdown-menu"
       }
     >
       {DropdownMenu().map((item, index) => {
