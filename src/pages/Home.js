@@ -1,8 +1,11 @@
-import React from "react";
+import React, { Suspense } from "react";
 import "./Home.scss";
 import Header from "../components/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { Canvas } from "@react-three/fiber";
+
+import PrismModel from "../PrismModel";
 
 function Home() {
   return (
@@ -18,6 +21,14 @@ function Home() {
         </div>
 
         <section className="home-section one">
+          <Canvas className="home-canvas">
+            <ambientLightProbe intentsity={0.5} />
+            <directionalLight position={[1, 1, 1]} intentsity={0.5} />
+            <Suspense fallback={null}>
+              <PrismModel />
+            </Suspense>
+          </Canvas>
+
           <div className="home-section-title">
             <h4 className="title title-sub">2022 인제대학교</h4>
             <h1 className="title title-main">
