@@ -1,9 +1,5 @@
 @charset "utf-8";
-
-* {
-  margin: 0px;
-  padding: 0px;
-}
+@import url(../../App.scss);
 
 p {
   font-size: 24px;
@@ -19,7 +15,10 @@ div {
 .container {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  padding: 0px 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .item-top {
   grid-column: 1/7;
@@ -27,12 +26,35 @@ div {
 .item-top,
 .item-center,
 .item-right {
-  margin-bottom: 150px;
+  margin-bottom: 120px;
 }
+
+.item-middle {
+  display: flex;
+  justify-content: space-between;
+  width: 1328px;
+}
+
+.item-left,
+.item-right,
+.item-center {
+  width: 240px;
+}
+
+.item-right {
+  letter-spacing: -1px;
+}
+
+.item-down {
+  display: flex;
+  justify-content: space-between;
+  width: 1600px;
+}
+
 .item-lt,
 .item-rt,
 .item-left {
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 .item-top > p,
 .item-left > p,
