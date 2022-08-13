@@ -1,6 +1,6 @@
 .about-sections {
   overflow: scroll;
-  height: 1028px;
+  height: 100vh;
   scroll-snap-type: y mandatory;
   position: relative;
   margin: 0 auto;
@@ -10,27 +10,26 @@
   scroll-snap-align: start;
   position: relative;
   height: 100%;
-  padding-top: 172px;
-  width: 1600px;
-  margin: 0 auto;
+  padding: 0 160px;
+  padding-top: 190px;
 }
 
 // section 1
 
 .about-section-one {
-  height: 1028px;
+  height: 100vh;
 
   .one-title {
     font-size: 5rem;
     text-align: center;
     font-weight: 700;
     animation: text_letterSpacing 1s ease-out forwards;
+    margin-top: 110px;
   }
 
   .one-text-warpper {
     display: flex;
     flex-direction: column;
-    margin-top: 10%;
   }
 
   .one-description {
@@ -56,12 +55,12 @@
 // section 2
 
 .about-section-two {
-  height: 1028px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
   .two-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
     letter-spacing: 1.5px;
     font-weight: 700;
     text-align: center;
@@ -73,7 +72,7 @@
     height: 500px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-end;
 
     .cards-item {
       display: flex;
@@ -86,12 +85,8 @@
 
 //section 4 {
 .about-section-four {
-  .aobut-people {
-    width: 1600px;
-    margin: 0 auto;
-  }
+  padding-top: 120px;
 }
-
 //footer
 
 .about-footer {
@@ -282,7 +277,7 @@
   }
 
   .about-section-three-additional {
-    height: 1028px;
+    height: 100vh;
     display: flex;
     align-items: center;
 
