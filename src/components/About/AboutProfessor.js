@@ -5,7 +5,7 @@ function AboutProfessor() {
   return (
     <>
       <div className="grid1920">
-        <div className="bold32">지도 교수</div>
+        <div className="bold32">2022 졸업전시 수업 지도 교수</div>
 
         <div className="aboutProfessor-container">
           <div className="aboutProfessor-wrapper">
@@ -14,10 +14,12 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic"></div>
                 <div className="ProfessorName">전우정 교수님</div>
+                <div className="ProfessorClass">DC스튜디오</div>
               </div>
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic"></div>
                 <div className="ProfessorName">이승희 교수님</div>
+                <div className="ProfessorClass">DC졸업연구</div>
               </div>
             </div>
           </div>
@@ -28,10 +30,12 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic"></div>
                 <div className="ProfessorName">박수진 교수님</div>
+                <div className="ProfessorClass">VI스튜디오</div>
               </div>
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic"></div>
                 <div className="ProfessorName">최인규 교수님</div>
+                <div className="ProfessorClass">VI졸업연구</div>
               </div>
             </div>
           </div>
@@ -42,10 +46,12 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic"></div>
                 <div className="ProfessorName">김석래 교수님</div>
+                <div className="ProfessorClass">MM스튜디오</div>
               </div>
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic"></div>
                 <div className="ProfessorName">백재훈 교수님</div>
+                <div className="ProfessorClass">MM졸업연구</div>
               </div>
             </div>
           </div>

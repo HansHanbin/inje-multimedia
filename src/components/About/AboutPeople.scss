@@ -3,32 +3,23 @@
 
 .container {
   text-align: center;
+  margin-top: 30px;
+}
+
+.about-people-title {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .about-people-p {
   font-size: 1.5rem;
   font-weight: 700;
+  margin-bottom: 32px;
 }
 .about-people-span {
   font-size: 1.2rem;
   font-weight: 500;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.item-top {
-  grid-column: 1/7;
-}
-.item-top,
-.item-center,
-.item-right {
-  margin-bottom: 120px;
+  margin-bottom: 20px;
 }
 
 .item-middle {
@@ -37,10 +28,19 @@
   width: 100%;
 }
 
+.item-top {
+  margin-bottom: 80px;
+}
+
 .item-left,
 .item-right,
 .item-center {
   width: 240px;
+  margin-bottom: 80px;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .item-right {
@@ -50,13 +50,22 @@
 .item-down {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  .item-down-wrapper {
+    width: 240px;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .item-lt,
 .item-rt,
 .item-left {
-  margin-bottom: 120px;
+  div {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .item-top > p,
 .item-left > p,
@@ -71,37 +80,43 @@
 .item-top > div > span:first-child {
   margin-right: 70px;
 }
-.item-left > div > span:first-child,
-.item-center > div > span:first-child,
-.item-right > div > span:first-child {
-  margin-right: 128px;
-}
 
-.item-left {
-  grid-column: 1/3;
-  justify-self: start;
-}
-.item-center {
-  grid-column: 3/5;
-  justify-self: center;
-}
-.item-right {
-  grid-column: 5/7;
-  justify-self: end;
-}
-.item-lt,
-.item-lb {
-  grid-column: 1/4;
-  justify-self: start;
-}
-.item-rt,
-.item-rb {
-  grid-column: 4/7;
-  justify-self: end;
-}
-.mr > div > span {
-  margin-right: 58px;
-}
-.mr > div > span:last-child {
-  margin-right: 0px;
+@media screen and (max-width: 1023px) {
+  .about-people-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .about-people-p {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+  }
+  .about-people-span {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .item-left,
+  .item-right,
+  .item-center {
+    width: 160px;
+    margin-bottom: 80px;
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .item-down {
+    display: flex;
+    justify-content: space-between;
+    .item-down-wrapper {
+      width: 160px;
+    }
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 }

@@ -5,7 +5,7 @@ function AboutPeople() {
   return (
     <div class="container">
       <div class="item-top">
-        <p className="about-people-p">졸업준비위원회</p>
+        <p className="about-people-title">졸업준비위원회</p>
         <div>
           <span className="about-people-span">위원장</span>
           <span className="about-people-span">박은수</span>
@@ -37,7 +37,7 @@ function AboutPeople() {
       </div>
 
       <div className="item-down">
-        <div class="item-lt mr">
+        <div className="item-down-wrapper">
           <p className="about-people-p">전시 웹사이트 디자인</p>
           <div>
             <span className="about-people-span">김기성</span>
@@ -47,7 +47,8 @@ function AboutPeople() {
             <span className="about-people-span">지창현</span>
           </div>
         </div>
-        <div class="item-rt mr">
+
+        <div className="item-down-wrapper">
           <p className="about-people-p">전시 웹사이트 설계</p>
           <div>
             <span className="about-people-span">구혜진</span>
@@ -57,9 +58,8 @@ function AboutPeople() {
             <span className="about-people-span">조이현</span>
           </div>
         </div>
-      </div>
-      <div className="item-down">
-        <div class="item-lb mr">
+
+        <div className="item-down-wrapper">
           <p className="about-people-p">전시 웹사이트 코딩</p>
           <div>
             <span className="about-people-span">남규리</span>
@@ -69,7 +69,8 @@ function AboutPeople() {
             <span className="about-people-span">이한빈</span>
           </div>
         </div>
-        <div class="item-rb mr">
+
+        <div className="item-down-wrapper">
           <p className="about-people-p">온라인 홍보</p>
           <div>
             <span className="about-people-span">김문주</span>

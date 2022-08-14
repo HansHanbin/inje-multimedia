@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
+import NavbarLogo from "../assets/images/navBar-logo-1920.png";
 import Dropdown from "../components/Dropdown/Dropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -21,8 +22,11 @@ function Header() {
         <div className="header-wrapper">
           <div className="header-container">
             <Link to="/2022">
-              <div className="header-logo"></div>
-              <div className="header-title">PRISM</div>
+              <img
+                src={NavbarLogo}
+                alt="navigation logo"
+                className="header-logo"
+              />
             </Link>
 
             <div className="header-navbar">
@@ -32,7 +36,9 @@ function Header() {
                 }
               >
                 <li className="navbar-list">
-                  <Link to="/2022/about">About</Link>
+                  <Link to="/2022/about" className="list-item">
+                    About
+                  </Link>
                 </li>
                 <li
                   className="navbar-list"
@@ -41,7 +47,9 @@ function Header() {
                 >
                   {dropdown && <Dropdown />}
                   <div className="navbar-list-project">
-                    <Link to="/2022/project">Project</Link>
+                    <Link to="/2022/project" className="list-item">
+                      Project
+                    </Link>
                     &nbsp;
                     <FontAwesomeIcon
                       icon={faCaretDown}
@@ -50,7 +58,9 @@ function Header() {
                   </div>
                 </li>
                 <li className="navbar-list">
-                  <Link to="/2022/designer">Desginer</Link>
+                  <Link to="/2022/designer" className="list-item">
+                    Desginer
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -18,7 +18,6 @@ function About() {
         <div className="about-sections">
           <div className="about-section-one about-section">
             <div className="section-one-wrapper wrapper">
-              <div className="one-title-mobile">About</div>
               <div className="one-text-warpper">
                 <span className="one-title">멀티미디어학부 졸업전시회</span>
                 <div className="one-description">
@@ -28,6 +27,7 @@ function About() {
               </div>
             </div>
           </div>
+
           <div className="about-section-two about-section">
             <div className="section-two-wrapper wrapper">
               <div className="two-title">학부소개</div>
@@ -37,7 +37,7 @@ function About() {
                     main={"Digital Contents"}
                     sub={"디지털콘텐츠"}
                     description={
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+                      "디지털 콘텐츠 전공은 인터넷,모바일을 기반으로 하는 다양한 웹, 앱, 모바일 콘텐츠의 기초,응용, 실습의 과정을 담은수업을 진행합니다. "
                     }
                   />
                 </li>
@@ -46,7 +46,7 @@ function About() {
                     main={"Visual Infomation"}
                     sub={"비주얼인포메이션"}
                     description={
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+                      "비주얼 인포메이션 디자인 전공은 정보디자인을 기반으로 하는 시각디자인 전반과 DTP를포함한 과정을 담은 수업을 진행합니다."
                     }
                   />
                 </li>
@@ -55,7 +55,7 @@ function About() {
                     main={"Motion Media"}
                     sub={"모션미디어"}
                     description={
-                      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. "
+                      "모션 미디어 전공은 영상디자인 및 애니메이션 등을 학습하는 것에 특화된 전공입니다. 2D, 3D 등의 툴을 배우고 실사 촬영에 대한 수업을 진행합니다. "
                     }
                   />
                 </li>

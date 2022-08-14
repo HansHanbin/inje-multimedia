@@ -44,6 +44,7 @@
 
   .link-item {
     margin-left: 15px;
+    display: flex;
   }
   .icon {
     font-size: 1.5rem;
@@ -57,5 +58,70 @@
   }
   .icon-youtube {
     color: #e52d27;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    font-size: 0.875rem;
+    border-top: 1px solid rgb(175, 175, 175);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+
+  .copy {
+    .copy-logo {
+      display: none;
+    }
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    .copy-up {
+      display: flex;
+      align-items: center;
+    }
+    .copy-major {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      margin: 0;
+      :nth-child(1) {
+        font-weight: 700;
+      }
+    }
+    span {
+      margin-top: 10px;
+    }
+    img {
+      width: 25%;
+    }
+  }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 10px;
+
+    .link-item {
+      display: flex;
+      margin: 0;
+    }
+
+    .icon-instagram {
+      color: #3f729b;
+    }
+    .icon-facebook {
+      color: #3b5998;
+    }
+    .icon-youtube {
+      color: #e52d27;
+    }
   }
 }
