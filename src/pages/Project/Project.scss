@@ -1,5 +1,4 @@
 .project {
-  margin-top: 120px;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -10,46 +9,43 @@
   }
 
   .project-container {
+    padding: 60px 0;
+    margin-top: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 90%;
-  }
-
-  .project-dc {
-    background-color: rgb(255, 165, 165);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.8rem;
-    font-weight: 600;
-  }
-  .project-vi {
-    background-color: rgb(165, 231, 165);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.8rem;
-    font-weight: 600;
-  }
-  .project-mm {
-    background-color: rgb(172, 216, 255);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.8rem;
-    font-weight: 600;
+    width: 1600px;
+    height: 100%;
   }
 
   .major {
-    margin: 0 10px 0 10px;
+    margin: 0 10px;
     width: 20%;
     height: 100%;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    font-weight: 600;
     transition: 0.5s ease;
     position: relative;
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 8px 8px 16px rgba(67, 151, 67, 0.1),
+      -8px -8px 16px rgba(105, 210, 205, 0.1);
+
+    .before {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h4 {
+        font-size: 3rem;
+      }
+      h6 {
+        font-size: 1.25rem;
+        margin-top: 10px;
+      }
+    }
 
     &:hover {
       width: 100%;
@@ -59,7 +55,7 @@
         animation: project_description_move 0.5s linear forwards;
         animation-delay: 0.2s;
         position: absolute;
-        top: 10%;
+        top: 8%;
         .project-wrapper {
           display: flex;
           justify-content: center;
@@ -67,17 +63,11 @@
           width: 100%;
 
           .project-wrapper__top {
-            h4 {
-              font-size: 1.8rem;
+            h2 {
+              font-size: 3rem;
             }
-            .project-wrapper__professor {
-              display: flex;
-              font-weight: 400;
-              margin-top: 30px;
-              :nth-child(2),
-              :nth-child(3) {
-                margin-left: 10px;
-              }
+            h4 {
+              font-size: 2rem;
             }
           }
           .project-wrapper__bottom {
@@ -85,11 +75,17 @@
 
             .project-wrapper__major {
               display: flex;
-              width: 830px;
+              width: 850px;
+              .project-wrapper__majorTitle {
+                font-size: 1.25rem;
+                font-weight: 400;
+                letter-spacing: -0.5px;
+              }
               .project-wrapper__majorDescription {
                 font-size: 1.2rem;
                 font-weight: 400;
-                margin-top: 30px;
+                margin-top: 25px;
+                letter-spacing: 0.5px;
               }
               .project-wrapper-research {
                 margin-left: 50px;
@@ -101,26 +97,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin-left: 10%;
+
             :nth-child(2) {
               margin-left: 10%;
             }
           }
         }
       }
-      .before {
+      .before,
+      .title-mini {
         display: none;
       }
     }
-  }
-
-  .description {
-    width: 600px;
-    display: none;
-
-    font-size: 1.2rem;
-    text-align: center;
-    white-space: pre-wrap;
   }
 }
 

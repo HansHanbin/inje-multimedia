@@ -3,8 +3,8 @@ import "./AboutPeople.scss";
 
 function AboutPeople() {
   return (
-    <div class="container">
-      <div class="item-top">
+    <div className="container">
+      <div className="item-top">
         <p className="about-people-title">졸업준비위원회</p>
         <div>
           <span className="about-people-span">위원장</span>
@@ -12,7 +12,7 @@ function AboutPeople() {
         </div>
       </div>
       <div className="item-middle">
-        <div class="item-left">
+        <div className="item-left">
           <p className="about-people-p">디지털콘텐츠</p>
           <div>
             <span className="about-people-span">김시은</span>
@@ -20,14 +20,14 @@ function AboutPeople() {
           </div>
         </div>
 
-        <div class="item-right">
+        <div className="item-right">
           <p className="about-people-p">비주얼인포메이션디자인</p>
           <div>
             <span className="about-people-span">노연희</span>
             <span className="about-people-span">허유진</span>
           </div>
         </div>
-        <div class="item-center">
+        <div className="item-center">
           <p className="about-people-p">모션미디어</p>
           <div>
             <span className="about-people-span">김성혁</span>

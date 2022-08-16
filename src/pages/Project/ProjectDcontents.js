@@ -23,7 +23,7 @@ function ProjectDcontents() {
   };
 
   return (
-    <div>
+    <>
       <Header />
       <div className="project-contents">
         <div className="project-header">
@@ -71,7 +71,7 @@ function ProjectDcontents() {
           <FeaturesDCS />
         </div>
       </div>
-    </div>
+    </>
   );
 }
 

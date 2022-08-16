@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 import NavbarLogo from "../assets/images/navBar-logo-1920.png";
+import NavbarLogoSmall from "../assets/images/navBar-logo-390.png";
 import Dropdown from "../components/Dropdown/Dropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -27,6 +28,12 @@ function Header() {
                 alt="navigation logo"
                 className="header-logo"
               />
+
+              <img
+                src={NavbarLogoSmall}
+                alt="navigation logo"
+                className="header-logo-small"
+              />
             </Link>
 
             <div className="header-navbar">
@@ -42,7 +49,7 @@ function Header() {
                 </li>
                 <li
                   className="navbar-list"
-                  onMouseEnter={window.innerWidth > "1023" ? onMouseEnter : ""}
+                  onMouseEnter={onMouseEnter}
                   onMouseLeave={onMouseLeave}
                 >
                   {dropdown && <Dropdown />}

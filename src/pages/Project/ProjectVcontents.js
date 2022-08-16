@@ -23,7 +23,7 @@ function ProjectVcontents() {
   };
 
   return (
-    <div>
+    <>
       <Header />
       <div className="project-contents">
         <div className="project-header">
@@ -72,7 +72,7 @@ function ProjectVcontents() {
           Test
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
