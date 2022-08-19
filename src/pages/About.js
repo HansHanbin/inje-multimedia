@@ -21,9 +21,9 @@ function About() {
 
     if (scrollValue === 0) {
       setScoll("0");
-    } else if (scrollValue === 252) {
+    } else if (300 > scrollValue > 0) {
       setScoll("1");
-    } else if (scrollValue === 504) {
+    } else if (scrollValue > 300) {
       setScoll("2");
     }
   };
@@ -115,6 +115,58 @@ function About() {
           <div className="about-section-four about-section">
             <div className="section-four-wrapper wrapper">
               <AboutPeople />
+            </div>
+          </div>
+
+          <div className="about-section-four-mobile about-section">
+            <div className="section-four-mobile-wrapper wrapper">
+              <div className="mobile-wrapper">
+                <div className="item-down-wrapper">
+                  <p className="about-people-p">전시 웹사이트 디자인</p>
+                  <div>
+                    <span className="about-people-span">정주현</span>
+                    <span className="about-people-span">김기성</span>
+                    <span className="about-people-span">김나영</span>
+                    <span className="about-people-span">조성래</span>
+                    <span className="about-people-span">지창현</span>
+                  </div>
+                </div>
+
+                <div className="item-down-wrapper">
+                  <p className="about-people-p">전시 웹사이트 설계</p>
+                  <div>
+                    <span className="about-people-span">김시은</span>
+                    <span className="about-people-span">구혜진</span>
+                    <span className="about-people-span">서보현</span>
+                    <span className="about-people-span">이영민</span>
+                    <span className="about-people-span">조이현</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mobile-wrapper">
+                <div className="item-down-wrapper">
+                  <p className="about-people-p">전시 웹사이트 코딩</p>
+                  <div>
+                    <span className="about-people-span">이한빈</span>
+                    <span className="about-people-span">남규리</span>
+                    <span className="about-people-span">안도연</span>
+                    <span className="about-people-span">이도현</span>
+                    <span className="about-people-span">이민재</span>
+                  </div>
+                </div>
+
+                <div className="item-down-wrapper">
+                  <p className="about-people-p">온라인 홍보</p>
+                  <div>
+                    <span className="about-people-span">박민규</span>
+                    <span className="about-people-span">김문주</span>
+                    <span className="about-people-span">신소현</span>
+                    <span className="about-people-span">장은교</span>
+                    <span className="about-people-span">최재희</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 

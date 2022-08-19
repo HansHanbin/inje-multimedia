@@ -120,3 +120,42 @@
     }
   }
 }
+
+@media screen and (max-width: 737px) {
+  .container {
+    margin-top: 20%;
+  }
+  .item-down {
+    display: none;
+  }
+  .item-top {
+    margin-bottom: 45px;
+    .about-people-title {
+      margin-bottom: 40px;
+      font-size: 1.5rem;
+    }
+  }
+
+  .item-middle {
+    display: flex;
+    flex-direction: column;
+
+    .item-left,
+    .item-right,
+    .item-center {
+      margin: 0 auto;
+      margin-bottom: 45px;
+
+      .about-people-p {
+        margin-bottom: 20px;
+      }
+      .about-people-span {
+        margin-bottom: 10px;
+      }
+    }
+
+    .about-people-p {
+      margin: 0 auto;
+    }
+  }
+}

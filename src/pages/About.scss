@@ -111,6 +111,10 @@
 .about-section-four {
   padding-top: 120px;
 }
+
+.about-section-four-mobile {
+  display: none;
+}
 //footer
 
 .about-footer {
@@ -269,8 +273,45 @@
   }
 
   .about-section-three {
-    .three-title {
-      font-size: 1.5rem;
+    height: 100vh;
+    .section-three-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  .about-section-four {
+    padding: 0 20px !important;
+  }
+
+  .about-section-four-mobile {
+    display: block;
+    padding: 0 20px !important;
+    .section-four-mobile-wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .mobile-wrapper {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: auto;
+      grid-gap: 45px;
+
+      margin-top: 45px;
+
+      .item-down-wrapper {
+        height: 100%;
+        :nth-child(2) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
     }
   }
 

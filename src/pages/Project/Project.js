@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Project.scss";
 import Header from "../../components/Header";
 import { Link } from "react-router-dom";
@@ -6,12 +6,27 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
 
 function Project() {
+  const [click, setClick] = useState(false);
+
+  const onClick = (event) => {
+    event.preventDefault();
+    if (window.innerWidth <= 1200) {
+      setClick(true);
+    }
+  };
+
   return (
     <>
       <Header />
       <div className="project">
         <div className="project-container">
-          <Link to="/2022/project/dc" className="project-dc major">
+          <Link
+            to="/2022/project/dc"
+            className={
+              click === true ? "project-dc major-m" : "project-dc major"
+            }
+            onClick={onClick}
+          >
             {/* 마우스오버 전 */}
             <div className="project-before before">
               <h4>D.C</h4>
