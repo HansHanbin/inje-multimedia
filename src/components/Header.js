@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import NavbarLogo from "../assets/images/navBar-logo-1920.png";
-import NavbarLogoSmall from "../assets/images/navBar-logo-390.png";
-import Dropdown from "../components/Dropdown/Dropdown";
+import NavbarLogo from "../assets/images/08.18 이미지 소스/1920/main_GNB logo.png";
+import NavbarLogoSmall from "../assets/images/08.18 이미지 소스/390/main_GNB logo.png";
+import Dropdown from "./Dropdown/Dropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { faCaretDown } from "@fortawesome/free-solid-svg-icons";
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   const [dropdown, setDropdown] = useState(false);
@@ -42,13 +42,34 @@ function Header() {
                   click ? "navbar-container active" : " navbar-container"
                 }
               >
-                <li className="navbar-list">
+                <li
+                  className={
+                    click === true ? "navbar-list-active" : "navbar-list"
+                  }
+                >
+                  <FontAwesomeIcon
+                    className={
+                      click === true
+                        ? "menu-icon-mobile-active"
+                        : "menu-icon-mobile"
+                    }
+                    icon={faXmark}
+                    onClick={onClick}
+                  />
+                </li>
+                <li
+                  className={
+                    click === true ? "navbar-list-active" : "navbar-list"
+                  }
+                >
                   <Link to="/2022/about" className="list-item">
                     About
                   </Link>
                 </li>
                 <li
-                  className="navbar-list"
+                  className={
+                    click === true ? "navbar-list-active" : "navbar-list"
+                  }
                   onMouseEnter={onMouseEnter}
                   onMouseLeave={onMouseLeave}
                 >
@@ -59,12 +80,16 @@ function Header() {
                     </Link>
                     &nbsp;
                     <FontAwesomeIcon
-                      icon={faCaretDown}
+                      icon={faAngleDown}
                       className="navbar-arrow"
                     />
                   </div>
                 </li>
-                <li className="navbar-list">
+                <li
+                  className={
+                    click === true ? "navbar-list-active" : "navbar-list"
+                  }
+                >
                   <Link to="/2022/designer" className="list-item">
                     Desginer
                   </Link>
@@ -73,7 +98,7 @@ function Header() {
             </div>
             <FontAwesomeIcon
               className="menu-icon"
-              icon={click ? faXmark : faBars}
+              icon={faBars}
               onClick={onClick}
             />
           </div>

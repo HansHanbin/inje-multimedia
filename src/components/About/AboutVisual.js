@@ -48,6 +48,7 @@ function AboutVisual() {
           <div className="about-visual-description__m">
             우리 미래를 무한으로 펼치겠다는 마음가짐을 PRISM이라는 오브제로
             표현했습니다.
+            <br />
             <br /> 고유하고도 영롱한 빛깔을 띠는 프리즘 그래픽은
             <br />세 개의 면을 가지고 있으며 이는 곧 세 가지
             <br />

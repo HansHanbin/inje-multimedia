@@ -5,7 +5,6 @@
   position: relative;
   width: 100%;
   margin: 0 auto;
-  padding: 0 160px;
 }
 
 .home-section {
@@ -14,119 +13,213 @@
   position: relative;
 }
 
+.one-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+}
+
 .one {
-  .home-section-title {
-    left: 0;
-    top: 100px;
-    position: absolute;
-    .title {
-      text-align: left;
-      bottom: 0;
-    }
-
-    .title-sub {
-      font-size: 2.5rem;
-      font-weight: 700;
-    }
-    .title-main {
-      font-size: 2.5rem;
-      font-weight: 400;
-    }
-  }
-}
-.section-project {
-  width: 350px;
-  font-size: 3.5rem;
-  font-weight: 700;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  background-color: aliceblue;
-  padding: 10px;
-  border-radius: 5px;
-  position: absolute;
-  bottom: 120px;
-  &:hover {
-    background-color: rgb(83, 83, 255);
-    color: #fdfdfd;
-    box-shadow: 0px 5px 10px rgba(148, 148, 148, 0.15);
-  }
-}
-
-.scrollDown-wrapper {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 60px;
-
-  .scroll-down {
-    border: 1px solid #707070;
-    width: 80px;
-    height: 80px;
+  .one-wrapper {
+    height: 100%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
-    color: #707070;
+    flex-direction: column;
+
+    .main-logo-768,
+    .main-logo-390 {
+      display: none;
+    }
+    .main-logo-1920 {
+      margin-bottom: 70px;
+    }
+    .one-title-warpper {
+      color: #ffffff;
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        font-weight: 700;
+      }
+      h2 {
+        text-align: center;
+        font-weight: 400;
+      }
+    }
   }
 }
 
-.indicator-wrapper {
-  position: fixed;
-  bottom: 150px;
-  height: 200px;
+.two {
+  .two-wrapper {
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+  }
+  .two-contents {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .two-prismImage-768 {
+      display: none;
+    }
+    .two-text-wrapper {
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: left;
 
-  .indicator {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    border: 1px solid black;
-    margin-bottom: 30px;
+      .two-prismLogo {
+        width: 60%;
+        margin-bottom: 50px;
+      }
+      .two-description {
+        color: #ffffff;
+        font-size: 1.25rem;
+        margin-bottom: 50px;
+      }
+      .two-viewProejct {
+        width: 410px;
+      }
+    }
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .home-canvas {
-    display: none;
+  .one {
+    .one-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      background-size: cover;
+    }
+    .one-wrapper {
+      .main-logo-1920,
+      .main-logo-390 {
+        display: none;
+      }
+      .main-logo-768 {
+        display: block;
+      }
+    }
   }
-  .home {
-    width: auto;
-    margin-left: 30px;
-    margin-right: 30px;
+
+  .two {
+    .two-wrapper {
+      .two-contents {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .two-prismImage-768 {
+          display: block;
+        }
+        .two-prismImage-1920 {
+          display: none;
+        }
+      }
+      .two-text-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .two-description {
+          margin-bottom: 100px;
+        }
+      }
+    }
   }
 }
 
 @media screen and (max-width: 737px) {
-  .home {
-    margin-left: 30px;
-    margin-right: 30px;
-    max-width: 341px;
-    height: 100vh;
-    // 첫번째 섹션
-
-    .home-section-title {
-      margin-top: 100px;
-      top: 0;
+  .one {
+    .one-video {
+      position: fixed;
       right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      background-size: cover;
     }
-
-    .one {
-      .title {
-        text-align: right;
+    .one-wrapper {
+      .main-logo-1920,
+      .main-logo-768 {
+        display: none;
       }
-      .section-title {
-        top: 0;
-      }
-
-      .title-main {
-        font-size: 40px;
+      .main-logo-390 {
+        display: block;
+        margin-bottom: 20px;
       }
 
-      .title-sub {
-        font-size: 36px;
+      .one-title-warpper {
+        h1 {
+          font-size: 1rem;
+          text-align: center;
+        }
+        h2 {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+
+  .two {
+    .two-wrapper {
+      .two-contents {
+        width: 100%;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .two-prismImage-768 {
+          display: block;
+          width: 60%;
+          position: absolute;
+          top: 20%;
+        }
+        .two-prismImage-1920 {
+          display: none;
+        }
+      }
+      .two-text-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 200px;
+        .two-prismLogo {
+          width: 50%;
+          z-index: 100;
+          margin-bottom: 20px;
+        }
+        .two-description {
+          font-size: 0.875rem;
+          z-index: 100;
+          margin-bottom: 128px;
+        }
+        .two-viewProejct {
+          width: 80%;
+        }
       }
     }
   }
