@@ -7,6 +7,7 @@ import ProjectMcontents from "./pages/Project/ProjectMcontents";
 import ProjectVcontents from "./pages/Project/ProjectVcontents";
 import Project from "./pages/Project/Project";
 import About from "./pages/About";
+import Designer from "./pages/Designer";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/2022/project/vi" element={<ProjectVcontents />} />
           <Route path="/2022/project" element={<Project />} />
           <Route path="/2022/about" element={<About />} />
+          <Route path="/2022/designer" element={<Designer />} />
         </Route>
       </Routes>
     </div>
