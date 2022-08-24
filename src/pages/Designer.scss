@@ -6,7 +6,7 @@
   padding: 0 160px;
   padding-top: 260px;
   padding-bottom: 200px;
-
+  transition: all 0.5s ease;
   .DesignerList-header {
     display: flex;
     justify-content: space-between;
@@ -60,6 +60,17 @@
   width: 100%;
 }
 
+.all,
+.alpha,
+.bravo,
+.charile,
+.delta {
+  display: block;
+}
+
+.DesignerList-person-deActive {
+  display: none;
+}
 .DesignerList-image {
   box-shadow: 5px 5px 10px 0 rgba(169, 169, 169, 0.21);
   margin-bottom: 20px;
@@ -82,7 +93,11 @@
   @media (hover: hover) {
     .DesignerList-profileImage:hover {
       opacity: 0;
-      transition: all 0.5s ease;
+      transition: all 0.3s ease;
+    }
+
+    .DesignerList-profileImage:not(:hover) {
+      transition: all 0.3s ease;
     }
   }
 }

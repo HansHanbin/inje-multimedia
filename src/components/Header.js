@@ -14,7 +14,13 @@ function Header() {
 
   const onClick = () => setClick(!click);
 
-  const onMouseEnter = () => setDropdown(true);
+  const onMouseEnter = (event) => {
+    if (window.innerWidth < 1200) {
+      event.prefentDefault();
+    } else {
+      setDropdown(true);
+    }
+  };
   const onMouseLeave = () => setDropdown(false);
 
   return (

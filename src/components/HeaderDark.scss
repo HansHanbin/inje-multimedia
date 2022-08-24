@@ -57,6 +57,11 @@
     font-size: 1.25rem;
     color: #333;
   }
+
+  .menu-icon,
+  .menu-icon-mobile {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
