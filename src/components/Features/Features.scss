@@ -1,18 +1,17 @@
 .features-items {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: auto;
-  grid-gap: 45px;
+  grid-gap: 32px;
 }
 
 .features-items {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 // 반응형 구현
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1200px) {
   .features-items {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

@@ -8,8 +8,8 @@ function FeaturesItem(props) {
         <Link to={props.path}>
           <div className="features-image-hover">
             <div className="hover-info">
-              <div className="hover-info-name">{props.name}</div>
               <div className="hover-info-text">{props.description}</div>
+              <div className="hover-info-name">{props.name}</div>
             </div>
           </div>
           <div className="features-image-wrapper">

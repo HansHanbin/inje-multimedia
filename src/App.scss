@@ -16,6 +16,7 @@ html {
 
 .app {
   position: relative;
+  overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
@@ -31,7 +32,7 @@ a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1200px) {
 }
 
 @media screen and (max-width: 737px) {

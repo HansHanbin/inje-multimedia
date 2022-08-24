@@ -1,6 +1,7 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
+import { useState } from "react";
 
 import ProjectDcontents from "./pages/Project/ProjectDcontents";
 import ProjectMcontents from "./pages/Project/ProjectMcontents";
@@ -10,6 +11,8 @@ import About from "./pages/About";
 import Designer from "./pages/Designer";
 
 function App() {
+  const [scroll, setScoll] = useState("0");
+
   return (
     <div className="app">
       <Routes>

@@ -13,121 +13,121 @@ function Features() {
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
             <FeaturesItem
               src={img1}
               name={"이한빈"}
-              description={"The World Best Application Ever"}
+              description={"NEXITY"}
               path="/2022/project/dc/Hanbin Lee"
             />
           </ul>

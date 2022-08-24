@@ -2,8 +2,6 @@
   width: 100%;
   position: fixed;
   z-index: 99;
-  background-color: black;
-  opacity: 0.5;
 }
 
 .header-logo {
@@ -61,12 +59,7 @@
   color: #fdfdfd;
 }
 
-.menu-icon,
-.menu-icon-mobile {
-  display: none;
-}
-
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1200px) {
   .header {
     width: 100%;
   }
@@ -101,16 +94,26 @@
     height: 100vh;
     opacity: 1;
     transition: all 0.5s ease;
+
+    .navbar-list {
+      text-align: right;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+      font-weight: 500;
+    }
   }
 
-  .active {
-    background: #fdfdfd;
-    width: 30%;
-    top: 0;
-    right: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
+  .header-navbar {
+    .active {
+      background: #fdfdfd;
+      width: 30%;
+      top: 0;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
 
     .navbar-list-active {
       text-align: right;
@@ -168,29 +171,32 @@
     transition: all 0.5s ease;
   }
 
-  .active {
-    background: #fdfdfd;
-    width: 50%;
-    top: 0;
-    right: 0;
-    opacity: 1;
-    transition: all 0.5s ease;
-    z-index: 1;
+  .header-navbar {
+    .active {
+      background: #fdfdfd;
+      width: 50%;
+      top: 0;
+      right: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
 
-    .navbar-list-active {
-      text-align: right;
-      padding: 2rem;
-      width: 100%;
-      display: table;
-      font-weight: 500;
-      .list-item {
-        color: #333 !important;
-      }
-      .menu-icon-mobile-active {
-        font-size: 1.5rem;
+      .navbar-list-active {
+        text-align: right;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        font-weight: 500;
+        .list-item {
+          color: #333 !important;
+        }
+        .menu-icon-mobile-active {
+          font-size: 1.5rem;
+        }
       }
     }
   }
+
   .navbar-list {
     text-align: right;
     padding: 2rem;

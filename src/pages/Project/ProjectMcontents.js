@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Header from "../../components/Header";
+import Header from "../../components/HeaderDark";
 import FeaturesDCS from "../../components/Features/FeaturesDCS";
 import "./ProjectContents.scss";
 
@@ -29,18 +29,22 @@ function ProjectMcontents() {
           <div className="major-wrapper">
             <div className="header-major">
               <Link to="/2022/project/dc">
-                <div className="major-dc ">DC</div>
+                <div className="major-dc ">Digital Contents</div>
+                <div className="major-mobile ">D.C</div>
               </Link>
+              <div>|</div>
               <Link to="/2022/project/vi">
-                <div className="major-vi">VI</div>
+                <div className="major-vi">Visual Infomation Design</div>
+                <div className="major-mobile">V.I</div>
               </Link>
+              <div>|</div>
               <Link to="/2022/project/mm">
-                <div className="major-mm active">MM</div>
+                <div className="major-mm active">Motion Media</div>
+                <div className="major-mobile active">M.M</div>
               </Link>
             </div>
           </div>
         </div>
-
         <div className="project-class">
           <div className="class-wrapper">
             <div
@@ -53,7 +57,7 @@ function ProjectMcontents() {
             >
               모션미디어스튜디오
             </div>
-            <div>|</div>
+
             <div
               onClick={onResearchClick}
               className={
