@@ -26,19 +26,19 @@ function Footer() {
         </span>
       </div>
       <div className="links">
-        <a className="link-item multi" href="#">
+        <a className="link-item multi" href="/">
           <FontAwesomeIcon icon={faChrome} className="icon-internet icon" />
           멀티미디어학부 홈페이지
         </a>
-        <a className="link-item insta" href="#">
+        <a className="link-item insta" href="/">
           <FontAwesomeIcon icon={faInstagram} className="icon-instagram icon" />
           인스타그램
         </a>
-        <a className="link-item fb" href="#">
+        <a className="link-item fb" href="/">
           <FontAwesomeIcon icon={faFacebook} className="icon-facebook icon" />
           페이스북
         </a>
-        <a className="link-item youtube" href="#">
+        <a className="link-item youtube" href="/">
           <FontAwesomeIcon icon={faYoutube} className="icon-youtube icon" />
           유튜브
         </a>

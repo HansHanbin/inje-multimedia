@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./HeaderDark.scss";
-import NavbarLogo from "../assets/images/08.18 이미지 소스/1920/about_GNB logo.png";
-import NavbarLogoSmall from "../assets/images/08.18 이미지 소스/390/about_GNB logo.png";
+import NavbarLogo from "../assets/images/0818Images/1920/about_GNB logo.png";
+import NavbarLogoSmall from "../assets/images/0818Images/390/about_GNB logo.png";
 import Dropdown from "./Dropdown/Dropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";

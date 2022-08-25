@@ -5,12 +5,12 @@ import { Link } from "react-router-dom";
 
 import Background from "../assets/video/main_background1.mp4";
 //import BackgroundBlack from "../assets/images/08.18 이미지 소스/1920/main_bacground 2.png";
-import mainLogo from "../assets/images/08.18 이미지 소스/1920/main_logo.png";
-import mainLogoMedium from "../assets/images/08.18 이미지 소스/768/main_logo.png";
-import mainLogoSmall from "../assets/images/08.18 이미지 소스/390/main_logo.png";
-import mainPrismLogo from "../assets/images/08.18 이미지 소스/1920/main_prism object.png";
-import mainPrismLogoMedium from "../assets/images/08.18 이미지 소스/768/main_prism object.png";
-import viewProject from "../assets/images/08.18 이미지 소스/1920/main_view project.png";
+import mainLogo from "../assets/images/0818Images/1920/main_logo.png";
+import mainLogoMedium from "../assets/images/0818Images/768/main_logo.png";
+import mainLogoSmall from "../assets/images/0818Images/390/main_logo.png";
+import mainPrismLogo from "../assets/images/0818Images/1920/main_prism object.png";
+import mainPrismLogoMedium from "../assets/images/0818Images/768/main_prism object.png";
+import viewProject from "../assets/images/0818Images/1920/main_view project.png";
 
 function Home() {
   return (

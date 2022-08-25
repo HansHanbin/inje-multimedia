@@ -18,14 +18,12 @@ function Designer() {
   const [alpha, setAlpha] = useState(false);
   const [bravo, setBravo] = useState(false);
   const [charlie, setCharlie] = useState(false);
-  const [delta, setDelta] = useState(false);
 
   const onAllClick = () => {
     setAll(true);
     setAlpha(false);
     setBravo(false);
     setCharlie(false);
-    setDelta(false);
   };
 
   const onAlphaClick = () => {
@@ -33,7 +31,6 @@ function Designer() {
     setAlpha(true);
     setBravo(false);
     setCharlie(false);
-    setDelta(false);
   };
 
   const onBravoClick = () => {
@@ -41,7 +38,6 @@ function Designer() {
     setAlpha(false);
     setBravo(true);
     setCharlie(false);
-    setDelta(false);
   };
 
   const onCharlieClick = () => {
@@ -49,15 +45,6 @@ function Designer() {
     setAlpha(false);
     setBravo(false);
     setCharlie(true);
-    setDelta(false);
-  };
-
-  const onDeltaClick = () => {
-    setAll(false);
-    setAlpha(false);
-    setBravo(false);
-    setCharlie(false);
-    setDelta(true);
   };
 
   return (
@@ -70,24 +57,13 @@ function Designer() {
           <div className="DesignerList-filter">
             <div
               className={
-                delta === true
-                  ? "DesignerList-filter-bold"
-                  : "DesignerList-filter-medium"
-              }
-              onClick={onDeltaClick}
-            >
-              ㅈㅊㅎ
-            </div>
-            <div className="DesignerList-filter-line"></div>
-            <div
-              className={
                 charlie === true
                   ? "DesignerList-filter-bold"
                   : "DesignerList-filter-medium"
               }
               onClick={onCharlieClick}
             >
-              ㅅㅇ
+              ㅈㅊㅎ
             </div>
             <div className="DesignerList-filter-line"></div>
             <div
@@ -98,7 +74,7 @@ function Designer() {
               }
               onClick={onBravoClick}
             >
-              ㄷㄹㅁㅂ
+              ㅂㅅㅇ
             </div>
             <div className="DesignerList-filter-line"></div>
             <div
@@ -109,7 +85,7 @@ function Designer() {
               }
               onClick={onAlphaClick}
             >
-              ㄱㄴ
+              ㄱㄴㅁ
             </div>
             <div className="DesignerList-filter-line"></div>
             <div
@@ -133,7 +109,7 @@ function Designer() {
                 : "DesignerList-person-deActive"
             }
           >
-            <Link to="/2022/designer/Sumin">
+            <Link to="/2022/designer/profile:Sumin" state={{ src: KangSumin }}>
               <div className="DesignerList-image">
                 <img src={KangSuminSmile} alt="profile" />
                 <img
@@ -153,11 +129,13 @@ function Designer() {
                 : "DesignerList-person-deActive"
             }
           >
-            <div className="DesignerList-image">
-              <img src={KangJueon} alt="profile " />
-            </div>
-            <div className="DesignerList-name-kor">강주언</div>
-            <div className="DesignerList-name-eng">Kang Jueon</div>
+            <Link to="/2022/designer/profile:Jueon">
+              <div className="DesignerList-image">
+                <img src={KangJueon} alt="profile " />
+              </div>
+              <div className="DesignerList-name-kor">강주언</div>
+              <div className="DesignerList-name-eng">Kang Jueon</div>
+            </Link>
           </li>
           <li
             className={
@@ -382,8 +360,8 @@ function Designer() {
           </li>{" "}
           <li
             className={
-              all || bravo === true
-                ? "DesignerList-person all brovo"
+              all || alpha === true
+                ? "DesignerList-person all alpha"
                 : "DesignerList-person-deActive"
             }
           >
@@ -395,8 +373,8 @@ function Designer() {
           </li>{" "}
           <li
             className={
-              all || bravo === true
-                ? "DesignerList-person all brovo"
+              all || alpha === true
+                ? "DesignerList-person all alpha"
                 : "DesignerList-person-deActive"
             }
           >
@@ -499,8 +477,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -512,8 +490,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -525,8 +503,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -538,8 +516,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -551,8 +529,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -564,8 +542,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -577,8 +555,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -590,8 +568,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -603,8 +581,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -616,8 +594,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -629,8 +607,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -642,8 +620,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -655,8 +633,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -668,8 +646,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -681,8 +659,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || charlie === true
-                ? "DesignerList-person all charlie"
+              all || bravo === true
+                ? "DesignerList-person all bravo"
                 : "DesignerList-person-deActive"
             }
           >
@@ -694,8 +672,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -707,8 +685,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -720,8 +698,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -733,8 +711,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -746,8 +724,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -759,8 +737,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -772,8 +750,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -785,8 +763,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -798,8 +776,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -811,8 +789,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -824,8 +802,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -837,8 +815,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >
@@ -850,8 +828,8 @@ function Designer() {
           </li>
           <li
             className={
-              all || delta === true
-                ? "DesignerList-person all delta"
+              all || charlie === true
+                ? "DesignerList-person all charlie"
                 : "DesignerList-person-deActive"
             }
           >

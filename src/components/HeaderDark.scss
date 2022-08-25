@@ -2,6 +2,7 @@
   width: 100%;
   position: absolute;
   z-index: 99;
+  background-color: #fdfdfd;
 
   .header-logo {
     width: 80%;
@@ -68,6 +69,8 @@
   .headerDark {
     width: 100%;
     position: fixed;
+    background-color: #fdfdfd;
+
     .header-logo {
       width: 100%;
       height: 100%;
@@ -226,7 +229,7 @@
 }
 
 @media screen and (max-height: 700px) {
-  .header {
+  .headerDark {
     .header-logo {
       display: none;
     }

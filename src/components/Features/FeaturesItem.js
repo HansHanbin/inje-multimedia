@@ -13,7 +13,7 @@ function FeaturesItem(props) {
             </div>
           </div>
           <div className="features-image-wrapper">
-            <img className="features-image" src={props.src} />
+            <img className="features-image" src={props.src} alt="features" />
           </div>
         </Link>
       </li>
