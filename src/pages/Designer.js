@@ -3,7 +3,7 @@ import Header from "../components/HeaderDark";
 import "./Designer.scss";
 import { Link } from "react-router-dom";
 import Image from "../assets/images/dsigner-example.gif";
-//import KangSumin from "../assets/images/ProfileImage/MM/MM강수민.gif";
+
 import KangSuminSmile from "../assets/images/ProfileImage/MM/MM_smile_강수민.gif";
 import KangJueon from "../assets/images/ProfileImage/VI/VI강주언.gif";
 import KangHanna from "../assets/images/ProfileImage/MM/MM강한나.gif";
