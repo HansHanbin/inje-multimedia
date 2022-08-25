@@ -3,7 +3,7 @@ import Header from "../components/HeaderDark";
 import "./Designer.scss";
 import { Link } from "react-router-dom";
 import Image from "../assets/images/dsigner-example.gif";
-import KangSumin from "../assets/images/ProfileImage/MM/MM강수민.gif";
+
 import KangSuminSmile from "../assets/images/ProfileImage/MM/MM_smile_강수민.gif";
 import KangJueon from "../assets/images/ProfileImage/VI/VI강주언.gif";
 import KangJueonSmile from "../assets/images/ProfileImage/VI/VI_smile_강주언.gif";
@@ -110,14 +110,9 @@ function Designer() {
                 : "DesignerList-person-deActive"
             }
           >
-            <Link to="/2022/designer/profile:Sumin" state={{ src: KangSumin }}>
+            <Link to="/2022/designer/profile:Sumin">
               <div className="DesignerList-image">
                 <img src={KangSuminSmile} alt="profile" />
-                <img
-                  src={KangSumin}
-                  alt="profile "
-                  className="DesignerList-profileImage"
-                />
               </div>
               <div className="DesignerList-name-kor">강수민</div>
               <div className="DesignerList-name-eng">Kang Sumin</div>
