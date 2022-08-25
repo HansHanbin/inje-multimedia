@@ -8,6 +8,7 @@ import KangSuminSmile from "../assets/images/ProfileImage/MM/MM_smile_강수민.
 import KangJueon from "../assets/images/ProfileImage/VI/VI강주언.gif";
 import KangJueonSmile from "../assets/images/ProfileImage/VI/VI_smile_강주언.gif";
 import KangHanna from "../assets/images/ProfileImage/MM/MM강한나.gif";
+import KangHannaSmile from "../assets/images/ProfileImage/MM/MM_smile_강한나.gif";
 import GonhHoybin from "../assets/images/ProfileImage/VI/VI공효빈.gif";
 import KwakYunseok from "../assets/images/ProfileImage/VI/VI곽윤석.gif";
 import GuHyejin from "../assets/images/ProfileImage/DC/DC구혜진.gif";
@@ -146,7 +147,10 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={KangHanna} alt="profile " />
+              <img src={KangHannaSmile} alt="profile" />
+              <img src={KangHanna} alt="profile " 
+                className="DesignerList-profileImage"
+              />
             </div>
             <div className="DesignerList-name-kor">강한나</div>
             <div className="DesignerList-name-eng">Kang Hanna</div>
