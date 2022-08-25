@@ -3,9 +3,10 @@ import Header from "../components/HeaderDark";
 import "./Designer.scss";
 import { Link } from "react-router-dom";
 import Image from "../assets/images/dsigner-example.gif";
-
+import KangSumin from "../assets/images/ProfileImage/MM/MM강수민.gif";
 import KangSuminSmile from "../assets/images/ProfileImage/MM/MM_smile_강수민.gif";
 import KangJueon from "../assets/images/ProfileImage/VI/VI강주언.gif";
+import KangJueonSmile from "../assets/images/ProfileImage/VI/VI_smile_강주언.gif";
 import KangHanna from "../assets/images/ProfileImage/MM/MM강한나.gif";
 import GonhHoybin from "../assets/images/ProfileImage/VI/VI공효빈.gif";
 import KwakYunseok from "../assets/images/ProfileImage/VI/VI곽윤석.gif";
@@ -131,7 +132,12 @@ function Designer() {
           >
             <Link to="/2022/designer/profile:Jueon">
               <div className="DesignerList-image">
-                <img src={KangJueon} alt="profile " />
+                <img src={KangJueonSmile} alt="profile" />
+                <img
+                  src={KangJueon}
+                  alt="profile "
+                  className="DesignerList-profileImage"
+                />
               </div>
               <div className="DesignerList-name-kor">강주언</div>
               <div className="DesignerList-name-eng">Kang Jueon</div>
