@@ -14,6 +14,54 @@ import KwakYunseok from "../assets/images/ProfileImage/VI/VI곽윤석.gif";
 import GuHyejin from "../assets/images/ProfileImage/DC/DC구혜진.gif";
 import KimKiseong from "../assets/images/ProfileImage/DC/DC김기성.gif";
 import KimNayoung from "../assets/images/ProfileImage/DC/DC김나영.gif";
+import KimMoonju from "../assets/images/ProfileImage/DC/DC김문주.gif";
+import KimBeomcheon from "../assets/images/ProfileImage/MM/MM김범찬.gif";
+import KimByeongJun from "../assets/images/ProfileImage/MM/MM김병준.gif";
+import KimSeonghyeok from "../assets/images/ProfileImage/MM/MM김성협.gif";
+import KimSiyoung from "../assets/images/ProfileImage/MM/MM김시영.gif";
+import KimSieun from "../assets/images/ProfileImage/DC/DC김시은.gif";
+import KimYeawon from "../assets/images/ProfileImage/MM/MM김예원.gif";
+import KimJisu from "../assets/images/ProfileImage/MM/MM김지수.gif";
+import KimChohee from "../assets/images/ProfileImage/VI/VI김초희.gif";
+import KimHyunsoo from "../assets/images/ProfileImage/MM/MM김현수.gif";
+import NohYeonhui from "../assets/images/ProfileImage/VI/VI노연희.gif";
+import MaJun from "../assets/images/ProfileImage/MM/MM마준.gif";
+import MoonSungHee from "../assets/images/ProfileImage/MM/MM문성희.gif";
+import ParkMingyu from "../assets/images/ProfileImage/DC/DC박민규.gif";
+import ParkSeongho from "../assets/images/ProfileImage/VI/VI박성호.gif";
+import ParkSumin from "../assets/images/ProfileImage/MM/MM박수민.gif";
+import ParkEunsu from "../assets/images/ProfileImage/MM/MM박은수.gif";
+import BaekJeonghun from "../assets/images/ProfileImage/VI/VI백정훈.gif";
+import BaekJaehoon from "../assets/images/ProfileImage/VI/VI백제훈.gif";
+import BingSoeun from "../assets/images/ProfileImage/MM/MM빙소은.gif";
+import SeoBoeun from "../assets/images/ProfileImage/VI/VI서보은.gif";
+import SeoBohyeon from "../assets/images/ProfileImage/DC/DC서보현.gif";
+import ArtelevaSaida from "../assets/images/ProfileImage/MM/MM아르텔레바사이다.gif";
+import AnDoyeon from "../assets/images/ProfileImage/DC/DC안도연.gif";
+import YooJiyeon from "../assets/images/ProfileImage/VI/VI유지연.gif";
+import LeeDohyeon from "../assets/images/ProfileImage/DC/DC이도현.gif";
+import LeeMinju from "../assets/images/ProfileImage/VI/VI이민주.gif";
+import LeeSeoyeon from "../assets/images/ProfileImage/MM/MM이서연.gif";
+import LeeSomin from "../assets/images/ProfileImage/MM/MM이소민.gif";
+import LeeSeungyeon from "../assets/images/ProfileImage/DC/DC이승연.gif";
+import LeeYoungmin from "../assets/images/ProfileImage/DC/DC이영민.gif";
+import LeeJaehee from "../assets/images/ProfileImage/VI/VI이재희.gif";
+import LeeJinho from "../assets/images/ProfileImage/MM/MM이진호.gif";
+import LeeHanbin from "../assets/images/ProfileImage/DC/DC이한빈.gif";
+import LimHyeonwoo from "../assets/images/ProfileImage/VI/VI임현우.gif";
+import JangSuyoung from "../assets/images/ProfileImage/VI/VI장수영.gif";
+import JangEunkyo from "../assets/images/ProfileImage/DC/DC장은교.gif";
+// 장재석 사진이 없음
+import JeongSeongjin from "../assets/images/ProfileImage/VI/VI정성진.gif";
+import JeongJeongyoon from "../assets/images/ProfileImage/MM/MM정정윤.gif";
+import JeongJuhyun from "../assets/images/ProfileImage/DC/DC정주현.gif";
+import ChoSeongRae from "../assets/images/ProfileImage/DC/DC조성래.gif";
+import JoYihyeon from "../assets/images/ProfileImage/DC/DC조이현.gif";
+// 지강원 사진이 없음
+import JiChanghyun from "../assets/images/ProfileImage/DC/DC지창현.gif";
+import ChoiYosep from "../assets/images/ProfileImage/VI/VI최요셉.gif";
+import HeoYujin from "../assets/images/ProfileImage/VI/VI허유진.gif";
+import HwangHyojoon from "../assets/images/ProfileImage/MM/MM황효준.gif";
 
 function Designer() {
   const [all, setAll] = useState(true);
@@ -228,7 +276,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimMoonju} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김문주</div>
             <div className="DesignerList-name-eng">Kim Moonju</div>
@@ -241,7 +289,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimBeomcheon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김범천</div>
             <div className="DesignerList-name-eng">Kim Beomcheon</div>
@@ -254,7 +302,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimByeongJun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김병준</div>
             <div className="DesignerList-name-eng">Kim ByeongJun</div>
@@ -267,7 +315,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimSeonghyeok} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김성혁</div>
             <div className="DesignerList-name-eng">Kim Seonghyeok</div>
@@ -280,7 +328,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimSiyoung} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김시영</div>
             <div className="DesignerList-name-eng">Kim Siyoung</div>
@@ -293,7 +341,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimSieun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김시은</div>
             <div className="DesignerList-name-eng">Kim Sieun</div>
@@ -306,7 +354,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile" />
+              <img src={KimYeawon} alt="profile" />
             </div>
             <div className="DesignerList-name-kor">김예원</div>
             <div className="DesignerList-name-eng">Kim Yeawon</div>
@@ -319,7 +367,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimJisu} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김지수</div>
             <div className="DesignerList-name-eng">Kim Jisu</div>
@@ -332,7 +380,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimChohee} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김초희</div>
             <div className="DesignerList-name-eng">Kim Chohee</div>
@@ -345,7 +393,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={KimHyunsoo} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">김현수</div>
             <div className="DesignerList-name-eng">Kim Hyunsoo</div>
@@ -358,7 +406,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={NohYeonhui} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">노연희</div>
             <div className="DesignerList-name-eng">Noh Yeonhui</div>
@@ -371,7 +419,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={MaJun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">마준</div>
             <div className="DesignerList-name-eng">Ma Jun</div>
@@ -384,7 +432,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={MoonSungHee} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">문성희</div>
             <div className="DesignerList-name-eng">Moon SungHee</div>
@@ -397,7 +445,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={ParkMingyu} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">박민규</div>
             <div className="DesignerList-name-eng">Park Mingyu</div>
@@ -410,7 +458,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={ParkSeongho} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">박성호</div>
             <div className="DesignerList-name-eng">Park Seongho</div>
@@ -423,7 +471,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={ParkSumin} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">박수민</div>
             <div className="DesignerList-name-eng">Park Sumin</div>
@@ -436,7 +484,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={ParkEunsu} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">박은수</div>
             <div className="DesignerList-name-eng">Park Eunsu</div>
@@ -449,7 +497,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={BaekJeonghun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">백정훈</div>
             <div className="DesignerList-name-eng">Baek Jeonghun</div>
@@ -462,7 +510,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={BaekJaehoon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">백제훈</div>
             <div className="DesignerList-name-eng">Baek Jaehoon</div>
@@ -475,7 +523,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={BingSoeun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">빙소은</div>
             <div className="DesignerList-name-eng">Bing Soeun</div>
@@ -488,7 +536,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={SeoBoeun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">서보은</div>
             <div className="DesignerList-name-eng">Seo Boeun</div>
@@ -501,7 +549,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={SeoBohyeon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">서보현</div>
             <div className="DesignerList-name-eng">Seo Bohyeon</div>
@@ -514,7 +562,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={ArtelevaSaida} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">아르텔레바 사이다</div>
             <div className="DesignerList-name-eng">Arteleva Saida</div>
@@ -527,7 +575,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={AnDoyeon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">안도연</div>
             <div className="DesignerList-name-eng">An Doyeon</div>
@@ -540,7 +588,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={YooJiyeon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">유지연</div>
             <div className="DesignerList-name-eng">Yoo Jiyeon</div>
@@ -553,7 +601,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeDohyeon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이도현</div>
             <div className="DesignerList-name-eng">Lee Dohyeon</div>
@@ -566,7 +614,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeMinju} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이민주</div>
             <div className="DesignerList-name-eng">Lee Minju</div>
@@ -579,7 +627,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeSeoyeon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이서연</div>
             <div className="DesignerList-name-eng">Lee Seoyeon</div>
@@ -592,7 +640,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeSomin} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이소민</div>
             <div className="DesignerList-name-eng">Lee Somin</div>
@@ -605,7 +653,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeSeungyeon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이승연</div>
             <div className="DesignerList-name-eng">Lee Seungyeon</div>
@@ -618,7 +666,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeYoungmin} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이영민</div>
             <div className="DesignerList-name-eng">Lee Youngmin</div>
@@ -631,7 +679,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeJaehee} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이재희</div>
             <div className="DesignerList-name-eng">Lee Jaehee</div>
@@ -644,7 +692,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeJinho} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이진호</div>
             <div className="DesignerList-name-eng">Lee Jinho</div>
@@ -657,7 +705,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LeeHanbin} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">이한빈</div>
             <div className="DesignerList-name-eng">Lee Hanbin</div>
@@ -670,7 +718,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={LimHyeonwoo} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">임현우</div>
             <div className="DesignerList-name-eng">Lim Hyeonwoo</div>
@@ -683,7 +731,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={JangSuyoung} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">장수영</div>
             <div className="DesignerList-name-eng">Jang Suyoung </div>
@@ -696,7 +744,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={JangEunkyo} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">장은교</div>
             <div className="DesignerList-name-eng">Jang Eunkyo</div>
@@ -722,7 +770,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={JeongSeongjin} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">정성진</div>
             <div className="DesignerList-name-eng">Jeong Seongjin</div>
@@ -735,7 +783,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={JeongJeongyoon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">정정윤</div>
             <div className="DesignerList-name-eng">Jeong Jeongyoon</div>
@@ -748,7 +796,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={JeongJuhyun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">정주현</div>
             <div className="DesignerList-name-eng">Jeong Juhyun</div>
@@ -761,7 +809,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={ChoSeongRae} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">조성래</div>
             <div className="DesignerList-name-eng">Cho SeongRae</div>
@@ -774,7 +822,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={JoYihyeon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">조이현</div>
             <div className="DesignerList-name-eng">Jo Yihyeon</div>
@@ -800,7 +848,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={JiChanghyun} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">지창현</div>
             <div className="DesignerList-name-eng">Ji Changhyun</div>
@@ -813,7 +861,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={ChoiYosep} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">최요셉</div>
             <div className="DesignerList-name-eng">Choi Yosep</div>
@@ -826,7 +874,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={HeoYujin} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">허유진</div>
             <div className="DesignerList-name-eng">Heo Yujin</div>
@@ -839,7 +887,7 @@ function Designer() {
             }
           >
             <div className="DesignerList-image">
-              <img src={Image} alt="profile " />
+              <img src={HwangHyojoon} alt="profile " />
             </div>
             <div className="DesignerList-name-kor">황효준</div>
             <div className="DesignerList-name-eng">Hwang Hyojoon</div>
