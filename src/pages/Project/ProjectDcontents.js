@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../components/HeaderDark";
 import FeaturesDCS from "../../components/Features/FeaturesDCS";
+import FeaturesDCR from "../../components/Features/FeaturesDCR";
 import "./ProjectContents.scss";
 
 function ProjectDcontents() {
@@ -73,8 +74,23 @@ function ProjectDcontents() {
             </div>
           </div>
         </div>
-        <div className="project-features">
+        <div
+          onClick={onStudioClick}
+          className={
+            studioClick ? "features-studio features-active" : "features-studio"
+          }
+        >
           <FeaturesDCS />
+        </div>
+        <div
+          onClick={onResearchClick}
+          className={
+            researchClick
+              ? "features-research features-active"
+              : "features-research"
+          }
+        >
+          <FeaturesDCR />
         </div>
       </div>
     </>

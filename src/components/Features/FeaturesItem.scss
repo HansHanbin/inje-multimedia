@@ -2,11 +2,12 @@
   position: relative;
   filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
 }
+
 @media (hover: hover) {
   .features-item :hover {
     .features-image-hover {
-      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.45);
-      border: 2px solid white;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.165);
+
       background: rgba(255, 255, 255, 0.6);
       backdrop-filter: blur(10px);
       width: 100%;
@@ -14,6 +15,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      transform-origin: 0 100% scale(1.5, 1.5);
     }
     .hover-info {
       display: flex;

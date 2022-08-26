@@ -1,7 +1,7 @@
 import React from "react";
 import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
-import img1 from "../../assets/features/DC/조성래/조성래_studio_thumbnail.png";
+import img1 from "../../assets/features/DC/조성래/조성래_research_thumbnail.png";
 
 function Features() {
   // 이 아래부터는 사실상 Html. 다른 파일도 마찬가지!

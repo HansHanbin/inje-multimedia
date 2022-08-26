@@ -70,14 +70,20 @@
   color: #8e8e8e;
 }
 
-.class-active {
+.class-active { 
   font-weight: 800;
   color: #333 !important;
 }
 
-.project-features {
+.features-studio,
+.features-research {
   margin-top: 60px;
   animation: description_move 1s forwards;
+  display: none;
+}
+
+.features-active {
+  display: block;
 }
 
 @media screen and (max-width: 1200px) {
@@ -175,7 +181,8 @@
     }
   }
 
-  .project-features {
+  .features-studio,
+  .features-research {
     margin-top: 20px;
     animation: description_move 1s forwards;
   }
