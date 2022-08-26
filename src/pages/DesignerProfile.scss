@@ -1,9 +1,141 @@
 .profile {
   padding: 0 160px;
   padding-top: 15%;
-  height: 100%;
+  height: 130vh;
 
   .profile-wrapper {
     position: absolute;
+    .profile-top {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 160px;
+
+      .profile-text {
+        margin-left: 64px;
+        .profile-text-name {
+          display: flex;
+          align-items: flex-end;
+          margin-bottom: 10px;
+          .profile-text-kor {
+            font-size: 2.5rem;
+            font-weight: 700;
+          }
+          .profile-text-eng {
+            font-size: 2rem;
+            margin-left: 10px;
+          }
+        }
+        .profile-text-major {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+
+        .profile-text-mail {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .profile-bottom {
+      .profile-bottom-title {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .profile {
+    padding: 0 40px;
+    padding-top: 160px;
+    height: 100%;
+    .profile-top {
+      margin-bottom: 80px !important;
+      .profile-image {
+        width: 35%;
+      }
+
+      .profile-text {
+        margin-left: 30px !important;
+        .profile-text-name {
+          flex-direction: column;
+          align-items: flex-start !important;
+          .profile-text-kor {
+            font-size: 1.5rem !important;
+          }
+          .profile-text-eng {
+            font-size: 1.25rem !important;
+            margin-left: 0 !important;
+          }
+        }
+
+        .profile-text-major {
+          font-size: 1.25rem !important;
+        }
+
+        .profile-text-mail {
+          font-size: 1.25rem !important;
+        }
+      }
+    }
+
+    .profile-bottom {
+      .profile-bottom-title {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .profile {
+    padding: 0 20px;
+    padding-top: 160px;
+    height: 130vh;
+
+    .profile-wrapper {
+      .profile-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px !important;
+        .profile-image {
+          width: 55%;
+        }
+
+        .profile-text {
+          padding-top: 30px;
+          margin: 0 auto !important;
+          text-align: center;
+          .profile-text-name {
+            flex-direction: column;
+            align-items: flex-start !important;
+            .profile-text-kor {
+              font-size: 1.5rem !important;
+              margin: 0 auto;
+            }
+            .profile-text-eng {
+              font-size: 1rem !important;
+              margin: 0 auto !important;
+            }
+          }
+
+          .profile-text-major {
+            font-size: 1rem !important;
+          }
+
+          .profile-text-mail {
+            font-size: 1rem !important;
+          }
+        }
+      }
+
+      .profile-bottom {
+        .profile-bottom-title {
+          font-size: 1.5rem !important;
+        }
+      }
+    }
   }
 }
