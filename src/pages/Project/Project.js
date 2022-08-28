@@ -60,7 +60,7 @@ function Project() {
             </div>
             {/* 마우스오버 후 */}
             <div className="project-after after">
-              <Link to="/2022/project/dc" className="innerLink">
+              <Link to="/2022/project/dc/studio" className="innerLink">
                 <div className="project-wrapper">
                   {/* 마우스오버 텍스트 */}
                   <div className="project-wrapper__text">
@@ -70,7 +70,7 @@ function Project() {
                         <h2 className="project-wrapper__major-title">
                           DIGITAL CONTENTS
                         </h2>
-                        <h4>디지털컨텐츠</h4>
+                        <h4>디지털콘텐츠</h4>
                       </div>
 
                       {/* 마우스오버 하단 전공소개*/}
@@ -78,7 +78,7 @@ function Project() {
                         <div className="project-wrapper__major">
                           <div className="project-wrapper-studio">
                             <div className="project-wrapper__majorTitle">
-                              디지털컨텐츠스튜디오 | 전우정 교수님
+                              디지털콘텐츠스튜디오 | 전우정 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
                               인간, 사회, 환경, 문화, 기술 등
@@ -127,7 +127,7 @@ function Project() {
           </Link>
 
           <Link
-            to="/2022/project/mm"
+            to="/2022/project/mm/studio"
             className={
               viClick === true ? "project-vi major-m" : " project-vi major"
             }
@@ -210,7 +210,7 @@ function Project() {
           </Link>
 
           <Link
-            to="/2022/project/vi"
+            to="/2022/project/vi/studio"
             className={
               mmClick === true ? "project-mm major-m" : " project-mm major"
             }

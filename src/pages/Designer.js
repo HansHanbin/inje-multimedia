@@ -1690,7 +1690,7 @@ function Designer() {
                 />
               </div>
               <div className="DesignerList-name-kor">조성래</div>
-              <div className="DesignerList-name-eng">Cho SeongRae</div>
+              <div className="DesignerList-name-eng">Cho Seongrae</div>
             </Link>
           </li>
           <li

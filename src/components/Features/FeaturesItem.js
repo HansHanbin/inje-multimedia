@@ -5,7 +5,16 @@ function FeaturesItem(props) {
   return (
     <>
       <li className="features-item">
-        <Link to={props.path}>
+        <Link
+          to={props.path}
+          state={{
+            header: props.header,
+            featureName: props.featureName,
+            featureDescription: props.featureDescription,
+            profileName: props.profileName,
+            profileEng: props.profileEng,
+          }}
+        >
           <div className="features-image-hover">
             <div className="hover-info">
               <div className="hover-info-text">{props.description}</div>

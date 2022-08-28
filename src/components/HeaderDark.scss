@@ -2,7 +2,6 @@
   width: 100%;
   position: absolute;
   z-index: 99;
-  background-color: #fdfdfd;
 
   .header-logo {
     width: 80%;
@@ -21,12 +20,11 @@
   }
 
   .header-container {
-    padding: 0 160px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    max-width: 1600px;
     top: 0;
     left: 0;
     right: 0;
@@ -36,6 +34,7 @@
   .header-title {
     font-weight: 700;
   }
+
   .header-navbar {
     width: 378px;
   }
@@ -80,7 +79,7 @@
     }
 
     .header-container {
-      padding: 0 40px;
+      padding: 0 10px;
     }
 
     .menu-icon {
@@ -113,7 +112,6 @@
 
     .header-navbar {
       .active {
-        background: #fdfdfd;
         width: 30%;
         top: 0;
         right: 0;
@@ -157,7 +155,7 @@
       padding: 0 20px;
     }
     .header-wrapper {
-      padding: 30px 0;
+      padding: 10px 0;
     }
   }
 
@@ -241,7 +239,7 @@
       padding: 0 20px;
     }
     .header-wrapper {
-      padding: 10px 0;
+      padding: 20px 0;
     }
   }
 }

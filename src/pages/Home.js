@@ -3,7 +3,7 @@ import "./Home.scss";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
 
-import Background from "../assets/video/main_background1.mp4";
+import Background from "../assets/video/main_background3.mp4";
 //import BackgroundBlack from "../assets/images/08.18 이미지 소스/1920/main_bacground 2.png";
 import mainLogo from "../assets/images/0818Images/1920/main_logo.png";
 import mainLogoMedium from "../assets/images/0818Images/768/main_logo.png";
