@@ -33,6 +33,7 @@
   justify-content: center;
   align-items: center;
   display: none;
+
   .hover-info-name {
     width: inherit;
     height: inherit;
@@ -42,8 +43,9 @@
   .hover-info-text {
     width: inherit;
     height: inherit;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
+    text-align: center;
   }
 }
 
@@ -71,7 +73,7 @@
 
     .hover-info-text {
       font-size: 1rem;
-      font-weight: 800;
+      font-weight: 500;
     }
 
     .hover-info-name {
@@ -87,8 +89,8 @@
     display: flex;
 
     .hover-info-text {
-      font-size: 1rem;
-      font-weight: 800;
+      font-size: 0.875rem !important;
+      font-weight: 500;
     }
 
     .hover-info-name {

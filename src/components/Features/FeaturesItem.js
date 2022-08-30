@@ -11,8 +11,10 @@ function FeaturesItem(props) {
             header: props.header,
             featureName: props.featureName,
             featureDescription: props.featureDescription,
+            profileImage: props.profileImage,
             profileName: props.profileName,
             profileEng: props.profileEng,
+            profileMail: props.profileMail,
           }}
         >
           <div className="features-image-hover">

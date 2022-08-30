@@ -7,16 +7,19 @@ import { useEffect } from "react";
 import xButton from "../../assets/images/0818Images/1920/project_x button.png";
 import buttonLight from "../../assets/images/0818Images/1920/project_mode button.png";
 import buttonUp from "../../assets/images/0818Images/1920/project_top button.png";
-
-import FeaturesItem from "./FeaturesItem";
+import example from "../../assets/features/example.png";
 
 function FeaturesPresentation() {
   const location = useLocation();
   const headerImg = location.state.header;
   const featureName = location.state.featureName;
   const featureDescription = location.state.featureDescription;
+  const profileImage = location.state.profileImage;
   const profileName = location.state.profileName;
   const profileEng = location.state.profileEng;
+  const profileMail = location.state.profileMail;
+
+  console.log(location);
 
   const { pathname } = useLocation();
   let navigate = useNavigate();
@@ -42,10 +45,15 @@ function FeaturesPresentation() {
           light === false ? "FeaturePresentation" : "FeaturePresentation dark"
         }
       >
+        {/* 헤더 이미지 */}
         <div className="pt-header">
           <img src={headerImg} alt="header" />
         </div>
+
+        {/* 작품 */}
+
         <div className="pt-contents">
+          {/* 작품  개요*/}
           <div className="pt-text-wrapper">
             <div className="pt-info">
               <div className="pt-info-feature">{featureName}</div>
@@ -57,26 +65,31 @@ function FeaturesPresentation() {
             </div>
           </div>
 
-          {/* <div className="pt-profile">
+          {/* 작품 내용*/}
+          <div className="pt-works">
+            <img src={example} alt="work" className="pt-work" />
+          </div>
+
+          <div className="pt-profile-bottom">
             <div className="profile-wrapper">
+              <div className="profile-title">Designer</div>
               <div className="profile-top">
-                <img alt="profile" src={src} className="profile-image" />
+                <img
+                  alt="profile"
+                  src={profileImage}
+                  className="profile-image"
+                />
 
                 <div className="profile-text">
                   <div className="profile-text-name">
                     <div className="profile-text-kor">{profileName}</div>
                     <div className="profile-text-eng">{profileEng}</div>
+                    <div className="profile-text-mail">{profileMail}</div>
                   </div>
-
-                  <div className="profile-text-major">
-                    {profileMajor} <br /> {profileMajor2}
-                  </div>
-
-                  <div className="profile-text-mail">{profileMail}</div>
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
         <div className="pt-buttons">
           <div className="pt-buttons-top">

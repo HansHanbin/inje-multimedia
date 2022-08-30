@@ -41,6 +41,14 @@ function App() {
             path="/2022/project/dc/:id"
             element={<FeaturesPresentation />}
           />
+          <Route
+            path="/2022/project/vi/:id"
+            element={<FeaturesPresentation />}
+          />
+          <Route
+            path="/2022/project/mm/:id"
+            element={<FeaturesPresentation />}
+          />
         </Route>
       </Routes>
     </div>

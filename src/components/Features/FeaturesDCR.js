@@ -5,6 +5,27 @@ import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
 import Header from "../../components/HeaderDark";
 
+// profile image
+
+import GuHyejin from "../../assets/images/ProfileImage/DC/DC구혜진.gif";
+import KimKiseong from "../../assets/images/ProfileImage/DC/DC김기성.gif";
+import KimNayoung from "../../assets/images/ProfileImage/DC/DC김나영.gif";
+import KimMoonju from "../../assets/images/ProfileImage/DC/DC김문주.gif";
+import KimSieun from "../../assets/images/ProfileImage/DC/DC김시은.gif";
+import ParkMingyu from "../../assets/images/ProfileImage/DC/DC박민규.gif";
+import BaekJaehoon from "../../assets/images/ProfileImage/VI/VI백제훈.gif";
+import SeoBohyeon from "../../assets/images/ProfileImage/DC/DC서보현.gif";
+import AnDoyeon from "../../assets/images/ProfileImage/DC/DC안도연.gif";
+import LeeDohyeon from "../../assets/images/ProfileImage/DC/DC이도현.gif";
+import LeeSeungyeon from "../../assets/images/ProfileImage/DC/DC이승연.gif";
+import LeeYoungmin from "../../assets/images/ProfileImage/DC/DC이영민.gif";
+import LeeHanbin from "../../assets/images/ProfileImage/DC/DC이한빈.gif";
+import JangEunkyo from "../../assets/images/ProfileImage/DC/DC장은교.gif";
+import JeongJuhyun from "../../assets/images/ProfileImage/DC/DC정주현.gif";
+import ChoSeongRae from "../../assets/images/ProfileImage/DC/DC조성래.gif";
+import JoYihyeon from "../../assets/images/ProfileImage/DC/DC조이현.gif";
+import JiChanghyun from "../../assets/images/ProfileImage/DC/DC지창현.gif";
+
 import hyejin from "../../assets/features/DC/구혜진/구혜진_research_thumbnail.png";
 import hyejinHeader from "../../assets/features/DC/구혜진/구혜진_research_header.png";
 import moonju from "../../assets/features/DC/김문주/김문주_research_thumbnail.png";
@@ -35,6 +56,12 @@ import yihyeon from "../../assets/features/DC/조이현/조이현_research_thumb
 import yihyeonHeader from "../../assets/features/DC/조이현/조이현_research_header.png";
 import changhyun from "../../assets/features/DC/지창현/지창현_research_thumbnail.png";
 import changhyunHeader from "../../assets/features/DC/지창현/지창현_research_header.png";
+
+import jaehoon from "../../assets/features/DC/백제훈/백제훈_research_thumbnail.png";
+import jaehoonHeader from "../../assets/features/DC/백제훈/백제훈_research_header.png";
+
+import sieun from "../../assets/features/DC/김시은/김시은_research_thumbnail.png";
+import sieunHeader from "../../assets/features/DC/김시은/김시은_research_header.png";
 
 function Features() {
   // 이 아래부터는 사실상 Html. 다른 파일도 마찬가지!
@@ -86,8 +113,10 @@ function Features() {
                   header={hyejinHeader}
                   featureName="IV"
                   featureDescription="우주 산업이 나날이 발전하고 있는 지금, 기술의 발전으로 전문적으로 훈련받은 우주비행사 뿐만 아니라 민간인들도 우주에 갈 수 있게 되었습니다. 저는 더 발전된 미래에는 민간인이 우주왕복선을 개인소유할 수 있을 것이라고 상상했고, 일상에서도 쉽게 사용이 가능한 우주선 IOT 서비스를 만들어보고 싶어 이 프로젝트를 기획하게 되었습니다."
+                  profileImage={GuHyejin}
                   profileName="구혜진"
                   profileEng="Gu Heyjin"
+                  profileMail="fpqlt_326998@naver.com"
                   path="/2022/project/dc/:Hyejin"
                 />
                 <FeaturesItem
@@ -97,8 +126,10 @@ function Features() {
                   header={kiseongHeader}
                   featureName="circular"
                   featureDescription="다양한 브랜드들이 NFT를 긍정적으로 전개하고 있지만 판매는 대형 거래소에서, 혜택이나 커뮤니티 기능은 자사나 다른 플랫폼에서 이용하는 분산된 형태를 띠고 있습니다. 사용자 중점의 통합된 플랫폼을 구축하여 비즈니스 접근성을 높여 NFT의 가치 신뢰성을 확보하고자 circular 서비스를 제작하게 되었습니다."
+                  profileImage={KimKiseong}
                   profileName="김기성"
                   profileEng="Kim Kiseong"
+                  profileMail="kimkiseong98@gmail.com"
                   path="/2022/project/dc/:Kiseong"
                 />
                 <FeaturesItem
@@ -110,8 +141,10 @@ function Features() {
                   featureDescription={
                     "지능형 무인 비행체인 ‘액체 수소 드론’을 이용한 드론 호출 서비스로 향후 기후변화 대응을 위한 중요 추세인 탄소 중립 실천이 가능한 서비스입니다. 드론을 이용하여 온실가스 감축, 미세먼지 저감, 해외 에너지 의존도를 감소하며 스마트 물류 플랫폼의 지속 가능한 가치와 미래의 새로운 비전 제시가 가능하다고 생각하여 서비스를 제작하였습니다."
                   }
+                  profileImage={KimNayoung}
                   profileName={"김나영"}
                   profileEng={"Kim Nayoung"}
+                  profileMail="sdf02033@gmail.com"
                   path="/2022/project/dc/:Nayoung"
                 />
                 <FeaturesItem
@@ -121,14 +154,23 @@ function Features() {
                   header={moonjuHeader}
                   featureName="차곡차곡"
                   featureDescription="차곡차곡은 돈을 차곡차곡 모으자는 의미로, 올바른 소비습관을 만들고 싶은 mz세대를 위한 앱입니다. 내가 어디에 돈을 썼는지 한 눈에 볼 수 있고 그룹원과 배틀을 통해 불필요한 소비를 하지 않게 도와줍니다. 앱 내의 페이 기능을 이용해 결제하면 지출 내역이 자동으로 기록되고 해당 기능들을 워치에서도 이용할 수 있도록 구성하였습니다."
+                  profileImage={KimMoonju}
                   profileName="김문주"
                   profileEng="Kim Moonju"
+                  profileMail="m.jju422@gmail.com"
                   path="/2022/project/dc/:Moonju"
                 />
                 <FeaturesItem
-                  src={img1}
+                  src={sieun}
                   name={"김시은"}
-                  description={"NEXITY"}
+                  description={"줍줍"}
+                  header={sieunHeader}
+                  featureName="줍줍"
+                  featureDescription="나날이 심각해지는 환경 오염에 사람들은 심각성을 인지하고 다양한 환경 보호 활동을 하고 있습니다. 그런데도 환경 오염의 심각성은 지속되며, 더 많은 참여를 필요로 합니다. 여러분은 어떻게 대처하고 있나요? 환경 보호를 생각하곤 있지만, 막상 행동으로 실행하는 것이 어렵나요? 줍줍과 함께 환경 운동을 더 쉽고 재미있게 실천해보세요!"
+                  profileImage={KimSieun}
+                  profileName="김시은"
+                  profileEng="Kim Sieun"
+                  profileMail="kns9559sn@gmail.com"
                   path="/2022/project/dc/:Sieun"
                 />
                 <FeaturesItem
@@ -140,9 +182,24 @@ function Features() {
                   featureDescription={
                     "나드리는 교통약자들을 위한 길안내 서비스 입니다. 단순 길안내가 아닌 위험지역과 장애물을 피해 경로를 알려주며, 사용자 주변 편의시설의 위치와 예약이 가능한 콜택시 기능을 제공하고 있습니다. 그럼 지금 즐겁게 나드리를 떠나볼까요?﻿ "
                   }
+                  profileImage={ParkMingyu}
                   profileName={"박민규"}
                   profileEng={"Park Mingyu"}
+                  profileMail="parkmin9yu@naver.com"
                   path="/2022/project/dc/:Mingyu"
+                />
+                <FeaturesItem
+                  src={jaehoon}
+                  name={"백제훈"}
+                  description="손떽"
+                  header={jaehoonHeader}
+                  featureName="손떽"
+                  featureDescription="성인들도 많이 가지고 있는 손톱을 물어뜯는 버릇. 혼자선 의지력 부족등의 문제로 굉장히 그만두기 어려운 버릇이기도 합니다. 이 앱에서는 그 버릇을 여러가지 기능과 함께 극복에 도움을 줍니다."
+                  profileImage={BaekJaehoon}
+                  profileName="백제훈"
+                  profileEng="Baek Jaehoon"
+                  profileMail="bjh990225@gmail.com"
+                  path="/2022/project/dc/:Jaehoon"
                 />
                 <FeaturesItem
                   src={bohyeon}
@@ -151,10 +208,13 @@ function Features() {
                   header={bohyeonHeader}
                   featureName="베비케어"
                   featureDescription="베비케어는 아토피 피부염에 걸린 아이를 키우고 있지만 병원에 방문할 시간이 마땅치 않거나 병원이 문을 열지 않은 시간에도 진료를 받고 싶거나, 아토피 케어를 하고 싶은 분들을 대상으로 제작되었습니다. 비대면 진료, AI 진료, 목욕을 관리해 줘 아이의 아토피에 대해 정확하고 빠른 케어할 수 있도록 도와주는 서비스입니다."
+                  profileImage={SeoBohyeon}
                   profileName="서보현"
                   profileEng="Seo Bohyeon"
+                  profileMail="seobori2000@gmail.com"
                   path="/2022/project/dc/:Bohyeon"
                 />
+
                 <FeaturesItem
                   src={doyeon}
                   name={"안도연"}
@@ -162,8 +222,10 @@ function Features() {
                   header={doyeonHeader}
                   featureName="difume"
                   featureDescription="향기는 비록 눈에 보이지 않지만 감정, 기억 등에 영향을 주며 우리 주변에 항상 존재합니다. 디퓸(difume)은 날씨에 맞게 향을 추천해 주고 날씨뿐만 아니라 공간을 스캔하여 공간에 맞는 향을 추천해 줍니다. 향, 발향 강도, 시간 등을 원격으로 제어할 수 있으며 자신만의 패턴을 설정하여 편리하게 사용할 수 있습니다."
+                  profileImage={AnDoyeon}
                   profileName="안도연"
                   profileEng="An Doyeon"
+                  profileMail="rkornne@gmail.com"
                   path="/2022/project/dc/:Doyeon"
                 />
                 <FeaturesItem
@@ -173,8 +235,10 @@ function Features() {
                   header={dohyeonHeader}
                   featureName="NOVER"
                   featureDescription="현대 사회에서 디지털 시대에 적응하여 디지털 기기나 AI 스피커를 자주 사용하는 시니어가 증가하고 있습니다. NOVER는 이러한 시니어들이 노후를 즐기며 건강을 편리하게 관리할 수 있도록 웰니스를 '잘 먹기', '잘 움직이기', '잘 쉬기'  세 가지 카테고리로 나누어 관리하고, 개선 방향을 제시해주는 서비스입니다."
+                  profileImage={LeeDohyeon}
                   profileName="이도현"
                   profileEng="Lee Dohyeon"
+                  profileMail="hyeonn323@gmail.com"
                   path="/2022/project/dc/:Dohyeon"
                 />
                 <FeaturesItem
@@ -184,8 +248,10 @@ function Features() {
                   header={seounyeonHeader}
                   featureName="I'M HERE"
                   featureDescription="'I'M HERE'은 일상생활 속에서 물건 관리를 효율적으로 할 수 있는 앱입니다. 방식으로는 지도 거리뷰 원리와 QR코드를 이용합니다. 2차원 형태의 QR코드를 인식하여 좌표값을 3차원 상의 공간 좌표로 변환하고 QR코드의 모서리 위치와 중심 등 3차원으로 변환된 정보를 이용하여 각도와 거리 등을 파악하여 물건 위치를 알 수 있습니다."
+                  profileImage={LeeSeungyeon}
                   profileName="이승연"
                   profileEng="Lee Seoungyeon"
+                  profileMail="lee40095617@gmail.com"
                   path="/2022/project/dc/:Seoungyeon"
                 />
 
@@ -196,15 +262,24 @@ function Features() {
                   header={youngminHeader}
                   featureName="또바기"
                   featureDescription="반려동물을 키우는 가구가 늘어나는 추세에 동물병원 진료비용에 부담을 가지고, 어느 병원에서 진료받아야 할지 찾는 분들에게 사용자에게 필요한 병원을 알려주고, 사용자 위치 근처에 있는 병원과 병원마다의 가격 및 리뷰 등의 정보를 제공하며 어떤 진료가 가능한지 알려주는 애플리케이션입니다. "
+                  profileImage={LeeYoungmin}
                   profileName="이영민"
                   profileEng="Lee Youngmin"
+                  profileMail="rjscl343@naver.com"
                   path="/2022/project/dc/:Youngmin"
                 />
 
                 <FeaturesItem
                   src={img1}
                   name={"이한빈"}
-                  description={"NEXITY"}
+                  description={"ROCAB"}
+                  header={eunkyoHeader}
+                  featureName="ROCAB"
+                  featureDescription="코로나19의 영향으로 여행 서비스에도 많은 변화가 생겼습니다. 특히 나만의 시간을 보낼 수 있는 섬 혹은 소도시 등 색다른 여행지를 선호하고 있습니다. 이러한 트렌드에 맞춘 안심하고 여행을 떠날 수 있는 FING은 자율운항선박과 함께 나만의 여행을 만들며 특별한 경험을 만들 수 있는 서비스입니다."
+                  profileImage={LeeHanbin}
+                  profileName="이한빈"
+                  profileEng="Lee Hanbin"
+                  profileMail="hans.hanbin.lee@gmail.com"
                   path="/2022/project/dc/:Hanbin"
                 />
 
@@ -215,8 +290,10 @@ function Features() {
                   header={eunkyoHeader}
                   featureName="FING"
                   featureDescription="코로나19의 영향으로 여행 서비스에도 많은 변화가 생겼습니다. 특히 나만의 시간을 보낼 수 있는 섬 혹은 소도시 등 색다른 여행지를 선호하고 있습니다. 이러한 트렌드에 맞춘 안심하고 여행을 떠날 수 있는 FING은 자율운항선박과 함께 나만의 여행을 만들며 특별한 경험을 만들 수 있는 서비스입니다."
+                  profileImage={JangEunkyo}
                   profileName="장은교"
                   profileEng="Jang Eunkyo"
+                  profileMail="429650@gmail.com"
                   path="/2022/project/dc/:Eunkyo"
                 />
 
@@ -224,6 +301,13 @@ function Features() {
                   src={img1}
                   name={"정주현"}
                   description={"NEXITY"}
+                  header={eunkyoHeader}
+                  featureName="FING"
+                  featureDescription="코로나19의 영향으로 여행 서비스에도 많은 변화가 생겼습니다. 특히 나만의 시간을 보낼 수 있는 섬 혹은 소도시 등 색다른 여행지를 선호하고 있습니다. 이러한 트렌드에 맞춘 안심하고 여행을 떠날 수 있는 FING은 자율운항선박과 함께 나만의 여행을 만들며 특별한 경험을 만들 수 있는 서비스입니다."
+                  profileImage={JeongJuhyun}
+                  profileName="정주현"
+                  profileEng="Jung Juhyun"
+                  profileMail="qwert911262@gmail.com"
                   path="/2022/project/dc/:Juhyun"
                 />
 
@@ -234,8 +318,10 @@ function Features() {
                   header={seongraeHeader}
                   featureName="Hi, Tap"
                   featureDescription="치매노인 부양이 힘드신가요? 치매노인이 걱정된다면 웨어러블 디바이스를 연결 후 치매노인의 현 위치, 건강 상태를 실시간으로 확인하세요 보호자와 치매노인은 관계 및 소통이 가장 중요한 만큼 Hi, Tap에선 일정 알림, 돌보미 매칭, 돌봄 일지 관리 등 다양한 콘텐츠가 준비되어 있습니다 지금부터 앱을 소개합니다!"
+                  profileImage={ChoSeongRae}
                   profileName="조성래"
                   profileEng="Cho Seongrae"
+                  profileMail="srj9704@naver.com"
                   path="/2022/project/dc/:Seongrae"
                 />
 
@@ -246,8 +332,10 @@ function Features() {
                   header={yihyeonHeader}
                   featureName="슬금슬금"
                   featureDescription="슬금슬금은 부담 없이 돌아다닐 수 있다는 장점을 가진 '동네'에 집중하여 사용자가 살고 있는 동네 주변의 다양한 핫플들을 소개하고 동네의 다양한 소식들을 사용자들끼리 주고받을 수 있는 앱 서비스입니다. 사용자 자신의 취향에 맞는 다양한 핫플들을 통해 그동안 미처 몰랐었던 동네의 새로운 재미를 찾을 수 있을 것입니다."
+                  profileImage={JoYihyeon}
                   profileName="조이현"
                   profileEng="Jo Yihyeon"
+                  profileMail="j2hyun980@naver.com"
                   path="/2022/project/dc/:Yihyeon"
                 />
                 <FeaturesItem
@@ -257,8 +345,10 @@ function Features() {
                   header={changhyunHeader}
                   featureName="MONASIS"
                   featureDescription="문아시스는 공통의 관심사를 가진 사람들을 하나로 연결해 주는 서비스입니다. 메타버스 공간인 문아시스에서 다양한 사람들과 작품에 대해서 이야기하고 함께 작품을 쓸 수 있습니다. 또한 대사 사운드화로 생동감 있는 작품을 만들 수 있습니다. 창작이라는 벽 앞에서 잠시 쉬고 위안이 되는 오아시스 같은 곳이 되었으면 하는 고민이 담겨있습니다. "
+                  profileImage={JiChanghyun}
                   profileName="지창현"
                   profileEng="Ji Changhyun"
+                  profileMail="jchyundesign@gmail.com"
                   path="/2022/project/dc/:Changhyun"
                 />
               </ul>

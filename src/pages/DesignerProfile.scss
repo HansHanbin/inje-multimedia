@@ -4,7 +4,6 @@
   height: 130vh;
 
   .profile-wrapper {
-    position: absolute;
     .profile-top {
       display: flex;
       align-items: flex-end;
@@ -50,8 +49,10 @@
     padding: 0 40px;
     padding-top: 160px;
     height: 100%;
+
     .profile-top {
-      margin-bottom: 80px !important;
+      margin-bottom: 80px;
+      margin: 0 auto !important;
       .profile-image {
         width: 35%;
       }
