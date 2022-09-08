@@ -106,13 +106,20 @@
   }
   .links {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     grid-gap: 10px;
+
+    .icon {
+      margin-right: 5px;
+      width: 15px;
+    }
 
     .link-item {
       display: flex;
       margin: 0;
+      font-size: 0.875rem;
+      letter-spacing: -1px;
     }
 
     .icon-instagram {
@@ -123,6 +130,91 @@
     }
     .icon-youtube {
       color: #e52d27;
+    }
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .footer {
+    font-size: 0.875rem !important;
+    border-top: 1px solid rgba(150, 150, 150, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 20px;
+  }
+
+  .copy {
+    .copy-logo {
+      display: none;
+    }
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .copy-up {
+      display: flex;
+      align-items: center;
+    }
+    .copy-major {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0;
+      text-align: center;
+
+      :nth-child(1) {
+        font-weight: 700;
+        font-size: 1rem;
+      }
+    }
+    span {
+      margin: 0;
+      font-size: 0.7rem;
+      text-align: center;
+    }
+    img {
+      width: 25%;
+    }
+  }
+  .links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 5px;
+
+    .link-item {
+      display: flex;
+      margin: 0;
+      font-size: 0.7rem;
+      letter-spacing: -1px;
+      margin-top: 10px;
+    }
+
+    .icon-internet {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .icon-instagram {
+      color: #3f729b;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .icon-facebook {
+      color: #3b5998;
+      font-size: 1rem;
+      text-align: center;
+    }
+    .icon-youtube {
+      color: #e52d27;
+      font-size: 1rem;
+      text-align: center;
     }
   }
 }

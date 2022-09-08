@@ -2,118 +2,118 @@ import React, { useState } from "react";
 import Header from "../components/HeaderDark";
 import "./Designer.scss";
 import { Link } from "react-router-dom";
-import Image from "../assets/images/dsigner-example.gif";
+//import Image from "/assets/images/profileImage/empty1.png";
 
-import KangSumin from "../assets/images/ProfileImage/MM/MM강수민.gif";
-import KangSuminSmile from "../assets/images/ProfileImage/MM/MM_smile_강수민.gif";
-import KangJueon from "../assets/images/ProfileImage/VI/VI강주언.gif";
-import KangJueonSmile from "../assets/images/ProfileImage/VI/VI_smile_강주언.gif";
-import KangHanna from "../assets/images/ProfileImage/MM/MM강한나.gif";
-import KangHannaSmile from "../assets/images/ProfileImage/MM/MM_smile_강한나.gif";
-import GongHyobin from "../assets/images/ProfileImage/VI/VI공효빈.gif";
-import GongHyobinSmile from "../assets/images/ProfileImage/VI/VI_smile_공효빈.gif";
-import KwakYunseok from "../assets/images/ProfileImage/VI/VI곽윤석.gif";
-import KwakYunseokSmile from "../assets/images/ProfileImage/VI/VI_smile_곽윤석.gif";
-import GuHyejin from "../assets/images/ProfileImage/DC/DC구혜진.gif";
-import GuHyejinSmile from "../assets/images/ProfileImage/DC/DC_smile_구혜진.gif";
-import KimKiseong from "../assets/images/ProfileImage/DC/DC김기성.gif";
-import KimKiseongSmile from "../assets/images/ProfileImage/DC/DC_smile_김기성.gif";
-import KimNayoung from "../assets/images/ProfileImage/DC/DC김나영.gif";
-import KimNayoungSmile from "../assets/images/ProfileImage/DC/DC_smile_김나영.gif";
-import KimMoonju from "../assets/images/ProfileImage/DC/DC김문주.gif";
-import KimMoonjuSmile from "../assets/images/ProfileImage/DC/DC_smile_김문주.gif";
-import KimBeomcheon from "../assets/images/ProfileImage/MM/MM김범찬.gif";
-import KimBeomcheonSmile from "../assets/images/ProfileImage/MM/MM_smile_김범찬.gif";
-import KimByeongJun from "../assets/images/ProfileImage/MM/MM김병준.gif";
-import KimByeongJunSmile from "../assets/images/ProfileImage/MM/MM_smile_김병준.gif";
-import KimSeonghyeok from "../assets/images/ProfileImage/MM/MM김성협.gif";
-import KimSeonghyeokSmile from "../assets/images/ProfileImage/MM/MM_smile_김성협.gif";
-import KimSiyoung from "../assets/images/ProfileImage/MM/MM김시영.gif";
-import KimSiyoungSmile from "../assets/images/ProfileImage/MM/MM_smile_김시영.gif";
-import KimSieun from "../assets/images/ProfileImage/DC/DC김시은.gif";
-import KimSieunSmile from "../assets/images/ProfileImage/DC/DC_smile_김시은.gif";
-import KimYeawon from "../assets/images/ProfileImage/MM/MM김예원.gif";
-import KimYeawonSmile from "../assets/images/ProfileImage/MM/MM_smile_김예원.gif";
-import KimJisu from "../assets/images/ProfileImage/MM/MM김지수.gif";
-import KimJisuSmile from "../assets/images/ProfileImage/MM/MM_smile_김지수.gif";
-import KimChohee from "../assets/images/ProfileImage/VI/VI김초희.gif";
-import KimChoheeSmile from "../assets/images/ProfileImage/VI/VI_smile_김초희.gif";
-import KimHyunsoo from "../assets/images/ProfileImage/MM/MM김현수.gif";
-import KimHyunsooSmile from "../assets/images/ProfileImage/MM/MM_smile_김현수.gif";
-import NohYeonhui from "../assets/images/ProfileImage/VI/VI노연희.gif";
-import NohYeonhuiSmile from "../assets/images/ProfileImage/VI/VI_smile_노연희.gif";
-import MaJun from "../assets/images/ProfileImage/MM/MM마준.gif";
-import MaJunSmile from "../assets/images/ProfileImage/MM/MM_smile_마준.gif";
-import MoonSungHee from "../assets/images/ProfileImage/MM/MM문성희.gif";
-import MoonSungHeeSmile from "../assets/images/ProfileImage/MM/MM_smile_문성희.gif";
-import ParkMingyu from "../assets/images/ProfileImage/DC/DC박민규.gif";
-import ParkMingyuSmile from "../assets/images/ProfileImage/DC/DC_smile_박민규.gif";
-import ParkSeongho from "../assets/images/ProfileImage/VI/VI박성호.gif";
-import ParkSeonghoSmile from "../assets/images/ProfileImage/VI/VI_smile_박성호.gif";
-import ParkSumin from "../assets/images/ProfileImage/MM/MM박수민.gif";
-import ParkSuminSmile from "../assets/images/ProfileImage/MM/MM_smile_박수민.gif";
-import ParkEunsu from "../assets/images/ProfileImage/MM/MM박은수.gif";
-import ParkEunsuSmile from "../assets/images/ProfileImage/MM/MM_smile_박은수.gif";
-import BaekJeonghun from "../assets/images/ProfileImage/VI/VI백정훈.gif";
-import BaekJeonghunSmile from "../assets/images/ProfileImage/VI/VI_smile_백정훈.gif";
-import BaekJaehoon from "../assets/images/ProfileImage/VI/VI백제훈.gif";
-import BaekJaehoonSmile from "../assets/images/ProfileImage/VI/VI_smile_백제훈.gif";
-import BingSoeun from "../assets/images/ProfileImage/MM/MM빙소은.gif";
-import BingSoeunSmile from "../assets/images/ProfileImage/MM/MM_smile_빙소은.gif";
-import SeoBoeun from "../assets/images/ProfileImage/VI/VI서보은.gif";
-import SeoBoeunSmile from "../assets/images/ProfileImage/VI/VI_smile_서보은.gif";
-import SeoBohyeon from "../assets/images/ProfileImage/DC/DC서보현.gif";
-import SeoBohyeonSmile from "../assets/images/ProfileImage/DC/DC_smile_서보현.gif";
-import ArtelevaSaida from "../assets/images/ProfileImage/MM/MM아르텔레바사이다.gif";
-import ArtelevaSaidaSmile from "../assets/images/ProfileImage/MM/MM_smile_아르텔레바사이다.gif";
-import AnDoyeon from "../assets/images/ProfileImage/DC/DC안도연.gif";
-import AnDoyeonSmile from "../assets/images/ProfileImage/DC/DC_smile_안도연.gif";
-import YooJiyeon from "../assets/images/ProfileImage/VI/VI유지연.gif";
-import YooJiyeonSmile from "../assets/images/ProfileImage/VI/VI_smile_유지연.gif";
-import LeeDohyeon from "../assets/images/ProfileImage/DC/DC이도현.gif";
-import LeeDohyeonSmile from "../assets/images/ProfileImage/DC/DC_smile_이도현.gif";
-import LeeMinju from "../assets/images/ProfileImage/VI/VI이민주.gif";
-import LeeMinjuSmile from "../assets/images/ProfileImage/VI/VI_smile_이민주.gif";
-import LeeSeoyeon from "../assets/images/ProfileImage/MM/MM이서연.gif";
-import LeeSeoyeonSmile from "../assets/images/ProfileImage/MM/MM_smile_이서연.gif";
-import LeeSomin from "../assets/images/ProfileImage/MM/MM이소민.gif";
-import LeeSominSmile from "../assets/images/ProfileImage/MM/MM_smile_이소민.gif";
-import LeeSeungyeon from "../assets/images/ProfileImage/DC/DC이승연.gif";
-import LeeSeungyeonSmile from "../assets/images/ProfileImage/DC/DC_smile_이승연.gif";
-import LeeYoungmin from "../assets/images/ProfileImage/DC/DC이영민.gif";
-import LeeYoungminSmile from "../assets/images/ProfileImage/DC/DC_smile_이영민.gif";
-import LeeJaehee from "../assets/images/ProfileImage/VI/VI이재희.gif";
-import LeeJaeheeSmile from "../assets/images/ProfileImage/VI/VI_smile_이재희.gif";
-import LeeJinho from "../assets/images/ProfileImage/MM/MM이진호.gif";
-import LeeJinhoSmile from "../assets/images/ProfileImage/MM/MM_smile_이진호.gif";
-import LeeHanbin from "../assets/images/ProfileImage/DC/DC이한빈.gif";
-import LeeHanbinSmile from "../assets/images/ProfileImage/DC/DC_smile_이한빈.gif";
-import LimHyeonwoo from "../assets/images/ProfileImage/VI/VI임현우.gif";
-import LimHyeonwooSmile from "../assets/images/ProfileImage/VI/VI_smile_임현우.gif";
-import JangSuyoung from "../assets/images/ProfileImage/VI/VI장수영.gif";
-import JangSuyoungSmile from "../assets/images/ProfileImage/VI/VI_smile_장수영.gif";
-import JangEunkyo from "../assets/images/ProfileImage/DC/DC장은교.gif";
-import JangEunkyoSmile from "../assets/images/ProfileImage/DC/DC_smile_장은교.gif";
-// 장재석 사진이 없음
-import JeongSeongjin from "../assets/images/ProfileImage/VI/VI정성진.gif";
-import JeongSeongjinSmile from "../assets/images/ProfileImage/VI/VI_smile_정성진.gif";
-import JeongJeongyoon from "../assets/images/ProfileImage/MM/MM정정윤.gif";
-import JeongJeongyoonSmile from "../assets/images/ProfileImage/MM/MM_smile_정정윤.gif";
-import JeongJuhyun from "../assets/images/ProfileImage/DC/DC정주현.gif";
-import JeongJuhyunSmile from "../assets/images/ProfileImage/DC/DC_smile_정주현.gif";
-import ChoSeongRae from "../assets/images/ProfileImage/DC/DC조성래.gif";
-import ChoSeongRaeSmile from "../assets/images/ProfileImage/DC/DC_smile_조성래.gif";
-import JoYihyeon from "../assets/images/ProfileImage/DC/DC조이현.gif";
-import JoYihyeonSmile from "../assets/images/ProfileImage/DC/DC_smile_조이현.gif";
-// 지강원 사진이 없음
-import JiChanghyun from "../assets/images/ProfileImage/DC/DC지창현.gif";
-import JiChanghyunSmile from "../assets/images/ProfileImage/DC/DC_smile_지창현.gif";
-import ChoiYosep from "../assets/images/ProfileImage/VI/VI최요셉.gif";
-import ChoiYosepSmile from "../assets/images/ProfileImage/VI/VI_smile_최요셉.gif";
-import HeoYujin from "../assets/images/ProfileImage/VI/VI허유진.gif";
-import HeoYujinSmile from "../assets/images/ProfileImage/VI/VI_smile_허유진.gif";
-import HwangHyojoon from "../assets/images/ProfileImage/MM/MM황효준.gif";
-import HwangHyojoonSmile from "../assets/images/ProfileImage/MM/MM_smile_황효준.gif";
+// import KangSumin from "/assets/images/ProfileImage/MM/MM강수민.gif";
+// import KangSuminSmile from "/assets/images/ProfileImage/MM/MM_smile_강수민.gif";
+// import KangJueon from "/assets/images/ProfileImage/VI/VI강주언.gif";
+// import KangJueonSmile from "/assets/images/ProfileImage/VI/VI_smile_강주언.gif";
+// import KangHanna from "/assets/images/ProfileImage/MM/MM강한나.gif";
+// import KangHannaSmile from "/assets/images/ProfileImage/MM/MM_smile_강한나.gif";
+// import GongHyobin from "/assets/images/ProfileImage/VI/VI공효빈.gif";
+// import GongHyobinSmile from "/assets/images/ProfileImage/VI/VI_smile_공효빈.gif";
+// import KwakYunseok from "/assets/images/ProfileImage/VI/VI곽윤석.gif";
+// import KwakYunseokSmile from "/assets/images/ProfileImage/VI/VI_smile_곽윤석.gif";
+// import GuHyejin from "/assets/images/ProfileImage/DC/DC구혜진.gif";
+// import GuHyejinSmile from "/assets/images/ProfileImage/DC/DC_smile_구혜진.gif";
+// import KimKiseong from "/assets/images/ProfileImage/DC/DC김기성.gif";
+// import KimKiseongSmile from "/assets/images/ProfileImage/DC/DC_smile_김기성.gif";
+// import KimNayoung from "/assets/images/ProfileImage/DC/DC김나영.gif";
+// import KimNayoungSmile from "/assets/images/ProfileImage/DC/DC_smile_김나영.gif";
+// import KimMoonju from "/assets/images/ProfileImage/DC/DC김문주.gif";
+// import KimMoonjuSmile from "/assets/images/ProfileImage/DC/DC_smile_김문주.gif";
+// import KimBeomcheon from "/assets/images/ProfileImage/MM/MM김범찬.gif";
+// import KimBeomcheonSmile from "/assets/images/ProfileImage/MM/MM_smile_김범찬.gif";
+// import KimByeongJun from "/assets/images/ProfileImage/MM/MM김병준.gif";
+// import KimByeongJunSmile from "/assets/images/ProfileImage/MM/MM_smile_김병준.gif";
+// import KimSeonghyeok from "/assets/images/ProfileImage/MM/MM김성협.gif";
+// import KimSeonghyeokSmile from "/assets/images/ProfileImage/MM/MM_smile_김성협.gif";
+// import KimSiyoung from "/assets/images/ProfileImage/MM/MM김시영.gif";
+// import KimSiyoungSmile from "/assets/images/ProfileImage/MM/MM_smile_김시영.gif";
+// import KimSieun from "/assets/images/ProfileImage/DC/DC김시은.gif";
+// import KimSieunSmile from "/assets/images/ProfileImage/DC/DC_smile_김시은.gif";
+// import KimYeawon from "/assets/images/ProfileImage/MM/MM김예원.gif";
+// import KimYeawonSmile from "/assets/images/ProfileImage/MM/MM_smile_김예원.gif";
+// import KimJisu from "/assets/images/ProfileImage/MM/MM김지수.gif";
+// import KimJisuSmile from "/assets/images/ProfileImage/MM/MM_smile_김지수.gif";
+// import KimChohee from "/assets/images/ProfileImage/VI/VI김초희.gif";
+// import KimChoheeSmile from "/assets/images/ProfileImage/VI/VI_smile_김초희.gif";
+// import KimHyunsoo from "/assets/images/ProfileImage/MM/MM김현수.gif";
+// import KimHyunsooSmile from "/assets/images/ProfileImage/MM/MM_smile_김현수.gif";
+// import NohYeonhui from "/assets/images/ProfileImage/VI/VI노연희.gif";
+// import NohYeonhuiSmile from "/assets/images/ProfileImage/VI/VI_smile_노연희.gif";
+// import MaJun from "/assets/images/ProfileImage/MM/MM마준.gif";
+// import MaJunSmile from "/assets/images/ProfileImage/MM/MM_smile_마준.gif";
+// import MoonSungHee from "/assets/images/ProfileImage/MM/MM문성희.gif";
+// import MoonSungHeeSmile from "/assets/images/ProfileImage/MM/MM_smile_문성희.gif";
+// import ParkMingyu from "/assets/images/ProfileImage/DC/DC박민규.gif";
+// import ParkMingyuSmile from "/assets/images/ProfileImage/DC/DC_smile_박민규.gif";
+// import ParkSeongho from "/assets/images/ProfileImage/VI/VI박성호.gif";
+// import ParkSeonghoSmile from "/assets/images/ProfileImage/VI/VI_smile_박성호.gif";
+// import ParkSumin from "/assets/images/ProfileImage/MM/MM박수민.gif";
+// import ParkSuminSmile from "/assets/images/ProfileImage/MM/MM_smile_박수민.gif";
+// import ParkEunsu from "/assets/images/ProfileImage/MM/MM박은수.gif";
+// import ParkEunsuSmile from "/assets/images/ProfileImage/MM/MM_smile_박은수.gif";
+// import BaekJeonghun from "/assets/images/ProfileImage/VI/VI백정훈.gif";
+// import BaekJeonghunSmile from "/assets/images/ProfileImage/VI/VI_smile_백정훈.gif";
+// import BaekJaehoon from "/assets/images/ProfileImage/VI/VI백제훈.gif";
+// import BaekJaehoonSmile from "/assets/images/ProfileImage/VI/VI_smile_백제훈.gif";
+// import BingSoeun from "/assets/images/ProfileImage/MM/MM빙소은.gif";
+// import BingSoeunSmile from "/assets/images/ProfileImage/MM/MM_smile_빙소은.gif";
+// import SeoBoeun from "/assets/images/ProfileImage/VI/VI서보은.gif";
+// import SeoBoeunSmile from "/assets/images/ProfileImage/VI/VI_smile_서보은.gif";
+// import SeoBohyeon from "/assets/images/ProfileImage/DC/DC서보현.gif";
+// import SeoBohyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_서보현.gif";
+// import ArtelevaSaida from "/assets/images/ProfileImage/MM/MM아르텔레바사이다.gif";
+// import ArtelevaSaidaSmile from "/assets/images/ProfileImage/MM/MM_smile_아르텔레바사이다.gif";
+// import AnDoyeon from "/assets/images/ProfileImage/DC/DC안도연.gif";
+// import AnDoyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_안도연.gif";
+// import YooJiyeon from "/assets/images/ProfileImage/VI/VI유지연.gif";
+// import YooJiyeonSmile from "/assets/images/ProfileImage/VI/VI_smile_유지연.gif";
+// import LeeDohyeon from "/assets/images/ProfileImage/DC/DC이도현.gif";
+// import LeeDohyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_이도현.gif";
+// import LeeMinju from "/assets/images/ProfileImage/VI/VI이민주.gif";
+// import LeeMinjuSmile from "/assets/images/ProfileImage/VI/VI_smile_이민주.gif";
+// import LeeSeoyeon from "/assets/images/ProfileImage/MM/MM이서연.gif";
+// import LeeSeoyeonSmile from "/assets/images/ProfileImage/MM/MM_smile_이서연.gif";
+// import LeeSomin from "/assets/images/ProfileImage/MM/MM이소민.gif";
+// import LeeSominSmile from "/assets/images/ProfileImage/MM/MM_smile_이소민.gif";
+// import LeeSeungyeon from "/assets/images/ProfileImage/DC/DC이승연.gif";
+// import LeeSeungyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_이승연.gif";
+// import LeeYoungmin from "/assets/images/ProfileImage/DC/DC이영민.gif";
+// import LeeYoungminSmile from "/assets/images/ProfileImage/DC/DC_smile_이영민.gif";
+// import LeeJaehee from "/assets/images/ProfileImage/VI/VI이재희.gif";
+// import LeeJaeheeSmile from "/assets/images/ProfileImage/VI/VI_smile_이재희.gif";
+// import LeeJinho from "/assets/images/ProfileImage/MM/MM이진호.gif";
+// import LeeJinhoSmile from "/assets/images/ProfileImage/MM/MM_smile_이진호.gif";
+// import LeeHanbin from "/assets/images/ProfileImage/DC/DC이한빈.gif";
+// import LeeHanbinSmile from "/assets/images/ProfileImage/DC/DC_smile_이한빈.gif";
+// import LimHyeonwoo from "/assets/images/ProfileImage/VI/VI임현우.gif";
+// import LimHyeonwooSmile from "/assets/images/ProfileImage/VI/VI_smile_임현우.gif";
+// import JangSuyoung from "/assets/images/ProfileImage/VI/VI장수영.gif";
+// import JangSuyoungSmile from "/assets/images/ProfileImage/VI/VI_smile_장수영.gif";
+// import JangEunkyo from "/assets/images/ProfileImage/DC/DC장은교.gif";
+// import JangEunkyoSmile from "/assets/images/ProfileImage/DC/DC_smile_장은교.gif";
+// // 장재석 사진이 없음
+// import JeongSeongjin from "/assets/images/ProfileImage/VI/VI정성진.gif";
+// import JeongSeongjinSmile from "/assets/images/ProfileImage/VI/VI_smile_정성진.gif";
+// import JeongJeongyoon from "/assets/images/ProfileImage/MM/MM정정윤.gif";
+// import JeongJeongyoonSmile from "/assets/images/ProfileImage/MM/MM_smile_정정윤.gif";
+// import JeongJuhyun from "/assets/images/ProfileImage/DC/DC정주현.gif";
+// import JeongJuhyunSmile from "/assets/images/ProfileImage/DC/DC_smile_정주현.gif";
+// import ChoSeongRae from "/assets/images/ProfileImage/DC/DC조성래.gif";
+// import ChoSeongRaeSmile from "/assets/images/ProfileImage/DC/DC_smile_조성래.gif";
+// import JoYihyeon from "/assets/images/ProfileImage/DC/DC조이현.gif";
+// import JoYihyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_조이현.gif";
+// // 지강원 사진이 없음
+// import JiChanghyun from "/assets/images/ProfileImage/DC/DC지창현.gif";
+// import JiChanghyunSmile from "/assets/images/ProfileImage/DC/DC_smile_지창현.gif";
+// import ChoiYosep from "/assets/images/ProfileImage/VI/VI최요셉.gif";
+// import ChoiYosepSmile from "/assets/images/ProfileImage/VI/VI_smile_최요셉.gif";
+// import HeoYujin from "/assets/images/ProfileImage/VI/VI허유진.gif";
+// import HeoYujinSmile from "/assets/images/ProfileImage/VI/VI_smile_허유진.gif";
+// import HwangHyojoon from "/assets/images/ProfileImage/MM/MM황효준.gif";
+// import HwangHyojoonSmile from "/assets/images/ProfileImage/MM/MM_smile_황효준.gif";
 
 function Designer() {
   const [all, setAll] = useState(true);
@@ -216,7 +216,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Sumin"
               state={{
-                src: KangSuminSmile,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM1.gif`,
                 name: "강수민",
                 eng: "Kang Sumin",
                 major: "모션미디어",
@@ -224,9 +224,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KangSuminSmile} alt="profile" />
                 <img
-                  src={KangSumin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_1.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM1.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -245,7 +248,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jueon"
               state={{
-                src: KangJueon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI1.gif`,
                 name: "강주언",
                 eng: "Kang Jueon",
                 major: "비주얼인포메이션디자인",
@@ -253,9 +256,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KangJueonSmile} alt="profile" />
                 <img
-                  src={KangJueon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_1.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI1.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -274,7 +280,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hanna"
               state={{
-                src: KangHanna,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM2.gif`,
                 name: "강한나",
                 eng: "Kang Hanna",
                 major: "모션미디어",
@@ -282,9 +288,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KangHannaSmile} alt="profile" />
                 <img
-                  src={KangHanna}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_2.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM2.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -303,7 +312,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyobin"
               state={{
-                src: GongHyobin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI2.gif`,
                 name: "공효빈",
                 eng: "Gong Hyobin",
                 major: "비주얼인포메이션디자인",
@@ -311,9 +320,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={GongHyobinSmile} alt="profile" />
                 <img
-                  src={GongHyobin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_2.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI2.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -332,7 +344,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Yunseok"
               state={{
-                src: KwakYunseok,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI3.gif`,
                 name: "곽윤석",
                 eng: "Kwak Yunseok",
                 major: "비주얼인포메이션디자인",
@@ -340,9 +352,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KwakYunseokSmile} alt="profile" />
                 <img
-                  src={KwakYunseok}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_3.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI3.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -361,7 +376,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyejin"
               state={{
-                src: GuHyejin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC1.gif`,
                 name: "구혜진",
                 eng: "Gu Hyejin",
                 major: "디지털콘텐츠",
@@ -369,9 +384,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={GuHyejinSmile} alt="profile" />
                 <img
-                  src={GuHyejin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_1.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC1.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -390,7 +408,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyejin"
               state={{
-                src: KimKiseong,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC2.gif`,
                 name: "김기성",
                 eng: "Kim Kiseong",
                 major: "디지털콘텐츠",
@@ -398,9 +416,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimKiseongSmile} alt="profile" />
                 <img
-                  src={KimKiseong}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_2.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC2.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -419,7 +440,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyejin"
               state={{
-                src: KimNayoung,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC3.gif`,
                 name: "김나영",
                 eng: "Kim Nayoung",
                 major: "디지털콘텐츠",
@@ -427,9 +448,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimNayoungSmile} alt="profile" />
                 <img
-                  src={KimNayoung}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_3.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC3.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -448,7 +472,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyejin"
               state={{
-                src: KimMoonju,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC4.gif`,
                 name: "김문주",
                 eng: "Kim Moonju",
                 major: "디지털콘텐츠",
@@ -456,9 +480,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimMoonjuSmile} alt="profile" />
                 <img
-                  src={KimMoonju}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_4.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC4.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -477,7 +504,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Beomcheon"
               state={{
-                src: KimBeomcheon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM3.gif`,
                 name: "김범천",
                 major: "모션미디어",
                 eng: "Kim Beomcheon",
@@ -485,9 +512,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimBeomcheonSmile} alt="profile" />
                 <img
-                  src={KimBeomcheon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_3.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM3.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -506,7 +536,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:ByeongJun"
               state={{
-                src: KimByeongJun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM4.gif`,
                 name: "김병준",
                 major: "모션미디어",
 
@@ -515,9 +545,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimByeongJunSmile} alt="profile" />
                 <img
-                  src={KimByeongJun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_4.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM4.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -536,7 +569,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Seonghyeok"
               state={{
-                src: KimSeonghyeok,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM5.gif`,
                 name: "김성혁",
                 major: "모션미디어",
 
@@ -545,9 +578,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimSeonghyeokSmile} alt="profile" />
                 <img
-                  src={KimSeonghyeok}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_5.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM5.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -566,7 +602,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Siyoung"
               state={{
-                src: KimSiyoung,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM6.gif`,
                 name: "김시영",
                 major: "모션미디어",
 
@@ -575,9 +611,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimSiyoungSmile} alt="profile" />
                 <img
-                  src={KimSiyoung}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_6.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM6.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -596,7 +635,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Sieun"
               state={{
-                src: KimSieun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC5.gif`,
                 name: "김시은",
                 major: "디지털콘텐츠",
 
@@ -605,9 +644,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimSieunSmile} alt="profile" />
                 <img
-                  src={KimSieun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_5.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC5.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -626,7 +668,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Yeawon"
               state={{
-                src: KimYeawon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM7.gif`,
                 name: "김예원",
                 major: "모션미디어",
 
@@ -635,9 +677,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimYeawonSmile} alt="profile" />
                 <img
-                  src={KimYeawon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_7.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM7.gif`}
                   alt="profile"
                   className="DesignerList-profileImage"
                 />
@@ -656,7 +701,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jisu"
               state={{
-                src: KimJisu,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM8.gif`,
                 name: "김지수",
                 major: "모션미디어",
 
@@ -665,9 +710,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimJisuSmile} alt="profile" />
                 <img
-                  src={KimJisu}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_8.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM8.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -686,7 +734,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Chohee"
               state={{
-                src: KimChohee,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI4.gif`,
                 name: "김초희",
                 major: "비주얼인포메이션디자인",
 
@@ -695,9 +743,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimChoheeSmile} alt="profile" />
                 <img
-                  src={KimChohee}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_4.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI4.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -716,7 +767,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyunsoo"
               state={{
-                src: KimHyunsoo,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM9.gif`,
                 name: "김현수",
                 major: "모션미디어",
 
@@ -725,9 +776,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={KimHyunsooSmile} alt="profile" />
                 <img
-                  src={KimHyunsoo}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_9.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM9.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -746,7 +800,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Yeonhui"
               state={{
-                src: NohYeonhui,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI5.gif`,
                 name: "노연희",
                 major: "비주얼인포메이션디자인",
 
@@ -755,9 +809,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={NohYeonhuiSmile} alt="profile" />
                 <img
-                  src={NohYeonhui}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_5.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI5.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -776,18 +833,20 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jun"
               state={{
-                src: MaJun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM10.gif`,
                 name: "마준",
                 major: "모션미디어",
-
                 eng: "Ma Jun",
                 mail: "junhong0815@gmaiil.com",
               }}
             >
               <div className="DesignerList-image">
-                <img src={MaJunSmile} alt="profile" />
                 <img
-                  src={MaJun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_10.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM10.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -806,7 +865,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:SungHee"
               state={{
-                src: MoonSungHee,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM11.gif`,
                 name: "문성희",
                 major: "모션미디어",
 
@@ -815,9 +874,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={MoonSungHeeSmile} alt="profile" />
                 <img
-                  src={MoonSungHee}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_11.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM11.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -836,7 +898,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Mingyu"
               state={{
-                src: ParkMingyu,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC6.gif`,
                 name: "박민규",
                 major: "디지털콘텐츠",
 
@@ -845,9 +907,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={ParkMingyuSmile} alt="profile" />
                 <img
-                  src={ParkMingyu}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_6.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC6.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -866,7 +931,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Seongho"
               state={{
-                src: ParkSeongho,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI6.gif`,
                 name: "박성호",
                 major: "비주얼인포메이션디자인",
 
@@ -875,9 +940,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={ParkSeonghoSmile} alt="profile" />
                 <img
-                  src={ParkSeongho}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_6.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI6.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -896,7 +964,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Sumin"
               state={{
-                src: ParkSumin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM12.gif`,
                 name: "박수민",
                 major: "모션미디어",
 
@@ -905,9 +973,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={ParkSuminSmile} alt="profile" />
                 <img
-                  src={ParkSumin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_12.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM12.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -926,7 +997,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Eunsu"
               state={{
-                src: ParkEunsu,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM13.gif`,
                 name: "박은수",
                 major: "모션미디어",
 
@@ -935,9 +1006,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={ParkEunsuSmile} alt="profile" />
                 <img
-                  src={ParkEunsu}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_13.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM13.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -956,7 +1030,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jeonghun"
               state={{
-                src: BaekJeonghun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`,
                 name: "백정훈",
                 major: "비주얼인포메이션디자인",
 
@@ -965,9 +1039,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={BaekJeonghunSmile} alt="profile" />
                 <img
-                  src={BaekJeonghun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_7.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -986,7 +1063,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jaehoon"
               state={{
-                src: BaekJaehoon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI8.gif`,
                 name: "백제훈",
                 major: "디지털콘텐츠",
                 major2: "비주얼인포메이션디자인",
@@ -995,9 +1072,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={BaekJaehoonSmile} alt="profile" />
                 <img
-                  src={BaekJaehoon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_8.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI8.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1016,7 +1096,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Soeun"
               state={{
-                src: BingSoeun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM14.gif`,
                 name: "빙소은",
                 major: "모션미디어",
 
@@ -1025,9 +1105,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={BingSoeunSmile} alt="profile" />
                 <img
-                  src={BingSoeun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_14.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM14.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1046,7 +1129,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Boeun"
               state={{
-                src: SeoBoeun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI9.gif`,
                 name: "서보은",
                 major: "비주얼인포메이션디자인",
 
@@ -1055,9 +1138,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={SeoBoeunSmile} alt="profile" />
                 <img
-                  src={SeoBoeun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_9.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI9.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1076,7 +1162,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Bohyeon"
               state={{
-                src: SeoBohyeon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC7.gif`,
                 name: "서보현",
                 major: "디지털콘텐츠",
 
@@ -1085,9 +1171,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={SeoBohyeonSmile} alt="profile" />
                 <img
-                  src={SeoBohyeon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_7.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC7.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1106,18 +1195,20 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Arteleva"
               state={{
-                src: ArtelevaSaida,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM15.gif`,
                 name: "아르텔레바 사이다",
                 major: "모션미디어",
-
                 eng: "Arteleva Saida",
                 mail: "saida.arteleva@gmail.com",
               }}
             >
               <div className="DesignerList-image">
-                <img src={ArtelevaSaidaSmile} alt="profile" />
                 <img
-                  src={ArtelevaSaida}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_15.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM15.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1136,7 +1227,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Doyeon"
               state={{
-                src: AnDoyeon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC8.gif`,
                 name: "안도연",
                 major: "디지털콘텐츠",
 
@@ -1145,9 +1236,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={AnDoyeonSmile} alt="profile" />
                 <img
-                  src={AnDoyeon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_8.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC8.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1166,7 +1260,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jiyeon"
               state={{
-                src: YooJiyeon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`,
                 name: "유지연",
                 major: "비주얼인포메이션디자인",
 
@@ -1175,9 +1269,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={YooJiyeonSmile} alt="profile" />
                 <img
-                  src={YooJiyeon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_10.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1196,7 +1293,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Dohyeon"
               state={{
-                src: LeeDohyeon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC9.gif`,
                 name: "이도현",
                 major: "디지털콘텐츠",
 
@@ -1205,9 +1302,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeDohyeonSmile} alt="profile" />
                 <img
-                  src={LeeDohyeon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_9.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC9.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1226,7 +1326,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Minju"
               state={{
-                src: LeeMinju,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI11.gif`,
                 name: "이민주",
                 major: "비주얼인포메이션디자인",
 
@@ -1235,9 +1335,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeMinjuSmile} alt="profile" />
                 <img
-                  src={LeeMinju}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_11.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI11.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1256,7 +1359,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Seoyeon"
               state={{
-                src: LeeSeoyeon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM16.gif`,
                 name: "이서연",
                 major: "모션미디어",
 
@@ -1265,9 +1368,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeSeoyeonSmile} alt="profile" />
                 <img
-                  src={LeeSeoyeon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_16.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM16.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1286,7 +1392,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Somin"
               state={{
-                src: LeeSomin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM17.gif`,
                 name: "이소민",
                 major: "모션미디어",
 
@@ -1295,9 +1401,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeSominSmile} alt="profile" />
                 <img
-                  src={LeeSomin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_17.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM17.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1316,7 +1425,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Seungyeon"
               state={{
-                src: LeeSeungyeon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC10.gif`,
                 name: "이승연",
                 major: "디지털콘텐츠",
 
@@ -1325,9 +1434,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeSeungyeonSmile} alt="profile" />
                 <img
-                  src={LeeSeungyeon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_10.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC10.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1346,7 +1458,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Youngmin"
               state={{
-                src: LeeYoungmin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC11.gif`,
                 name: "이영민",
                 major: "디지털콘텐츠",
 
@@ -1355,9 +1467,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeYoungminSmile} alt="profile" />
                 <img
-                  src={LeeYoungmin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_11.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC11.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1376,7 +1491,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jaehee"
               state={{
-                src: LeeJaehee,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI12.gif`,
                 name: "이재희",
                 major: "비주얼인포메이션디자인",
 
@@ -1385,9 +1500,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeJaeheeSmile} alt="profile" />
                 <img
-                  src={LeeJaehee}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_12.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI12.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1406,7 +1524,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jinho"
               state={{
-                src: LeeJinho,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM18.gif`,
                 name: "이진호",
                 major: "모션미디어",
 
@@ -1415,9 +1533,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeJinhoSmile} alt="profile" />
                 <img
-                  src={LeeJinho}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_18.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM18.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1436,7 +1557,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hanbin"
               state={{
-                src: LeeHanbin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC12.gif`,
                 name: "이한빈",
                 major: "디지털콘텐츠",
 
@@ -1445,9 +1566,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LeeHanbinSmile} alt="profile" />
                 <img
-                  src={LeeHanbin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_12.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC12.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1466,7 +1590,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyeonwoo"
               state={{
-                src: LimHyeonwoo,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI13.gif`,
                 name: "임현우",
                 major: "비주얼인포메이션디자인",
 
@@ -1475,9 +1599,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={LimHyeonwooSmile} alt="profile" />
                 <img
-                  src={LimHyeonwoo}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_13.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI13.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1496,7 +1623,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Suyoung"
               state={{
-                src: JangSuyoung,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI14.gif`,
                 name: "장수영",
                 major: "비주얼인포메이션디자인",
 
@@ -1505,9 +1632,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={JangSuyoungSmile} alt="profile" />
                 <img
-                  src={JangSuyoung}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_14.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI14.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1526,7 +1656,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Eunkyo"
               state={{
-                src: JangEunkyo,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC13.gif`,
                 name: "장은교",
                 major: "디지털콘텐츠",
 
@@ -1535,9 +1665,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={JangEunkyoSmile} alt="profile" />
                 <img
-                  src={JangEunkyo}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_13.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC13.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1556,18 +1689,21 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jaeseok"
               state={{
-                src: Image,
+                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`,
                 name: "장재석",
-                major: "디지털콘텐츠",
+                major: "비주얼인포메이션",
 
                 eng: "Jang Jaeseok",
                 mail: "bm34c@naver.com",
               }}
             >
               <div className="DesignerList-image">
-                <img src={Image} alt="profile" />
                 <img
-                  src={Image}
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1586,7 +1722,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Seongjin"
               state={{
-                src: JeongSeongjin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI15.gif`,
                 name: "정성진",
                 major: "비주얼인포메이션디자인",
 
@@ -1595,9 +1731,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={JeongSeongjinSmile} alt="profile" />
                 <img
-                  src={JeongSeongjin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_15.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI15.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1616,7 +1755,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jeongyoon"
               state={{
-                src: JeongJeongyoon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM19.gif`,
                 name: "정정윤",
                 major: "모션미디어",
 
@@ -1625,9 +1764,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={JeongJeongyoonSmile} alt="profile" />
                 <img
-                  src={JeongJeongyoon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_19.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM19.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1646,7 +1788,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Juhyun"
               state={{
-                src: JeongJuhyun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC14.gif`,
                 name: "정주현",
                 major: "디지털콘텐츠",
 
@@ -1657,9 +1799,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={JeongJuhyunSmile} alt="profile" />
                 <img
-                  src={JeongJuhyun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_14.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC14.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1678,7 +1823,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:SeongRae"
               state={{
-                src: ChoSeongRae,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC15.gif`,
                 name: "조성래",
                 major: "디지털콘텐츠",
 
@@ -1687,9 +1832,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={ChoSeongRaeSmile} alt="profile" />
                 <img
-                  src={ChoSeongRae}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_15.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC15.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1708,7 +1856,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:SeongRae"
               state={{
-                src: JoYihyeon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC16.gif`,
                 name: "조이현",
                 major: "디지털콘텐츠",
 
@@ -1717,9 +1865,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={JoYihyeonSmile} alt="profile" />
                 <img
-                  src={JoYihyeon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_16.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC16.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1738,7 +1889,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Kangwon"
               state={{
-                src: Image,
+                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`,
                 name: "지강원",
                 major: "디지털콘텐츠",
 
@@ -1747,9 +1898,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={Image} alt="profile" />
                 <img
-                  src={Image}
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1768,7 +1922,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Changhyun"
               state={{
-                src: JiChanghyun,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC17.gif`,
                 name: "지창현",
                 major: "디지털콘텐츠",
 
@@ -1777,9 +1931,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={JiChanghyunSmile} alt="profile" />
                 <img
-                  src={JiChanghyun}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC_smile_17.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC17.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1798,7 +1955,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Yosep"
               state={{
-                src: ChoiYosep,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI16.gif`,
                 name: "최요셉",
                 major: "비주얼인포메이션디자인",
 
@@ -1807,9 +1964,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={ChoiYosepSmile} alt="profile" />
                 <img
-                  src={ChoiYosep}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_16.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1828,7 +1988,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Yujin"
               state={{
-                src: HeoYujin,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`,
                 name: "허유진",
                 major: "비주얼인포메이션디자인",
 
@@ -1837,9 +1997,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={HeoYujinSmile} alt="profile" />
                 <img
-                  src={HeoYujin}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_17.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1858,7 +2021,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyojoon"
               state={{
-                src: HwangHyojoon,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM20.gif`,
                 name: "황효준",
                 major: "모션미디어",
 
@@ -1867,9 +2030,12 @@ function Designer() {
               }}
             >
               <div className="DesignerList-image">
-                <img src={HwangHyojoonSmile} alt="profile" />
                 <img
-                  src={HwangHyojoon}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM_smile_20.gif`}
+                  alt="profile"
+                />
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM20.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />

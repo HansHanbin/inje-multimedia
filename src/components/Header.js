@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
-import NavbarLogo from "../assets/images/0818Images/1920/main_GNB logo.png";
-import NavbarLogoSmall from "../assets/images/0818Images/390/main_GNB logo.png";
+// import NavbarLogo from "/assets/images/0818Images/1920/main_GNB logo.png";
+// import NavbarLogoSmall from "/assets/images/0818Images/390/main_GNB logo.png";
 import Dropdown from "./Dropdown/Dropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -15,7 +15,7 @@ function Header() {
   const onClick = () => setClick(!click);
 
   const onMouseEnter = (event) => {
-    if (window.innerWidth < 1200) {
+    if (window.innerWidth <= 1200) {
       event.prefentDefault();
     } else {
       setDropdown(true);
@@ -30,13 +30,13 @@ function Header() {
           <div className="header-container">
             <Link to="/2022">
               <img
-                src={NavbarLogo}
+                src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/main_GNB logo.png`}
                 alt="navigation logo"
                 className="header-logo"
               />
 
               <img
-                src={NavbarLogoSmall}
+                src={`${process.env.PUBLIC_URL}/assets/images/0818Images/390/main_GNB logo.png`}
                 alt="navigation logo"
                 className="header-logo-small"
               />

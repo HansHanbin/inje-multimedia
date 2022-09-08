@@ -1,39 +1,42 @@
 import React from "react";
 import "./AboutVisual.scss";
 
-import VisualPolygons from "../../assets/images/AboutVisualPolygons.png";
-import VisualPoster from "../../assets/images/AboutVisualPoster.png";
-import VisualPolygonsMedium from "../../assets/images/AboutVisualPolygons738.png";
-import VisualPolygonsSmall from "../../assets/images/AboutVisualPolygons390.png";
+// import VisualPolygons from "/assets/images/AboutVisualPolygons.png";
+// import VisualPoster from "/assets/images/AboutVisualPoster.png";
+// import VisualPolygonsMedium from "/assets/images/AboutVisualPolygons738.png";
+// import VisualPolygonsSmall from "/assets/images/AboutVisualPolygons390.png";
 
 function AboutVisual() {
   return (
     <>
       <div className="about-visual">
         <div className="about-visual-wrapper">
-          <div className="about-visual-title">VIsual Identity</div>
+          <div className="about-visual-title">
+            졸업전시회 <br />
+            VIsual Identity
+          </div>
 
           <div className="about-visual-images">
             <img
-              src={VisualPoster}
+              src={"/assets/images/AboutVisualPoster.png"}
               alt="poster"
               className="visual-img-poster visual-image"
             />
 
             <img
-              src={VisualPolygonsMedium}
+              src={"/assets/images/AboutVisualPolygons738.png"}
               alt="polygons medium size"
               className="visual-img-polygons__medium visual-image"
             />
 
             <img
-              src={VisualPolygons}
+              src={"/assets/images/AboutVisualPolygons.png"}
               alt="polygons"
               className="visual-img-polygons visual-image"
             />
 
             <img
-              src={VisualPolygonsSmall}
+              src={"/assets/images/AboutVisualPolygons390.png"}
               alt="polygons small size"
               className="visual-img-polygons__small visual-image"
             />

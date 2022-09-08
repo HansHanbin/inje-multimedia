@@ -7,14 +7,18 @@ import {
   faYoutube,
   faChrome,
 } from "@fortawesome/free-brands-svg-icons";
-import Logo from "../assets/images/inje-logo.jpg";
+//import Logo from "/assets/images/inje-logo.jpg";
 
 function Footer() {
   return (
     <div className="footer">
       <div className="copy">
         <div className="copy-up">
-          <img className="copy-logo" alt="logo" src={Logo}></img>
+          <img
+            className="copy-logo"
+            alt="logo"
+            src={"/assets/images/inje-logo.jpg"}
+          ></img>
           <div className="copy-major">
             <div>인제대학교 멀티미디어학부</div>
             <div>Inje University.Division of Multimedia Design</div>
@@ -28,7 +32,7 @@ function Footer() {
       <div className="links">
         <a className="link-item multi" href="/">
           <FontAwesomeIcon icon={faChrome} className="icon-internet icon" />
-          멀티미디어학부 홈페이지
+          학부 홈페이지
         </a>
         <a className="link-item insta" href="/">
           <FontAwesomeIcon icon={faInstagram} className="icon-instagram icon" />

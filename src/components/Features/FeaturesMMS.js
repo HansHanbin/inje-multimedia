@@ -5,17 +5,17 @@ import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
 import Header from "../../components/HeaderDark";
 
-import nayoung from "../../assets/features/DC/김나영/김나영_research_thumbnail.png";
-import nayoungHeader from "../../assets/features/DC/김나영/김나영_research_header.png";
-import mingyu from "../../assets/features/DC/박민규/박민규_research_thumbnail.png";
-import mingyuHeader from "../../assets/features/DC/박민규/박민규_research_header.png";
-import bohyeon from "../../assets/features/DC/서보현/서보현_research_thumbnail.png";
-import bohyeonHeader from "../../assets/features/DC/서보현/서보현_research_header.png";
-import youngmin from "../../assets/features/DC/이영민/이영민_research_thumbnail.png";
-//import youngminHeader from "../../assets/features/DC/박민규/박민규_research_header.png";
-import seongrae from "../../assets/features/DC/조성래/조성래_research_thumbnail.png";
-import seongraeHeader from "../../assets/features/DC/조성래/조성래_research_header.png";
-import img1 from "../../assets/features/DC/조성래/조성래_research_thumbnail.png";
+// import nayoung from "../../assets/features/DC/김나영/김나영_research_thumbnail.png";
+// import nayoungHeader from "../../assets/features/DC/김나영/김나영_research_header.png";
+// import mingyu from "../../assets/features/DC/박민규/박민규_research_thumbnail.png";
+// import mingyuHeader from "../../assets/features/DC/박민규/박민규_research_header.png";
+// import bohyeon from "../../assets/features/DC/서보현/서보현_research_thumbnail.png";
+// import bohyeonHeader from "../../assets/features/DC/서보현/서보현_research_header.png";
+// import youngmin from "../../assets/features/DC/이영민/이영민_research_thumbnail.png";
+// //import youngminHeader from "../../assets/features/DC/박민규/박민규_research_header.png";
+// import seongrae from "../../assets/features/DC/조성래/조성래_research_thumbnail.png";
+// import seongraeHeader from "../../assets/features/DC/조성래/조성래_research_header.png";
+// import img1 from "../../assets/features/DC/조성래/조성래_research_thumbnail.png";
 
 function Features() {
   // 이 아래부터는 사실상 Html. 다른 파일도 마찬가지!
@@ -58,7 +58,7 @@ function Features() {
         </div>
         <div className="features-studio features-active">
           <div className="features-container">
-            <div className="features-wrapper">
+            {/* <div className="features-wrapper">
               <ul className="features-items">
                 <FeaturesItem
                   src={img1}
@@ -191,7 +191,7 @@ function Features() {
                   path="/2022/project/dc/:Changhyun"
                 />
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

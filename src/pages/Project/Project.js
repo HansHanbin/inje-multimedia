@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleRight } from "@fortawesome/free-solid-svg-icons";
-import projectVideo from "../../assets/video/main_background1.mp4";
+// import projectVideo from "/assets/video/main_background4.mp4";
 
 function Project() {
   const [dcClick, setDcClick] = useState(false);
@@ -43,7 +43,10 @@ function Project() {
       <Header />
       <div className="project">
         <video className="one-video" autoPlay loop>
-          <source src={projectVideo} type="video/mp4" />
+          <source
+            src={process.env.PUBLIC_URL + "/assets/video/main_background3.mp4"}
+            type="video/mp4"
+          />
         </video>
         <div className="project-container">
           <Link

@@ -1,6 +1,6 @@
 import React from "react";
 import Cards from "../components/Cards";
-import Header from "../components/HeaderAbout";
+import Header from "../components/HeaderDark";
 import Footer from "../components/Footer";
 import { useState } from "react";
 
@@ -33,18 +33,6 @@ function About() {
       <Header />
       <div className="about">
         <div className="about-sections">
-          <div className="about-section-one about-section">
-            <div className="section-one-wrapper wrapper">
-              <div className="one-text-warpper">
-                <span className="one-title">멀티미디어학부 졸업전시회</span>
-                <div className="one-description">
-                  <div>프리즘처럼 빛나는 학생들의 모습을 확인해보세요!</div>
-                  <FontAwesomeIcon icon={faCirclePlay} className="one-play" />
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className="about-section-visual about-section">
             <div className="section-visual-wrapper wrapper">
               <AboutVisual />
@@ -165,6 +153,18 @@ function About() {
                     <span className="about-people-span">장은교</span>
                     <span className="about-people-span">최재희</span>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="about-section-one about-section">
+            <div className="section-one-wrapper wrapper">
+              <div className="one-text-warpper">
+                <span className="one-title">멀티미디어학부 졸업전시회</span>
+                <div className="one-description">
+                  <div>프리즘처럼 빛나는 학생들의 모습을 확인해보세요!</div>
+                  <FontAwesomeIcon icon={faCirclePlay} className="one-play" />
                 </div>
               </div>
             </div>

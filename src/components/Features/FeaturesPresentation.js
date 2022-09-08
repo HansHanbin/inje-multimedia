@@ -4,10 +4,10 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 import { useEffect } from "react";
-import xButton from "../../assets/images/0818Images/1920/project_x button.png";
-import buttonLight from "../../assets/images/0818Images/1920/project_mode button.png";
-import buttonUp from "../../assets/images/0818Images/1920/project_top button.png";
-import example from "../../assets/features/example.png";
+// import xButton from "/assets/images/0818Images/1920/project_x button.png";
+// import buttonLight from "/assets/images/0818Images/1920/project_mode button.png";
+// import buttonUp from "/assets/images/0818Images/1920/project_top button.png";
+// import example from "/assets/features/example.png";
 
 function FeaturesPresentation() {
   const location = useLocation();
@@ -67,7 +67,11 @@ function FeaturesPresentation() {
 
           {/* 작품 내용*/}
           <div className="pt-works">
-            <img src={example} alt="work" className="pt-work" />
+            <img
+              src={"/assets/features/example.png"}
+              alt="work"
+              className="pt-work"
+            />
           </div>
 
           <div className="pt-profile-bottom">
@@ -94,7 +98,7 @@ function FeaturesPresentation() {
         <div className="pt-buttons">
           <div className="pt-buttons-top">
             <img
-              src={xButton}
+              src={"/assets/images/0818Images/1920/project_x button.png"}
               alt="x button"
               className="button-x"
               onClick={onCloseClick}
@@ -102,13 +106,13 @@ function FeaturesPresentation() {
           </div>
           <div className="pt-buttons-bottom">
             <img
-              src={buttonLight}
+              src={"/assets/images/0818Images/1920/project_mode button.png"}
               alt="light button"
               className="button-light"
               onClick={onLightClick}
             />
             <img
-              src={buttonUp}
+              src={"/assets/images/0818Images/1920/project_top button.png"}
               alt="up button"
               className="button-up"
               onClick={onUpButton}

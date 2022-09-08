@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./HeaderDark.scss";
-import NavbarLogo from "../assets/images/0818Images/1920/about_GNB logo.png";
-import NavbarLogoSmall from "../assets/images/0818Images/390/about_GNB logo.png";
+// import NavbarLogo from "/assets/images/0818Images/1920/about_GNB logo.png";
+// import NavbarLogoSmall from "/assets/images/0818Images/390/about_GNB logo.png";
 import Dropdown from "./Dropdown/Dropdown";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -24,13 +24,13 @@ function Header() {
           <div className="header-container">
             <Link to="/2022">
               <img
-                src={NavbarLogo}
+                src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/about_GNB logo.png`}
                 alt="navigation logo"
                 className="header-logo"
               />
 
               <img
-                src={NavbarLogoSmall}
+                src={`${process.env.PUBLIC_URL}/assets/images/0818Images/390/about_GNB logo.png`}
                 alt="navigation logo"
                 className="header-logo-small"
               />
