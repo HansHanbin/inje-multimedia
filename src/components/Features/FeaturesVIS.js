@@ -192,7 +192,7 @@ function Features() {
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/6_studio_thumbnail.png`}
                   name={"백정훈"}
                   description="지향"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_studio_header.png`}
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_research_header.png`}
                   featureName="지향"
                   featureDescription="프로젝트 네임 ‘지향(紙香)’ 어떤 목표를 향해 달리다라는 의미를 가진 지향(指向)과  중의적인 표현으로써 종이에서 피어나는 향기를 의미하고 있습니다. 작은 카드가 들어 갈 수 있는 공간이면 지향의 작은 카드형 퍼퓸페이퍼를 꽂아 놓음으로써 어느곳이든 당신이 좋아하는 향기를 머무르게 할 수 있습니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`}
@@ -202,7 +202,7 @@ function Features() {
                   path="/2022/project/vi/:Jeonghun"
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/7_studio_thumnail.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/7_studio_thumbnail.png`}
                   name={"백제훈"}
                   description="당신은 왜 당신이 싫은가"
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/7_studio_header.png`}

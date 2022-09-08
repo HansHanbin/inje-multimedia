@@ -191,7 +191,7 @@ function Features() {
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/6_research_thumbnail.png`}
                   name={"백정훈"}
                   description="GAP"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_research_header.png`}
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_studio_header.png`}
                   featureName="GAP"
                   featureDescription="프로젝트 네임 'GAP'은 현시대 게임 중독의 추세와 개념을 알려주고 게임 중독 테스트를 통해서 자신의 게임 중독지수를 판단할 수 있게, 그리고 중독 유형을 분리하고 분석해서 게임마다 어느 중독 유형을 가지고 있는지를 중독 유형 픽토그램을 통해서 알려줘서 스스로 게임 중독에 대해 경계할 수 있는 기회를 제시하는 프로젝트입니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`}
@@ -201,7 +201,7 @@ function Features() {
                   path="/2022/project/vi/:Jeonghun"
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_thumnail.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_thumbnail.png`}
                   name={"백제훈"}
                   description="Shall we play?"
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_header.png`}

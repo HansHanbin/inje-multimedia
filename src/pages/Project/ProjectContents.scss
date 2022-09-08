@@ -12,8 +12,17 @@
 
 .header-major {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  * {
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
 
   .major-mobile {
     display: none;
@@ -59,14 +68,15 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  width: 30%;
+  width: 40%;
+  margin-top: 100px;
 }
 
 .class {
   cursor: pointer;
   font-weight: 400;
   font-size: 1.5rem;
-  margin-top: 60px;
+
   color: #8e8e8e;
 }
 
@@ -98,6 +108,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        * {
+          width: auto;
+        }
 
         // 전공 폰트
         .active {

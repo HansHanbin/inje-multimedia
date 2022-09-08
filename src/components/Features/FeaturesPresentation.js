@@ -98,7 +98,7 @@ function FeaturesPresentation() {
         <div className="pt-buttons">
           <div className="pt-buttons-top">
             <img
-              src={"/assets/images/0818Images/1920/project_x button.png"}
+              src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/project_x button.png`}
               alt="x button"
               className="button-x"
               onClick={onCloseClick}
@@ -106,13 +106,13 @@ function FeaturesPresentation() {
           </div>
           <div className="pt-buttons-bottom">
             <img
-              src={"/assets/images/0818Images/1920/project_mode button.png"}
+              src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/project_mode button.png`}
               alt="light button"
               className="button-light"
               onClick={onLightClick}
             />
             <img
-              src={"/assets/images/0818Images/1920/project_top button.png"}
+              src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/project_top button.png`}
               alt="up button"
               className="button-up"
               onClick={onUpButton}
