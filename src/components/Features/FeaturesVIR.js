@@ -7,64 +7,6 @@ import Header from "../../components/HeaderDark";
 
 // profile image
 
-// import KangJueon from "/assets/images/ProfileImage/VI/VI강주언.gif";
-// import GongHyobin from "/assets/images/ProfileImage/VI/VI공효빈.gif";
-// import KwakYunseok from "/assets/images/ProfileImage/VI/VI곽윤석.gif";
-// import KimChohee from "/assets/images/ProfileImage/VI/VI김초희.gif";
-// import NohYeonhui from "/assets/images/ProfileImage/VI/VI노연희.gif";
-
-// import BaekJeonghun from "/assets/images/ProfileImage/VI/VI백정훈.gif";
-// import BaekJaehoon from "/assets/images/ProfileImage/VI/VI백제훈.gif";
-// import SeoBoeun from "/assets/images/ProfileImage/VI/VI서보은.gif";
-// import YooJiyeon from "/assets/images/ProfileImage/VI/VI유지연.gif";
-// import LeeMinju from "/assets/images/ProfileImage/VI/VI이민주.gif";
-// import LeeJaehee from "/assets/images/ProfileImage/VI/VI이재희.gif";
-// import LimHyeonwoo from "/assets/images/ProfileImage/VI/VI임현우.gif";
-// import JangSuyoung from "/assets/images/ProfileImage/VI/VI장수영.gif";
-// import JeongSeongjin from "/assets/images/ProfileImage/VI/VI정성진.gif";
-// import ChoiYosep from "/assets/images/ProfileImage/VI/VI최요셉.gif";
-// import HeoYujin from "/assets/images/ProfileImage/VI/VI허유진.gif";
-
-// // tumbnail & header image
-
-// import jueon from "/assets/features/VI/강주언/강주언_research_thumbnail.png";
-// import jueonHeader from "/assets/features/VI/강주언/강주언_research_header.png";
-// import hyobin from "/assets/features/VI/공효빈/공효빈_research_thumbnail.png";
-// import hyobinHeader from "/assets/features/VI/공효빈/공효빈_research_header.png";
-// import yunseok from "/assets/features/VI/곽윤석/곽윤석_research_thumbnail.png";
-// import yunseokHeader from "/assets/features/VI/곽윤석/곽윤석_research_header.png";
-// import chohee from "/assets/features/VI/김초희/김초희_research_thumbnail.png";
-// import choheeHeader from "/assets/features/VI/김초희/김초희_research_header.png";
-// import yeonhui from "/assets/features/VI/노연희/노연희_research_thumbnail.png";
-// import yeonhuiHeader from "/assets/features/VI/노연희/노연희_research_header.png";
-
-// import jeonghun from "/assets/features/VI/백정훈/백정훈_research_thumbnail.png";
-// import jeonghunHeader from "/assets/features/VI/백정훈/백정훈_research_header.png";
-// import jaehoon from "/assets/features/VI/백제훈/백제훈_research_thumnail.png";
-// import jaehoonHeader from "/assets/features/VI/백제훈/백제훈_research_header.png";
-// import boeun from "/assets/features/VI/서보은/서보은_research_thumbnail.png";
-// import boeunHeader from "/assets/features/VI/서보은/서보은_research_header.png";
-// import jiyeon from "/assets/features/VI/유지연/유지연_research_thumbnail.png";
-// import jiyeonHeader from "/assets/features/VI/유지연/유지연_research_header.png";
-// import minju from "/assets/features/VI/이민주/이민주_research_thumbnail.png";
-// import minjuHeader from "/assets/features/VI/이민주/이민주_research_header.png";
-// import jaehee from "/assets/features/VI/이재희/이재희_research_thumbnail.png";
-// import jaeheeHeader from "/assets/features/VI/이재희/이재희_research_header.png";
-// import hyeonwoo from "/assets/features/VI/임현우/임현우_research_thumbnail.png";
-// import hyeonwooHeader from "/assets/features/VI/임현우/임현우_research_header.png";
-// import suyoung from "/assets/features/VI/장수영/장수영_research_thumbnail.png";
-// import suyoungHeader from "/assets/features/VI/장수영/장수영_research_header.png";
-// import jaeseok from "/assets/features/VI/장재석/장재석_research_thumbnail.png";
-// import jaeseokHeader from "/assets/features/VI/장재석/장재석_research_header.png";
-// import seongjin from "/assets/features/VI/정성진/정성진_research_thumbnail.png";
-// import seongjinHeader from "/assets/features/VI/정성진/정성진_research_header.png";
-// import kangwon from "/assets/features/VI/지강원/지강원_research_thumbnail.png";
-// import kangwonHeader from "/assets/features/VI/지강원/지강원_research_header.png";
-// import yosep from "/assets/features/VI/최요셉/최요셉_research_thumbnail.png";
-// import yosepHeader from "/assets/features/VI/최요셉/최요셉_research_header.png";
-// import yujin from "/assets/features/VI/허유진/허유진_research_thumbnail.png";
-// import yujinHeader from "/assets/features/VI/허유진/허유진_research_header.png";
-
 function Features() {
   // 이 아래부터는 사실상 Html. 다른 파일도 마찬가지!
   return (

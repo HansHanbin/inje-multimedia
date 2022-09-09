@@ -5,64 +5,6 @@ import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
 import Header from "../../components/HeaderDark";
 
-// profile image
-
-// import GuHyejin from "/assets/images/ProfileImage/DC/DC구혜진.gif";
-// import KimKiseong from "/assets/images/ProfileImage/DC/DC김기성.gif";
-// import KimNayoung from "/assets/images/ProfileImage/DC/DC김나영.gif";
-// import KimMoonju from "/assets/images/ProfileImage/DC/DC김문주.gif";
-// import KimSieun from "/assets/images/ProfileImage/DC/DC김시은.gif";
-// import ParkMingyu from "/assets/images/ProfileImage/DC/DC박민규.gif";
-// import BaekJaehoon from "/assets/images/ProfileImage/VI/VI백제훈.gif";
-// import SeoBohyeon from "/assets/images/ProfileImage/DC/DC서보현.gif";
-// import AnDoyeon from "/assets/images/ProfileImage/DC/DC안도연.gif";
-// import LeeDohyeon from "/assets/images/ProfileImage/DC/DC이도현.gif";
-// import LeeSeungyeon from "/assets/images/ProfileImage/DC/DC이승연.gif";
-// import LeeYoungmin from "/assets/images/ProfileImage/DC/DC이영민.gif";
-// import LeeHanbin from "/assets/images/ProfileImage/DC/DC이한빈.gif";
-// import JangEunkyo from "/assets/images/ProfileImage/DC/DC장은교.gif";
-// import JeongJuhyun from "/assets/images/ProfileImage/DC/DC정주현.gif";
-// import ChoSeongRae from "/assets/images/ProfileImage/DC/DC조성래.gif";
-// import JoYihyeon from "/assets/images/ProfileImage/DC/DC조이현.gif";
-// import JiChanghyun from "/assets/images/ProfileImage/DC/DC지창현.gif";
-
-// import hyejin from "/assets/features/DC/구혜진_research_thumbnail.png";
-// import hyejinHeader from "/assets/features/DC/구혜진/구혜진_research_header.png";
-// import moonju from "/assets/feature/김문주_research_thumbnail.png";
-// import moonjuHeader from "/assets/features/DC/김문주/김문주_research_header.png";
-// import kiseong from "/assets/features/DC/김기성/김기성_research_thumbnail.png";
-// import kiseongHeader from "/assets/features/DC/김기성/김기성_researc.png";
-// import nayoung from "/assets/features/DC/김나영/김나영_research_thumbnail.png";
-// import nayoungHeader from "/assets/features/DC/김나영/김나영_researc.png";
-// import mingyu from "/assets/features/DC/박민규/박민규_research_thumbnail.png";
-// import mingyuHeader from "/assets/features/DC/박민규/박민규_research_header.png";
-// import bohyeon from "/assets/features/DC/서보현/서보현_research_thumbnail.png";
-// import bohyeonHeader from "/assets/features/DC/서보현/서보현_research_header.png";
-// import dohyeon from "/assets/features/DC/이도현/이도현_research_thumbnail.png";
-// import dohyeonHeader from "/assets/features/DC/이도현/이도현_research_header.png";
-// import seounyeon from "/assets/features/DC/이승연/이승연_research_thumbnail.png";
-// import seounyeonHeader from "/assets/features/DC/이승연/이승연_research_header.png";
-// import youngmin from "/assets/features/DC/이영민/이영민_research_thumbnail.png";
-// import youngminHeader from "/assets/features/DC/이영민/이영민_research_header.png";
-// import seongrae from "/assets/features/DC/조성래/조성래_research_thumbnail.png";
-// import seongraeHeader from "/assets/features/DC/조성래/조성래_research_header.png";
-// import img1 from "/assets/features/DC/조성래/조성래_studio_thumbnail.png";
-
-// import doyeon from "/assets/features/DC/안도연/안도연_research_thumbnail.png";
-// import doyeonHeader from "/assets/features/DC/안도연/안도연_research_header.png";
-// import eunkyo from "/assets/features/DC/장은교/장은교_research_thumbnail.png";
-// import eunkyoHeader from "/assets/features/DC/장은교/장은교_research_header.png";
-// import yihyeon from "/assets/features/DC/조이현/조이현_research_thumbnail.png";
-// import yihyeonHeader from "/assets/features/DC/조이현/조이현_research_header.png";
-// import changhyun from "/assets/features/DC/지창현/지창현_research_thumbnail.png";
-// import changhyunHeader from "/assets/features/DC/지창현/지창현_research_header.png";
-
-// import jaehoon from "/assets/features/DC/백제훈/백제훈_research_thumbnail.png";
-// import jaehoonHeader from "/assets/features/DC/백제훈/백제훈_research_header.png";
-
-// import sieun from "/assets/features/DC/김시은/김시은_research_thumbnail.png";
-// import sieunHeader from "/assets/features/DC/김시은/김시은_research_header.png";
-
 function Features() {
   // 이 아래부터는 사실상 Html. 다른 파일도 마찬가지!
   return (
