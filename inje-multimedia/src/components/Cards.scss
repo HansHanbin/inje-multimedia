@@ -1,0 +1,135 @@
+.cards {
+  width: 512;
+  height: 464px;
+  background-color: #fdfdfd;
+  padding: 60px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .cards-wrapper {
+    display: flex;
+    height: 179px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .cards-main {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .cards-sub {
+      font-size: 1.25rem;
+    }
+  }
+
+  .cards-description {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+
+  .cards-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cards {
+    border-radius: 5px;
+    width: 100%;
+    height: 388px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    padding: 0 16px;
+
+    .cards-wrapper {
+      display: block;
+      height: 179px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .cards-title {
+      margin-bottom: 30px;
+    }
+
+    .cards-icon {
+      display: none;
+    }
+
+    .cards-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .cards-main {
+        font-size: 0.875rem;
+        font-weight: 700;
+      }
+      .cards-sub {
+        font-size: 0.8rem;
+      }
+    }
+
+    .cards-description {
+      text-align: center;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .cards {
+    border-radius: 5px;
+    width: 258px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.875rem;
+    padding: 0 16px;
+
+    .cards-wrapper {
+      height: 179px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .cards-title {
+        margin-bottom: 50px;
+      }
+      .cards-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .cards-main {
+          font-size: 1rem;
+          font-weight: 700;
+        }
+        .cards-sub {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+}

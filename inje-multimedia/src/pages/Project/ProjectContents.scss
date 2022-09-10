@@ -1,0 +1,220 @@
+.project-contents {
+  padding: 0 160px;
+  padding-top: 15%;
+  max-width: 1600px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.major-wrapper {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.header-major {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  * {
+    padding: 0 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+  }
+
+  .major-mobile {
+    display: none;
+  }
+
+  // 전공 폰트
+  .active {
+    font-weight: 800;
+    color: #333 !important;
+  }
+
+  .major-dc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #8e8e8e;
+  }
+
+  .major-vi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #8e8e8e;
+  }
+
+  .major-mm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #8e8e8e;
+  }
+}
+
+// 강의명 선택
+
+.class-wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+  margin-top: 100px;
+}
+
+.class {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.5rem;
+
+  color: #8e8e8e;
+}
+
+.class-active {
+  font-weight: 800;
+  color: #333 !important;
+}
+
+.features-studio,
+.features-research {
+  margin-top: 60px;
+  animation: description_move 1s forwards;
+  display: none;
+}
+
+.features-active {
+  display: block;
+}
+
+@media screen and (max-width: 1200px) {
+  .project-contents {
+    padding: 170px 40px 0 40px !important;
+
+    .major-wrapper {
+      margin: 0 auto;
+      width: 90%;
+
+      .header-major {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        * {
+          width: auto;
+        }
+
+        // 전공 폰트
+        .active {
+          font-weight: 800;
+          color: #333 !important;
+        }
+
+        .major-dc {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          font-size: 1.25rem;
+          color: #8e8e8e;
+        }
+
+        .major-vi {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          font-size: 1.25rem;
+          color: #8e8e8e;
+        }
+
+        .major-mm {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          cursor: pointer;
+          font-size: 1.25rem;
+          color: #8e8e8e;
+        }
+      }
+    }
+
+    .project-class {
+      .class-wrapper {
+        width: 50%;
+        .class {
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .project-contents {
+    padding: 150px 20px 0 20px !important;
+    // background-image: url("../../assets/images/08.18\ 이미지\ 소스/390/project,designer bg.png");
+    background-size: cover;
+  }
+  .major-wrapper {
+    margin: 0 auto;
+    width: auto;
+    color: #8e8e8e;
+    width: 80% !important;
+
+    .major-dc,
+    .major-mm,
+    .major-vi {
+      display: none !important;
+    }
+
+    .major-mobile {
+      display: block;
+      color: #8e8e8e;
+    }
+  }
+  .project-class {
+    display: flex;
+    flex-direction: column;
+
+    .class-wrapper {
+      width: 70% !important;
+      .class {
+        font-size: 0.875rem !important;
+        margin-top: 30px;
+      }
+    }
+  }
+
+  .features-studio,
+  .features-research {
+    margin-top: 20px;
+    animation: description_move 1s forwards;
+  }
+}
+
+@keyframes description_move {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(30px);
+    opacity: 100;
+  }
+}

@@ -1,0 +1,28 @@
+.features-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 32px;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 120px;
+}
+
+// 반응형 구현
+
+@media screen and (max-width: 1200px) {
+  .features-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .features-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 20px;
+  }
+}

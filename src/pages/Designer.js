@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 // import KwakYunseokSmile from "/assets/images/ProfileImage/VI/VI_smile_곽윤석.gif";
 // import GuHyejin from "/assets/images/ProfileImage/DC/DC구혜진.gif";
 // import GuHyejinSmile from "/assets/images/ProfileImage/DC/DC_smile_구혜진.gif";
-// import KimKiseong from "/assets/images/ProfileImage/DC/DC김기성.gif";
+// import KimKiseong from "/assets/images/ProfileImage/DC/git.gif";
 // import KimKiseongSmile from "/assets/images/ProfileImage/DC/DC_smile_김기성.gif";
 // import KimNayoung from "/assets/images/ProfileImage/DC/DC김나영.gif";
 // import KimNayoungSmile from "/assets/images/ProfileImage/DC/DC_smile_김나영.gif";
