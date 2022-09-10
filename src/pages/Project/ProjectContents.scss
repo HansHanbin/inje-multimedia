@@ -1,7 +1,6 @@
 .project-contents {
   padding: 0 160px;
   padding-top: 15%;
-
   height: 100%;
 }
 
@@ -16,7 +15,6 @@
   width: 100%;
 
   * {
-    padding: 0 20px;
     text-align: center;
     display: flex;
     align-items: center;
@@ -101,14 +99,16 @@
     padding: 170px 40px 0 40px !important;
 
     .major-wrapper {
-      margin: 0 auto;
-      width: 90%;
-
+      margin: 0 auto !important;
+      width: 100%;
       .header-major {
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        margin: 0 auto;
+        a {
+          padding: 0 20px;
+        }
         * {
           width: auto;
         }

@@ -50,7 +50,7 @@ function Project() {
         </video>
         <div className="project-container">
           <Link
-            to="/2022/project/dc/studio"
+            to="/2022/project/dc"
             className={
               dcClick === true ? "project-dc major-m" : "project-dc major"
             }
@@ -130,7 +130,7 @@ function Project() {
           </Link>
 
           <Link
-            to="/2022/project/vi/studio"
+            to="/2022/project/mm/studio"
             className={
               viClick === true ? "project-vi major-m" : " project-vi major"
             }
@@ -213,7 +213,7 @@ function Project() {
           </Link>
 
           <Link
-            to="/2022/project/mm/studio"
+            to="/2022/project/vi/studio"
             className={
               mmClick === true ? "project-mm major-m" : " project-mm major"
             }
