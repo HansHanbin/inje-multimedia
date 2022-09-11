@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Features.scss";
+import imageDcs from "../../works/imageDcs";
 
 import Footer from "../../components/Footer";
 import FeaturesItem from "./FeaturesItem";
 import Header from "../../components/HeaderDark";
-
-// profile image
 
 function Features() {
   // 이 아래부터는 사실상 Html. 다른 파일도 마찬가지!
@@ -75,6 +74,26 @@ function Features() {
                   profileEng="Kim Kiseong"
                   profileMail="kimkiseong98@gmail.com"
                   path="/2022/project/dc/:Kiseong"
+                  work0={imageDcs.KISEONG.work0}
+                  work1={imageDcs.KISEONG.work1}
+                  work2={imageDcs.KISEONG.work2}
+                  work3={imageDcs.KISEONG.work3}
+                  work4={imageDcs.KISEONG.work4}
+                  work5={imageDcs.KISEONG.work5}
+                  work6={imageDcs.KISEONG.work6}
+                  work7={imageDcs.KISEONG.work7}
+                  work8={imageDcs.KISEONG.work8}
+                  work9={imageDcs.KISEONG.work9}
+                  work10={imageDcs.KISEONG.work10}
+                  work11={imageDcs.KISEONG.work11}
+                  work12={imageDcs.KISEONG.work12}
+                  work13={imageDcs.KISEONG.work13}
+                  work14={imageDcs.KISEONG.work14}
+                  work15={imageDcs.KISEONG.work15}
+                  work16={imageDcs.KISEONG.work16}
+                  work17={imageDcs.KISEONG.work17}
+                  work18={imageDcs.KISEONG.work18}
+                  work19={imageDcs.KISEONG.work19}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/3_studio_thumbnail.png`}
@@ -88,6 +107,22 @@ function Features() {
                   profileEng={"Kim Nayoung"}
                   profileMail="sdf02033@gmail.com"
                   path="/2022/project/dc/:Nayoung"
+                  work0={imageDcs.NAYOUNG.work0}
+                  work1={imageDcs.NAYOUNG.work1}
+                  work2={imageDcs.NAYOUNG.work2}
+                  work3={imageDcs.NAYOUNG.work3}
+                  work4={imageDcs.NAYOUNG.work4}
+                  work5={imageDcs.NAYOUNG.work5}
+                  work6={imageDcs.NAYOUNG.work6}
+                  work7={imageDcs.NAYOUNG.work7}
+                  work8={imageDcs.NAYOUNG.work8}
+                  work9={imageDcs.NAYOUNG.work9}
+                  work10={imageDcs.NAYOUNG.work10}
+                  work11={imageDcs.NAYOUNG.work11}
+                  work12={imageDcs.NAYOUNG.work12}
+                  work13={imageDcs.NAYOUNG.work13}
+                  work14={imageDcs.NAYOUNG.work14}
+                  work15={imageDcs.NAYOUNG.work15}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_studio_thumbnail.png`}
@@ -296,13 +331,28 @@ function Features() {
                   profileEng="Ji Changhyun"
                   profileMail="jchyundesign@gmail.com"
                   path="/2022/project/dc/:Changhyun"
+                  work0={imageDcs.CHANGHYUN.work0}
+                  work1={imageDcs.CHANGHYUN.work1}
+                  work2={imageDcs.CHANGHYUN.work2}
+                  work3={imageDcs.CHANGHYUN.work3}
+                  work4={imageDcs.CHANGHYUN.work4}
+                  work5={imageDcs.CHANGHYUN.work5}
+                  work6={imageDcs.CHANGHYUN.work6}
+                  work7={imageDcs.CHANGHYUN.work7}
+                  work8={imageDcs.CHANGHYUN.work8}
+                  work9={imageDcs.CHANGHYUN.work9}
+                  work10={imageDcs.CHANGHYUN.work10}
+                  work11={imageDcs.CHANGHYUN.work11}
+                  work12={imageDcs.CHANGHYUN.work12}
+                  work13={imageDcs.CHANGHYUN.work13}
+                  work14={imageDcs.CHANGHYUN.work14}
+                  work15={imageDcs.CHANGHYUN.work15}
                 />
               </ul>
             </div>
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

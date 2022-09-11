@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import imageVir from "../../works/imageVir";
 
 import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
@@ -62,6 +63,7 @@ function Features() {
                   profileEng="Kang Jueon"
                   profileMail="3349520@naver.com"
                   path="/2022/project/vi/:Jueon"
+                  work1={imageVir.JUEON.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/2_research_thumbnail.png`}

@@ -37,9 +37,19 @@
     }
 
     .pt-works {
-      .pt-work {
+      margin-top: 60px;
+      .mobile-title {
+        display: none;
+      }
+      .none {
+        display: none;
+      }
+      .first {
         width: 100%;
         margin-top: 60px;
+      }
+      .pt-work {
+        width: 100%;
       }
     }
     .pt-profile-bottom {
@@ -197,8 +207,16 @@
 @media screen and (max-width: 737px) {
   .FeaturePresentation {
     padding-bottom: 30px;
+    .pt-header {
+      display: none;
+    }
     .pt-contents {
       padding: 0 20px;
+      .pt-works {
+        .mobile-title {
+          display: block;
+        }
+      }
 
       .pt-text-wrapper {
         .pt-info-feature {

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import imageDcr from "../../works/imageDcr";
 
 import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
@@ -60,6 +61,24 @@ function Features() {
                   profileEng="Gu Heyjin"
                   profileMail="fpqlt_326998@naver.com"
                   path="/2022/project/dc/:Hyejin"
+                  work0={imageDcr.HYEJIN.work0}
+                  work1={imageDcr.HYEJIN.work1}
+                  work2={imageDcr.HYEJIN.work2}
+                  work3={imageDcr.HYEJIN.work3}
+                  work4={imageDcr.HYEJIN.work4}
+                  work5={imageDcr.HYEJIN.work5}
+                  work6={imageDcr.HYEJIN.work6}
+                  work7={imageDcr.HYEJIN.work7}
+                  work8={imageDcr.HYEJIN.work8}
+                  work9={imageDcr.HYEJIN.work9}
+                  work10={imageDcr.HYEJIN.work10}
+                  work11={imageDcr.HYEJIN.work11}
+                  work12={imageDcr.HYEJIN.work12}
+                  work13={imageDcr.HYEJIN.work13}
+                  work14={imageDcr.HYEJIN.work14}
+                  work15={imageDcr.HYEJIN.work15}
+                  work16={imageDcr.HYEJIN.work16}
+                  work17={imageDcr.HYEJIN.work17}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_research_thumbnail.png`}
@@ -73,7 +92,27 @@ function Features() {
                   profileEng="Kim Kiseong"
                   profileMail="kimkiseong98@gmail.com"
                   path="/2022/project/dc/:Kiseong"
+                  work0={imageDcr.KISEONG.work0}
+                  work1={imageDcr.KISEONG.work1}
+                  work2={imageDcr.KISEONG.work2}
+                  work3={imageDcr.KISEONG.work3}
+                  work4={imageDcr.KISEONG.work4}
+                  work5={imageDcr.KISEONG.work5}
+                  work6={imageDcr.KISEONG.work6}
+                  work7={imageDcr.KISEONG.work7}
+                  work8={imageDcr.KISEONG.work8}
+                  work9={imageDcr.KISEONG.work9}
+                  work10={imageDcr.KISEONG.work10}
+                  work11={imageDcr.KISEONG.work11}
+                  work12={imageDcr.KISEONG.work12}
+                  work13={imageDcr.KISEONG.work13}
+                  work14={imageDcr.KISEONG.work14}
+                  work15={imageDcr.KISEONG.work15}
+                  work16={imageDcr.KISEONG.work16}
+                  work17={imageDcr.KISEONG.work17}
+                  work18={imageDcr.KISEONG.work17}
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/3_research_thumbnail.png`}
                   name={"김나영"}
@@ -88,6 +127,18 @@ function Features() {
                   profileEng={"Kim Nayoung"}
                   profileMail="sdf02033@gmail.com"
                   path="/2022/project/dc/:Nayoung"
+                  work0={imageDcr.NAYOUNG.work0}
+                  work1={imageDcr.NAYOUNG.work1}
+                  work2={imageDcr.NAYOUNG.work2}
+                  work3={imageDcr.NAYOUNG.work3}
+                  work4={imageDcr.NAYOUNG.work4}
+                  work5={imageDcr.NAYOUNG.work5}
+                  work6={imageDcr.NAYOUNG.work6}
+                  work7={imageDcr.NAYOUNG.work7}
+                  work8={imageDcr.NAYOUNG.work8}
+                  work9={imageDcr.NAYOUNG.work9}
+                  work10={imageDcr.NAYOUNG.work10}
+                  work11={imageDcr.NAYOUNG.work11}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_research_thumbnail.png`}
