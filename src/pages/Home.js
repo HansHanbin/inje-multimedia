@@ -43,7 +43,7 @@ function Home() {
               </h2>
             </div>
           </div>
-          <video className="one-video" autoPlay loop>
+          <video className="one-video" autoPlay loop muted playsInline>
             <source
               src={`${process.env.PUBLIC_URL}/assets/video/main_background3.mp4`}
             />
