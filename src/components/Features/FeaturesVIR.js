@@ -77,6 +77,7 @@ function Features() {
                   profileEng="Gong Hyobin"
                   profileMail="hyob1130@naver.com"
                   path="/2022/project/vi/:Hyobin"
+                  work1={imageVir.HYOBIN.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/3_research_thumbnail.png`}
@@ -90,6 +91,7 @@ function Features() {
                   profileEng={"Kwak Yunseok"}
                   profileMail="dbstjr_98@naver.com"
                   path="/2022/project/vi/:Yunseok"
+                  work1={imageVir.YUNSEOK.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/4_research_thumbnail.png`}
@@ -103,6 +105,7 @@ function Features() {
                   profileEng="Kim Chohee"
                   profileMail="kch1571@daum.net"
                   path="/2022/project/vi/:Chohee"
+                  work1={imageVir.CHOHEE.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/5_research_thumbnail.png`}
@@ -116,6 +119,7 @@ function Features() {
                   profileEng={"Noh Yeonhui"}
                   profileMail="wkdch5538@naver.com"
                   path="/2022/project/vi/:Yeonhui"
+                  work1={imageVir.YEONHUI.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/00_research_thumbnail.png`}
@@ -129,6 +133,7 @@ function Features() {
                   profileEng={"Park Seongho"}
                   profileMail="atree3682@daum.net"
                   path="/2022/project/vi/:Seongho"
+                  work1={imageVir.SEONGHO.work1}
                 />
 
                 <FeaturesItem
@@ -143,6 +148,7 @@ function Features() {
                   profileEng="Baek Jeonghun"
                   profileMail="duemno99@naver.com"
                   path="/2022/project/vi/:Jeonghun"
+                  work1={imageVir.JEONGHUN.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_thumbnail.png`}
@@ -156,6 +162,7 @@ function Features() {
                   profileEng="Baek Jaehoon"
                   profileMail="bjh990225@gmail.com"
                   path="/2022/project/vi/:Jaehoon"
+                  work1={imageVir.JAEHOON.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/8_research_thumbnail.png`}
@@ -169,6 +176,7 @@ function Features() {
                   profileEng="Seo Boeun"
                   profileMail=""
                   path="/2022/project/vi/:Boeun"
+                  work1={imageVir.BOEUN.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/9_research_thumbnail.png`}
@@ -182,6 +190,7 @@ function Features() {
                   profileEng="Yu Jiyeon"
                   profileMail="sbe3410@naver.com"
                   path="/2022/project/vi/:Jiyeon"
+                  work1={imageVir.JIYEON.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/10_research_thumbnail.png`}
@@ -195,6 +204,7 @@ function Features() {
                   profileEng="Lee Minju"
                   profileMail="m06090@naver.com"
                   path="/2022/project/vi/:Minju"
+                  work1={imageVir.MINJU.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/11_research_thumbnail.png`}
@@ -208,6 +218,7 @@ function Features() {
                   profileEng="Lee Jaehee"
                   profileMail="leejh6873@naver.com"
                   path="/2022/project/vi/:Jaehee"
+                  work1={imageVir.JAEHEE.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/12_research_thumbnail.png`}
@@ -221,6 +232,27 @@ function Features() {
                   profileEng="Lim Hyeonwoo"
                   profileMail="gkrktk123@naver.com"
                   path="/2022/project/vi/:Hyeonwoo"
+                  work1={imageVir.HYEONWOO.work1}
+                  work2={imageVir.HYEONWOO.work2}
+                  work3={imageVir.HYEONWOO.work3}
+                  work4={imageVir.HYEONWOO.work4}
+                  work5={imageVir.HYEONWOO.work5}
+                  work6={imageVir.HYEONWOO.work6}
+                  work7={imageVir.HYEONWOO.work7}
+                  work8={imageVir.HYEONWOO.work8}
+                  work9={imageVir.HYEONWOO.work9}
+                  work10={imageVir.HYEONWOO.work10}
+                  work11={imageVir.HYEONWOO.work11}
+                  work12={imageVir.HYEONWOO.work12}
+                  work13={imageVir.HYEONWOO.work13}
+                  work14={imageVir.HYEONWOO.work14}
+                  work15={imageVir.HYEONWOO.work15}
+                  work16={imageVir.HYEONWOO.work16}
+                  work17={imageVir.HYEONWOO.work17}
+                  work18={imageVir.HYEONWOO.work18}
+                  work19={imageVir.HYEONWOO.work19}
+                  work20={imageVir.HYEONWOO.work20}
+                  work21={imageVir.HYEONWOO.work21}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/13_research_thumbnail.png`}
@@ -234,6 +266,7 @@ function Features() {
                   profileEng="Jang Suyoung"
                   profileMail="wkdtndud0426@naver.com"
                   path="/2022/project/vi/:Suyoung"
+                  work1={imageVir.SUYOUNG.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_thumbnail.png`}
@@ -247,6 +280,7 @@ function Features() {
                   profileEng="Jang Jaeseok"
                   profileMail="bm34c@naver.com"
                   path="/2022/project/vi/:Jaeseok"
+                  work1={imageVir.JAESEOK.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/15_research_thumbnail.png`}
@@ -260,6 +294,7 @@ function Features() {
                   profileEng="Jeong Seongjin"
                   profileMail="jsjpati@naver.com"
                   path="/2022/project/vi/:Seongjin"
+                  work1={imageVir.SEONGJIN.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/16_research_thumbnail.png`}
@@ -273,6 +308,7 @@ function Features() {
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
                   path="/2022/project/vi/:Juhyun"
+                  
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/17_research_thumbnail.png`}
@@ -286,6 +322,7 @@ function Features() {
                   profileEng="Ji Kangwon"
                   profileMail="wlrkddnjs777@naver.com"
                   path="/2022/project/vi/:Kangwon"
+                  work1={imageVir.KANGWON.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/18_research_thumbnail.png`}
@@ -299,6 +336,7 @@ function Features() {
                   profileEng="Choi Yosep"
                   profileMail="tozerothree@gmail.com"
                   path="/2022/project/vi/:Yosep"
+                  work1={imageVir.YOSEP.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_thumbnail.png`}
@@ -312,6 +350,7 @@ function Features() {
                   profileEng="Heo Yujin"
                   profileMail="heoyujin9041@gmail.com"
                   path="/2022/project/vi/:Yujin"
+                  work1={imageVir.YUJIN.work1}
                 />
               </ul>
             </div>
