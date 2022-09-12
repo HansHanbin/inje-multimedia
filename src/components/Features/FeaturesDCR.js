@@ -80,6 +80,7 @@ function Features() {
                   work16={imageDcr.HYEJIN.work16}
                   work17={imageDcr.HYEJIN.work17}
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_research_thumbnail.png`}
                   name={"김기성"}
@@ -110,7 +111,7 @@ function Features() {
                   work15={imageDcr.KISEONG.work15}
                   work16={imageDcr.KISEONG.work16}
                   work17={imageDcr.KISEONG.work17}
-                  work18={imageDcr.KISEONG.work17}
+                  work18={imageDcr.KISEONG.work18}
                 />
 
                 <FeaturesItem
@@ -140,6 +141,7 @@ function Features() {
                   work10={imageDcr.NAYOUNG.work10}
                   work11={imageDcr.NAYOUNG.work11}
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_research_thumbnail.png`}
                   name="김문주"
@@ -152,7 +154,26 @@ function Features() {
                   profileEng="Kim Moonju"
                   profileMail="m.jju422@gmail.com"
                   path="/2022/project/dc/:Moonju"
+                  work0={imageDcr.MOONJU.work0}
+                  work1={imageDcr.MOONJU.work1}
+                  work2={imageDcr.MOONJU.work2}
+                  work3={imageDcr.MOONJU.work3}
+                  work4={imageDcr.MOONJU.work4}
+                  work5={imageDcr.MOONJU.work5}
+                  work6={imageDcr.MOONJU.work6}
+                  work7={imageDcr.MOONJU.work7}
+                  work8={imageDcr.MOONJU.work8}
+                  work9={imageDcr.MOONJU.work9}
+                  work10={imageDcr.MOONJU.work10}
+                  work11={imageDcr.MOONJU.work11}
+                  work12={imageDcr.MOONJU.work12}
+                  work13={imageDcr.MOONJU.work13}
+                  work14={imageDcr.MOONJU.work14}
+                  work15={imageDcr.MOONJU.work15}
+                  work16={imageDcr.MOONJU.work16}
+                  work17={imageDcr.MOONJU.work17}
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/5_research_thumbnaill.png`}
                   name={"김시은"}
@@ -166,6 +187,7 @@ function Features() {
                   profileMail="kns9559sn@gmail.com"
                   path="/2022/project/dc/:Sieun"
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/6_research_thumbnail.png`}
                   name={"박민규"}
@@ -180,7 +202,25 @@ function Features() {
                   profileEng={"Park Mingyu"}
                   profileMail="parkmin9yu@naver.com"
                   path="/2022/project/dc/:Mingyu"
+                  work0={imageDcr.MINGYU.work0}
+                  work1={imageDcr.MINGYU.work1}
+                  work2={imageDcr.MINGYU.work2}
+                  work3={imageDcr.MINGYU.work3}
+                  work4={imageDcr.MINGYU.work4}
+                  work5={imageDcr.MINGYU.work5}
+                  work6={imageDcr.MINGYU.work6}
+                  work7={imageDcr.MINGYU.work7}
+                  work8={imageDcr.MINGYU.work8}
+                  work9={imageDcr.MINGYU.work9}
+                  work10={imageDcr.MINGYU.work10}
+                  work11={imageDcr.MINGYU.work11}
+                  work12={imageDcr.MINGYU.work12}
+                  work13={imageDcr.MINGYU.work13}
+                  work14={imageDcr.MINGYU.work14}
+                  work15={imageDcr.MINGYU.work15}
+                  work16={imageDcr.MINGYU.work16}
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/7_research_thumbnail.png`}
                   name={"백제훈"}
@@ -194,6 +234,7 @@ function Features() {
                   profileMail="bjh990225@gmail.com"
                   path="/2022/project/dc/:Jaehoon"
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/8_research_thumbnail.png`}
                   name={"서보현"}
@@ -206,6 +247,9 @@ function Features() {
                   profileEng="Seo Bohyeon"
                   profileMail="seobori2000@gmail.com"
                   path="/2022/project/dc/:Bohyeon"
+                  work0={imageDcr.BOHYEON.work0}
+                  work1={imageDcr.BOHYEON.work1}
+                  work2={imageDcr.BOHYEON.work2}
                 />
 
                 <FeaturesItem
@@ -221,6 +265,7 @@ function Features() {
                   profileMail="rkornne@gmail.com"
                   path="/2022/project/dc/:Doyeon"
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/10_research_thumbnail.png`}
                   name={"이도현"}
@@ -233,7 +278,25 @@ function Features() {
                   profileEng="Lee Dohyeon"
                   profileMail="hyeonn323@gmail.com"
                   path="/2022/project/dc/:Dohyeon"
+                  work0={imageDcr.DOHYEON.work0}
+                  work1={imageDcr.DOHYEON.work1}
+                  work2={imageDcr.DOHYEON.work2}
+                  work3={imageDcr.DOHYEON.work3}
+                  work4={imageDcr.DOHYEON.work4}
+                  work5={imageDcr.DOHYEON.work5}
+                  work6={imageDcr.DOHYEON.work6}
+                  work7={imageDcr.DOHYEON.work7}
+                  work8={imageDcr.DOHYEON.work8}
+                  work9={imageDcr.DOHYEON.work9}
+                  work10={imageDcr.DOHYEON.work10}
+                  work11={imageDcr.DOHYEON.work11}
+                  work12={imageDcr.DOHYEON.work12}
+                  work13={imageDcr.DOHYEON.work13}
+                  work14={imageDcr.DOHYEON.work14}
+                  work15={imageDcr.DOHYEON.work15}
+                  work16={imageDcr.DOHYEON.work16}
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/11_research_thumbnail.png`}
                   name={"이승연"}
@@ -288,6 +351,9 @@ function Features() {
                   profileEng="Jang Eunkyo"
                   profileMail="429650@gmail.com"
                   path="/2022/project/dc/:Eunkyo"
+                  work0={imageDcr.EUNKYO.work0}
+                  work1={imageDcr.EUNKYO.work1}
+                  work2={imageDcr.EUNKYO.work2}
                 />
 
                 <FeaturesItem
@@ -316,6 +382,25 @@ function Features() {
                   profileEng="Cho Seongrae"
                   profileMail="srj9704@naver.com"
                   path="/2022/project/dc/:Seongrae"
+                  work0={imageDcr.SEONGRAE.work0}
+                  work1={imageDcr.SEONGRAE.work1}
+                  work2={imageDcr.SEONGRAE.work2}
+                  work3={imageDcr.SEONGRAE.work3}
+                  work4={imageDcr.SEONGRAE.work4}
+                  work5={imageDcr.SEONGRAE.work5}
+                  work6={imageDcr.SEONGRAE.work6}
+                  work7={imageDcr.SEONGRAE.work7}
+                  work8={imageDcr.SEONGRAE.work8}
+                  work9={imageDcr.SEONGRAE.work9}
+                  work10={imageDcr.SEONGRAE.work10}
+                  work11={imageDcr.SEONGRAE.work11}
+                  work12={imageDcr.SEONGRAE.work12}
+                  work13={imageDcr.SEONGRAE.work13}
+                  work14={imageDcr.SEONGRAE.work14}
+                  work15={imageDcr.SEONGRAE.work15}
+                  work16={imageDcr.SEONGRAE.work16}
+                  work17={imageDcr.SEONGRAE.work17}
+                  work18={imageDcr.SEONGRAE.work18}
                 />
 
                 <FeaturesItem
@@ -330,6 +415,16 @@ function Features() {
                   profileEng="Jo Yihyeon"
                   profileMail="j2hyun980@naver.com"
                   path="/2022/project/dc/:Yihyeon"
+                  work0={imageDcr.YIHYEON.work0}
+                  work1={imageDcr.YIHYEON.work1}
+                  work2={imageDcr.YIHYEON.work2}
+                  work3={imageDcr.YIHYEON.work3}
+                  work4={imageDcr.YIHYEON.work4}
+                  work5={imageDcr.YIHYEON.work5}
+                  work6={imageDcr.YIHYEON.work6}
+                  work7={imageDcr.YIHYEON.work7}
+                  work8={imageDcr.YIHYEON.work8}
+                  work9={imageDcr.YIHYEON.work9}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/18_research_thumbnail.png`}
@@ -343,6 +438,13 @@ function Features() {
                   profileEng="Ji Changhyun"
                   profileMail="jchyundesign@gmail.com"
                   path="/2022/project/dc/:Changhyun"
+                  work0={imageDcr.CHANGHYUN.work0}
+                  work1={imageDcr.CHANGHYUN.work1}
+                  work2={imageDcr.CHANGHYUN.work2}
+                  work3={imageDcr.CHANGHYUN.work3}
+                  work4={imageDcr.CHANGHYUN.work4}
+                  work5={imageDcr.CHANGHYUN.work5}
+                  work6={imageDcr.CHANGHYUN.work6}
                 />
               </ul>
             </div>
