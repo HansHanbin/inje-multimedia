@@ -61,6 +61,34 @@ function Features() {
                   profileEng="Gu Hyejin"
                   profileMail="fpqlt_326998@naver.com"
                   path="/2022/project/dc/:Hyejin"
+                  work0={imageDcs.HYEJIN.work0}
+                  work1={imageDcs.HYEJIN.work1}
+                  work2={imageDcs.HYEJIN.work2}
+                  work3={imageDcs.HYEJIN.work3}
+                  work4={imageDcs.HYEJIN.work4}
+                  work5={imageDcs.HYEJIN.work5}
+                  work6={imageDcs.HYEJIN.work6}
+                  work7={imageDcs.HYEJIN.work7}
+                  work8={imageDcs.HYEJIN.work8}
+                  work9={imageDcs.HYEJIN.work9}
+                  work10={imageDcs.HYEJIN.work10}
+                  work11={imageDcs.HYEJIN.work11}
+                  work12={imageDcs.HYEJIN.work12}
+                  work13={imageDcs.HYEJIN.work13}
+                  work14={imageDcs.HYEJIN.work14}
+                  work15={imageDcs.HYEJIN.work15}
+                  work16={imageDcs.HYEJIN.work16}
+                  work17={imageDcs.HYEJIN.work17}
+                  work18={imageDcs.HYEJIN.work18}
+                  work19={imageDcs.HYEJIN.work19}
+                  work20={imageDcs.HYEJIN.work20}
+                  work21={imageDcs.HYEJIN.work21}
+                  work22={imageDcs.HYEJIN.work22}
+                  work23={imageDcs.HYEJIN.work23}
+                  work24={imageDcs.HYEJIN.worl24}
+                  work25={imageDcs.HYEJIN.work25}
+                  work26={imageDcs.HYEJIN.work26}
+                  work27={imageDcs.HYEJIN.work27}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_studio_thumbnail.png`}
@@ -136,6 +164,22 @@ function Features() {
                   profileEng="Kim Moonju"
                   profileMail="m.jju422@gmail.com"
                   path="/2022/project/dc/:Moonju"
+                  work0={imageDcs.MOONJU.work0}
+                  work1={imageDcs.MOONJU.work1}
+                  work2={imageDcs.MOONJU.work2}
+                  work3={imageDcs.MOONJU.work3}
+                  work4={imageDcs.MOONJU.work4}
+                  work5={imageDcs.MOONJU.work5}
+                  work6={imageDcs.MOONJU.work6}
+                  work7={imageDcs.MOONJU.work7}
+                  work8={imageDcs.MOONJU.work8}
+                  work9={imageDcs.MOONJU.work9}
+                  work10={imageDcs.MOONJU.work10}
+                  work11={imageDcs.MOONJU.work11}
+                  work12={imageDcs.MOONJU.work12}
+                  work13={imageDcs.MOONJU.work13}
+                  work14={imageDcs.MOONJU.work14}
+                  work15={imageDcs.MOONJU.work15}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/5_studio_thumbnail.png`}
@@ -162,6 +206,24 @@ function Features() {
                   profileEng={"Park Mingyu"}
                   profileMail="parkmin9yu@naver.com"
                   path="/2022/project/dc/:Mingyu"
+                  work0={imageDcs.MINGYU.work0}
+                  work1={imageDcs.MINGYU.work1}
+                  work2={imageDcs.MINGYU.work2}
+                  work3={imageDcs.MINGYU.work3}
+                  work4={imageDcs.MINGYU.work4}
+                  work5={imageDcs.MINGYU.work5}
+                  work6={imageDcs.MINGYU.work6}
+                  work7={imageDcs.MINGYU.work7}
+                  work8={imageDcs.MINGYU.work8}
+                  work9={imageDcs.MINGYU.work9}
+                  work10={imageDcs.MINGYU.work10}
+                  work11={imageDcs.MINGYU.work11}
+                  work12={imageDcs.MINGYU.work12}
+                  work13={imageDcs.MINGYU.work13}
+                  work14={imageDcs.MINGYU.work14}
+                  work15={imageDcs.MINGYU.work15}
+                  work16={imageDcs.MINGYU.work16}
+                  work17={imageDcs.MINGYU.work17}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/00_studio_thumbnail.png`}
@@ -175,6 +237,8 @@ function Features() {
                   profileEng="Park Seongho"
                   profileMail="atree3682@daum.net"
                   path="/2022/project/dc/:Seongho"
+                  work0={imageDcs.SH.work0}
+                  work1={imageDcs.SH.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/7_studio_thumbnail.png`}
@@ -201,6 +265,9 @@ function Features() {
                   profileEng="Seo Bohyeon"
                   profileMail="seobori2000@gmail.com"
                   path="/2022/project/dc/:Bohyeon"
+                  work0={imageDcs.BH.work0}
+                  work1={imageDcs.BH.work1}
+                  work2={imageDcs.BH.work2}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/9_studio_thumbnail.png`}
@@ -227,6 +294,24 @@ function Features() {
                   profileEng="Lee Dohyeon"
                   profileMail="hyeonn323@gmail.com"
                   path="/2022/project/dc/:Dohyeon"
+                  work0={imageDcs.DH.work0}
+                  work1={imageDcs.DH.work1}
+                  work2={imageDcs.DH.work2}
+                  work3={imageDcs.DH.work3}
+                  work4={imageDcs.DH.work4}
+                  work5={imageDcs.DH.work5}
+                  work6={imageDcs.DH.work6}
+                  work7={imageDcs.DH.work7}
+                  work8={imageDcs.DH.work8}
+                  work9={imageDcs.DH.work9}
+                  work10={imageDcs.DH.work10}
+                  work11={imageDcs.DH.work11}
+                  work12={imageDcs.DH.work12}
+                  work13={imageDcs.DH.work13}
+                  work14={imageDcs.DH.work14}
+                  work15={imageDcs.DH.work15}
+                  work16={imageDcs.DH.work16}
+                  work17={imageDcs.DH.work17}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/11_studio_thumbnail.png`}
@@ -253,6 +338,8 @@ function Features() {
                   profileEng="Lee Youngmin"
                   profileMail="rjscl343@naver.com"
                   path="/2022/project/dc/:Youngmin"
+                  work0={imageDcs.YM.work0}
+                  work1={imageDcs.YM.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
@@ -279,6 +366,9 @@ function Features() {
                   profileEng="Jang Eunkyo"
                   profileMail="429650@gmail.com"
                   path="/2022/project/dc/:Eunkyo"
+                  work0={imageDcs.EUNKYO.work0}
+                  work1={imageDcs.EUNKYO.work1}
+                  work2={imageDcs.EUNKYO.work2}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/15_studio_thumbnail.png`}
@@ -305,6 +395,36 @@ function Features() {
                   profileEng="Cho Seongrae"
                   profileMail="srj9704@naver.com"
                   path="/2022/project/dc/:Seongrae"
+                  work0={imageDcs.SR.work0}
+                  work1={imageDcs.SR.work1}
+                  work2={imageDcs.SR.work2}
+                  work3={imageDcs.SR.work3}
+                  work4={imageDcs.SR.work4}
+                  work5={imageDcs.SR.work5}
+                  work6={imageDcs.SR.work6}
+                  work7={imageDcs.SR.work7}
+                  work8={imageDcs.SR.work8}
+                  work9={imageDcs.SR.work9}
+                  work10={imageDcs.SR.work10}
+                  work11={imageDcs.SR.work11}
+                  work12={imageDcs.SR.work12}
+                  work13={imageDcs.SR.work13}
+                  work14={imageDcs.SR.work14}
+                  work15={imageDcs.SR.work15}
+                  work16={imageDcs.SR.work16}
+                  work17={imageDcs.SR.work17}
+                  work18={imageDcs.SR.work18}
+                  work19={imageDcs.SR.work19}
+                  work20={imageDcs.SR.work20}
+                  work21={imageDcs.SR.work21}
+                  work22={imageDcs.SR.work22}
+                  work23={imageDcs.SR.work23}
+                  work24={imageDcs.SR.worl24}
+                  work25={imageDcs.SR.work25}
+                  work26={imageDcs.SR.work26}
+                  work27={imageDcs.SR.work27}
+                  work28={imageDcs.SR.work28}
+                  work29={imageDcs.SR.work29}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/17_studio_thumbnail.png`}
@@ -318,6 +438,15 @@ function Features() {
                   profileEng="Jo Yihyeon"
                   profileMail="j2hyun980@naver.com"
                   path="/2022/project/dc/:Yihyeon"
+                  work0={imageDcs.IH.work0}
+                  work1={imageDcs.IH.work1}
+                  work2={imageDcs.IH.work2}
+                  work3={imageDcs.IH.work3}
+                  work4={imageDcs.IH.work4}
+                  work5={imageDcs.IH.work5}
+                  work6={imageDcs.IH.work6}
+                  work7={imageDcs.IH.work7}
+                  work8={imageDcs.IH.work8}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/18_studio_thumbnail.png`}
