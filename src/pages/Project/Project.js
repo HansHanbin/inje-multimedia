@@ -42,7 +42,7 @@ function Project() {
     <>
       <Header />
       <div className="project">
-        <video className="one-video" autoPlay loop>
+        <video className="one-video" autoPlay loop muted playsInline>
           <source
             src={process.env.PUBLIC_URL + "/assets/video/main_background3.mp4"}
             type="video/mp4"
@@ -81,36 +81,29 @@ function Project() {
                         <div className="project-wrapper__major">
                           <div className="project-wrapper-studio">
                             <div className="project-wrapper__majorTitle">
-                              디지털콘텐츠스튜디오 | 전우정 교수님
+                              <strong>디지털콘텐츠스튜디오</strong>
+                              <br />
+                              전우정 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
-                              인간, 사회, 환경, 문화, 기술 등
-                              <strong> 다양한 분야의 주제를 발굴</strong>하여,
-                              <strong>
-                                서비스디자인 관점에서 해당 문제를 깊이있게 탐색
-                              </strong>
-                              한 후,
-                              <strong>
-                                어플리케이션 UX/UI 디자인 및 프로토타입 제작
-                              </strong>
-                              을 통해 해결안을 제안한다.
+                              인간, 사회, 환경, 문화, 기술 등 다양한 분야의
+                              주제를 발굴하여, 서비스디자인 관점에서 해당 문제를
+                              깊이있게 탐색 한 후, 어플리케이션 UX/UI 디자인 및
+                              프로토타입 제작 을 통해 해결안을 제안한다.
                             </div>
                           </div>
                           <div className="project-wrapper-research">
                             <div className="project-wrapper__majorTitle">
-                              DC졸업연구 | 이승희 교수님
+                              <strong>xDC졸업연구</strong>
+                              <br />
+                              이승희 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
-                              디지털 환경이 가속화 됨에 따라 급변하는 IT 기술에
-                              필요한 디자인의 가치가 주목받고 있다. 본
-                              수업에서는
-                              <strong>
-                                UX 디자인 방법론을 통해 인사이트를 발굴
-                              </strong>
-                              하고{" "}
-                              <strong>
-                                UI 디자인 설계를 진행하여 결과물을 완성한다.
-                              </strong>
+                              모바일 디자인 테크놀로지에 대한 이해와 사용자
+                              중심적 인터페이스, 인터랙션 강화를 위한 디자인
+                              설계를 연구하고 경험디자인 방법론을 통해
+                              문제해결을 위한 UX디자인 및 프로토타입을 제작하여
+                              결과물을 완성한다.
                             </div>
                           </div>
                         </div>
@@ -161,39 +154,31 @@ function Project() {
                         <div className="project-wrapper__major">
                           <div className="project-wrapper-studio">
                             <div className="project-wrapper__majorTitle">
-                              비주얼인포메이션디자인스튜디오 | 최인규 교수님
+                              <strong>비주얼인포메이션디자인스튜디오</strong>
+                              <br />
+                              최인규 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
-                              학부과정에서 학습하였던 그래픽디자인,
-                              타이포그래피, 편집디자인, 색채 디자인, 공공디자인
-                              등을 종합적으로 구현하는 과정이다. 학생들은{" "}
-                              <strong>
-                                시각 정보 디자인의 미래적인 가치를 지향
-                              </strong>
-                              하고,{" "}
-                              <strong>
-                                실험적인 디자인 개발과정을 통하여 가치적 조형적
-                                실험 디자인 과정을 경험
-                              </strong>
-                              한다.
+                              사회의 다양한 문제를 시각적으로 풀어가는 과정이다.
+                              먼저 사회적 문제들을 조사하고 이를 통하여
+                              시각정보로 재생산할 가치가 있는 정보와 데이터를
+                              수집한다. 수집된 정보와 데이터는 콘셉트와 전략에
+                              맞게 시각정보로 전환한다. 전환된 시각정보는 다양한
+                              미디어(플랫폼)에 맞게 디자인한다.
                             </div>
                           </div>
                           <div className="project-wrapper-research">
                             <div className="project-wrapper__majorTitle">
-                              VI 졸업연구 | 박수진 교수님
+                              <strong>VI 졸업연구</strong>
+                              <br />
+                              박수진 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
-                              <strong>
-                                그래픽, 타이포그래피, 편집, 브랜딩
-                              </strong>
-                              등 학부과정에서 배운 다양한 디자인 지식과 기능을
-                              종합적으로 다루며 졸업작품을 기획하고 제작한다.
-                              이번 졸업연구VI의 주제는<strong>‘Paper’</strong>
-                              로,
-                              <strong>
-                                종이라는 디자인 소재를 다양한 표현방식
-                              </strong>
-                              을 통해 상품화하는 과정을 경험한다.
+                              그래픽, 타이포그래피, 편집, 브랜딩 등 학부과정에서
+                              배운 다양한 디자인 지식과 기능을 종합적으로 다루며
+                              졸업작품을 기획하고 제작한다. 이번 졸업연구VI의
+                              주제는 ‘Paper’로, 종이라는 디자인 소재를 다양한
+                              표현방식을 통해 상품화하는 과정을 경험한다.
                             </div>
                           </div>
                         </div>
@@ -244,33 +229,27 @@ function Project() {
                         <div className="project-wrapper__major">
                           <div className="project-wrapper-studio">
                             <div className="project-wrapper__majorTitle">
-                              모션미디어스튜디오 | 김석래 교수님
+                              <strong>모션미디어스튜디오</strong>
+                              <br />
+                              김석래 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
-                              영상 전공의 트랙을 통해 학습한 영상언어의 이해를
-                              바탕으로{" "}
-                              <strong>
-                                창의적 표현의 도구로서 매체를 활용
-                              </strong>
-                              하고{" "}
-                              <strong>
-                                다양한 기술적 실험으로 실사 영상의 졸업 작품을
-                                진행
-                              </strong>
-                              하게 된다.
+                              애니메이션적 연출에 기반을 두고, 다양한 표현
+                              방법들을 활용하여 자신만의 메시지가 담긴 영상
+                              콘텐츠를 제작한다.
                             </div>
                           </div>
                           <div className="project-wrapper-research">
                             <div className="project-wrapper__majorTitle">
-                              MM 졸업연구 | 백재훈 교수님
+                              <strong>MM 졸업연구</strong>
+                              <br />
+                              백재훈 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
-                              <strong>애니메이션적 연출에 기반을 두고</strong>,
-                              다양한 표현 방법들을 활용하여{" "}
-                              <strong>
-                                자신만의 메시지가 담긴 영상 콘텐츠를 제작
-                              </strong>
-                              한다.
+                              실사 영상을 중심으로 학습한 영상언어의 이해를
+                              바탕으로 창의적 표현의 도구로서 영상매체를
+                              활용하고 다양한 기술적 실험으로 실사 영상의 졸업
+                              작품을 진행하게 된다.
                             </div>
                           </div>
                         </div>
