@@ -354,6 +354,12 @@
   }
 }
 
+@media screen and (max-height: 700px) {
+  .about-section-two {
+    margin-top: 30%;
+  }
+}
+
 // properties
 @keyframes text_letterSpacing {
   0% {

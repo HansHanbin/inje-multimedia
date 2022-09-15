@@ -134,6 +134,12 @@
   }
 }
 
+@media screen and (max-height: 700px) {
+  .about-visual {
+    margin-top: 50%;
+  }
+}
+
 @keyframes animA {
   0%,
   25% {

@@ -65,13 +65,13 @@ function FeaturesPresentation() {
   const [light, setLight] = useState(false);
   const onLightClick = () => setLight(!light);
 
-  useEffect(() => {
-    if (light) {
-      document.body.style.backgroundColor = "#222";
-    } else {
-      document.body.style.backgroundColor = "#fdfdfd";
-    }
-  }, [light]);
+  // useEffect(() => {
+  //   if (light) {
+  //     document.body.style.backgroundColor = "#222";
+  //   } else {
+  //     document.body.style.backgroundColor = "#fdfdfd";
+  //   }
+  // }, [light]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
