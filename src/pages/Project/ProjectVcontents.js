@@ -35,7 +35,7 @@ function ProjectVcontents() {
               </Link>
               <div>|</div>
               <Link to="/2022/project/vi">
-                <div className="major-vi active">Visual Infomation Design</div>
+                <div className="major-vi active">Visual Information Design</div>
                 <div className="major-mobile active">V.I</div>
               </Link>
               <div>|</div>

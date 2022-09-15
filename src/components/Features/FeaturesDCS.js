@@ -23,7 +23,7 @@ function Features() {
               </Link>
               <div>|</div>
               <Link to="/2022/project/vi/studio">
-                <div className="major-vi">Visual Infomation Design</div>
+                <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>
@@ -193,6 +193,25 @@ function Features() {
                   profileEng="Kim Sieun"
                   profileMail="kns9559sn@gmail.com"
                   path="/2022/project/dc/:Sieun"
+                  work0={imageDcs.SIEUN.work0}
+                  work1={imageDcs.SIEUN.work1}
+                  work2={imageDcs.SIEUN.work2}
+                  work3={imageDcs.SIEUN.work3}
+                  work4={imageDcs.SIEUN.work4}
+                  work5={imageDcs.SIEUN.work5}
+                  work6={imageDcs.SIEUN.work6}
+                  work7={imageDcs.SIEUN.work7}
+                  work8={imageDcs.SIEUN.work8}
+                  work9={imageDcs.SIEUN.work9}
+                  work10={imageDcs.SIEUN.work10}
+                  work11={imageDcs.SIEUN.work11}
+                  work12={imageDcs.SIEUN.work12}
+                  work13={imageDcs.SIEUN.work13}
+                  work14={imageDcs.SIEUN.work14}
+                  work15={imageDcs.SIEUN.work15}
+                  work16={imageDcs.SIEUN.work16}
+                  work17={imageDcs.SIEUN.work17}
+                  work18={imageDcs.SIEUN.work18}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/6_studio_thumbnail.png`}
@@ -260,7 +279,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/8_studio_header.png`}
                   featureName="데롱"
                   featureDescription="데롱은 복잡한 오해를 심해라고 빗대어 표현하였습니다. 자신의 정보를 등록하여 나만의 심해 즉 데롱을 제작합니다. 이는 심해 속에 해파리가 있는 모습으로 제작이 되며 친구들의 데롱의 모습과 정보 또한 알 수 있습니다. 친구들과의 대화와 질문을 통해 서로를 알아가고 오해를 해결할 수 있도록 도와주는 서비스입니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC서보현.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC7.gif`}
                   profileName="서보현"
                   profileEng="Seo Bohyeon"
                   profileMail="seobori2000@gmail.com"
@@ -340,6 +359,19 @@ function Features() {
                   path="/2022/project/dc/:Youngmin"
                   work0={imageDcs.YM.work0}
                   work1={imageDcs.YM.work1}
+                  work2={imageDcs.YM.work2}
+                  work3={imageDcs.YM.work3}
+                  work4={imageDcs.YM.work4}
+                  work5={imageDcs.YM.work5}
+                  work6={imageDcs.YM.work6}
+                  work7={imageDcs.YM.work7}
+                  work8={imageDcs.YM.work8}
+                  work9={imageDcs.YM.work9}
+                  work10={imageDcs.YM.work10}
+                  work11={imageDcs.YM.work11}
+                  work12={imageDcs.YM.work12}
+                  work13={imageDcs.YM.work13}
+                  work14={imageDcs.YM.work14}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
@@ -357,7 +389,7 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
                   name={"장은교"}
-                  description="FING"
+                  description="WON:D"
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_header.png`}
                   featureName="WON:D"
                   featureDescription="비가 와 우중충한 상태를 좋아하는 사람, 천둥번개를 즐기는 사람, 구름 한 점 없는 쨍쨍한 햇빛을 좋아하는 사람 등 선호하는 기상 상태는 모두 다릅니다. 내가 가장 좋아하는 기상을 언제든 즐길 수 있는 방법은 없을까요? 그런 당신을 위한 기상상태 조절을 통한 여가 활동 서비스 WON:D와 함께라면 할 수 있습니다! "

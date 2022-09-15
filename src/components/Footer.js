@@ -17,11 +17,11 @@ function Footer() {
           <img
             className="copy-logo"
             alt="logo"
-            src={"/assets/images/inje-logo.jpg"}
+            src={`${process.env.PUBLIC_URL}/assets/images/inje-logo.png`}
           ></img>
           <div className="copy-major">
             <div>인제대학교 멀티미디어학부</div>
-            <div>Inje University.Division of Multimedia Design</div>
+            <div>Division of Multimedia Design, Inje University.</div>
           </div>
         </div>
         <span className="copy-write">

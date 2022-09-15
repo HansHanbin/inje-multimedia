@@ -34,7 +34,7 @@ function ProjectMcontents() {
               </Link>
               <div>|</div>
               <Link to="/2022/project/vi">
-                <div className="major-vi">Visual Infomation Design</div>
+                <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>

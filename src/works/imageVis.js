@@ -24,11 +24,11 @@ const YEONHUI = {
 };
 
 const SEONGHO = {
-  work1: `${process.env.PUBLIC_URL}/assets/works/VI/Parkseongh/studio/Parkseongho_01.png.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/VI/Parkseongho/studio/Parkseongho_01.png.png`,
 };
 
 const JEONGHUN = {
-  work1: `${process.env.PUBLIC_URL}/assets/works/VI/Baekjeonghun/studio/Baekjeonghun_01.png.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/VI/Baekjeonghun/research/Baekjenghun_01.png.png`,
 };
 
 const JAEHOON = {

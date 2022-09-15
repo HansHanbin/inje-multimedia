@@ -22,7 +22,7 @@ function Features() {
               </Link>
               <div>|</div>
               <Link to="/2022/project/vi/studio">
-                <div className="major-vi">Visual Infomation Design</div>
+                <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>
@@ -186,6 +186,25 @@ function Features() {
                   profileEng="Kim Sieun"
                   profileMail="kns9559sn@gmail.com"
                   path="/2022/project/dc/:Sieun"
+                  work0={imageDcr.SIEUN.work0}
+                  work1={imageDcr.SIEUN.work1}
+                  work2={imageDcr.SIEUN.work2}
+                  work3={imageDcr.SIEUN.work3}
+                  work4={imageDcr.SIEUN.work4}
+                  work5={imageDcr.SIEUN.work5}
+                  work6={imageDcr.SIEUN.work6}
+                  work7={imageDcr.SIEUN.work7}
+                  work8={imageDcr.SIEUN.work8}
+                  work9={imageDcr.SIEUN.work9}
+                  work10={imageDcr.SIEUN.work10}
+                  work11={imageDcr.SIEUN.work11}
+                  work12={imageDcr.SIEUN.work12}
+                  work13={imageDcr.SIEUN.work13}
+                  work14={imageDcr.SIEUN.work14}
+                  work15={imageDcr.SIEUN.work15}
+                  work16={imageDcr.SIEUN.work16}
+                  work17={imageDcr.SIEUN.work17}
+                  work18={imageDcr.SIEUN.work18}
                 />
 
                 <FeaturesItem
@@ -323,6 +342,25 @@ function Features() {
                   profileEng="Lee Youngmin"
                   profileMail="rjscl343@naver.com"
                   path="/2022/project/dc/:Youngmin"
+                  work0={imageDcr.YM.work0}
+                  work1={imageDcr.YM.work1}
+                  work2={imageDcr.YM.work2}
+                  work3={imageDcr.YM.work3}
+                  work4={imageDcr.YM.work4}
+                  work5={imageDcr.YM.work5}
+                  work6={imageDcr.YM.work6}
+                  work7={imageDcr.YM.work7}
+                  work8={imageDcr.YM.work8}
+                  work9={imageDcr.YM.work9}
+                  work10={imageDcr.YM.work10}
+                  work11={imageDcr.YM.work11}
+                  work12={imageDcr.YM.work12}
+                  work13={imageDcr.YM.work13}
+                  work14={imageDcr.YM.work14}
+                  work15={imageDcr.YM.work15}
+                  work16={imageDcr.YM.work16}
+                  work17={imageDcr.YM.work17}
+                  work18={imageDcr.YM.work18}
                 />
 
                 <FeaturesItem

@@ -30,8 +30,7 @@ const HYEJIN = {
   work25: `${process.env.PUBLIC_URL}/assets/works/DC/Guhyejin/Studio/Guhyejin_25.png`,
   work26: `${process.env.PUBLIC_URL}/assets/works/DC/Guhyejin/Studio/Guhyejin_26.png`,
   work27: `${process.env.PUBLIC_URL}/assets/works/DC/Guhyejin/Studio/Guhyejin_27.png`,
-}
-
+};
 
 // 김기성
 const KISEONG = {
@@ -98,6 +97,27 @@ const MOONJU = {
 
 // 김시은
 
+const SIEUN = {
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_studio_mobileheader.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_01.png`,
+  work2: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_02.png`,
+  work3: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_03.png`,
+  work4: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_04.png`,
+  work5: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_05.png`,
+  work6: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_06.png`,
+  work7: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_07.png`,
+  work8: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_08.png`,
+  work9: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_09.png`,
+  work10: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_10.gif`,
+  work11: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_11.gif`,
+  work12: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_12.png`,
+  work13: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_13.png`,
+  work14: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_14.gif`,
+  work15: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_15.gif`,
+  work16: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_16.gif`,
+  work17: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_17.png`,
+  work18: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_18.png`,
+};
 
 // 박민규
 const MINGYU = {
@@ -123,12 +143,11 @@ const MINGYU = {
 
 //박성호
 const SH = {
-  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Parkseongho/Studio/Parkseongho_studio_mobileheader.png`,
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Parkseongho/Studio/Parkseongho_studio_mobileheader.png.png`,
   work1: `${process.env.PUBLIC_URL}/assets/works/DC/Parkseongho/Studio/Parkseongho_01.png.png`,
 };
 
 //백제훈
-
 
 //서보현
 const BH = {
@@ -138,7 +157,6 @@ const BH = {
 };
 
 //안도연
-
 
 //이도현
 const DH = {
@@ -164,15 +182,26 @@ const DH = {
 
 //이승연
 
-
 //이영민 - 해당파일이 pdf라 업로드 불가.
 const YM = {
   work0: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_studio_mobileheader.png`,
-  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_01.pdf`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_01.png`,
+  work2: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_02.png`,
+  work3: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_03.png`,
+  work4: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_04.png`,
+  work5: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_05.png`,
+  work6: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_06.png`,
+  work7: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_07.png`,
+  work8: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_08.png`,
+  work9: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_09.png`,
+  work10: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_10.png`,
+  work11: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_11.png`,
+  work12: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_12.png`,
+  work13: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_13.png`,
+  work14: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Studio/Leeyoungmin_14.png`,
 };
 
 //이한빈
-
 
 //장은교
 const EUNKYO = {
@@ -182,7 +211,6 @@ const EUNKYO = {
 };
 
 //정주현
-
 
 //조성래
 const SR = {
@@ -216,7 +244,7 @@ const SR = {
   work27: `${process.env.PUBLIC_URL}/assets/works/DC/Choseongrae/Studio/Choseongrae_27.png`,
   work28: `${process.env.PUBLIC_URL}/assets/works/DC/Choseongrae/Studio/Choseongrae_28.png`,
   work29: `${process.env.PUBLIC_URL}/assets/works/DC/Choseongrae/Studio/Choseongrae_29.png`,
-}
+};
 
 //조이현
 const IH = {
@@ -243,4 +271,19 @@ const CHANGHYUN = {
 
 // 다 작성한 학생 작품 이름 아래 반드시 기입!!
 
-export default { HYEJIN, KISEONG, NAYOUNG, MOONJU, MINGYU, SH, BH, DH, YM, EUNKYO, SR, IH, CHANGHYUN };
+export default {
+  HYEJIN,
+  KISEONG,
+  NAYOUNG,
+  MOONJU,
+  SIEUN,
+  MINGYU,
+  SH,
+  BH,
+  DH,
+  YM,
+  EUNKYO,
+  SR,
+  IH,
+  CHANGHYUN,
+};

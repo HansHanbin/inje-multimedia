@@ -97,7 +97,7 @@ function Header() {
                   }
                 >
                   <Link to="/2022/designer" className="list-item">
-                    Desginer
+                    Designer
                   </Link>
                 </li>
               </ul>

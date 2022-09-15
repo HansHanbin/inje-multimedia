@@ -37,7 +37,7 @@ function Home() {
             <div className="one-title-warpper">
               <h1>인제대학교 멀티미디어학부 2022 졸업전시회</h1>
               <h2>
-                Divison of Multimedia Design, Inje University
+                Division of Multimedia Design, Inje University
                 <br />
                 2022 Graduation Exhibition
               </h2>

@@ -55,7 +55,7 @@ function About() {
                 </li>
                 <li className="cards-item cards-item-vi">
                   <Cards
-                    main={"Visual Infomation Design"}
+                    main={"Visual Information Design"}
                     sub={"비주얼인포메이션디자인"}
                     description={
                       "비주얼인포메이션 디자인 전공은 정보 디자인을 기반으로 하는 시각디자인 전반과 데스크탑 퍼블리싱(DTP)를 포함한 과정을 담은 수업을 진행합니다."

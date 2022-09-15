@@ -79,6 +79,30 @@ const MOONJU = {
   work17: `${process.env.PUBLIC_URL}/assets/works/DC/Kimmoonju/Research/Kimmoonju_17.png`,
 };
 
+const SIEUN = {
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_research_mobileheader.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_01.png`,
+  work2: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_02.png`,
+  work3: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_03.png`,
+  work4: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_04.png`,
+  work5: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_05.png`,
+  work6: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_06.png`,
+  work7: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_07.png`,
+  work8: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_08.png`,
+  work9: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_09.png`,
+  work10: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_10.png`,
+  work11: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_11.png`,
+  work12: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_12.png`,
+  work13: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_13.gif`,
+  work14: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_14.gif`,
+  work15: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_15.png`,
+  work16: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_16.gif`,
+  work17: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_17.png`,
+  work18: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_18.gif`,
+  work19: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_19.gif`,
+  work20: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_20.png`,
+};
+
 const MINGYU = {
   work0: `${process.env.PUBLIC_URL}/assets/works/DC/Parkmingyu/Research/Parkmingyu_research_mobileheader.png`,
   work1: `${process.env.PUBLIC_URL}/assets/works/DC/Parkmingyu/Research/Parkmingyu_01.png`,
@@ -123,6 +147,28 @@ const DOHYEON = {
   work14: `${process.env.PUBLIC_URL}/assets/works/DC/Leedohyeon/Research/Leedohyeon_14.gif`,
   work15: `${process.env.PUBLIC_URL}/assets/works/DC/Leedohyeon/Research/Leedohyeon_15.png`,
   work16: `${process.env.PUBLIC_URL}/assets/works/DC/Leedohyeon/Research/Leedohyeon_16.gif`,
+};
+
+const YM = {
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_research_mobileheader.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_01.png`,
+  work2: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_02.png`,
+  work3: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_03.png`,
+  work4: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_04.png`,
+  work5: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_05.png`,
+  work6: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_06.png`,
+  work7: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_07.png`,
+  work8: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_08.png`,
+  work9: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_09.png`,
+  work10: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_10.png`,
+  work11: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_11.png`,
+  work12: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_12.png`,
+  work13: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_13.png`,
+  work14: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_14.png`,
+  work15: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_15.png`,
+  work16: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_16.png`,
+  work17: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_17.png`,
+  work18: `${process.env.PUBLIC_URL}/assets/works/DC/Leeyoungmin/Research/Leeyoungmin_18.png`,
 };
 
 const EUNKYO = {
@@ -178,4 +224,18 @@ const CHANGHYUN = {
 
 // 다 작성한 학생 작품 이름 아래 반드시 기입!!
 
-export default { HYEJIN, KISEONG, NAYOUNG, MOONJU, MINGYU, BOHYEON, DOHYEON, EUNKYO, SEONGRAE, YIHYEON, CHANGHYUN };
+export default {
+  HYEJIN,
+  KISEONG,
+  NAYOUNG,
+  MOONJU,
+  SIEUN,
+  MINGYU,
+  BOHYEON,
+  DOHYEON,
+  YM,
+  EUNKYO,
+  SEONGRAE,
+  YIHYEON,
+  CHANGHYUN,
+};

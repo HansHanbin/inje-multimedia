@@ -1969,7 +1969,7 @@ function Designer() {
                   alt="profile"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI16.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1988,7 +1988,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Yujin"
               state={{
-                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`,
                 name: "허유진",
                 major: "비주얼인포메이션디자인",
 
@@ -2002,7 +2002,7 @@ function Designer() {
                   alt="profile"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />

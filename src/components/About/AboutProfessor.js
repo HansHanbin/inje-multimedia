@@ -40,12 +40,20 @@ function AboutProfessor() {
             <div className="MajorName">디지털 콘텐츠</div>
             <div className="aboutProfessor-pic-name">
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pJeon.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">전우정 교수님</div>
                 <div className="ProfessorClass">DC스튜디오</div>
               </div>
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pLee.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">이승희 교수님</div>
                 <div className="ProfessorClass">DC졸업연구</div>
               </div>
@@ -56,13 +64,21 @@ function AboutProfessor() {
             <div className="MajorName">비주얼 인포메이션 디자인</div>
             <div className="aboutProfessor-pic-name">
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
-                <div className="ProfessorName">박수진 교수님</div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pPark.jpg`}
+                  />
+                </div>
+                <div className="ProfessorName">최인규 교수님</div>
                 <div className="ProfessorClass">VI스튜디오</div>
               </div>
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
-                <div className="ProfessorName">최인규 교수님</div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pChoi.jpg`}
+                  />
+                </div>
+                <div className="ProfessorName">박수진 교수님</div>
                 <div className="ProfessorClass">VI졸업연구</div>
               </div>
             </div>
@@ -72,12 +88,21 @@ function AboutProfessor() {
             <div className="MajorName">모션 미디어</div>
             <div className="aboutProfessor-pic-name">
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pKim.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">김석래 교수님</div>
                 <div className="ProfessorClass">MM스튜디오</div>
               </div>
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  {" "}
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pBaek.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">백재훈 교수님</div>
                 <div className="ProfessorClass">MM졸업연구</div>
               </div>
@@ -120,13 +145,21 @@ function AboutProfessor() {
               className={dcClick === true ? "pic-mobile-active" : "pic-mobile"}
             >
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pJeon.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">전우정 교수님</div>
                 <div className="ProfessorClass">DC스튜디오</div>
               </div>
 
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pLee.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">이승희 교수님</div>
                 <div className="ProfessorClass">DC졸업연구</div>
               </div>
@@ -135,13 +168,22 @@ function AboutProfessor() {
               className={viClick === true ? "pic-mobile-active" : "pic-mobile"}
             >
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  {" "}
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pChoi.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">최인규 교수님</div>
                 <div className="ProfessorClass">VI스튜디오</div>
               </div>
 
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pPark.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">박수진 교수님</div>
                 <div className="ProfessorClass">VI졸업연구</div>
               </div>
@@ -150,13 +192,21 @@ function AboutProfessor() {
               className={mmClick === true ? "pic-mobile-active" : "pic-mobile"}
             >
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pKim.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">김석래 교수님</div>
                 <div className="ProfessorClass">MM스튜디오</div>
               </div>
 
               <div className="aboutProfessor-pic">
-                <div className="ProfessorPic"></div>
+                <div className="ProfessorPic">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pBaek.jpg`}
+                  />
+                </div>
                 <div className="ProfessorName">백재훈 교수님</div>
                 <div className="ProfessorClass">MM졸업연구</div>
               </div>

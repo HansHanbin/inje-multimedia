@@ -24,7 +24,7 @@ function Features() {
               </Link>
               <div>|</div>
               <Link to="/2022/project/vi/studio">
-                <div className="major-vi active">Visual Infomation Design</div>
+                <div className="major-vi active">Visual Information Design</div>
                 <div className="major-mobile active">V.I</div>
               </Link>
               <div>|</div>
@@ -289,7 +289,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/15_research_header.png`}
                   featureName="책이에어"
                   featureDescription="사람들은 저마다의 다른 목적을 가지고 여행을 떠납니다. 여행은 과거의 힘든 일을 잊게 하고 미래를 나아갈 활력을 우리에게 줍니다. 하지만 일상을 벗어나 나를 위한 시간을 가진다는 것이 대부분의 사람들에게는 쉽지 않은 일입니다. 책이에어는 비행기를 컨셉으로 하여 사람들에게 익숙한 공간인 카페에서 책을 통해여행의 활력을 느낄 수 있게 해줍니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI16.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI15.gif`}
                   profileName="정성진"
                   profileEng="Jeong Seongjin"
                   profileMail="jsjpati@naver.com"
@@ -308,7 +308,6 @@ function Features() {
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
                   path="/2022/project/vi/:Juhyun"
-                  
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/17_research_thumbnail.png`}
@@ -331,7 +330,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/18_research_header.png`}
                   featureName="감싸다"
                   featureDescription="날카로운 물건을 버리는 방법이 알려지지 않아 버리는 방식도 제각각이다. 인간의 편의를 위해 만들어진 물건이 고유한 역할이나 기능을 완수하고 인간의 곁을 떠날 때 나타나는 불편함을 감싸주는 것으로 제 기능을 다 한 물건이 타인에게 큰 위협으로 다가올 수 있음을 알리고, 사고를 미연에 방지하기 위한 타인을 향한 작은 손짓과 같은 캠페인이다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI16.gif`}
                   profileName="최요셉"
                   profileEng="Choi Yosep"
                   profileMail="tozerothree@gmail.com"
@@ -345,7 +344,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_header.png`}
                   featureName="OROT"
                   featureDescription="유혹은 유(You)+혹(惑) ‘너를 혹하게 한다’라는 매혹적인 메시지를 담은 인센스 브랜드입니다. 유혹의 인센스 향을 맡으면 자신도 모르게 홀릴 정도로 치명적이다는 이미지를 신화 속에 나오는 ‘세이렌’으로 설정하였습니다. 세이렌과 항해사 둘 사이에 펼쳐지는 새로운 이야기와 일러스트를 담은 인센스를 느껴보세요. "
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI20.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
                   profileName="허유진"
                   profileEng="Heo Yujin"
                   profileMail="heoyujin9041@gmail.com"

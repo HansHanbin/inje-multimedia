@@ -94,7 +94,7 @@ function Project() {
                           </div>
                           <div className="project-wrapper-research">
                             <div className="project-wrapper__majorTitle">
-                              <strong>xDC졸업연구</strong>
+                              <strong>DC졸업연구</strong>
                               <br />
                               이승희 교수님
                             </div>

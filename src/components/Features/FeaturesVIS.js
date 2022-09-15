@@ -24,7 +24,7 @@ function Features() {
               </Link>
               <div>|</div>
               <Link to="/2022/project/vi/studio">
-                <div className="major-vi active">Visual Infomation Design</div>
+                <div className="major-vi active">Visual Information Design</div>
                 <div className="major-mobile active">V.I</div>
               </Link>
               <div>|</div>
@@ -192,10 +192,12 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/9_studio_thumbnail.png`}
                   name={"유지연"}
-                  description="런런"
+                  description="ZEROIN"
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/9_studio_header.png`}
-                  featureName="함께 달리는 즐거움, 런런"
-                  featureDescription="사람들은 살면서 집중해야 하는 상황에 자주 놓이게 됩니다. 이러한 상황에서 효율을 높이고 싶지만 어떻게 해야 할지 모르는 사람들을 위해서 서비스를 기획하였습니다. AWAVE는 뇌파를 이용하는 BCI 기술과 가전을 제어하는 IoT 기술을 이용하여 실내 환경을 조절하여 사용자가 최상의 집중력을 낼 수 있도록 돕는 서비스입니다."
+                  featureName="ZEROIN"
+                  featureDescription="제로인은 나에게 적합한 맞춤형 제로 웨이스트 미션을 받고 실천하는 제로 웨이스트 주간 미션 플랫폼입니다. 주어진 미션을 달성하는 도전 의식을 통해 일상에서 제로 웨이스트를 실천하도록 유도합니다. 지속적인 실천을 위해 주마다 미션이 바뀌고, 주어진 기간동안 부담없이 편리하게 제로 웨이스트를 실천할 수 있습니다.
+
+ "
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`}
                   profileName="유지연"
                   profileEng="Yu Jiyeon"
@@ -294,7 +296,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/15_studio_header.png`}
                   featureName="메타버스 회의방법"
                   featureDescription="다양한 회의 방식과 기술의 발전에 따른 회의의 변화를 살펴보고 사람들에게 알려줌으로써 회의에 대한 관심을 이끌고 상황에 맞는 적절한 방식을 선택할 수 있도록 돕습니다. 메타버스 플랫폼 ‘게더타운’을 이용한 메타버스 회의장을 제작하여 온라인상에서 사람들이 필요 방식에 맞는 회의장을 메타버스 안에서 이용할 수 있도록 제작했습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI16.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI15.gif`}
                   profileName="정성진"
                   profileEng="Jeong Seongjin"
                   profileMail="jsjpati@naver.com"
@@ -335,7 +337,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/18_studio_header.png`}
                   featureName="식용곤충 브랜드 디자인"
                   featureDescription="2050년에는 90억 명에 이를 것으로 전망된다. 현재보다 2배 정도의 식량이 더 필요하다 미래의 기아 퇴치, 영양보충, 환경오염 등을 위한 대비로 전 세계가 식용 곤충을 주목하게 되었다 지구촌 모두가 걱정없이 먹을 수 있는 식품을 만들겠다는 열정과 실력으로 만들어진 대한민국 대표 친환경 단백질식품소재회사로서 우수한 품질의 소재 및 식품을 선보이고 있다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI16.gif`}
                   profileName="최요셉"
                   profileEng="Choi Yosep"
                   profileMail="tozerothree@gmail.com"
@@ -349,7 +351,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/19_studio_header.png`}
                   featureName="베지테리언 복합문화공간"
                   featureDescription="우리 사회는 비건 마케팅 선호를 넘어 이제는 소비자가 적극적으로 각자만의 베지테리언 생활과 문화에 정착하고 있습니다. 이를 통해 기본적인 스토어에 오로지 베지테리언 상품만을 카테고리별로 판매하는 구매 서비스와 더불어 베지테리언 유형별로 채식 관련 문화도 경험할 수 있는 베지테리언 복합문화공간 ‘오롯’을 만들게 되었습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI20.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
                   profileName="허유진"
                   profileEng="Heo Yujin"
                   profileMail="heoyujin9041@gmail.com"

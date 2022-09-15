@@ -28,7 +28,7 @@ const SEONGHO = {
 };
 
 const JEONGHUN = {
-  work1: `${process.env.PUBLIC_URL}/assets/works/VI/Baekjeonghun/research/Baekjenghun_01.png.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/VI/Baekjeonghun/studio/Baekjeonghun_01.png.png`,
 };
 
 const JAEHOON = {
@@ -87,8 +87,6 @@ const SEONGJIN = {
   work1: `${process.env.PUBLIC_URL}/assets/works/VI/Jeongseongjin/research/Jeongseongjin_01.png.png`,
 };
 
-
-
 const KANGWON = {
   work1: `${process.env.PUBLIC_URL}/assets/works/VI/Jikangwon/research/Jikangwon_01.png.png`,
 };
@@ -103,4 +101,24 @@ const YUJIN = {
 
 // 다 작성한 학생 작품 이름 아래 반드시 기입!!
 
-export default { JUEON, HYOBIN, YUNSEOK, CHOHEE, YEONHUI, SEONGHO, JEONGHUN, JAEHOON, BOEUN, JIYEON, MINJU, JAEHEE, HYEONWOO, SUYOUNG, JAESEOK, SEONGJIN, KANGWON, YOSEP, YUJIN };
+export default {
+  JUEON,
+  HYOBIN,
+  YUNSEOK,
+  CHOHEE,
+  YEONHUI,
+  SEONGHO,
+  JEONGHUN,
+  JAEHOON,
+  BOEUN,
+  JIYEON,
+  MINJU,
+  JAEHEE,
+  HYEONWOO,
+  SUYOUNG,
+  JAESEOK,
+  SEONGJIN,
+  KANGWON,
+  YOSEP,
+  YUJIN,
+};
