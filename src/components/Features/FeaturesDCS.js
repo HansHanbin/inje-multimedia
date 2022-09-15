@@ -85,10 +85,12 @@ function Features() {
                   work21={imageDcs.HYEJIN.work21}
                   work22={imageDcs.HYEJIN.work22}
                   work23={imageDcs.HYEJIN.work23}
-                  work24={imageDcs.HYEJIN.worl24}
+                  work24={imageDcs.HYEJIN.work24}
                   work25={imageDcs.HYEJIN.work25}
                   work26={imageDcs.HYEJIN.work26}
                   work27={imageDcs.HYEJIN.work27}
+                  lightMode={imageDcs.HYEJIN.lightMode}
+                  darkMode={imageDcs.HYEJIN.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_studio_thumbnail.png`}
@@ -122,6 +124,8 @@ function Features() {
                   work17={imageDcs.KISEONG.work17}
                   work18={imageDcs.KISEONG.work18}
                   work19={imageDcs.KISEONG.work19}
+                  lightMode={imageDcs.KISEONG.lightMode}
+                  darkMode={imageDcs.KISEONG.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/3_studio_thumbnail.png`}
@@ -150,7 +154,8 @@ function Features() {
                   work12={imageDcs.NAYOUNG.work12}
                   work13={imageDcs.NAYOUNG.work13}
                   work14={imageDcs.NAYOUNG.work14}
-                  work15={imageDcs.NAYOUNG.work15}
+                  lightMode={imageDcs.NAYOUNG.lightMode}
+                  darkMode={imageDcs.NAYOUNG.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_studio_thumbnail.png`}
@@ -180,6 +185,8 @@ function Features() {
                   work13={imageDcs.MOONJU.work13}
                   work14={imageDcs.MOONJU.work14}
                   work15={imageDcs.MOONJU.work15}
+                  lightMode={imageDcs.MOONJU.lightMode}
+                  darkMode={imageDcs.MOONJU.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/5_studio_thumbnail.png`}
@@ -212,6 +219,8 @@ function Features() {
                   work16={imageDcs.SIEUN.work16}
                   work17={imageDcs.SIEUN.work17}
                   work18={imageDcs.SIEUN.work18}
+                  lightMode={imageDcs.SIEUN.lightMode}
+                  darkMode={imageDcs.SIEUN.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/6_studio_thumbnail.png`}
@@ -243,6 +252,8 @@ function Features() {
                   work15={imageDcs.MINGYU.work15}
                   work16={imageDcs.MINGYU.work16}
                   work17={imageDcs.MINGYU.work17}
+                  lightMode={imageDcs.MINGYU.lightMode}
+                  darkMode={imageDcs.MINGYU.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/00_studio_thumbnail.png`}
@@ -258,6 +269,8 @@ function Features() {
                   path="/2022/project/dc/:Seongho"
                   work0={imageDcs.SH.work0}
                   work1={imageDcs.SH.work1}
+                  lightMode={imageDcs.SH.lightMode}
+                  darkMode={imageDcs.SH.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/7_studio_thumbnail.png`}
@@ -275,9 +288,9 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/8_studio_thumbnail.png`}
                   name={"서보현"}
-                  description="데롱"
+                  description="Derong"
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/8_studio_header.png`}
-                  featureName="데롱"
+                  featureName="Derong"
                   featureDescription="데롱은 복잡한 오해를 심해라고 빗대어 표현하였습니다. 자신의 정보를 등록하여 나만의 심해 즉 데롱을 제작합니다. 이는 심해 속에 해파리가 있는 모습으로 제작이 되며 친구들의 데롱의 모습과 정보 또한 알 수 있습니다. 친구들과의 대화와 질문을 통해 서로를 알아가고 오해를 해결할 수 있도록 도와주는 서비스입니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC7.gif`}
                   profileName="서보현"
@@ -287,6 +300,8 @@ function Features() {
                   work0={imageDcs.BH.work0}
                   work1={imageDcs.BH.work1}
                   work2={imageDcs.BH.work2}
+                  lightMode={imageDcs.BH.lightMode}
+                  darkMode={imageDcs.BH.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/9_studio_thumbnail.png`}
@@ -331,6 +346,8 @@ function Features() {
                   work15={imageDcs.DH.work15}
                   work16={imageDcs.DH.work16}
                   work17={imageDcs.DH.work17}
+                  lightMode={imageDcs.DH.lightMode}
+                  darkMode={imageDcs.DH.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/11_studio_thumbnail.png`}
@@ -372,6 +389,8 @@ function Features() {
                   work12={imageDcs.YM.work12}
                   work13={imageDcs.YM.work13}
                   work14={imageDcs.YM.work14}
+                  lightMode={imageDcs.YM.lightMode}
+                  darkMode={imageDcs.YM.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
@@ -401,6 +420,8 @@ function Features() {
                   work0={imageDcs.EUNKYO.work0}
                   work1={imageDcs.EUNKYO.work1}
                   work2={imageDcs.EUNKYO.work2}
+                  lightMode={imageDcs.EUNKYO.lightMode}
+                  darkMode={imageDcs.EUNKYO.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/15_studio_thumbnail.png`}
@@ -418,10 +439,10 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/16_studio_thumbnail.png`}
                   name={"조성래"}
-                  description={"Hi, Tap"}
+                  description={"OE WORLD"}
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/16_studio_header.png`}
-                  featureName="Hi, Tap"
-                  featureDescription="치매노인 부양이 힘드신가요? 치매노인이 걱정된다면 웨어러블 디바이스를 연결 후 치매노인의 현 위치, 건강 상태를 실시간으로 확인하세요 보호자와 치매노인은 관계 및 소통이 가장 중요한 만큼 Hi, Tap에선 일정 알림, 돌보미 매칭, 돌봄 일지 관리 등 다양한 콘텐츠가 준비되어 있습니다 지금부터 앱을 소개합니다!"
+                  featureName="OE WORLD"
+                  featureDescription="비용, 팬데믹 등으로 인해 해외로 나가기 힘든 요즘 집에서도 해외여행을 즐길 수 있다? 여행 또는 해외출장을 위한 사전답사 및 비용에 대한 예산관리를 진행 OE WORLD의 메인 키워드는 ‘경험’이며 증강현실을 활용한 콘텐츠를 가상현실에서 즐길 수 있도록 준비했습니다. 이제 집에서 다른 나라의 문화, 쇼핑, 분위기 등을 경험하세요"
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC15.gif`}
                   profileName="조성래"
                   profileEng="Cho Seongrae"
@@ -451,12 +472,14 @@ function Features() {
                   work21={imageDcs.SR.work21}
                   work22={imageDcs.SR.work22}
                   work23={imageDcs.SR.work23}
-                  work24={imageDcs.SR.worl24}
+                  work24={imageDcs.SR.work24}
                   work25={imageDcs.SR.work25}
                   work26={imageDcs.SR.work26}
                   work27={imageDcs.SR.work27}
                   work28={imageDcs.SR.work28}
                   work29={imageDcs.SR.work29}
+                  lightMode={imageDcs.SR.lightMode}
+                  darkMode={imageDcs.SR.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/17_studio_thumbnail.png`}
@@ -479,6 +502,8 @@ function Features() {
                   work6={imageDcs.IH.work6}
                   work7={imageDcs.IH.work7}
                   work8={imageDcs.IH.work8}
+                  lightMode={imageDcs.IH.lightMode}
+                  darkMode={imageDcs.IH.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/18_studio_thumbnail.png`}
@@ -498,16 +523,8 @@ function Features() {
                   work3={imageDcs.CHANGHYUN.work3}
                   work4={imageDcs.CHANGHYUN.work4}
                   work5={imageDcs.CHANGHYUN.work5}
-                  work6={imageDcs.CHANGHYUN.work6}
-                  work7={imageDcs.CHANGHYUN.work7}
-                  work8={imageDcs.CHANGHYUN.work8}
-                  work9={imageDcs.CHANGHYUN.work9}
-                  work10={imageDcs.CHANGHYUN.work10}
-                  work11={imageDcs.CHANGHYUN.work11}
-                  work12={imageDcs.CHANGHYUN.work12}
-                  work13={imageDcs.CHANGHYUN.work13}
-                  work14={imageDcs.CHANGHYUN.work14}
-                  work15={imageDcs.CHANGHYUN.work15}
+                  lightMode={imageDcs.CHANGHYUN.lightMode}
+                  darkMode={imageDcs.CHANGHYUN.darkMode}
                 />
               </ul>
             </div>

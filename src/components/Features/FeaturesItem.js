@@ -46,6 +46,8 @@ function FeaturesItem(props) {
             work28: props.work28,
             work29: props.work29,
             work30: props.work30,
+            lightMode: props.lightMode,
+            darkMode: props.darkMode,
           }}
         >
           <div className="features-image-hover">

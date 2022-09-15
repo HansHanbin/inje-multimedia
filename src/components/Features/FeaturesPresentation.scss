@@ -41,12 +41,13 @@
       img {
         display: block;
         border-style: none;
+        width: 100%;
       }
       .mobile-title {
         display: none;
       }
       .none {
-        display: none;
+        display: none !important;
       }
       .first {
         width: 100%;

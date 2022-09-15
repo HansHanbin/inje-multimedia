@@ -58,7 +58,7 @@ function Features() {
                   featureDescription="우주 산업이 나날이 발전하고 있는 지금, 기술의 발전으로 전문적으로 훈련받은 우주비행사 뿐만 아니라 민간인들도 우주에 갈 수 있게 되었습니다. 저는 더 발전된 미래에는 민간인이 우주왕복선을 개인소유할 수 있을 것이라고 상상했고, 일상에서도 쉽게 사용이 가능한 우주선 IOT 서비스를 만들어보고 싶어 이 프로젝트를 기획하게 되었습니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC1.gif`}
                   profileName="구혜진"
-                  profileEng="Gu Heyjin"
+                  profileEng="Gu Hyejin"
                   profileMail="fpqlt_326998@naver.com"
                   path="/2022/project/dc/:Hyejin"
                   work0={imageDcr.HYEJIN.work0}
@@ -257,9 +257,9 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/8_research_thumbnail.png`}
                   name={"서보현"}
-                  description={"베비케어"}
+                  description={"BEBICARE"}
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/8_research_header.png`}
-                  featureName="베비케어"
+                  featureName="BEBICARE"
                   featureDescription="베비케어는 아토피 피부염에 걸린 아이를 키우고 있지만 병원에 방문할 시간이 마땅치 않거나 병원이 문을 열지 않은 시간에도 진료를 받고 싶거나, 아토피 케어를 하고 싶은 분들을 대상으로 제작되었습니다. 비대면 진료, AI 진료, 목욕을 관리해 줘 아이의 아토피에 대해 정확하고 빠른 케어할 수 있도록 도와주는 서비스입니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC7.gif`}
                   profileName="서보현"
@@ -467,9 +467,9 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/18_research_thumbnail.png`}
                   name={"지창현"}
-                  description="MONASIS"
+                  description="MUNASIS"
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/18_research_header.png`}
-                  featureName="MONASIS"
+                  featureName="MUNASIS"
                   featureDescription="문아시스는 공통의 관심사를 가진 사람들을 하나로 연결해 주는 서비스입니다. 메타버스 공간인 문아시스에서 다양한 사람들과 작품에 대해서 이야기하고 함께 작품을 쓸 수 있습니다. 또한 대사 사운드화로 생동감 있는 작품을 만들 수 있습니다. 창작이라는 벽 앞에서 잠시 쉬고 위안이 되는 오아시스 같은 곳이 되었으면 하는 고민이 담겨있습니다. "
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC17.gif`}
                   profileName="지창현"

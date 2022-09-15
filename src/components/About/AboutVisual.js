@@ -13,7 +13,7 @@ function AboutVisual() {
         <div className="about-visual-wrapper">
           <div className="about-visual-title">
             졸업전시회 <br />
-            VIsual Identity
+            Visual Identity
           </div>
 
           <div className="about-visual-images">

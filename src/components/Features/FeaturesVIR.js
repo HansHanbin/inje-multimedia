@@ -340,9 +340,9 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_thumbnail.png`}
                   name={"허유진"}
-                  description="OROT"
+                  description="UHOK"
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_header.png`}
-                  featureName="OROT"
+                  featureName="UHOK"
                   featureDescription="유혹은 유(You)+혹(惑) ‘너를 혹하게 한다’라는 매혹적인 메시지를 담은 인센스 브랜드입니다. 유혹의 인센스 향을 맡으면 자신도 모르게 홀릴 정도로 치명적이다는 이미지를 신화 속에 나오는 ‘세이렌’으로 설정하였습니다. 세이렌과 항해사 둘 사이에 펼쳐지는 새로운 이야기와 일러스트를 담은 인센스를 느껴보세요. "
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
                   profileName="허유진"

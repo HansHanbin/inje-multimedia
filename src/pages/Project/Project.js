@@ -89,7 +89,7 @@ function Project() {
                               인간, 사회, 환경, 문화, 기술 등 다양한 분야의
                               주제를 발굴하여, 서비스디자인 관점에서 해당 문제를
                               깊이있게 탐색 한 후, 어플리케이션 UX/UI 디자인 및
-                              프로토타입 제작 을 통해 해결안을 제안한다.
+                              프로토타입 제작을 통해 해결안을 제안한다.
                             </div>
                           </div>
                           <div className="project-wrapper-research">

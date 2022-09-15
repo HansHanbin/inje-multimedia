@@ -51,6 +51,8 @@ function FeaturesPresentation() {
   const work28 = location.state.work28;
   const work29 = location.state.work29;
   const work30 = location.state.work30;
+  const lightMode = location.state.lightMode;
+  const darkMode = location.state.darkMode;
 
   console.log(location);
 
@@ -62,6 +64,14 @@ function FeaturesPresentation() {
 
   const [light, setLight] = useState(false);
   const onLightClick = () => setLight(!light);
+
+  useEffect(() => {
+    if (light) {
+      document.body.style.backgroundColor = "#222";
+    } else {
+      document.body.style.backgroundColor = "#fdfdfd";
+    }
+  }, [light]);
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -117,7 +127,6 @@ function FeaturesPresentation() {
       setB(true);
     }
   };
-
   const onC = () => {
     if (work2 === undefined) {
       setC(false);
@@ -125,7 +134,6 @@ function FeaturesPresentation() {
       setC(true);
     }
   };
-
   const onD = () => {
     if (work3 === undefined) {
       setD(false);
@@ -133,7 +141,6 @@ function FeaturesPresentation() {
       setD(true);
     }
   };
-
   const onE = () => {
     if (work4 === undefined) {
       setE(false);
@@ -563,6 +570,7 @@ function FeaturesPresentation() {
               onLoad={onFF}
               className={ff === false ? "pt-work none" : "pt-work"}
             />
+            <img src={light === false ? lightMode : darkMode} />
           </div>
 
           <div className="pt-profile-bottom">

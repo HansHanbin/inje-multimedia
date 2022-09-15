@@ -331,7 +331,7 @@ function Designer() {
                 />
               </div>
               <div className="DesignerList-name-kor">공효빈</div>
-              <div className="DesignerList-name-eng">Gong Hoybin</div>
+              <div className="DesignerList-name-eng">Gong Hyobin</div>
             </Link>
           </li>
           <li
@@ -376,7 +376,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Hyejin"
               state={{
-                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC1.gif`,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC1.gif`,
                 name: "구혜진",
                 eng: "Gu Hyejin",
                 major: "디지털콘텐츠",
@@ -556,7 +556,7 @@ function Designer() {
                 />
               </div>
               <div className="DesignerList-name-kor">김병준</div>
-              <div className="DesignerList-name-eng">Kim ByeongJun</div>
+              <div className="DesignerList-name-eng">Kim Byeongjun</div>
             </Link>
           </li>{" "}
           <li
@@ -885,7 +885,7 @@ function Designer() {
                 />
               </div>
               <div className="DesignerList-name-kor">문성희</div>
-              <div className="DesignerList-name-eng">Moon SungHee</div>
+              <div className="DesignerList-name-eng">Moon Sunghee</div>
             </Link>
           </li>{" "}
           <li
