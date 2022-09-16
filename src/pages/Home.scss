@@ -217,7 +217,7 @@
         .two-description {
           font-size: 0.875rem;
           z-index: 100;
-          margin-bottom: 128px;
+          margin-bottom: 60px;
         }
         .two-viewProejct {
           width: 80%;
@@ -225,4 +225,7 @@
       }
     }
   }
+}
+
+@media screen and (max-height: 700px) {
 }
