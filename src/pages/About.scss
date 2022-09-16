@@ -270,6 +270,9 @@
       .cards-item {
         scroll-snap-align: center;
       }
+      .cards-item-mm {
+        margin-right: 40px;
+      }
     }
     .cards-indicators-wrapper {
       display: flex;

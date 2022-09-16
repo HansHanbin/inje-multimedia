@@ -65,6 +65,9 @@
 
 @media screen and (max-width: 1200px) {
   .about-visual {
+    .about-visual-wrapper {
+      margin-top: 120px;
+    }
     .about-visual-title {
       font-size: 1.5rem !important;
       font-weight: 700;
@@ -100,6 +103,7 @@
   .about-visual {
     padding: 0 20px;
     .about-visual-wrapper {
+      margin: 0 auto;
       .about-visual-title {
         font-size: 1.5rem !important;
         margin: 0 auto;
