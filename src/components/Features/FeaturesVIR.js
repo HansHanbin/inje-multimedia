@@ -52,60 +52,18 @@ function Features() {
             <div className="features-wrapper">
               <ul className="features-items">
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/1_research_thumbnail.png`}
-                  name={"강주언"}
-                  description={"봉황문 인문보"}
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/1_research_header.png`}
-                  featureName="봉황문 인문보"
-                  featureDescription="종이 화병이란 재활용으로 모아둔 병, 캔 등을 화병으로 사용할 때 쓸 수 있는 종이로 된 커버입니다. 종이 화병에 일러스트로 그린 그림은 봉황문인문보 (鳳凰紋引紋袱)를 모티브로 하여 디자인 하였습니다. 봉황문인문보는 조선 왕실에서는 귀중한 물건을 포장한 비단 보자기중 하나로 부귀, 장수 등 염원을 담고 있습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI1.gif`}
-                  profileName="강주언"
-                  profileEng="Kang Jueon"
-                  profileMail="3349520@naver.com"
-                  path="/2022/project/vi/:Jueon"
-                  work1={imageVir.JUEON.work1}
-                />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/2_research_thumbnail.png`}
-                  name="공효빈"
-                  description="우리바다 함께海"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/2_research_header.png`}
-                  featureName="우리바다 함께海"
-                  featureDescription="우리 모두는 서로 유기적으로 연결되어 있으며 원인이 있으면 결과가 있는 인과관계 속에서 살아간다. 즉, 우리는 혼자 살아갈 수 없으며 수레바퀴에 맞물리듯 서로에게 영향을 준다. 한쪽의 균형이 무너진다면 다른 쪽도 무너질 수밖에 없다. 이와 같은 생각하에 조화롭게 살아가고자 하는 염원을 담아 ‘공존(共存)’이라는 주제를 선정하게 되었다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI2.gif`}
-                  profileName="공효빈"
-                  profileEng="Gong Hyobin"
-                  profileMail="hyob1130@naver.com"
-                  path="/2022/project/vi/:Hyobin"
-                  work1={imageVir.HYOBIN.work1}
-                />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/3_research_thumbnail.png`}
-                  name={"곽윤석"}
-                  description="Bum Stay"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/3_research_header.png`}
-                  featureName="Bum Stay"
-                  featureDescription="다양한 콘셉트들의 카페들이 인기를 끌고 있는 가운데 범 스테이는 카페에 픽셀이라 는 콘셉트를 접목시켜 픽셀이 위주가 되는 카페이며 종이를 이용한 패키지와 주된 범 캐릭터(캐릭터의 호랑이는 98년생의 범띠에서 따온 캐릭터)를 이용한 종이접기를 이 용해 볼 수 있으며 온라인에서도 게더타운을 이용하여 메타버스로 즐길 수 있다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI3.gif`}
-                  profileName={"곽윤석"}
-                  profileEng={"Kwak Yunseok"}
-                  profileMail="dbstjr_98@naver.com"
-                  path="/2022/project/vi/:Yunseok"
-                  work1={imageVir.YUNSEOK.work1}
-                />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/4_research_thumbnail.png`}
-                  name="김초희"
-                  description="언더더씨 "
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/4_research_header.png`}
-                  featureName="언더더씨 "
-                  featureDescription="언더더씨 캠페인은 식량이나 기름, 환경 등의 이유로 멸종 위기에 처한 해양 동물들을 다시 상기시켜주고 보호하기 위해서 시작한 캠페인 입니다. 그래서 대표 해양 동물로 북극곰, 푸른바다거북, 해달, 상괭이, 점박이 물범을 미니멀하게 캐릭터를 디자인하여 환경 캠페인의 캐릭터를 개발하였습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI4.gif`}
-                  profileName="김초희"
-                  profileEng="Kim Chohee"
-                  profileMail="kch1571@daum.net"
-                  path="/2022/project/vi/:Chohee"
-                  work1={imageVir.CHOHEE.work1}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/00_research_thumbnail.png`}
+                  name="박성호"
+                  description="만들지"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/00_research_header.png`}
+                  featureName="만들지"
+                  featureDescription="무언가를 꾸미며 만들기를 좋아하거나 자신만의 제품을 만들어 나가고 싶어 하는 사람들을 위해 종이를 활용한 제품과 다양한 문구를 직접 커스텀하고 꾸밀 수 있는 공간이 있으면 좋겠다고 생각을 하여 종이로 만들어진 다양한 제품들을 활용해 마음껏 표현해 볼 수 있는 만들지 페이퍼 숍 입니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI6.gif`}
+                  profileName="박성호"
+                  profileEng={"Park Seongho"}
+                  profileMail="atree3682@daum.net"
+                  path="/2022/project/vi/:Seongho"
+                  work1={imageVir.SEONGHO.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/5_research_thumbnail.png`}
@@ -122,75 +80,18 @@ function Features() {
                   work1={imageVir.YEONHUI.work1}
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/00_research_thumbnail.png`}
-                  name="박성호"
-                  description="만들지"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/00_research_header.png`}
-                  featureName="만들지"
-                  featureDescription="무언가를 꾸미며 만들기를 좋아하거나 자신만의 제품을 만들어 나가고 싶어 하는 사람들을 위해 종이를 활용한 제품과 다양한 문구를 직접 커스텀하고 꾸밀 수 있는 공간이 있으면 좋겠다고 생각을 하여 종이로 만들어진 다양한 제품들을 활용해 마음껏 표현해 볼 수 있는 만들지 페이퍼 숍 입니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI6.gif`}
-                  profileName="박성호"
-                  profileEng={"Park Seongho"}
-                  profileMail="atree3682@daum.net"
-                  path="/2022/project/vi/:Seongho"
-                  work1={imageVir.SEONGHO.work1}
-                />
-
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/6_research_thumbnail.png`}
-                  name={"백정훈"}
-                  description="GAP"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_studio_header.png`}
-                  featureName="GAP"
-                  featureDescription="프로젝트 네임 'GAP'은 현시대 게임 중독의 추세와 개념을 알려주고 게임 중독 테스트를 통해서 자신의 게임 중독지수를 판단할 수 있게, 그리고 중독 유형을 분리하고 분석해서 게임마다 어느 중독 유형을 가지고 있는지를 중독 유형 픽토그램을 통해서 알려줘서 스스로 게임 중독에 대해 경계할 수 있는 기회를 제시하는 프로젝트입니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`}
-                  profileName="백정훈"
-                  profileEng="Baek Jeonghun"
-                  profileMail="duemno99@naver.com"
-                  path="/2022/project/vi/:Jeonghun"
-                  work1={imageVir.JEONGHUN.work1}
-                />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_thumbnail.png`}
-                  name={"백제훈"}
-                  description="Shall we play?"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_header.png`}
-                  featureName="Shall we play?"
-                  featureDescription="플레잉 카드. 카드놀이 혹은 마술에 사용되는 트럼프 카드라고도 불리는 이 카드들은 오늘 날 다양한 컨셉, 다양한 디자인을 선보이기도 합니다. 카드놀이뿐만 아니라 수집, 전시용으로 사용되기도 합니다. 이 트럼프 카드 세트는 약간의 무서움, 약간의 기괴함을 보여줍니다. 놀이용으로도 가능하지만 장식용으로 사용하게 될 경우 이 무시무시한 카드는 진가를 발휘하게 될 것입니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI8.gif`}
-                  profileName="백제훈"
-                  profileEng="Baek Jaehoon"
-                  profileMail="bjh990225@gmail.com"
-                  path="/2022/project/vi/:Jaehoon"
-                  work1={imageVir.JAEHOON.work1}
-                />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/8_research_thumbnail.png`}
-                  name={"서보은"}
-                  description="Gardoom"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/8_research_header.png`}
-                  featureName="Gardoom"
-                  featureDescription="가둠은 홈가드닝의 어려움을 겪고 있는 초보자들의 입장에서 생각한 브랜드로, 어떻게 하면 쉽고 간단히 관리 할 수 있을지를 중점적으로 고민하여 제작한 식물 키트 서비스이다. 가둠은 Gardeen+Room의 합성어로, 내 방에 작은 정원을 가둔다는 의미를 담고 있으며, 소비자들의 인테리어와 가드닝을 동시에 만족시키는 브랜드라 할 수 있다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI9.gif`}
-                  profileName="서보은"
-                  profileEng="Seo Boeun"
-                  profileMail=""
-                  path="/2022/project/vi/:Boeun"
-                  work1={imageVir.BOEUN.work1}
-                />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/9_research_thumbnail.png`}
-                  name={"유지연"}
-                  description="PETTAM"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/9_research_header.png`}
-                  featureName="PETTAM"
-                  featureDescription="펫탐은 소중한 반려동물을 위해 더 보살펴주고 기록하기 위한 키트 브랜드입니다. 반려동물의 상황을 체크할 수 있는 달력과 스티커, 종이테이프, 메모지, 반려동물의 건강에 도움되는 간식 패키지로 구성되어있습니다. 펫탐은 빠르고 간편한 기록이 가능하며, 나의 소중한 반려동물의 상황을 달력으로 한 눈에 볼 수 있습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`}
-                  profileName="유지연"
-                  profileEng="Yu Jiyeon"
-                  profileMail="sbe3410@naver.com"
-                  path="/2022/project/vi/:Jiyeon"
-                  work1={imageVir.JIYEON.work1}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_thumbnail.png`}
+                  name={"허유진"}
+                  description="UHOK"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_header.png`}
+                  featureName="UHOK"
+                  featureDescription="유혹은 유(You)+혹(惑) ‘너를 혹하게 한다’라는 매혹적인 메시지를 담은 인센스 브랜드입니다. 유혹의 인센스 향을 맡으면 자신도 모르게 홀릴 정도로 치명적이다는 이미지를 신화 속에 나오는 ‘세이렌’으로 설정하였습니다. 세이렌과 항해사 둘 사이에 펼쳐지는 새로운 이야기와 일러스트를 담은 인센스를 느껴보세요. "
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
+                  profileName="허유진"
+                  profileEng="Heo Yujin"
+                  profileMail="heoyujin9041@gmail.com"
+                  path="/2022/project/vi/:Yujin"
+                  work1={imageVir.YUJIN.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/10_research_thumbnail.png`}
@@ -207,18 +108,18 @@ function Features() {
                   work1={imageVir.MINJU.work1}
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/11_research_thumbnail.png`}
-                  name={"이재희"}
-                  description={"NO ONE HAS SAME IDENTITY"}
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/11_research_header.png`}
-                  featureName="NO ONE HAS SAME IDENTITY"
-                  featureDescription="'<NO ONE HAS SAME IDENTITY>는 직접 제작한 3,000,000개의 NFT 아바타 이미지 중 365개를 선정해서 일 단위 달력을 디자인 해보는 프로젝트입니다. “가장 디지털적인 요소인 NFT를 이용해 가장 아날로그적인 달력을 만들어 본다”는 행위에서 오는 아이러니가 본 프로젝트의 매력이자 재미입니다. "
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI12.gif`}
-                  profileName="이재희"
-                  profileEng="Lee Jaehee"
-                  profileMail="leejh6873@naver.com"
-                  path="/2022/project/vi/:Jaehee"
-                  work1={imageVir.JAEHEE.work1}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/2_research_thumbnail.png`}
+                  name="공효빈"
+                  description="우리바다 함께海"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/2_research_header.png`}
+                  featureName="우리바다 함께海"
+                  featureDescription="우리 모두는 서로 유기적으로 연결되어 있으며 원인이 있으면 결과가 있는 인과관계 속에서 살아간다. 즉, 우리는 혼자 살아갈 수 없으며 수레바퀴에 맞물리듯 서로에게 영향을 준다. 한쪽의 균형이 무너진다면 다른 쪽도 무너질 수밖에 없다. 이와 같은 생각하에 조화롭게 살아가고자 하는 염원을 담아 ‘공존(共存)’이라는 주제를 선정하게 되었다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI2.gif`}
+                  profileName="공효빈"
+                  profileEng="Gong Hyobin"
+                  profileMail="hyob1130@naver.com"
+                  path="/2022/project/vi/:Hyobin"
+                  work1={imageVir.HYOBIN.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/12_research_thumbnail.png`}
@@ -255,34 +156,6 @@ function Features() {
                   work21={imageVir.HYEONWOO.work21}
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/13_research_thumbnail.png`}
-                  name={"장수영"}
-                  description="Whale with 하나"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/13_research_header.png`}
-                  featureName="Whale with 하나"
-                  featureDescription="'Whale with 하나' 고래 멸종 위기 캠페인입니다. 고래 중에서 급격히 대형 고래 종이 멸종 위기가 많다고 합니다. 디자인은 포장 박스를 통해서 대형 고래를 죽어 나가는 외로움을 막기 위해서입니다. 대형 고래는 자주 볼 수 있는 동물이 아니기 때문에 친근함이 될 수 있도록 합니다. 캠페인을 통해 완화되는 게 목표입니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI14.gif`}
-                  profileName="장수영"
-                  profileEng="Jang Suyoung"
-                  profileMail="wkdtndud0426@naver.com"
-                  path="/2022/project/vi/:Suyoung"
-                  work1={imageVir.SUYOUNG.work1}
-                />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_thumbnail.png`}
-                  name={"장재석"}
-                  description={"Instant Tale"}
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_header.png`}
-                  featureName="Instant Tale"
-                  featureDescription="요즘 미술관에 가면 대부분의 사람들이 유명한 작가들의 작품을 찾아 다니며 자신이 작품과 함께 찍은 사진을 SNS에 업로드 함으로서 지적인 이미지를 만들어낸다. 과연 이들은 무엇을 위해 이미지를 만들고 예술을 감상하는가. 경쟁이 과열된 현대사회에서 내재되어 있는 지적 허영심의 근원을 추적하고 앞으로 어떻게 다룰지 생각하는 계기가 되었으면 한다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
-                  profileName="장재석"
-                  profileEng="Jang Jaeseok"
-                  profileMail="bm34c@naver.com"
-                  path="/2022/project/vi/:Jaeseok"
-                  work1={imageVir.JAESEOK.work1}
-                />
-                <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/15_research_thumbnail.png`}
                   name={"정성진"}
                   description={"책이에어"}
@@ -310,18 +183,18 @@ function Features() {
                   path="/2022/project/vi/:Juhyun"
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/17_research_thumbnail.png`}
-                  name={"지강원"}
-                  description="헤픈(happen)여자"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/17_research_header.png`}
-                  featureName="헤픈(happen)여자"
-                  featureDescription="헤픈여자는 보통의 상태보다 더 많이 닳은 상태의 의미와 ‘일어나다’를 의미하는 영어 단어 happen에서 그 제목을 차용했습니다. 닳아버린 그녀에게는 도대체 무슨 일이 있었을까요. 이 짧은 단행본은 화려한 앞모습에 가려진 뒷모습에 관한 이야기입니다. 그리고 그 뒷모습을 감싸고 싶었던 한 남자의 시선을 담았습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`}
-                  profileName="지강원"
-                  profileEng="Ji Kangwon"
-                  profileMail="wlrkddnjs777@naver.com"
-                  path="/2022/project/vi/:Kangwon"
-                  work1={imageVir.KANGWON.work1}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/11_research_thumbnail.png`}
+                  name={"이재희"}
+                  description={"NO ONE HAS SAME IDENTITY"}
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/11_research_header.png`}
+                  featureName="NO ONE HAS SAME IDENTITY"
+                  featureDescription="'<NO ONE HAS SAME IDENTITY>는 직접 제작한 3,000,000개의 NFT 아바타 이미지 중 365개를 선정해서 일 단위 달력을 디자인 해보는 프로젝트입니다. “가장 디지털적인 요소인 NFT를 이용해 가장 아날로그적인 달력을 만들어 본다”는 행위에서 오는 아이러니가 본 프로젝트의 매력이자 재미입니다. "
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI12.gif`}
+                  profileName="이재희"
+                  profileEng="Lee Jaehee"
+                  profileMail="leejh6873@naver.com"
+                  path="/2022/project/vi/:Jaehee"
+                  work1={imageVir.JAEHEE.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/18_research_thumbnail.png`}
@@ -338,18 +211,144 @@ function Features() {
                   work1={imageVir.YOSEP.work1}
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_thumbnail.png`}
-                  name={"허유진"}
-                  description="UHOK"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/19_research_header.png`}
-                  featureName="UHOK"
-                  featureDescription="유혹은 유(You)+혹(惑) ‘너를 혹하게 한다’라는 매혹적인 메시지를 담은 인센스 브랜드입니다. 유혹의 인센스 향을 맡으면 자신도 모르게 홀릴 정도로 치명적이다는 이미지를 신화 속에 나오는 ‘세이렌’으로 설정하였습니다. 세이렌과 항해사 둘 사이에 펼쳐지는 새로운 이야기와 일러스트를 담은 인센스를 느껴보세요. "
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
-                  profileName="허유진"
-                  profileEng="Heo Yujin"
-                  profileMail="heoyujin9041@gmail.com"
-                  path="/2022/project/vi/:Yujin"
-                  work1={imageVir.YUJIN.work1}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/1_research_thumbnail.png`}
+                  name={"강주언"}
+                  description={"봉황문 인문보"}
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/1_research_header.png`}
+                  featureName="봉황문 인문보"
+                  featureDescription="종이 화병이란 재활용으로 모아둔 병, 캔 등을 화병으로 사용할 때 쓸 수 있는 종이로 된 커버입니다. 종이 화병에 일러스트로 그린 그림은 봉황문인문보 (鳳凰紋引紋袱)를 모티브로 하여 디자인 하였습니다. 봉황문인문보는 조선 왕실에서는 귀중한 물건을 포장한 비단 보자기중 하나로 부귀, 장수 등 염원을 담고 있습니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI1.gif`}
+                  profileName="강주언"
+                  profileEng="Kang Jueon"
+                  profileMail="3349520@naver.com"
+                  path="/2022/project/vi/:Jueon"
+                  work1={imageVir.JUEON.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/3_research_thumbnail.png`}
+                  name={"곽윤석"}
+                  description="Bum Stay"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/3_research_header.png`}
+                  featureName="Bum Stay"
+                  featureDescription="다양한 콘셉트들의 카페들이 인기를 끌고 있는 가운데 범 스테이는 카페에 픽셀이라 는 콘셉트를 접목시켜 픽셀이 위주가 되는 카페이며 종이를 이용한 패키지와 주된 범 캐릭터(캐릭터의 호랑이는 98년생의 범띠에서 따온 캐릭터)를 이용한 종이접기를 이 용해 볼 수 있으며 온라인에서도 게더타운을 이용하여 메타버스로 즐길 수 있다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI3.gif`}
+                  profileName={"곽윤석"}
+                  profileEng={"Kwak Yunseok"}
+                  profileMail="dbstjr_98@naver.com"
+                  path="/2022/project/vi/:Yunseok"
+                  work1={imageVir.YUNSEOK.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/8_research_thumbnail.png`}
+                  name={"서보은"}
+                  description="Gardoom"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/8_research_header.png`}
+                  featureName="Gardoom"
+                  featureDescription="가둠은 홈가드닝의 어려움을 겪고 있는 초보자들의 입장에서 생각한 브랜드로, 어떻게 하면 쉽고 간단히 관리 할 수 있을지를 중점적으로 고민하여 제작한 식물 키트 서비스이다. 가둠은 Gardeen+Room의 합성어로, 내 방에 작은 정원을 가둔다는 의미를 담고 있으며, 소비자들의 인테리어와 가드닝을 동시에 만족시키는 브랜드라 할 수 있다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI9.gif`}
+                  profileName="서보은"
+                  profileEng="Seo Boeun"
+                  profileMail=""
+                  path="/2022/project/vi/:Boeun"
+                  work1={imageVir.BOEUN.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/4_research_thumbnail.png`}
+                  name="김초희"
+                  description="언더더씨 "
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/4_research_header.png`}
+                  featureName="언더더씨 "
+                  featureDescription="언더더씨 캠페인은 식량이나 기름, 환경 등의 이유로 멸종 위기에 처한 해양 동물들을 다시 상기시켜주고 보호하기 위해서 시작한 캠페인 입니다. 그래서 대표 해양 동물로 북극곰, 푸른바다거북, 해달, 상괭이, 점박이 물범을 미니멀하게 캐릭터를 디자인하여 환경 캠페인의 캐릭터를 개발하였습니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI4.gif`}
+                  profileName="김초희"
+                  profileEng="Kim Chohee"
+                  profileMail="kch1571@daum.net"
+                  path="/2022/project/vi/:Chohee"
+                  work1={imageVir.CHOHEE.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/6_research_thumbnail.png`}
+                  name={"백정훈"}
+                  description="GAP"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_studio_header.png`}
+                  featureName="GAP"
+                  featureDescription="프로젝트 네임 'GAP'은 현시대 게임 중독의 추세와 개념을 알려주고 게임 중독 테스트를 통해서 자신의 게임 중독지수를 판단할 수 있게, 그리고 중독 유형을 분리하고 분석해서 게임마다 어느 중독 유형을 가지고 있는지를 중독 유형 픽토그램을 통해서 알려줘서 스스로 게임 중독에 대해 경계할 수 있는 기회를 제시하는 프로젝트입니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`}
+                  profileName="백정훈"
+                  profileEng="Baek Jeonghun"
+                  profileMail="duemno99@naver.com"
+                  path="/2022/project/vi/:Jeonghun"
+                  work1={imageVir.JEONGHUN.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/9_research_thumbnail.png`}
+                  name={"유지연"}
+                  description="PETTAM"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/9_research_header.png`}
+                  featureName="PETTAM"
+                  featureDescription="펫탐은 소중한 반려동물을 위해 더 보살펴주고 기록하기 위한 키트 브랜드입니다. 반려동물의 상황을 체크할 수 있는 달력과 스티커, 종이테이프, 메모지, 반려동물의 건강에 도움되는 간식 패키지로 구성되어있습니다. 펫탐은 빠르고 간편한 기록이 가능하며, 나의 소중한 반려동물의 상황을 달력으로 한 눈에 볼 수 있습니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`}
+                  profileName="유지연"
+                  profileEng="Yu Jiyeon"
+                  profileMail="sbe3410@naver.com"
+                  path="/2022/project/vi/:Jiyeon"
+                  work1={imageVir.JIYEON.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/13_research_thumbnail.png`}
+                  name={"장수영"}
+                  description="Whale with 하나"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/13_research_header.png`}
+                  featureName="Whale with 하나"
+                  featureDescription="'Whale with 하나' 고래 멸종 위기 캠페인입니다. 고래 중에서 급격히 대형 고래 종이 멸종 위기가 많다고 합니다. 디자인은 포장 박스를 통해서 대형 고래를 죽어 나가는 외로움을 막기 위해서입니다. 대형 고래는 자주 볼 수 있는 동물이 아니기 때문에 친근함이 될 수 있도록 합니다. 캠페인을 통해 완화되는 게 목표입니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI14.gif`}
+                  profileName="장수영"
+                  profileEng="Jang Suyoung"
+                  profileMail="wkdtndud0426@naver.com"
+                  path="/2022/project/vi/:Suyoung"
+                  work1={imageVir.SUYOUNG.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_thumbnail.png`}
+                  name={"백제훈"}
+                  description="Shall we play?"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/7_research_header.png`}
+                  featureName="Shall we play?"
+                  featureDescription="플레잉 카드. 카드놀이 혹은 마술에 사용되는 트럼프 카드라고도 불리는 이 카드들은 오늘 날 다양한 컨셉, 다양한 디자인을 선보이기도 합니다. 카드놀이뿐만 아니라 수집, 전시용으로 사용되기도 합니다. 이 트럼프 카드 세트는 약간의 무서움, 약간의 기괴함을 보여줍니다. 놀이용으로도 가능하지만 장식용으로 사용하게 될 경우 이 무시무시한 카드는 진가를 발휘하게 될 것입니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI8.gif`}
+                  profileName="백제훈"
+                  profileEng="Baek Jaehoon"
+                  profileMail="bjh990225@gmail.com"
+                  path="/2022/project/vi/:Jaehoon"
+                  work1={imageVir.JAEHOON.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_thumbnail.png`}
+                  name={"장재석"}
+                  description={"Instant Tale"}
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_header.png`}
+                  featureName="Instant Tale"
+                  featureDescription="요즘 미술관에 가면 대부분의 사람들이 유명한 작가들의 작품을 찾아 다니며 자신이 작품과 함께 찍은 사진을 SNS에 업로드 함으로서 지적인 이미지를 만들어낸다. 과연 이들은 무엇을 위해 이미지를 만들고 예술을 감상하는가. 경쟁이 과열된 현대사회에서 내재되어 있는 지적 허영심의 근원을 추적하고 앞으로 어떻게 다룰지 생각하는 계기가 되었으면 한다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
+                  profileName="장재석"
+                  profileEng="Jang Jaeseok"
+                  profileMail="bm34c@naver.com"
+                  path="/2022/project/vi/:Jaeseok"
+                  work1={imageVir.JAESEOK.work1}
+                />
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/17_research_thumbnail.png`}
+                  name={"지강원"}
+                  description="헤픈(happen)여자"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/17_research_header.png`}
+                  featureName="헤픈(happen)여자"
+                  featureDescription="헤픈여자는 보통의 상태보다 더 많이 닳은 상태의 의미와 ‘일어나다’를 의미하는 영어 단어 happen에서 그 제목을 차용했습니다. 닳아버린 그녀에게는 도대체 무슨 일이 있었을까요. 이 짧은 단행본은 화려한 앞모습에 가려진 뒷모습에 관한 이야기입니다. 그리고 그 뒷모습을 감싸고 싶었던 한 남자의 시선을 담았습니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`}
+                  profileName="지강원"
+                  profileEng="Ji Kangwon"
+                  profileMail="wlrkddnjs777@naver.com"
+                  path="/2022/project/vi/:Kangwon"
+                  work1={imageVir.KANGWON.work1}
                 />
               </ul>
             </div>
