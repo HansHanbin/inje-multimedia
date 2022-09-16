@@ -1689,9 +1689,9 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jaeseok"
               state={{
-                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`,
+                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI18.jpg`,
                 name: "장재석",
-                major: "비주얼인포메이션",
+                major: "비주얼인포메이션디자인",
 
                 eng: "Jang Jaeseok",
                 mail: "bm34c@naver.com",
@@ -1699,11 +1699,11 @@ function Designer() {
             >
               <div className="DesignerList-image">
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI_smile_18.jpg`}
                   alt="profile"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI18.jpg`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1889,9 +1889,9 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Kangwon"
               state={{
-                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`,
+                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI19.jpg`,
                 name: "지강원",
-                major: "디지털콘텐츠",
+                major: "비주얼인포메이션디자인",
 
                 eng: "Ji Kangwon",
                 mail: "wlrkddnjs777@naver.com",
@@ -1899,11 +1899,11 @@ function Designer() {
             >
               <div className="DesignerList-image">
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI_smile_19.jpg`}
                   alt="profile"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/empty1.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI19.jpg`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
