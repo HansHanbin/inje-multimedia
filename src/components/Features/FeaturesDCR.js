@@ -84,7 +84,7 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_research_thumbnail.png`}
                   name={"김기성"}
-                  description="NEXITY"
+                  description="circular"
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/2_research_header.png`}
                   featureName="circular"
                   featureDescription="다양한 브랜드들이 NFT를 긍정적으로 전개하고 있지만 판매는 대형 거래소에서, 혜택이나 커뮤니티 기능은 자사나 다른 플랫폼에서 이용하는 분산된 형태를 띠고 있습니다. 사용자 중점의 통합된 플랫폼을 구축하여 비즈니스 접근성을 높여 NFT의 가치 신뢰성을 확보하고자 circular 서비스를 제작하게 되었습니다."
@@ -199,12 +199,6 @@ function Features() {
                   work10={imageDcr.SIEUN.work10}
                   work11={imageDcr.SIEUN.work11}
                   work12={imageDcr.SIEUN.work12}
-                  work13={imageDcr.SIEUN.work13}
-                  work14={imageDcr.SIEUN.work14}
-                  work15={imageDcr.SIEUN.work15}
-                  work16={imageDcr.SIEUN.work16}
-                  work17={imageDcr.SIEUN.work17}
-                  work18={imageDcr.SIEUN.work18}
                 />
 
                 <FeaturesItem

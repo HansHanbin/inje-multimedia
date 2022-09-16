@@ -51,7 +51,7 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pLee.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pLee.png`}
                   />
                 </div>
                 <div className="ProfessorName">이승희 교수님</div>
@@ -66,7 +66,7 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pPark.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pChoi.png`}
                   />
                 </div>
                 <div className="ProfessorName">최인규 교수님</div>
@@ -75,7 +75,7 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pChoi.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pPark.jpg`}
                   />
                 </div>
                 <div className="ProfessorName">박수진 교수님</div>
@@ -90,7 +90,7 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pKim.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pKim.png`}
                   />
                 </div>
                 <div className="ProfessorName">김석래 교수님</div>
@@ -100,7 +100,7 @@ function AboutProfessor() {
                 <div className="ProfessorPic">
                   {" "}
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pBaek.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pBaek.png`}
                   />
                 </div>
                 <div className="ProfessorName">백재훈 교수님</div>
@@ -157,7 +157,7 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pLee.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pLee.png`}
                   />
                 </div>
                 <div className="ProfessorName">이승희 교수님</div>
@@ -171,7 +171,7 @@ function AboutProfessor() {
                 <div className="ProfessorPic">
                   {" "}
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pChoi.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pChoi.png`}
                   />
                 </div>
                 <div className="ProfessorName">최인규 교수님</div>
@@ -194,7 +194,7 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pKim.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pKim.png`}
                   />
                 </div>
                 <div className="ProfessorName">김석래 교수님</div>
@@ -204,7 +204,7 @@ function AboutProfessor() {
               <div className="aboutProfessor-pic">
                 <div className="ProfessorPic">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pBaek.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/images/professorImage/pBaek.png`}
                   />
                 </div>
                 <div className="ProfessorName">백재훈 교수님</div>

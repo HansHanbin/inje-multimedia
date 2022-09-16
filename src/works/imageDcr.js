@@ -93,14 +93,6 @@ const SIEUN = {
   work10: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_10.png`,
   work11: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_11.png`,
   work12: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_12.png`,
-  work13: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_13.gif`,
-  work14: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_14.gif`,
-  work15: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_15.png`,
-  work16: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_16.gif`,
-  work17: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_17.png`,
-  work18: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_18.gif`,
-  work19: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_19.gif`,
-  work20: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Research/Kimsieun_20.png`,
 };
 
 const MINGYU = {

@@ -282,7 +282,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/14_studio_header.png`}
                   featureName="NFT 아트의 흥행 비결"
                   featureDescription="NFT는 2017년부터 가상화폐와 함께 화제가 되며 미술 시장의 새 패러다임을 제시하였으며 NFT 시장의 트렌드는 아트와 사진에서 PFP로, 그리고 더 나아가 기업형 NFT로 나아가고 있습니다. 시장의 흐름과 NFT 가치의 핵심인 커뮤니티에 대해 정리해보았습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI15.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
                   profileName="장재석"
                   profileEng="Jang Jaeseok"
                   profileMail="bm34c@naver.com"
@@ -323,7 +323,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/17_studio_header.png`}
                   featureName="동물복지 인증배지"
                   featureDescription="안전한 먹거리와 생명존중 측면에서 동물복지의 필요성은 점점 증가하고 있습니다. 하지만 시중에서 동물복지를 마주하는 건 쉽지 않습니다. 그렇기에 누구나 쉽게 인식할 수 있는 동물복지 인증배지를 디자인했습니다. 그리고 이를 농가, 기업, 식당에서 사용해 소비자의 동물복지 인지가 높아지길 희망합니다. "
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`}
                   profileName="지강원"
                   profileEng="Ji Kangwon"
                   profileMail="wlrkddnjs777@naver.com"
@@ -347,9 +347,9 @@ function Features() {
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/19_studio_thumbnail.png`}
                   name={"허유진"}
-                  description="베지테리언 복합문화공간"
+                  description="베지테리언 복합문화공간 오롯"
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/19_studio_header.png`}
-                  featureName="베지테리언 복합문화공간"
+                  featureName="베지테리언 복합문화공간 오롯"
                   featureDescription="우리 사회는 비건 마케팅 선호를 넘어 이제는 소비자가 적극적으로 각자만의 베지테리언 생활과 문화에 정착하고 있습니다. 이를 통해 기본적인 스토어에 오로지 베지테리언 상품만을 카테고리별로 판매하는 구매 서비스와 더불어 베지테리언 유형별로 채식 관련 문화도 경험할 수 있는 베지테리언 복합문화공간 ‘오롯’을 만들게 되었습니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`}
                   profileName="허유진"

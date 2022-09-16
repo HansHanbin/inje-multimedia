@@ -212,13 +212,6 @@ function Features() {
                   work9={imageDcs.SIEUN.work9}
                   work10={imageDcs.SIEUN.work10}
                   work11={imageDcs.SIEUN.work11}
-                  work12={imageDcs.SIEUN.work12}
-                  work13={imageDcs.SIEUN.work13}
-                  work14={imageDcs.SIEUN.work14}
-                  work15={imageDcs.SIEUN.work15}
-                  work16={imageDcs.SIEUN.work16}
-                  work17={imageDcs.SIEUN.work17}
-                  work18={imageDcs.SIEUN.work18}
                   lightMode={imageDcs.SIEUN.lightMode}
                   darkMode={imageDcs.SIEUN.darkMode}
                 />

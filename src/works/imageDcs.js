@@ -117,14 +117,8 @@ const SIEUN = {
   work8: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_08.png`,
   work9: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_09.png`,
   work10: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_10.gif`,
-  work11: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_11.gif`,
-  work12: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_12.png`,
-  work13: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_13.png`,
-  work14: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_14.gif`,
-  work15: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_15.gif`,
-  work16: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_16.gif`,
-  work17: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_17.png`,
-  work18: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_18.png`,
+  work11: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Studio/Kimsieun_11.png`,
+
   lightMode: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Light/Kimsieun.png`,
   darkMode: `${process.env.PUBLIC_URL}/assets/works/DC/Kimsieun/Dark/Kimsieun.png`,
 };

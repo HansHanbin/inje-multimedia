@@ -184,7 +184,7 @@ function Features() {
                   description="PETTAM"
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/9_research_header.png`}
                   featureName="PETTAM"
-                  featureDescription="사람들은 살면서 집중해야 하는 상황에 자주 놓이게 됩니다. 이러한 상황에서 효율을 높이고 싶지만 어떻게 해야 할지 모르는 사람들을 위해서 서비스를 기획하였습니다. AWAVE는 뇌파를 이용하는 BCI 기술과 가전을 제어하는 IoT 기술을 이용하여 실내 환경을 조절하여 사용자가 최상의 집중력을 낼 수 있도록 돕는 서비스입니다."
+                  featureDescription="펫탐은 소중한 반려동물을 위해 더 보살펴주고 기록하기 위한 키트 브랜드입니다. 반려동물의 상황을 체크할 수 있는 달력과 스티커, 종이테이프, 메모지, 반려동물의 건강에 도움되는 간식 패키지로 구성되어있습니다. 펫탐은 빠르고 간편한 기록이 가능하며, 나의 소중한 반려동물의 상황을 달력으로 한 눈에 볼 수 있습니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`}
                   profileName="유지연"
                   profileEng="Yu Jiyeon"
@@ -275,7 +275,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_header.png`}
                   featureName="Instant Tale"
                   featureDescription="요즘 미술관에 가면 대부분의 사람들이 유명한 작가들의 작품을 찾아 다니며 자신이 작품과 함께 찍은 사진을 SNS에 업로드 함으로서 지적인 이미지를 만들어낸다. 과연 이들은 무엇을 위해 이미지를 만들고 예술을 감상하는가. 경쟁이 과열된 현대사회에서 내재되어 있는 지적 허영심의 근원을 추적하고 앞으로 어떻게 다룰지 생각하는 계기가 되었으면 한다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI15.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
                   profileName="장재석"
                   profileEng="Jang Jaeseok"
                   profileMail="bm34c@naver.com"
@@ -316,7 +316,7 @@ function Features() {
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/17_research_header.png`}
                   featureName="헤픈(happen)여자"
                   featureDescription="헤픈여자는 보통의 상태보다 더 많이 닳은 상태의 의미와 ‘일어나다’를 의미하는 영어 단어 happen에서 그 제목을 차용했습니다. 닳아버린 그녀에게는 도대체 무슨 일이 있었을까요. 이 짧은 단행본은 화려한 앞모습에 가려진 뒷모습에 관한 이야기입니다. 그리고 그 뒷모습을 감싸고 싶었던 한 남자의 시선을 담았습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`}
                   profileName="지강원"
                   profileEng="Ji Kangwon"
                   profileMail="wlrkddnjs777@naver.com"

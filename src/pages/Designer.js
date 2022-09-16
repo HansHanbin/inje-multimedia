@@ -1689,7 +1689,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Jaeseok"
               state={{
-                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI18.jpg`,
+                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI18.gif`,
                 name: "장재석",
                 major: "비주얼인포메이션디자인",
 
@@ -1699,11 +1699,11 @@ function Designer() {
             >
               <div className="DesignerList-image">
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI_smile_18.jpg`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_18.gif`}
                   alt="profile"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI18.jpg`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />
@@ -1889,7 +1889,7 @@ function Designer() {
             <Link
               to="/2022/designer/profile:Kangwon"
               state={{
-                src: `${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI19.jpg`,
+                src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`,
                 name: "지강원",
                 major: "비주얼인포메이션디자인",
 
@@ -1899,11 +1899,11 @@ function Designer() {
             >
               <div className="DesignerList-image">
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI_smile_19.jpg`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI_smile_19.gif`}
                   alt="profile"
                 />
                 <img
-                  src={`${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI19.jpg`}
+                  src={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`}
                   alt="profile "
                   className="DesignerList-profileImage"
                 />

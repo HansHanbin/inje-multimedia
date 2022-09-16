@@ -70,7 +70,7 @@ function Home() {
                   alt="second-logo"
                 />
                 <div className="two-description">
-                  사람들은 저마다 아름다운 빛을 내고, <br />그 빛은 각각다른
+                  사람들은 저마다 아름다운 빛을 내고, <br />그 빛은 각각 다른
                   형상을 띄고 있습니다. <br />
                   <br />
                   우리들은 졸업 전시회라는 하나의 프리즘을 통과해,
