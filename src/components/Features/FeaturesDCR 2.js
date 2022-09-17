@@ -158,8 +158,6 @@ function Features() {
                   path="/2022/project/dc/:Juhyun"
                   work0={imageDcr.JUHYUN.work0}
                   work1={imageDcr.JUHYUN.work1}
-                  lightMode={imageDcr.JUHYUN.lightMode}
-                  darkMode={imageDcr.JUHYUN.darkMode}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_research_thumbnail.png`}
@@ -378,12 +376,12 @@ function Features() {
                   work2={imageDcr.BOHYEON.work2}
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/features/DC/me_research_thumbnail.png`}
                   name={"이한빈"}
                   description={"ROCAB"}
-                  header={`${process.env.PUBLIC_URL}/assets/features/DC/14_research_header.png`}
+                  header={`${process.env.PUBLIC_URL}/assets/features/DC/me_research_header.png`}
                   featureName="ROCAB"
-                  featureDescription="코로나19의 영향으로 여행 서비스에도 많은 변화가 생겼습니다. 특히 나만의 시간을 보낼 수 있는 섬 혹은 소도시 등 색다른 여행지를 선호하고 있습니다. 이러한 트렌드에 맞춘 안심하고 여행을 떠날 수 있는 FING은 자율운항선박과 함께 나만의 여행을 만들며 특별한 경험을 만들 수 있는 서비스입니다."
+                  featureDescription="우리는 소유의 시대를 넘어 공유의 시대를 살아가고 있습니다. 현대인들은 사무실, 주거공간, 이동 수단 등 다양한 재화를 공유 하며 살아가고 있습니다. 이러한 공유경제 시대에  'ROCAB'은 완전 자율주행 차량의 공유화를 목표로 합니다. ROCAB과 함께 이전에 경험하지 못한 새로운 차량 경험을 느껴보세요."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC12.gif`}
                   profileName="이한빈"
                   profileEng="Lee Hanbin"

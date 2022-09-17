@@ -5,6 +5,7 @@ import imageVir from "../../works/imageVir";
 import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
 import Header from "../../components/HeaderDark";
+import { image } from "gltf-pipeline/lib/ForEach";
 
 // profile image
 

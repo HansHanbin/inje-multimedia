@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
-import Header from "../../components/HeaderDark";
+import Header from "../HeaderDark";
 import FeaturesMMSContents from "./FeaturesMMSContents";
 
 // import nayoung from "../../assets/features/DC/김나영/김나영_research_thumbnail.png";

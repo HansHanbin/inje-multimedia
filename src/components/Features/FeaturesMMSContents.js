@@ -65,7 +65,31 @@ function FeaturesMMSContents() {
                   </div>
                 </div>
               </div>
+              <div className="list-bottom-text_designer-768">
+                <div className="list-designer">
+                  <strong>김현수</strong>
+                  <br />
+                  Kim Hyunsoo
+                  <br />
+                  hyun98soo@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>박수민</strong>
+                  <br />
+                  Park Sumin
+                  <br />
+                  sumin10618@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>이서연</strong>
+                  <br />
+                  Lee Seoyeon
+                  <br />
+                  2syeonnn@gmail.com
+                </div>
+              </div>
             </div>
+
             <div className="MM-contents-list">
               <div className="MM-list-top">
                 <div className="list-top-time">00 : 41 - 03 : 00</div>
@@ -111,7 +135,31 @@ function FeaturesMMSContents() {
                   </div>
                 </div>
               </div>
+              <div className="list-bottom-text_designer-768">
+                <div className="list-designer">
+                  <strong>김현수</strong>
+                  <br />
+                  Kim Hyunsoo
+                  <br />
+                  hyun98soo@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>박수민</strong>
+                  <br />
+                  Park Sumin
+                  <br />
+                  sumin10618@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>이서연</strong>
+                  <br />
+                  Lee Seoyeon
+                  <br />
+                  2syeonnn@gmail.com
+                </div>
+              </div>
             </div>
+
             <div className="MM-contents-list">
               <div className="MM-list-top">
                 <div className="list-top-time">00 : 41 - 03 : 00</div>
@@ -155,6 +203,29 @@ function FeaturesMMSContents() {
                       2syeonnn@gmail.com
                     </div>
                   </div>
+                </div>
+              </div>
+              <div className="list-bottom-text_designer-768">
+                <div className="list-designer">
+                  <strong>김현수</strong>
+                  <br />
+                  Kim Hyunsoo
+                  <br />
+                  hyun98soo@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>박수민</strong>
+                  <br />
+                  Park Sumin
+                  <br />
+                  sumin10618@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>이서연</strong>
+                  <br />
+                  Lee Seoyeon
+                  <br />
+                  2syeonnn@gmail.com
                 </div>
               </div>
             </div>
