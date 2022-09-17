@@ -99,6 +99,10 @@ const YUJIN = {
   work1: `${process.env.PUBLIC_URL}/assets/works/VI/Heoyujin/research/Heoyujin_01.png.png`,
 };
 
+const JUHYUN = {
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Jeongjuhyun/VI/Research/Jeongjuhyun_01.png`,
+};
+
 // 다 작성한 학생 작품 이름 아래 반드시 기입!!
 
 export default {
@@ -121,4 +125,5 @@ export default {
   KANGWON,
   YOSEP,
   YUJIN,
+  JUHYUN,
 };

@@ -5,6 +5,7 @@ import imageVir from "../../works/imageVir";
 import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
 import Header from "../../components/HeaderDark";
+import { image } from "gltf-pipeline/lib/ForEach";
 
 // profile image
 
@@ -181,6 +182,7 @@ function Features() {
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
                   path="/2022/project/vi/:Juhyun"
+                  work1={imageVir.JUHYUN.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/11_research_thumbnail.png`}

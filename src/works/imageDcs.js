@@ -228,6 +228,13 @@ const EUNKYO = {
 
 //정주현
 
+const JUHYUN = {
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Jeongjuhyun/DC/Studio/Jeongjuhyun_studio_mobileheader.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Jeongjuhyun/DC/Studio/Jeongjuhyun_01.png`,
+  lightMode: `${process.env.PUBLIC_URL}/assets/works/DC/Jeongjuhyun/Light/Jeongjuhyun.png`,
+  darkMode: `${process.env.PUBLIC_URL}/assets/works/DC/Jeongjuhyun/Dark/Jeongjuhyun.png`,
+};
+
 //조성래
 const SR = {
   work0: `${process.env.PUBLIC_URL}/assets/works/DC/Choseongrae/Studio/Choseongrae_studio_mobileheader.png`,
@@ -308,4 +315,5 @@ export default {
   SR,
   IH,
   CHANGHYUN,
+  JUHYUN,
 };

@@ -2,118 +2,6 @@ import React, { useState } from "react";
 import Header from "../components/HeaderDark";
 import "./Designer.scss";
 import { Link } from "react-router-dom";
-//import Image from "/assets/images/profileImage/empty1.png";
-
-// import KangSumin from "/assets/images/ProfileImage/MM/MM강수민.gif";
-// import KangSuminSmile from "/assets/images/ProfileImage/MM/MM_smile_강수민.gif";
-// import KangJueon from "/assets/images/ProfileImage/VI/VI강주언.gif";
-// import KangJueonSmile from "/assets/images/ProfileImage/VI/VI_smile_강주언.gif";
-// import KangHanna from "/assets/images/ProfileImage/MM/MM강한나.gif";
-// import KangHannaSmile from "/assets/images/ProfileImage/MM/MM_smile_강한나.gif";
-// import GongHyobin from "/assets/images/ProfileImage/VI/VI공효빈.gif";
-// import GongHyobinSmile from "/assets/images/ProfileImage/VI/VI_smile_공효빈.gif";
-// import KwakYunseok from "/assets/images/ProfileImage/VI/VI곽윤석.gif";
-// import KwakYunseokSmile from "/assets/images/ProfileImage/VI/VI_smile_곽윤석.gif";
-// import GuHyejin from "/assets/images/ProfileImage/DC/DC구혜진.gif";
-// import GuHyejinSmile from "/assets/images/ProfileImage/DC/DC_smile_구혜진.gif";
-// import KimKiseong from "/assets/images/ProfileImage/DC/git.gif";
-// import KimKiseongSmile from "/assets/images/ProfileImage/DC/DC_smile_김기성.gif";
-// import KimNayoung from "/assets/images/ProfileImage/DC/DC김나영.gif";
-// import KimNayoungSmile from "/assets/images/ProfileImage/DC/DC_smile_김나영.gif";
-// import KimMoonju from "/assets/images/ProfileImage/DC/DC김문주.gif";
-// import KimMoonjuSmile from "/assets/images/ProfileImage/DC/DC_smile_김문주.gif";
-// import KimBeomcheon from "/assets/images/ProfileImage/MM/MM김범찬.gif";
-// import KimBeomcheonSmile from "/assets/images/ProfileImage/MM/MM_smile_김범찬.gif";
-// import KimByeongJun from "/assets/images/ProfileImage/MM/MM김병준.gif";
-// import KimByeongJunSmile from "/assets/images/ProfileImage/MM/MM_smile_김병준.gif";
-// import KimSeonghyeok from "/assets/images/ProfileImage/MM/MM김성협.gif";
-// import KimSeonghyeokSmile from "/assets/images/ProfileImage/MM/MM_smile_김성협.gif";
-// import KimSiyoung from "/assets/images/ProfileImage/MM/MM김시영.gif";
-// import KimSiyoungSmile from "/assets/images/ProfileImage/MM/MM_smile_김시영.gif";
-// import KimSieun from "/assets/images/ProfileImage/DC/DC김시은.gif";
-// import KimSieunSmile from "/assets/images/ProfileImage/DC/DC_smile_김시은.gif";
-// import KimYeawon from "/assets/images/ProfileImage/MM/MM김예원.gif";
-// import KimYeawonSmile from "/assets/images/ProfileImage/MM/MM_smile_김예원.gif";
-// import KimJisu from "/assets/images/ProfileImage/MM/MM김지수.gif";
-// import KimJisuSmile from "/assets/images/ProfileImage/MM/MM_smile_김지수.gif";
-// import KimChohee from "/assets/images/ProfileImage/VI/VI김초희.gif";
-// import KimChoheeSmile from "/assets/images/ProfileImage/VI/VI_smile_김초희.gif";
-// import KimHyunsoo from "/assets/images/ProfileImage/MM/MM김현수.gif";
-// import KimHyunsooSmile from "/assets/images/ProfileImage/MM/MM_smile_김현수.gif";
-// import NohYeonhui from "/assets/images/ProfileImage/VI/VI노연희.gif";
-// import NohYeonhuiSmile from "/assets/images/ProfileImage/VI/VI_smile_노연희.gif";
-// import MaJun from "/assets/images/ProfileImage/MM/MM마준.gif";
-// import MaJunSmile from "/assets/images/ProfileImage/MM/MM_smile_마준.gif";
-// import MoonSungHee from "/assets/images/ProfileImage/MM/MM문성희.gif";
-// import MoonSungHeeSmile from "/assets/images/ProfileImage/MM/MM_smile_문성희.gif";
-// import ParkMingyu from "/assets/images/ProfileImage/DC/DC박민규.gif";
-// import ParkMingyuSmile from "/assets/images/ProfileImage/DC/DC_smile_박민규.gif";
-// import ParkSeongho from "/assets/images/ProfileImage/VI/VI박성호.gif";
-// import ParkSeonghoSmile from "/assets/images/ProfileImage/VI/VI_smile_박성호.gif";
-// import ParkSumin from "/assets/images/ProfileImage/MM/MM박수민.gif";
-// import ParkSuminSmile from "/assets/images/ProfileImage/MM/MM_smile_박수민.gif";
-// import ParkEunsu from "/assets/images/ProfileImage/MM/MM박은수.gif";
-// import ParkEunsuSmile from "/assets/images/ProfileImage/MM/MM_smile_박은수.gif";
-// import BaekJeonghun from "/assets/images/ProfileImage/VI/VI백정훈.gif";
-// import BaekJeonghunSmile from "/assets/images/ProfileImage/VI/VI_smile_백정훈.gif";
-// import BaekJaehoon from "/assets/images/ProfileImage/VI/VI백제훈.gif";
-// import BaekJaehoonSmile from "/assets/images/ProfileImage/VI/VI_smile_백제훈.gif";
-// import BingSoeun from "/assets/images/ProfileImage/MM/MM빙소은.gif";
-// import BingSoeunSmile from "/assets/images/ProfileImage/MM/MM_smile_빙소은.gif";
-// import SeoBoeun from "/assets/images/ProfileImage/VI/VI서보은.gif";
-// import SeoBoeunSmile from "/assets/images/ProfileImage/VI/VI_smile_서보은.gif";
-// import SeoBohyeon from "/assets/images/ProfileImage/DC/DC서보현.gif";
-// import SeoBohyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_서보현.gif";
-// import ArtelevaSaida from "/assets/images/ProfileImage/MM/MM아르텔레바사이다.gif";
-// import ArtelevaSaidaSmile from "/assets/images/ProfileImage/MM/MM_smile_아르텔레바사이다.gif";
-// import AnDoyeon from "/assets/images/ProfileImage/DC/DC안도연.gif";
-// import AnDoyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_안도연.gif";
-// import YooJiyeon from "/assets/images/ProfileImage/VI/VI유지연.gif";
-// import YooJiyeonSmile from "/assets/images/ProfileImage/VI/VI_smile_유지연.gif";
-// import LeeDohyeon from "/assets/images/ProfileImage/DC/DC이도현.gif";
-// import LeeDohyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_이도현.gif";
-// import LeeMinju from "/assets/images/ProfileImage/VI/VI이민주.gif";
-// import LeeMinjuSmile from "/assets/images/ProfileImage/VI/VI_smile_이민주.gif";
-// import LeeSeoyeon from "/assets/images/ProfileImage/MM/MM이서연.gif";
-// import LeeSeoyeonSmile from "/assets/images/ProfileImage/MM/MM_smile_이서연.gif";
-// import LeeSomin from "/assets/images/ProfileImage/MM/MM이소민.gif";
-// import LeeSominSmile from "/assets/images/ProfileImage/MM/MM_smile_이소민.gif";
-// import LeeSeungyeon from "/assets/images/ProfileImage/DC/DC이승연.gif";
-// import LeeSeungyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_이승연.gif";
-// import LeeYoungmin from "/assets/images/ProfileImage/DC/DC이영민.gif";
-// import LeeYoungminSmile from "/assets/images/ProfileImage/DC/DC_smile_이영민.gif";
-// import LeeJaehee from "/assets/images/ProfileImage/VI/VI이재희.gif";
-// import LeeJaeheeSmile from "/assets/images/ProfileImage/VI/VI_smile_이재희.gif";
-// import LeeJinho from "/assets/images/ProfileImage/MM/MM이진호.gif";
-// import LeeJinhoSmile from "/assets/images/ProfileImage/MM/MM_smile_이진호.gif";
-// import LeeHanbin from "/assets/images/ProfileImage/DC/DC이한빈.gif";
-// import LeeHanbinSmile from "/assets/images/ProfileImage/DC/DC_smile_이한빈.gif";
-// import LimHyeonwoo from "/assets/images/ProfileImage/VI/VI임현우.gif";
-// import LimHyeonwooSmile from "/assets/images/ProfileImage/VI/VI_smile_임현우.gif";
-// import JangSuyoung from "/assets/images/ProfileImage/VI/VI장수영.gif";
-// import JangSuyoungSmile from "/assets/images/ProfileImage/VI/VI_smile_장수영.gif";
-// import JangEunkyo from "/assets/images/ProfileImage/DC/DC장은교.gif";
-// import JangEunkyoSmile from "/assets/images/ProfileImage/DC/DC_smile_장은교.gif";
-// // 장재석 사진이 없음
-// import JeongSeongjin from "/assets/images/ProfileImage/VI/VI정성진.gif";
-// import JeongSeongjinSmile from "/assets/images/ProfileImage/VI/VI_smile_정성진.gif";
-// import JeongJeongyoon from "/assets/images/ProfileImage/MM/MM정정윤.gif";
-// import JeongJeongyoonSmile from "/assets/images/ProfileImage/MM/MM_smile_정정윤.gif";
-// import JeongJuhyun from "/assets/images/ProfileImage/DC/DC정주현.gif";
-// import JeongJuhyunSmile from "/assets/images/ProfileImage/DC/DC_smile_정주현.gif";
-// import ChoSeongRae from "/assets/images/ProfileImage/DC/DC조성래.gif";
-// import ChoSeongRaeSmile from "/assets/images/ProfileImage/DC/DC_smile_조성래.gif";
-// import JoYihyeon from "/assets/images/ProfileImage/DC/DC조이현.gif";
-// import JoYihyeonSmile from "/assets/images/ProfileImage/DC/DC_smile_조이현.gif";
-// // 지강원 사진이 없음
-// import JiChanghyun from "/assets/images/ProfileImage/DC/DC지창현.gif";
-// import JiChanghyunSmile from "/assets/images/ProfileImage/DC/DC_smile_지창현.gif";
-// import ChoiYosep from "/assets/images/ProfileImage/VI/VI최요셉.gif";
-// import ChoiYosepSmile from "/assets/images/ProfileImage/VI/VI_smile_최요셉.gif";
-// import HeoYujin from "/assets/images/ProfileImage/VI/VI허유진.gif";
-// import HeoYujinSmile from "/assets/images/ProfileImage/VI/VI_smile_허유진.gif";
-// import HwangHyojoon from "/assets/images/ProfileImage/MM/MM황효준.gif";
-// import HwangHyojoonSmile from "/assets/images/ProfileImage/MM/MM_smile_황효준.gif";
 
 function Designer() {
   const [all, setAll] = useState(true);
@@ -270,7 +158,7 @@ function Designer() {
               <div className="DesignerList-name-eng">Kang Jueon</div>
             </Link>
           </li>
-          <li
+          {/* <li
             className={
               all || alpha === true
                 ? "DesignerList-person  all alpha"
@@ -301,7 +189,7 @@ function Designer() {
               <div className="DesignerList-name-kor">강한나</div>
               <div className="DesignerList-name-eng">Kang Hanna</div>
             </Link>
-          </li>
+          </li> */}
           <li
             className={
               all || alpha === true
@@ -494,7 +382,7 @@ function Designer() {
               <div className="DesignerList-name-eng">Kim Moonju</div>
             </Link>
           </li>{" "}
-          <li
+          {/* <li
             className={
               all || alpha === true
                 ? "DesignerList-person  all alpha"
@@ -525,7 +413,7 @@ function Designer() {
               <div className="DesignerList-name-kor">김범천</div>
               <div className="DesignerList-name-eng">Kim Beomcheon</div>
             </Link>
-          </li>{" "}
+          </li>{" "} */}
           <li
             className={
               all || alpha === true
@@ -559,7 +447,7 @@ function Designer() {
               <div className="DesignerList-name-eng">Kim Byeongjun</div>
             </Link>
           </li>{" "}
-          <li
+          {/* <li
             className={
               all || alpha === true
                 ? "DesignerList-person  all alpha"
@@ -591,8 +479,8 @@ function Designer() {
               <div className="DesignerList-name-kor">김성혁</div>
               <div className="DesignerList-name-eng">Kim Seonghyeok</div>
             </Link>
-          </li>{" "}
-          <li
+          </li>{" "} */}
+          {/* <li
             className={
               all || alpha === true
                 ? "DesignerList-person  all alpha"
@@ -624,7 +512,7 @@ function Designer() {
               <div className="DesignerList-name-kor">김시영</div>
               <div className="DesignerList-name-eng">Kim Siyoung</div>
             </Link>
-          </li>{" "}
+          </li>{" "} */}
           <li
             className={
               all || alpha === true
@@ -691,7 +579,7 @@ function Designer() {
               <div className="DesignerList-name-eng">Kim Yeawon</div>
             </Link>
           </li>{" "}
-          <li
+          {/* <li
             className={
               all || alpha === true
                 ? "DesignerList-person  all alpha"
@@ -723,7 +611,7 @@ function Designer() {
               <div className="DesignerList-name-kor">김지수</div>
               <div className="DesignerList-name-eng">Kim Jisu</div>
             </Link>
-          </li>{" "}
+          </li>{" "} */}
           <li
             className={
               all || alpha === true
@@ -1382,7 +1270,7 @@ function Designer() {
               <div className="DesignerList-name-eng">Lee Seoyeon</div>
             </Link>
           </li>
-          <li
+          {/* <li
             className={
               all || bravo === true
                 ? "DesignerList-person all bravo"
@@ -1414,8 +1302,8 @@ function Designer() {
               <div className="DesignerList-name-kor">이소민</div>
               <div className="DesignerList-name-eng">Lee Somin</div>
             </Link>
-          </li>
-          <li
+          </li> */}
+          {/* <li
             className={
               all || bravo === true
                 ? "DesignerList-person all bravo"
@@ -1447,7 +1335,7 @@ function Designer() {
               <div className="DesignerList-name-kor">이승연</div>
               <div className="DesignerList-name-eng">Lee Seungyeon</div>
             </Link>
-          </li>
+          </li> */}
           <li
             className={
               all || bravo === true
@@ -1745,7 +1633,7 @@ function Designer() {
               <div className="DesignerList-name-eng">Jeong Seongjin</div>
             </Link>
           </li>
-          <li
+          {/* <li
             className={
               all || charlie === true
                 ? "DesignerList-person all charlie"
@@ -1777,7 +1665,7 @@ function Designer() {
               <div className="DesignerList-name-kor">정정윤</div>
               <div className="DesignerList-name-eng">Jeong Jeongyoon</div>
             </Link>
-          </li>
+          </li> */}
           <li
             className={
               all || charlie === true
@@ -2011,7 +1899,7 @@ function Designer() {
               <div className="DesignerList-name-eng">Heo Yujin</div>
             </Link>
           </li>
-          <li
+          {/* <li
             className={
               all || charlie === true
                 ? "DesignerList-person all charlie"
@@ -2043,7 +1931,7 @@ function Designer() {
               <div className="DesignerList-name-kor">황효준</div>
               <div className="DesignerList-name-eng">Hwang Hyojoon</div>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
     </>

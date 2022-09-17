@@ -169,6 +169,11 @@ const EUNKYO = {
   work2: `${process.env.PUBLIC_URL}/assets/works/DC/Jangeunkyo/Research/Jangeunkyo_02.png`,
 };
 
+const JUHYUN = {
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Jeongjuhyun/DC/Research/Jeongjuhyun_research_mobileheader.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Jeongjuhyun/DC/Research/Jeongjuhyun_01.png`,
+};
+
 const SEONGRAE = {
   work0: `${process.env.PUBLIC_URL}/assets/works/DC/Choseongrae/Research/Choseongrae_research_mobileheader.png`,
   work1: `${process.env.PUBLIC_URL}/assets/works/DC/Choseongrae/Research/Choseongrae_01.png`,
@@ -230,4 +235,5 @@ export default {
   SEONGRAE,
   YIHYEON,
   CHANGHYUN,
+  JUHYUN,
 };
