@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function FeaturesMMRContents() {
+function FeaturesMMSContents() {
   const settings = {
     dots: true,
     infinite: false,
@@ -13,7 +13,6 @@ function FeaturesMMRContents() {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: true,
-    slidesToShow: 1,
   };
 
   return (
@@ -169,4 +168,4 @@ function FeaturesMMRContents() {
   );
 }
 
-export default FeaturesMMRContents;
+export default FeaturesMMSContents;
