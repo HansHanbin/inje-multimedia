@@ -54,6 +54,7 @@ function FeaturesPresentation() {
   const lightMode = location.state.lightMode;
   const darkMode = location.state.darkMode;
   const link = location.state.link;
+  const workVideo = location.state.workVideo;
 
   console.log(location);
 
@@ -113,6 +114,15 @@ function FeaturesPresentation() {
   const [dd, setDD] = useState(false);
   const [ee, setEE] = useState(false);
   const [ff, setFF] = useState(false);
+  const [video, setVideo] = useState(false);
+
+  const onVideo = () => {
+    if (video === undefined) {
+      setVideo(false);
+    } else {
+      setVideo(true);
+    }
+  };
 
   const onA = () => {
     if (work0 === undefined) {
@@ -391,6 +401,21 @@ function FeaturesPresentation() {
                   : "pt-work mobile-title"
               }
             />
+            <div
+              className={
+                video === false
+                  ? "pt-work work-video none"
+                  : "pt-work work-video"
+              }
+              alt="video"
+              onLoad={onVideo}
+            >
+              <iframe
+                width="100%"
+                src={workVideo}
+                className="video-contents"
+              ></iframe>
+            </div>
             <img
               src={work1}
               alt="work"

@@ -38,6 +38,12 @@
 
     .pt-works {
       margin-top: 60px;
+      .work-video {
+        .video-contents {
+          height: 800px;
+          border: none;
+        }
+      }
       img {
         display: block;
         border-style: none;
@@ -141,6 +147,14 @@
         }
       }
 
+      .pt-works {
+        .pt-work {
+          .video-contents {
+            height: 500px;
+          }
+        }
+      }
+
       .pt-profile-bottom {
         margin-top: 120px;
         .profile-wrapper {
@@ -220,6 +234,12 @@
     .pt-contents {
       padding: 0 20px;
       .pt-works {
+        .work-video {
+          .video-contents {
+            height: 300px;
+          }
+          text-align: center;
+        }
         .mobile-title {
           display: block;
         }

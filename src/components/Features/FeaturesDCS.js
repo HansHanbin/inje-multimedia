@@ -72,6 +72,7 @@ function Features() {
                   link={
                     "https://cloud.protopie.io/p/447a7625ce?touchHint=true&ui=true&scaleToFit=true&cursorType=touch&mockup=true&bgColor=%23F5F5F5&playSpeed=1&playerAppPopup=true"
                   }
+                  workVideo="https://www.youtube.com/embed/qXHlphxQQTo"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/me_studio_thumbnail.png`}
