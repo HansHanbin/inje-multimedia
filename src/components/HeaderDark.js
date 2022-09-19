@@ -34,16 +34,10 @@ function Header() {
                 alt="navigation logo"
                 className="header-logo"
               />
-
               <img
-                src={`${process.env.PUBLIC_URL}/assets/images/GNB/768B.png`}
+                src={`${process.env.PUBLIC_URL}/assets/images/0818Images/390/about_GNB logo.png`}
                 alt="navigation logo"
                 className="header-logo-small"
-              />
-              <img
-                src={`${process.env.PUBLIC_URL}/assets/images/GNB/390B.png`}
-                alt="navigation logo"
-                className="header-logo-ssmall"
               />
             </Link>
 

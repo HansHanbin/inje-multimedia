@@ -24,6 +24,9 @@
             margin-right: 20px;
             font-size: 1.25rem;
           }
+          .list-top-time-mobile {
+            display: none;
+          }
         }
         .MM-list-bottom {
           margin-top: 20px;
@@ -47,9 +50,17 @@
               display: flex;
               justify-content: space-between;
             }
+
+            .list-bottom-text_designer-studio {
+              display: flex;
+              :nth-child(1) {
+                margin-right: 80px;
+              }
+            }
           }
         }
-        .list-bottom-text_designer-768 {
+        .list-bottom-text_designer-768,
+        .list-bottom-text_designer-768-studio {
           display: none;
         }
       }
@@ -84,6 +95,9 @@
               margin-right: 20px;
               font-size: 1.25rem;
             }
+            .list-top-time-mobile {
+              display: none;
+            }
           }
           .MM-list-bottom {
             margin-top: 20px;
@@ -103,7 +117,8 @@
               flex-direction: column;
               justify-content: flex-end;
 
-              .list-bottom-text_designer {
+              .list-bottom-text_designer,
+              .list-bottom-text_designer-studio {
                 display: none;
                 justify-content: space-between;
               }
@@ -113,6 +128,123 @@
             display: flex;
             justify-content: space-between;
             margin-top: 30px;
+          }
+          .list-bottom-text_designer-768-studio {
+            display: flex;
+            margin-top: 30px;
+            :nth-child(1) {
+              margin-right: 160px;
+            }
+            .list-designer-studio {
+              margin-right: 160px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .MM-contents {
+    max-width: 1600px;
+    margin: 0 auto;
+    height: 1000vh;
+
+    .MM-contents-manual {
+      display: flex;
+      justify-content: center;
+
+      text-align: center;
+      font-size: 0.875rem;
+      color: #333;
+      margin-top: 60px;
+    }
+    .MM-contents-listBox {
+      background-color: #fdfdfd;
+      box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+      padding: 0 0 40px 0;
+
+      .MM-contents-lists {
+        .MM-contents-list {
+          padding: 20px 20px;
+          .MM-list-top {
+            display: flex;
+            justify-content: center;
+            div,
+            strong {
+              font-size: 1rem !important;
+            }
+
+            :nth-child(1) {
+              margin-right: 20px;
+              display: none;
+            }
+            .list-top-time-mobile {
+              display: block;
+            }
+          }
+          .MM-list-bottom {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            .list-bottom-image {
+              display: flex;
+              align-items: flex-end;
+              img {
+                width: 50%;
+                margin-right: 30px;
+              }
+            }
+            .list-bottom-text {
+              .list-bottom-text_description {
+                font-size: 0.875rem !important;
+                margin-bottom: 0 !important;
+                margin-top: 20px;
+              }
+
+              margin: 0 auto;
+              display: flex;
+              flex-direction: column;
+              justify-content: flex-end;
+
+              .list-bottom-text_designer,
+              .list-bottom-text_designer-studio {
+                display: none;
+                justify-content: space-between;
+              }
+            }
+          }
+          .list-bottom-text_designer-768 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            font-size: 0.875rem !important;
+            :nth-child(1) {
+              margin-right: 0;
+            }
+            :nth-child(2),
+            :nth-child(3) {
+              margin-top: 20px;
+            }
+            .list-designer-studio {
+              margin-right: 160px;
+            }
+          }
+          .list-bottom-text_designer-768-studio {
+            display: flex;
+            flex-direction: column;
+            margin-top: 30px;
+            font-size: 0.875rem !important;
+            :nth-child(1) {
+              margin-right: 0;
+            }
+            :nth-child(2) {
+              margin-top: 20px;
+            }
+            .list-designer-studio {
+              margin-right: 160px;
+            }
           }
         }
       }

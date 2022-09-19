@@ -23,6 +23,7 @@ function FeaturesMMSContents() {
             <div className="MM-contents-list">
               <div className="MM-list-top">
                 <div className="list-top-time">00 : 41 - 03 : 00</div>
+
                 <div className="list-top-title">
                   <strong>고백</strong>
                 </div>
@@ -33,6 +34,11 @@ function FeaturesMMSContents() {
                     src={`${process.env.PUBLIC_URL}/assets/features/MM/1_studio_thumbnail.png`}
                     alt="thumbnail"
                   />
+                  <div className="list-top-time-mobile">
+                    00 : 41 - 03 : 00
+                    <br />
+                    <strong>고백</strong>
+                  </div>
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
@@ -41,7 +47,7 @@ function FeaturesMMSContents() {
                     캠페이너의 따스한 위로와 응원이 담긴 고백을 단편영화를 통해
                     전달한다.
                   </div>
-                  <div className="list-bottom-text_designer">
+                  <div className="list-bottom-text_designer-studio">
                     <div className="list-designer">
                       <strong>강수민</strong>
                       <br />
@@ -59,7 +65,7 @@ function FeaturesMMSContents() {
                   </div>
                 </div>
               </div>
-              <div className="list-bottom-text_designer-768">
+              <div className="list-bottom-text_designer-768-studio">
                 <div className="list-designer">
                   <strong>강수민</strong>
                   <br />
@@ -76,70 +82,6 @@ function FeaturesMMSContents() {
                 </div>
               </div>
             </div>
-
-            <div className="MM-contents-list">
-              <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
-                <div className="list-top-title">
-                  <strong>딸기</strong>
-                </div>
-              </div>
-              <div className="MM-list-bottom">
-                <div className="list-bottom-image">
-                  <img
-                    src={`${process.env.PUBLIC_URL}/assets/features/MM/2_studio_thumbnail.png`}
-                    alt="thumbnail"
-                  />
-                </div>
-                <div className="list-bottom-text">
-                  <div className="list-bottom-text_description">
-                    환경문제가 극에달한 2035년 충만은 우연한 계기로 과거로
-                    가게된다. 그곳에서 자연에 소중함을 깨닫게 되고 미래를
-                    바꾸겠다는 다짐을 하게되는데...
-                  </div>
-                  <div className="list-bottom-text_designer">
-                    <div className="list-designer">
-                      <strong>김병준</strong>
-                      <br />
-                      Kim Byeongjun
-                      <br />
-                      cjs_end2@naver.com
-                    </div>
-                    <div className="list-designer">
-                      <strong>이진호</strong>
-                      <br />
-                      Lee Jinho
-                      <br />
-                      leejh6873@naver.com
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="list-bottom-text_designer-768">
-                <div className="list-designer">
-                  <strong>김병준</strong>
-                  <br />
-                  Kim Byeongjun
-                  <br />
-                  cjs_end2@naver.com
-                </div>
-                <div className="list-designer">
-                  <strong>이진호</strong>
-                  <br />
-                  Lee Jinho
-                  <br />
-                  leejh6873@naver.com
-                </div>
-                <div className="list-designer">
-                  <strong>이서연</strong>
-                  <br />
-                  Lee Seoyeon
-                  <br />
-                  2syeonnn@gmail.com
-                </div>
-              </div>
-            </div>
-
             <div className="MM-contents-list">
               <div className="MM-list-top">
                 <div className="list-top-time">00 : 41 - 03 : 00</div>
@@ -153,6 +95,11 @@ function FeaturesMMSContents() {
                     src={`${process.env.PUBLIC_URL}/assets/features/MM/3_studio_thumbnail.png`}
                     alt="thumbnail"
                   />
+                  <div className="list-top-time-mobile">
+                    00 : 41 - 03 : 00
+                    <br />
+                    <strong>빛나는 5월</strong>
+                  </div>
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
@@ -160,7 +107,7 @@ function FeaturesMMSContents() {
                     설립된 청년재단. 사회를 향해 힘찬 첫 발걸음을 내딛는 주인공
                     다운의 이야기를 웹드라마에 담았다.
                   </div>
-                  <div className="list-bottom-text_designer">
+                  <div className="list-bottom-text_designer-studio">
                     <div className="list-designer">
                       <strong>김예원</strong>
                       <br />
@@ -178,7 +125,7 @@ function FeaturesMMSContents() {
                   </div>
                 </div>
               </div>
-              <div className="list-bottom-text_designer-768">
+              <div className="list-bottom-text_designer-768-studio">
                 <div className="list-designer">
                   <strong>김예원</strong>
                   <br />
@@ -195,63 +142,6 @@ function FeaturesMMSContents() {
                 </div>
               </div>
             </div>
-
-            <div className="MM-contents-list">
-              <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
-                <div className="list-top-title">
-                  <strong>춘;몽</strong>
-                </div>
-              </div>
-              <div className="MM-list-bottom">
-                <div className="list-bottom-image">
-                  <img
-                    src={`${process.env.PUBLIC_URL}/assets/features/MM/4_studio_thumbnail.png`}
-                    alt="thumbnail"
-                  />
-                </div>
-                <div className="list-bottom-text">
-                  <div className="list-bottom-text_description">
-                    젊은 시절의 기억을 품고 살아가는 노인들, 아름다웠던 젊은
-                    시절을 봄날에 꾼 꿈에 비유하여겉모습은 노인이지만 나이가
-                    들어도 변하지 않는 마음을 전달하고자 한다.
-                  </div>
-                  <div className="list-bottom-text_designer">
-                    <div className="list-designer">
-                      <strong>박수민</strong>
-                      <br />
-                      Park Sumin
-                      <br />
-                      sumin10618@naver.com
-                    </div>
-                    <div className="list-designer">
-                      <strong>이서연</strong>
-                      <br />
-                      Lee Seoyeon
-                      <br />
-                      2syeonnn@gmail.com
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="list-bottom-text_designer-768">
-                <div className="list-designer">
-                  <strong>박수민</strong>
-                  <br />
-                  Park Sumin
-                  <br />
-                  sumin10618@naver.com
-                </div>
-                <div className="list-designer">
-                  <strong>이서연</strong>
-                  <br />
-                  Lee Seoyeon
-                  <br />
-                  2syeonnn@gmail.com
-                </div>
-              </div>
-            </div>
-
             <div className="MM-contents-list">
               <div className="MM-list-top">
                 <div className="list-top-time">00 : 41 - 03 : 00</div>
@@ -265,6 +155,11 @@ function FeaturesMMSContents() {
                     src={`${process.env.PUBLIC_URL}/assets/features/MM/5_studio_thumbnail.png`}
                     alt="thumbnail"
                   />
+                  <div className="list-top-time-mobile">
+                    00 : 41 - 03 : 00
+                    <br />
+                    <strong>내일</strong>
+                  </div>
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
@@ -272,7 +167,7 @@ function FeaturesMMSContents() {
                     주변의 시선과 편견 속에서 사회적 약자가 될 수밖에 없는
                     오늘보다 더 나은 내일을 그려가는 여성 가장의 이야기이다.
                   </div>
-                  <div className="list-bottom-text_designer">
+                  <div className="list-bottom-text_designer-studio">
                     <div className="list-designer">
                       <strong>김현수</strong>
                       <br />
@@ -290,7 +185,7 @@ function FeaturesMMSContents() {
                   </div>
                 </div>
               </div>
-              <div className="list-bottom-text_designer-768">
+              <div className="list-bottom-text_designer-768-studio">
                 <div className="list-designer">
                   <strong>김현수</strong>
                   <br />
@@ -304,6 +199,126 @@ function FeaturesMMSContents() {
                   Ma Jun
                   <br />
                   junhong0815@gmaiil.com
+                </div>
+              </div>
+            </div>
+            <div className="MM-contents-list">
+              <div className="MM-list-top">
+                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-title">
+                  <strong>춘;몽</strong>
+                </div>
+              </div>
+              <div className="MM-list-bottom">
+                <div className="list-bottom-image">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/features/MM/4_studio_thumbnail.png`}
+                    alt="thumbnail"
+                  />
+                  <div className="list-top-time-mobile">
+                    00 : 41 - 03 : 00
+                    <br />
+                    <strong>춘;몽</strong>
+                  </div>
+                </div>
+                <div className="list-bottom-text">
+                  <div className="list-bottom-text_description">
+                    젊은 시절의 기억을 품고 살아가는 노인들, 아름다웠던 젊은
+                    시절을 봄날에 꾼 꿈에 비유하여겉모습은 노인이지만 나이가
+                    들어도 변하지 않는 마음을 전달하고자 한다.
+                  </div>
+                  <div className="list-bottom-text_designer-studio">
+                    <div className="list-designer">
+                      <strong>박수민</strong>
+                      <br />
+                      Park Sumin
+                      <br />
+                      sumin10618@naver.com
+                    </div>
+                    <div className="list-designer">
+                      <strong>이서연</strong>
+                      <br />
+                      Lee Seoyeon
+                      <br />
+                      2syeonnn@gmail.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="list-bottom-text_designer-768-studio">
+                <div className="list-designer">
+                  <strong>박수민</strong>
+                  <br />
+                  Park Sumin
+                  <br />
+                  sumin10618@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>이서연</strong>
+                  <br />
+                  Lee Seoyeon
+                  <br />
+                  2syeonnn@gmail.com
+                </div>
+              </div>
+            </div>
+            <div className="MM-contents-list">
+              <div className="MM-list-top">
+                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-title">
+                  <strong>딸기</strong>
+                </div>
+              </div>
+              <div className="MM-list-bottom">
+                <div className="list-bottom-image">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/features/MM/2_studio_thumbnail.png`}
+                    alt="thumbnail"
+                  />
+                  <div className="list-top-time-mobile">
+                    00 : 41 - 03 : 00
+                    <br />
+                    <strong>딸기</strong>
+                  </div>
+                </div>
+                <div className="list-bottom-text">
+                  <div className="list-bottom-text_description">
+                    환경문제가 극에달한 2035년 충만은 우연한 계기로 과거로
+                    가게된다. 그곳에서 자연에 소중함을 깨닫게 되고 미래를
+                    바꾸겠다는 다짐을 하게되는데...
+                  </div>
+                  <div className="list-bottom-text_designer-studio">
+                    <div className="list-designer">
+                      <strong>김병준</strong>
+                      <br />
+                      Kim Byeongjun
+                      <br />
+                      cjs_end2@naver.com
+                    </div>
+                    <div className="list-designer">
+                      <strong>이진호</strong>
+                      <br />
+                      Lee Jinho
+                      <br />
+                      leejh6873@naver.com
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="list-bottom-text_designer-768-studio">
+                <div className="list-designer">
+                  <strong>김병준</strong>
+                  <br />
+                  Kim Byeongjun
+                  <br />
+                  cjs_end2@naver.com
+                </div>
+                <div className="list-designer">
+                  <strong>이진호</strong>
+                  <br />
+                  Lee Jinho
+                  <br />
+                  leejh6873@naver.com
                 </div>
               </div>
             </div>

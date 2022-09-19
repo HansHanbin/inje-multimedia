@@ -23,77 +23,82 @@ function FeaturesMMRContents() {
           <Slider className="MM-contents-lists" {...settings}>
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">00 : 12 - 04 : 43</div>
                 <div className="list-top-title">
-                  <strong>신호</strong>
+                  <strong>안전불감증</strong>
                 </div>
               </div>
               <div className="MM-list-bottom">
                 <div className="list-bottom-image">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/features/MM/1_research_thumbnail.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/features/MM/3_research_thumbnail.jpg`}
                     alt="thumbnail"
                   />
+                  <div className="list-top-time-mobile">
+                    00 : 12 - 04 : 43
+                    <br />
+                    <strong>안전불감증</strong>
+                  </div>
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
-                    여느 때와 같이 집에서 티비를 보는 남성은 매일 옆집의 소음에
-                    시달리게 된다. 날이 갈수록 심해지는 소음과 옆집 아이의
-                    모습에 남성은 의문을 가지며 진실에 가까워지게 된다.
+                    DIY 미니어처를 구매한 아이. 생각보다 어려운 설명에 대충
+                    만들기 시작하고 아이의 세상과 가상의 미니어처 세상은
+                    연결되어 있어 아이의 행동이 미니어처 세상에 영향을 끼치게
+                    된다.
                   </div>
                   <div className="list-bottom-text_designer">
                     <div className="list-designer">
-                      <strong>김현수</strong>
+                      <strong>박은수</strong>
                       <br />
                       Kim Hyunsoo
                       <br />
                       hyun98soo@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>박수민</strong>
+                      <strong>빙소은</strong>
                       <br />
-                      Park Sumin
+                      Bing Soeun
                       <br />
-                      sumin10618@naver.com
+                      ilyjej1208@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>이서연</strong>
+                      <strong>아르텔레바 사이다</strong>
                       <br />
-                      Lee Seoyeon
+                      Arteleva Saida
                       <br />
-                      2syeonnn@gmail.com
+                      saida.arteleva@gmail.com
                     </div>
                   </div>
                 </div>
               </div>
               <div className="list-bottom-text_designer-768">
                 <div className="list-designer">
-                  <strong>김현수</strong>
+                  <strong>박은수</strong>
                   <br />
                   Kim Hyunsoo
                   <br />
                   hyun98soo@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>박수민</strong>
+                  <strong>빙소은</strong>
                   <br />
-                  Park Sumin
+                  Bing Soeun
                   <br />
-                  sumin10618@naver.com
+                  unsu01181@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>이서연</strong>
+                  <strong>아르텔레바 사이다</strong>
                   <br />
-                  Lee Seoyeon
+                  Arteleva Saida
                   <br />
-                  2syeonnn@gmail.com
+                  saida.arteleva@gmail.com
                 </div>
               </div>
             </div>
-
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">04 : 54 - 07 : 02</div>
                 <div className="list-top-title">
                   <strong>엄마의 하루</strong>
                 </div>
@@ -104,6 +109,11 @@ function FeaturesMMRContents() {
                     src={`${process.env.PUBLIC_URL}/assets/features/MM/2_research_thumbnail.png`}
                     alt="thumbnail"
                   />
+                  <div className="list-top-time-mobile">
+                    04 : 54 - 07 : 02
+                    <br />
+                    <strong>엄마의 하루</strong>
+                  </div>
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
@@ -163,71 +173,75 @@ function FeaturesMMRContents() {
 
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">07 : 13 - 10 : 22</div>
                 <div className="list-top-title">
-                  <strong>안전불감증</strong>
+                  <strong>신호</strong>
                 </div>
               </div>
               <div className="MM-list-bottom">
                 <div className="list-bottom-image">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/features/MM/3_research_thumbnail.jpg`}
+                    src={`${process.env.PUBLIC_URL}/assets/features/MM/1_research_thumbnail.png`}
                     alt="thumbnail"
                   />
+                  <div className="list-top-time-mobile">
+                    07 : 13 - 10 : 22
+                    <br />
+                    <strong>신호</strong>
+                  </div>
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
-                    DIY 미니어처를 구매한 아이. 생각보다 어려운 설명에 대충
-                    만들기 시작하고 아이의 세상과 가상의 미니어처 세상은
-                    연결되어 있어 아이의 행동이 미니어처 세상에 영향을 끼치게
-                    된다.
+                    여느 때와 같이 집에서 티비를 보는 남성은 매일 옆집의 소음에
+                    시달리게 된다. 날이 갈수록 심해지는 소음과 옆집 아이의
+                    모습에 남성은 의문을 가지며 진실에 가까워지게 된다.
                   </div>
                   <div className="list-bottom-text_designer">
                     <div className="list-designer">
-                      <strong>박은수</strong>
+                      <strong>김현수</strong>
                       <br />
                       Kim Hyunsoo
                       <br />
                       hyun98soo@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>빙소은</strong>
+                      <strong>박수민</strong>
                       <br />
-                      Bing Soeun
+                      Park Sumin
                       <br />
-                      ilyjej1208@naver.com
+                      sumin10618@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>아르텔레바 사이다</strong>
+                      <strong>이서연</strong>
                       <br />
-                      Arteleva Saida
+                      Lee Seoyeon
                       <br />
-                      saida.arteleva@gmail.com
+                      2syeonnn@gmail.com
                     </div>
                   </div>
                 </div>
               </div>
               <div className="list-bottom-text_designer-768">
                 <div className="list-designer">
-                  <strong>박은수</strong>
+                  <strong>김현수</strong>
                   <br />
                   Kim Hyunsoo
                   <br />
                   hyun98soo@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>빙소은</strong>
+                  <strong>박수민</strong>
                   <br />
-                  Bing Soeun
+                  Park Sumin
                   <br />
-                  unsu01181@naver.com
+                  sumin10618@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>아르텔레바 사이다</strong>
+                  <strong>이서연</strong>
                   <br />
-                  Arteleva Saida
+                  Lee Seoyeon
                   <br />
-                  saida.arteleva@gmail.com
+                  2syeonnn@gmail.com
                 </div>
               </div>
             </div>
