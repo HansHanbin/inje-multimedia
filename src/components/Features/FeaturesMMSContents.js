@@ -22,7 +22,7 @@ function FeaturesMMSContents() {
           <Slider className="MM-contents-lists" {...settings}>
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">00 : 12 - 11 : 10</div>
 
                 <div className="list-top-title">
                   <strong>고백</strong>
@@ -35,7 +35,7 @@ function FeaturesMMSContents() {
                     alt="thumbnail"
                   />
                   <div className="list-top-time-mobile">
-                    00 : 41 - 03 : 00
+                    00 : 12 - 11 : 10
                     <br />
                     <strong>고백</strong>
                   </div>
@@ -84,7 +84,7 @@ function FeaturesMMSContents() {
             </div>
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">11 : 20 - 19 : 14</div>
                 <div className="list-top-title">
                   <strong>빛나는 5월</strong>
                 </div>
@@ -96,7 +96,7 @@ function FeaturesMMSContents() {
                     alt="thumbnail"
                   />
                   <div className="list-top-time-mobile">
-                    00 : 41 - 03 : 00
+                    11 : 20 - 19 : 14
                     <br />
                     <strong>빛나는 5월</strong>
                   </div>
@@ -144,7 +144,7 @@ function FeaturesMMSContents() {
             </div>
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">19 : 25 - 25 : 05</div>
                 <div className="list-top-title">
                   <strong>내일</strong>
                 </div>
@@ -156,7 +156,7 @@ function FeaturesMMSContents() {
                     alt="thumbnail"
                   />
                   <div className="list-top-time-mobile">
-                    00 : 41 - 03 : 00
+                    19 : 25 - 25 : 05
                     <br />
                     <strong>내일</strong>
                   </div>
@@ -204,7 +204,7 @@ function FeaturesMMSContents() {
             </div>
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">25 : 15 - 30 : 00</div>
                 <div className="list-top-title">
                   <strong>춘;몽</strong>
                 </div>
@@ -216,7 +216,7 @@ function FeaturesMMSContents() {
                     alt="thumbnail"
                   />
                   <div className="list-top-time-mobile">
-                    00 : 41 - 03 : 00
+                    25 : 15 - 30 : 00
                     <br />
                     <strong>춘;몽</strong>
                   </div>
@@ -264,7 +264,7 @@ function FeaturesMMSContents() {
             </div>
             <div className="MM-contents-list">
               <div className="MM-list-top">
-                <div className="list-top-time">00 : 41 - 03 : 00</div>
+                <div className="list-top-time">30 : 12 - 37 : 40</div>
                 <div className="list-top-title">
                   <strong>딸기</strong>
                 </div>
@@ -276,7 +276,7 @@ function FeaturesMMSContents() {
                     alt="thumbnail"
                   />
                   <div className="list-top-time-mobile">
-                    00 : 41 - 03 : 00
+                    30 : 12 - 37 : 40
                     <br />
                     <strong>딸기</strong>
                   </div>

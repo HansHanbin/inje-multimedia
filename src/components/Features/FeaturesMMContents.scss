@@ -32,6 +32,9 @@
           margin-top: 20px;
           display: flex;
           .list-bottom-image {
+            .list-top-time-mobile {
+              display: none;
+            }
             img {
               width: 100%;
             }
@@ -103,6 +106,9 @@
             margin-top: 20px;
             display: flex;
             .list-bottom-image {
+              .list-top-time-mobile {
+                display: none;
+              }
               img {
                 width: 100%;
               }
@@ -191,6 +197,10 @@
             .list-bottom-image {
               display: flex;
               align-items: flex-end;
+              .list-top-time-mobile {
+                display: block;
+              }
+
               img {
                 width: 50%;
                 margin-right: 30px;
