@@ -347,7 +347,7 @@ function Features() {
                   work17={imageDcr.MOONJU.work17}
                 />
 
-                <FeaturesItem
+                {/* <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/7_research_thumbnail.png`}
                   name={"백제훈"}
                   description="손떽"
@@ -359,6 +359,19 @@ function Features() {
                   profileEng="Baek Jaehoon"
                   profileMail="bjh990225@gmail.com"
                   path="/2022/project/dc/:Jaehoon"
+                /> */}
+                <FeaturesItem
+                  src={`${process.env.PUBLIC_URL}/assets/features/DC/me_research_thumbnail.png`}
+                  name={"이한빈"}
+                  description={"ROCAB"}
+                  header={`${process.env.PUBLIC_URL}/assets/features/DC/me_research_header.png`}
+                  featureName="ROCAB"
+                  featureDescription="코로나19의 영향으로 여행 서비스에도 많은 변화가 생겼습니다. 특히 나만의 시간을 보낼 수 있는 섬 혹은 소도시 등 색다른 여행지를 선호하고 있습니다. 이러한 트렌드에 맞춘 안심하고 여행을 떠날 수 있는 FING은 자율운항선박과 함께 나만의 여행을 만들며 특별한 경험을 만들 수 있는 서비스입니다."
+                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC12.gif`}
+                  profileName="이한빈"
+                  profileEng="Lee Hanbin"
+                  profileMail="hans.hanbin.lee@gmail.com"
+                  path="/2022/project/dc/:Hanbin"
                 />
 
                 <FeaturesItem
@@ -374,22 +387,9 @@ function Features() {
                   profileMail="seobori2000@gmail.com"
                   path="/2022/project/dc/:Bohyeon"
                   work0={imageDcr.BOHYEON.work0}
-                  work1={imageDcr.BOHYEON.work1}
                   work2={imageDcr.BOHYEON.work2}
                 />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
-                  name={"이한빈"}
-                  description={"ROCAB"}
-                  header={`${process.env.PUBLIC_URL}/assets/features/DC/14_research_header.png`}
-                  featureName="ROCAB"
-                  featureDescription="코로나19의 영향으로 여행 서비스에도 많은 변화가 생겼습니다. 특히 나만의 시간을 보낼 수 있는 섬 혹은 소도시 등 색다른 여행지를 선호하고 있습니다. 이러한 트렌드에 맞춘 안심하고 여행을 떠날 수 있는 FING은 자율운항선박과 함께 나만의 여행을 만들며 특별한 경험을 만들 수 있는 서비스입니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC12.gif`}
-                  profileName="이한빈"
-                  profileEng="Lee Hanbin"
-                  profileMail="hans.hanbin.lee@gmail.com"
-                  path="/2022/project/dc/:Hanbin"
-                />
+
                 {/* <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/9_research_thumbnail.png`}
                   name={"안도연"}

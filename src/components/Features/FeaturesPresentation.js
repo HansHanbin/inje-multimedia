@@ -4,7 +4,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 
 import { useEffect } from "react";
-import { faL } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 // import xButton from "/assets/images/0818Images/1920/project_x button.png";
 // import buttonLight from "/assets/images/0818Images/1920/project_mode button.png";
 // import buttonUp from "/assets/images/0818Images/1920/project_top button.png";
@@ -53,6 +53,7 @@ function FeaturesPresentation() {
   const work30 = location.state.work30;
   const lightMode = location.state.lightMode;
   const darkMode = location.state.darkMode;
+  const link = location.state.link;
 
   console.log(location);
 
@@ -570,7 +571,9 @@ function FeaturesPresentation() {
               onLoad={onFF}
               className={ff === false ? "pt-work none" : "pt-work"}
             />
-            <img src={light === false ? lightMode : darkMode} />
+            <a target="_blank" href={link}>
+              <img src={light === false ? lightMode : darkMode} />
+            </a>
           </div>
 
           <div className="pt-profile-bottom">

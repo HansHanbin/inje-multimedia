@@ -69,6 +69,9 @@ function Features() {
                   work5={imageDcs.CHANGHYUN.work5}
                   lightMode={imageDcs.CHANGHYUN.lightMode}
                   darkMode={imageDcs.CHANGHYUN.darkMode}
+                  link={
+                    "https://cloud.protopie.io/p/447a7625ce?touchHint=true&ui=true&scaleToFit=true&cursorType=touch&mockup=true&bgColor=%23F5F5F5&playSpeed=1&playerAppPopup=true"
+                  }
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/me_studio_thumbnail.png`}
@@ -82,6 +85,7 @@ function Features() {
                   profileEng="Lee Hanbin"
                   profileMail="hans.hanbin.lee@gmail.com"
                   path="/2022/project/dc/:Hanbin"
+                  link="https://cloud.protopie.io/p/cd4bdcb184"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/5_studio_thumbnail.png`}
@@ -109,6 +113,7 @@ function Features() {
                   work11={imageDcs.SIEUN.work11}
                   lightMode={imageDcs.SIEUN.lightMode}
                   darkMode={imageDcs.SIEUN.darkMode}
+                  link="https://cloud.protopie.io/p/7f109309ef "
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/15_studio_thumbnail.png`}
@@ -126,6 +131,7 @@ function Features() {
                   work1={imageDcs.JUHYUN.work1}
                   lightMode={imageDcs.JUHYUN.lightMode}
                   darkMode={imageDcs.JUHYUN.darkMode}
+                  link="https://cloud.protopie.io/p/a0667d47db"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/1_studio_thumbnail.png`}
@@ -169,6 +175,7 @@ function Features() {
                   work27={imageDcs.HYEJIN.work27}
                   lightMode={imageDcs.HYEJIN.lightMode}
                   darkMode={imageDcs.HYEJIN.darkMode}
+                  link="https://cloud.protopie.io/p/434db47ec1"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/6_studio_thumbnail.png`}
@@ -202,6 +209,7 @@ function Features() {
                   work17={imageDcs.MINGYU.work17}
                   lightMode={imageDcs.MINGYU.lightMode}
                   darkMode={imageDcs.MINGYU.darkMode}
+                  link="https://cloud.protopie.io/p/8ad84e1d5"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_studio_thumbnail.png`}
@@ -237,6 +245,7 @@ function Features() {
                   work19={imageDcs.KISEONG.work19}
                   lightMode={imageDcs.KISEONG.lightMode}
                   darkMode={imageDcs.KISEONG.darkMode}
+                  link="https://cloud.protopie.io/p/554c122585"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/10_studio_thumbnail.png`}
@@ -270,6 +279,7 @@ function Features() {
                   work17={imageDcs.DH.work17}
                   lightMode={imageDcs.DH.lightMode}
                   darkMode={imageDcs.DH.darkMode}
+                  link="https://cloud.protopie.io/p/942ad953a1"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/3_studio_thumbnail.png`}
@@ -300,6 +310,7 @@ function Features() {
                   work14={imageDcs.NAYOUNG.work14}
                   lightMode={imageDcs.NAYOUNG.lightMode}
                   darkMode={imageDcs.NAYOUNG.darkMode}
+                  link="https://cloud.protopie.io/p/d490213dae"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/12_studio_thumbnail.png`}
@@ -330,6 +341,7 @@ function Features() {
                   work14={imageDcs.YM.work14}
                   lightMode={imageDcs.YM.lightMode}
                   darkMode={imageDcs.YM.darkMode}
+                  link="https://cloud.protopie.io/p/c76cb5bcde"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/00_studio_thumbnail.png`}
@@ -347,6 +359,7 @@ function Features() {
                   work1={imageDcs.SH.work1}
                   lightMode={imageDcs.SH.lightMode}
                   darkMode={imageDcs.SH.darkMode}
+                  link="https://cloud.protopie.io/p/3c1949d257"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
@@ -365,6 +378,7 @@ function Features() {
                   work2={imageDcs.EUNKYO.work2}
                   lightMode={imageDcs.EUNKYO.lightMode}
                   darkMode={imageDcs.EUNKYO.darkMode}
+                  link="https://cloud.protopie.io/p/ed7365d26a"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/8_studio_thumbnail.png`}
@@ -379,10 +393,10 @@ function Features() {
                   profileMail="seobori2000@gmail.com"
                   path="/2022/project/dc/:Bohyeon"
                   work0={imageDcs.BH.work0}
-                  work1={imageDcs.BH.work1}
                   work2={imageDcs.BH.work2}
                   lightMode={imageDcs.BH.lightMode}
                   darkMode={imageDcs.BH.darkMode}
+                  link="https://cloud.protopie.io/p/d8e2d0fefa"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/16_studio_thumbnail.png`}
@@ -428,6 +442,7 @@ function Features() {
                   work29={imageDcs.SR.work29}
                   lightMode={imageDcs.SR.lightMode}
                   darkMode={imageDcs.SR.darkMode}
+                  link="https://cloud.protopie.io/p/88604c81c3"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_studio_thumbnail.png`}
@@ -459,6 +474,7 @@ function Features() {
                   work15={imageDcs.MOONJU.work15}
                   lightMode={imageDcs.MOONJU.lightMode}
                   darkMode={imageDcs.MOONJU.darkMode}
+                  link="https://cloud.protopie.io/p/ebdc43c31d"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/17_studio_thumbnail.png`}
@@ -483,6 +499,7 @@ function Features() {
                   work8={imageDcs.IH.work8}
                   lightMode={imageDcs.IH.lightMode}
                   darkMode={imageDcs.IH.darkMode}
+                  link="https://cloud.protopie.io/p/ac7da1d6b3"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/9_studio_thumbnail.png`}

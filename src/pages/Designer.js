@@ -428,7 +428,7 @@ function Designer() {
                 name: "김병준",
                 major: "모션미디어",
 
-                eng: "Kim ByeongJun",
+                eng: "Kim Byeongjun",
                 mail: "cjs_end2@naver.com",
               }}
             >
@@ -757,7 +757,7 @@ function Designer() {
                 name: "문성희",
                 major: "모션미디어",
 
-                eng: "Moon SungHee",
+                eng: "Moon Sunghee",
                 mail: "moonangel2@naver.com",
               }}
             >

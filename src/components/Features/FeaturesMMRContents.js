@@ -95,68 +95,68 @@ function FeaturesMMRContents() {
               <div className="MM-list-top">
                 <div className="list-top-time">00 : 41 - 03 : 00</div>
                 <div className="list-top-title">
-                  <strong>신호</strong>
+                  <strong>엄마의 하루</strong>
                 </div>
               </div>
               <div className="MM-list-bottom">
                 <div className="list-bottom-image">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/features/MM/1_research_thumbnail.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/features/MM/2_research_thumbnail.png`}
                     alt="thumbnail"
                   />
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
-                    여느 때와 같이 집에서 티비를 보는 남성은 매일 옆집의 소음에
-                    시달리게 된다. 날이 갈수록 심해지는 소음과 옆집 아이의
-                    모습에 남성은 의문을 가지며 진실에 가까워지게 된다.
+                    하루종일 온통 딸을 위해 살아가는 엄마의 하루와 자신만을 위해
+                    살아가는 딸의 하루를 비교함으로 자녀를 향한 모든 어머니들의
+                    지극한 사랑을 소개한다.
                   </div>
                   <div className="list-bottom-text_designer">
                     <div className="list-designer">
-                      <strong>김현수</strong>
+                      <strong>강수민</strong>
                       <br />
-                      Kim Hyunsoo
+                      Kang Sumin
                       <br />
-                      hyun98soo@naver.com
+                      kazalmaty@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>박수민</strong>
+                      <strong>김예원</strong>
                       <br />
-                      Park Sumin
+                      Kim Yeawon
                       <br />
-                      sumin10618@naver.com
+                      55kyw@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>이서연</strong>
+                      <strong>문성희</strong>
                       <br />
-                      Lee Seoyeon
+                      Moon Sunghee
                       <br />
-                      2syeonnn@gmail.com
+                      moonangel2@naver.com
                     </div>
                   </div>
                 </div>
               </div>
               <div className="list-bottom-text_designer-768">
                 <div className="list-designer">
-                  <strong>김현수</strong>
+                  <strong>강수민</strong>
                   <br />
-                  Kim Hyunsoo
+                  Kang Sumin
                   <br />
-                  hyun98soo@naver.com
+                  kazalmaty@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>박수민</strong>
+                  <strong>김예원</strong>
                   <br />
-                  Park Sumin
+                  Kim Yeawon
                   <br />
-                  sumin10618@naver.com
+                  55kyw@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>이서연</strong>
+                  <strong>문성희</strong>
                   <br />
-                  Lee Seoyeon
+                  Moon Sunghee
                   <br />
-                  2syeonnn@gmail.com
+                  moonangel2@naver.com
                 </div>
               </div>
             </div>
@@ -165,68 +165,69 @@ function FeaturesMMRContents() {
               <div className="MM-list-top">
                 <div className="list-top-time">00 : 41 - 03 : 00</div>
                 <div className="list-top-title">
-                  <strong>신호</strong>
+                  <strong>안전불감증</strong>
                 </div>
               </div>
               <div className="MM-list-bottom">
                 <div className="list-bottom-image">
                   <img
-                    src={`${process.env.PUBLIC_URL}/assets/features/MM/1_research_thumbnail.png`}
+                    src={`${process.env.PUBLIC_URL}/assets/features/MM/3_research_thumbnail.jpg`}
                     alt="thumbnail"
                   />
                 </div>
                 <div className="list-bottom-text">
                   <div className="list-bottom-text_description">
-                    여느 때와 같이 집에서 티비를 보는 남성은 매일 옆집의 소음에
-                    시달리게 된다. 날이 갈수록 심해지는 소음과 옆집 아이의
-                    모습에 남성은 의문을 가지며 진실에 가까워지게 된다.
+                    DIY 미니어처를 구매한 아이. 생각보다 어려운 설명에 대충
+                    만들기 시작하고 아이의 세상과 가상의 미니어처 세상은
+                    연결되어 있어 아이의 행동이 미니어처 세상에 영향을 끼치게
+                    된다.
                   </div>
                   <div className="list-bottom-text_designer">
                     <div className="list-designer">
-                      <strong>김현수</strong>
+                      <strong>박은수</strong>
                       <br />
                       Kim Hyunsoo
                       <br />
                       hyun98soo@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>박수민</strong>
+                      <strong>빙소은</strong>
                       <br />
-                      Park Sumin
+                      Bing Soeun
                       <br />
-                      sumin10618@naver.com
+                      ilyjej1208@naver.com
                     </div>
                     <div className="list-designer">
-                      <strong>이서연</strong>
+                      <strong>아르텔레바 사이다</strong>
                       <br />
-                      Lee Seoyeon
+                      Arteleva Saida
                       <br />
-                      2syeonnn@gmail.com
+                      saida.arteleva@gmail.com
                     </div>
                   </div>
                 </div>
               </div>
               <div className="list-bottom-text_designer-768">
                 <div className="list-designer">
-                  <strong>김현수</strong>
+                  <strong>박은수</strong>
                   <br />
                   Kim Hyunsoo
                   <br />
                   hyun98soo@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>박수민</strong>
+                  <strong>빙소은</strong>
                   <br />
-                  Park Sumin
+                  Bing Soeun
                   <br />
-                  sumin10618@naver.com
+                  unsu01181@naver.com
                 </div>
                 <div className="list-designer">
-                  <strong>이서연</strong>
+                  <strong>아르텔레바 사이다</strong>
                   <br />
-                  Lee Seoyeon
+                  Arteleva Saida
                   <br />
-                  2syeonnn@gmail.com
+                  saida.arteleva@gmail.com
                 </div>
               </div>
             </div>

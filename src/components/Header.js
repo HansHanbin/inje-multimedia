@@ -30,13 +30,13 @@ function Header() {
           <div className="header-container">
             <Link to="/2022">
               <img
-                src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/main_GNB logo.png`}
+                src={`${process.env.PUBLIC_URL}/assets/images/GNB/1920W.png`}
                 alt="navigation logo"
                 className="header-logo"
               />
 
               <img
-                src={`${process.env.PUBLIC_URL}/assets/images/0818Images/390/main_GNB logo.png`}
+                src={`${process.env.PUBLIC_URL}/assets/images/GNB/768W.png`}
                 alt="navigation logo"
                 className="header-logo-small"
               />

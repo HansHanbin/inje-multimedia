@@ -35,7 +35,7 @@ function Home() {
               alt="logo"
             />
             <div className="one-title-warpper">
-              <h1>인제대학교 멀티미디어학부 2022 졸업전시회</h1>
+              <h1>2022 인제대학교 멀티미디어학부 졸업전시회</h1>
               <h2>
                 Division of Multimedia Design, Inje University
                 <br />
