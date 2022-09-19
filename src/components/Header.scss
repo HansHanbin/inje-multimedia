@@ -9,7 +9,8 @@
   height: 80%;
 }
 
-.header-logo-small {
+.header-logo-small,
+.header-logo-ssmall {
   display: none;
 }
 
@@ -145,12 +146,13 @@
 
 @media screen and (max-width: 737px) {
   .header {
-    .header-logo {
+    .header-logo,
+    .header-logo-smal {
       display: none;
     }
-    .header-logo-small {
+    .header-logo-ssmall {
       display: block !important;
-      width: 120%;
+      width: 100%;
     }
 
     .header-container {

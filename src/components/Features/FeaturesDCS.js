@@ -210,7 +210,7 @@ function Features() {
                   work17={imageDcs.MINGYU.work17}
                   lightMode={imageDcs.MINGYU.lightMode}
                   darkMode={imageDcs.MINGYU.darkMode}
-                  link="https://cloud.protopie.io/p/8ad84e1d5"
+                  link="https://cloud.protopie.io/p/8ad84e1d51"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_studio_thumbnail.png`}

@@ -40,6 +40,11 @@ function Header() {
                 alt="navigation logo"
                 className="header-logo-small"
               />
+              <img
+                src={`${process.env.PUBLIC_URL}/assets/images/GNB/390W.png`}
+                alt="navigation logo"
+                className="header-logo-ssmall"
+              />
             </Link>
 
             <div className="header-navbar">
