@@ -298,6 +298,25 @@ const CHANGHYUN = {
   darkMode: `${process.env.PUBLIC_URL}/assets/works/DC/Jichanghyun/Dark/Jichanghyun.png`,
 };
 
+const HANBIN = {
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Leehanbin/Studio/Leehanbin_studio_mobileheader.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Leehanbin/Studio/Leehanbin_01.png`,
+  lightMode: `${process.env.PUBLIC_URL}/assets/works/DC/Leehanbin/Light/Leehanbin.png`,
+  darkMode: `${process.env.PUBLIC_URL}/assets/works/DC/Leehanbin/Dark/Leehanbin.png`,
+};
+
+const DOYEON = {
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Studio/Andoyeon_01.png`,
+  work2: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Studio/Andoyeon_02.png`,
+  work3: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Studio/Andoyeon_03.png`,
+  work4: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Studio/Andoyeon_04.png`,
+  work5: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Studio/Andoyeon_05.png`,
+  work6: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Studio/Andoyeon_06.png`,
+  work7: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Studio/Andoyeon_07.png`,
+  lightMode: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Light/Andoyeon.png`,
+  darkMode: `${process.env.PUBLIC_URL}/assets/works/DC/Andoyeon/Dark/Andoyeon.png`,
+};
+
 // 다 작성한 학생 작품 이름 아래 반드시 기입!!
 
 export default {
@@ -316,4 +335,6 @@ export default {
   IH,
   CHANGHYUN,
   JUHYUN,
+  HANBIN,
+  DOYEON,
 };

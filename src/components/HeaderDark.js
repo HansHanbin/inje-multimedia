@@ -16,7 +16,7 @@ function Header() {
 
   const onMouseEnter = (event) => {
     if (window.innerWidth <= 1200) {
-      event.prefentDefault();
+      event.preventDefault();
     } else {
       setDropdown(true);
     }
@@ -28,7 +28,7 @@ function Header() {
       <div className="headerDark">
         <div className="header-wrapper">
           <div className="header-container">
-            <Link to="/2022">
+            <Link to="/">
               <img
                 src={`${process.env.PUBLIC_URL}/assets/images/GNB/1920B.png`}
                 alt="navigation logo"
@@ -67,7 +67,7 @@ function Header() {
                     click === true ? "navbar-list-active" : "navbar-list"
                   }
                 >
-                  <Link to="/2022/about" className="list-item">
+                  <Link to="/about" className="list-item">
                     About
                   </Link>
                 </li>
@@ -80,7 +80,7 @@ function Header() {
                 >
                   {dropdown && <Dropdown />}
                   <div className="navbar-list-project">
-                    <Link to="/2022/project" className="list-item">
+                    <Link to="/project" className="list-item">
                       Project
                     </Link>
                     &nbsp;
@@ -95,7 +95,7 @@ function Header() {
                     click === true ? "navbar-list-active" : "navbar-list"
                   }
                 >
-                  <Link to="/2022/designer" className="list-item">
+                  <Link to="/designer" className="list-item">
                     Designer
                   </Link>
                 </li>

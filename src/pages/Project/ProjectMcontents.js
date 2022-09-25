@@ -28,17 +28,17 @@ function ProjectMcontents() {
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/2022/project/dc">
+              <Link to="/project/dc">
                 <div className="major-dc ">Digital Contents</div>
                 <div className="major-mobile ">D.C</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/vi">
+              <Link to="/project/vi">
                 <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/mm">
+              <Link to="/project/mm">
                 <div className="major-mm active">Motion Media</div>
                 <div className="major-mobile active">M.M</div>
               </Link>

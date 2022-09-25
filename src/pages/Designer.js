@@ -102,13 +102,17 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Sumin"
+              to="/designer/KangSumin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM1.gif`,
                 name: "강수민",
                 eng: "Kang Sumin",
                 major: "모션미디어",
                 mail: "kazalmaty@naver.com",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/1_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/MM/2_research_thumbnail.png`,
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
               }}
             >
               <div className="DesignerList-image">
@@ -134,7 +138,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jueon"
+              to="/designer/KangJueon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI1.gif`,
                 name: "강주언",
@@ -166,7 +170,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hanna"
+              to="/designer/:Hanna"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM2.gif`,
                 name: "강한나",
@@ -198,13 +202,15 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyobin"
+              to="/designer/Hyobin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI2.gif`,
                 name: "공효빈",
                 eng: "Gong Hyobin",
                 major: "비주얼인포메이션디자인",
                 mail: "hyob1130@naver.com",
+                work1: `${process.env.PUBLIC_URL}/assets/features/VI/2_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/VI/2_research_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -230,7 +236,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Yunseok"
+              to="/designer/Yunseok"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI3.gif`,
                 name: "곽윤석",
@@ -262,7 +268,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyejin"
+              to="/designer/Hyejin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC1.gif`,
                 name: "구혜진",
@@ -294,7 +300,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyejin"
+              to="/designer/Kiseong"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC2.gif`,
                 name: "김기성",
@@ -326,7 +332,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyejin"
+              to="/designer/Nayoung"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC3.gif`,
                 name: "김나영",
@@ -358,7 +364,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyejin"
+              to="/designer/Moonju"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC4.gif`,
                 name: "김문주",
@@ -390,7 +396,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Beomcheon"
+              to="/designer/Beomcheon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM3.gif`,
                 name: "김범천",
@@ -422,7 +428,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:ByeongJun"
+              to="/designer/ByeongJun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM4.gif`,
                 name: "김병준",
@@ -430,6 +436,9 @@ function Designer() {
 
                 eng: "Kim Byeongjun",
                 mail: "cjs_end2@naver.com",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/2_studio_thumbnail.png`,
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
               }}
             >
               <div className="DesignerList-image">
@@ -455,7 +464,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Seonghyeok"
+              to="/designer/Seonghyeok"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM5.gif`,
                 name: "김성혁",
@@ -488,7 +497,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Siyoung"
+              to="/designer/Siyoung"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM6.gif`,
                 name: "김시영",
@@ -521,7 +530,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Sieun"
+              to="/designer/Sieun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC5.gif`,
                 name: "김시은",
@@ -554,14 +563,17 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Yeawon"
+              to="/designer/Yeawon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM7.gif`,
                 name: "김예원",
                 major: "모션미디어",
-
                 eng: "Kim Yeawon",
                 mail: "55kyw@naver.com",
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/3_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/MM/2_research_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -587,7 +599,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jisu"
+              to="/designer/Jisu"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM8.gif`,
                 name: "김지수",
@@ -620,7 +632,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Chohee"
+              to="/designer/Chohee"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI4.gif`,
                 name: "김초희",
@@ -653,7 +665,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyunsoo"
+              to="/designer/Hyunsoo"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM9.gif`,
                 name: "김현수",
@@ -661,6 +673,10 @@ function Designer() {
 
                 eng: "Kim Hyunsoo",
                 mail: "hyun98soo@naver.com",
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/5_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/MM/1_research_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -686,7 +702,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Yeonhui"
+              to="/designer/Yeonhui"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI5.gif`,
                 name: "노연희",
@@ -719,13 +735,15 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jun"
+              to="/designer/Jun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM10.gif`,
                 name: "마준",
                 major: "모션미디어",
                 eng: "Ma Jun",
                 mail: "junhong0815@gmaiil.com",
+                link1: "/project/mm/studio",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/5_studio_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -751,14 +769,17 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:SungHee"
+              to="/designer/SungHee"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM11.gif`,
                 name: "문성희",
                 major: "모션미디어",
-
                 eng: "Moon Sunghee",
                 mail: "moonangel2@naver.com",
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/3_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/MM/2_research_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -784,7 +805,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Mingyu"
+              to="/designer/Mingyu"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC6.gif`,
                 name: "박민규",
@@ -817,7 +838,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Seongho"
+              to="/designer/Seongho"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI6.gif`,
                 name: "박성호",
@@ -850,14 +871,17 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Sumin"
+              to="/designer/ParkSumin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM12.gif`,
                 name: "박수민",
                 major: "모션미디어",
-
                 eng: "Park Sumin",
                 mail: "sumin10618@naver.com",
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/4_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/MM/1_research_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -883,7 +907,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Eunsu"
+              to="/designer/Eunsu"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM13.gif`,
                 name: "박은수",
@@ -891,6 +915,10 @@ function Designer() {
 
                 eng: "Park Eunsu",
                 mail: "unsu01181@naver.com",
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/1_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/MM/3_research_thumbnail.jpg`,
               }}
             >
               <div className="DesignerList-image">
@@ -916,7 +944,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jeonghun"
+              to="/designer/Jeonghun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`,
                 name: "백정훈",
@@ -949,12 +977,11 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jaehoon"
+              to="/designer/Jaehoon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI8.gif`,
                 name: "백제훈",
-                major: "디지털콘텐츠",
-                major2: "비주얼인포메이션디자인",
+                major1: "비주얼인포메이션디자인",
                 eng: "Baek Jaehoon",
                 mail: "bjh990225@gmail.com",
               }}
@@ -982,14 +1009,15 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Soeun"
+              to="/designer/Soeun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM14.gif`,
                 name: "빙소은",
                 major: "모션미디어",
-
                 eng: "Bing Soeun",
                 mail: "ilyjej1208@naver.com",
+                link1: "/project/mm/studio",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/3_research_thumbnail.jpg`,
               }}
             >
               <div className="DesignerList-image">
@@ -1015,7 +1043,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Boeun"
+              to="/designer/Boeun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI9.gif`,
                 name: "서보은",
@@ -1048,7 +1076,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Bohyeon"
+              to="/designer/Bohyeon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC7.gif`,
                 name: "서보현",
@@ -1081,13 +1109,15 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Arteleva"
+              to="/designer/Arteleva"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM15.gif`,
                 name: "아르텔레바 사이다",
                 major: "모션미디어",
                 eng: "Arteleva Saida",
                 mail: "saida.arteleva@gmail.com",
+                link1: "/project/mm/studio",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/3_research_thumbnail.jpg`,
               }}
             >
               <div className="DesignerList-image">
@@ -1113,7 +1143,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Doyeon"
+              to="/designer/Doyeon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC8.gif`,
                 name: "안도연",
@@ -1146,7 +1176,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jiyeon"
+              to="/designer/Jiyeon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`,
                 name: "유지연",
@@ -1179,7 +1209,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Dohyeon"
+              to="/designer/Dohyeon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC9.gif`,
                 name: "이도현",
@@ -1212,7 +1242,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Minju"
+              to="/designer/Minju"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI11.gif`,
                 name: "이민주",
@@ -1245,7 +1275,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Seoyeon"
+              to="/designer/Seoyeon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM16.gif`,
                 name: "이서연",
@@ -1253,6 +1283,10 @@ function Designer() {
 
                 eng: "Lee Seoyeon",
                 mail: "2syeonnn@gmail.com",
+                link1: "/project/mm/studio",
+                link2: "/project/mm/research",
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/4_studio_thumbnail.png`,
+                work2: `${process.env.PUBLIC_URL}/assets/features/MM/1_research_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -1278,7 +1312,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Somin"
+              to="/designer/Somin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM17.gif`,
                 name: "이소민",
@@ -1311,7 +1345,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Seungyeon"
+              to="/designer/Seungyeon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC10.gif`,
                 name: "이승연",
@@ -1344,7 +1378,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Youngmin"
+              to="/designer/Youngmin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC11.gif`,
                 name: "이영민",
@@ -1377,7 +1411,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jaehee"
+              to="/designer/Jaehee"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI12.gif`,
                 name: "이재희",
@@ -1410,7 +1444,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jinho"
+              to="/designer/Jinho"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM18.gif`,
                 name: "이진호",
@@ -1418,6 +1452,9 @@ function Designer() {
 
                 eng: "Lee Jinho",
                 mail: "leejh6873@naver.com",
+                link1: "/project/mm/studio",
+
+                work1: `${process.env.PUBLIC_URL}/assets/features/MM/2_studio_thumbnail.png`,
               }}
             >
               <div className="DesignerList-image">
@@ -1443,7 +1480,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hanbin"
+              to="/designer/Hanbin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC12.gif`,
                 name: "이한빈",
@@ -1476,7 +1513,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyeonwoo"
+              to="/designer/Hyeonwoo"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI13.gif`,
                 name: "임현우",
@@ -1509,7 +1546,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Suyoung"
+              to="/designer/Suyoung"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI14.gif`,
                 name: "장수영",
@@ -1542,7 +1579,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Eunkyo"
+              to="/designer/Eunkyo"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC13.gif`,
                 name: "장은교",
@@ -1575,7 +1612,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jaeseok"
+              to="/designer/Jaeseok"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/profileImage/VI/VI18.gif`,
                 name: "장재석",
@@ -1608,7 +1645,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Seongjin"
+              to="/designer/Seongjin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI15.gif`,
                 name: "정성진",
@@ -1641,7 +1678,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Jeongyoon"
+              to="/designer/Jeongyoon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM19.gif`,
                 name: "정정윤",
@@ -1674,7 +1711,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Juhyun"
+              to="/designer/Juhyun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC14.gif`,
                 name: "정주현",
@@ -1709,7 +1746,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:SeongRae"
+              to="/designer/SeongRae"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC15.gif`,
                 name: "조성래",
@@ -1742,7 +1779,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:SeongRae"
+              to="/designer/Yihyeon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC16.gif`,
                 name: "조이현",
@@ -1775,7 +1812,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Kangwon"
+              to="/designer/Kangwon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI19.gif`,
                 name: "지강원",
@@ -1808,7 +1845,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Changhyun"
+              to="/designer/Changhyun"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC17.gif`,
                 name: "지창현",
@@ -1841,7 +1878,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Yosep"
+              to="/designer/Yosep"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI16.gif`,
                 name: "최요셉",
@@ -1874,7 +1911,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Yujin"
+              to="/designer/Yujin"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI17.gif`,
                 name: "허유진",
@@ -1907,7 +1944,7 @@ function Designer() {
             }
           >
             <Link
-              to="/2022/designer/profile:Hyojoon"
+              to="/designer/Hyojoon"
               state={{
                 src: `${process.env.PUBLIC_URL}/assets/images/ProfileImage/MM/MM20.gif`,
                 name: "황효준",

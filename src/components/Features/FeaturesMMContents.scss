@@ -1,7 +1,7 @@
 .MM-contents {
-  max-width: 1600px;
+  max-width: 1200px;
   margin: 0 auto;
-  height: 1000vh;
+  height: 150vh;
 
   .MM-contents-manual {
     display: flex;
@@ -13,7 +13,7 @@
   .MM-contents-listBox {
     background-color: #fdfdfd;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
-    padding: 60px 80px;
+    padding: 30px 60px 60px 30px;
 
     .MM-contents-lists {
       .MM-contents-list {
@@ -69,13 +69,19 @@
       }
     }
   }
+  .MM-contents-video {
+    margin-top: 60px;
+    .video-contents {
+      height: 800px;
+    }
+  }
 }
 
 @media screen and (max-width: 1200px) {
   .MM-contents {
     max-width: 1600px;
     margin: 0 auto;
-    height: 1000vh;
+    height: 120vh;
 
     .MM-contents-manual {
       display: flex;
@@ -91,7 +97,7 @@
 
       .MM-contents-lists {
         .MM-contents-list {
-          padding: 20px 40px;
+          padding: 20px 0;
           .MM-list-top {
             display: flex;
             :nth-child(1) {
@@ -138,14 +144,15 @@
           .list-bottom-text_designer-768-studio {
             display: flex;
             margin-top: 30px;
-            :nth-child(1) {
-              margin-right: 160px;
-            }
-            .list-designer-studio {
-              margin-right: 160px;
-            }
+            justify-content: space-between;
           }
         }
+      }
+    }
+    .MM-contents-video {
+      margin-top: 30px;
+      .video-contents {
+        height: 500px;
       }
     }
   }
@@ -155,7 +162,7 @@
   .MM-contents {
     max-width: 1600px;
     margin: 0 auto;
-    height: 1000vh;
+    height: 120vh;
 
     .MM-contents-manual {
       display: flex;
@@ -164,7 +171,7 @@
       text-align: center;
       font-size: 0.875rem;
       color: #333;
-      margin-top: 60px;
+      margin-top: 30px;
     }
     .MM-contents-listBox {
       background-color: #fdfdfd;
@@ -227,12 +234,9 @@
           }
           .list-bottom-text_designer-768 {
             display: flex;
-            flex-direction: column;
             margin-top: 30px;
             font-size: 0.875rem !important;
-            :nth-child(1) {
-              margin-right: 0;
-            }
+            flex-direction: column;
             :nth-child(2),
             :nth-child(3) {
               margin-top: 20px;
@@ -243,20 +247,17 @@
           }
           .list-bottom-text_designer-768-studio {
             display: flex;
-            flex-direction: column;
+
             margin-top: 30px;
             font-size: 0.875rem !important;
-            :nth-child(1) {
-              margin-right: 0;
-            }
-            :nth-child(2) {
-              margin-top: 20px;
-            }
-            .list-designer-studio {
-              margin-right: 160px;
-            }
           }
         }
+      }
+    }
+    .MM-contents-video {
+      margin-top: 30px;
+      .video-contents {
+        height: 300px;
       }
     }
   }

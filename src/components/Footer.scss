@@ -48,7 +48,7 @@
   }
   .icon {
     font-size: 1.5rem;
-    margin-right: 10px;
+    margin-right: 5px;
   }
   .icon-instagram {
     color: #3f729b;
@@ -106,14 +106,9 @@
   }
   .links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 10px;
-
-    .icon {
-      margin-right: 5px;
-      width: 15px;
-    }
 
     .link-item {
       display: flex;
@@ -184,11 +179,12 @@
   }
   .links {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-gap: 5px;
 
     .link-item {
+      align-items: center;
       display: flex;
       margin: 0 auto;
       font-size: 0.7rem;

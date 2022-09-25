@@ -50,7 +50,7 @@ function Project() {
         </video>
         <div className="project-container">
           <Link
-            to="/2022/project/dc"
+            to="/project/dc"
             className={
               dcClick === true ? "project-dc major-m" : "project-dc major"
             }
@@ -63,7 +63,7 @@ function Project() {
             </div>
             {/* 마우스오버 후 */}
             <div className="project-after after">
-              <Link to="/2022/project/dc/studio" className="innerLink">
+              <Link to="/project/dc/studio" className="innerLink">
                 <div className="project-wrapper">
                   {/* 마우스오버 텍스트 */}
                   <div className="project-wrapper__text">
@@ -123,7 +123,7 @@ function Project() {
           </Link>
 
           <Link
-            to="/2022/project/mm/studio"
+            to="/project/mm/studio"
             className={
               viClick === true ? "project-vi major-m" : " project-vi major"
             }
@@ -136,7 +136,7 @@ function Project() {
             </div>
             {/* 마우스오버 후 */}
             <div className="project-after after">
-              <Link to="/2022/project/vi/studio" className="innerLink">
+              <Link to="/project/vi/studio" className="innerLink">
                 <div className="project-wrapper">
                   {/* 마우스오버 텍스트 */}
                   <div className="project-wrapper__text">
@@ -198,7 +198,7 @@ function Project() {
           </Link>
 
           <Link
-            to="/2022/project/vi/studio"
+            to="/project/vi/studio"
             className={
               mmClick === true ? "project-mm major-m" : " project-mm major"
             }
@@ -211,7 +211,7 @@ function Project() {
             </div>
             {/* 마우스오버 후 */}
             <div className="project-after after">
-              <Link to="/2022/project/mm/studio" className="innerLink">
+              <Link to="/project/mm/studio" className="innerLink">
                 <div className="project-wrapper">
                   {/* 마우스오버 텍스트 */}
                   <div className="project-wrapper__text">
@@ -231,18 +231,6 @@ function Project() {
                             <div className="project-wrapper__majorTitle">
                               <strong>모션미디어스튜디오</strong>
                               <br />
-                              김석래 교수님
-                            </div>
-                            <div className="project-wrapper__majorDescription">
-                              애니메이션적 연출에 기반을 두고, 다양한 표현
-                              방법들을 활용하여 자신만의 메시지가 담긴 영상
-                              콘텐츠를 제작한다.
-                            </div>
-                          </div>
-                          <div className="project-wrapper-research">
-                            <div className="project-wrapper__majorTitle">
-                              <strong>MM 졸업연구</strong>
-                              <br />
                               백재훈 교수님
                             </div>
                             <div className="project-wrapper__majorDescription">
@@ -250,6 +238,19 @@ function Project() {
                               바탕으로 창의적 표현의 도구로서 영상매체를
                               활용하고 다양한 기술적 실험으로 실사 영상의 졸업
                               작품을 진행하게 된다.
+                            </div>
+                          </div>
+                          <div className="project-wrapper-research">
+                            <div className="project-wrapper__majorTitle">
+                              <strong>MM 졸업연구</strong>
+                              <br />
+                              김석래 교수님
+                            </div>
+                            <div className="project-wrapper__majorDescription">
+                              애니메이션적 연출에 기반을 두고, 다양한 표현
+                              방법들을 활용하여 자신만의 메시지가 담긴 영상
+                              콘텐츠를 제작한다.
+                              
                             </div>
                           </div>
                         </div>

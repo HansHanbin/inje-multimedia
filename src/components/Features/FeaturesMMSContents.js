@@ -327,6 +327,16 @@ function FeaturesMMSContents() {
         <div className="MM-contents-manual">
           좌우로 슬라이드 하면 작품 목록을 확인할 수 있습니다.
         </div>
+        <div className="MM-contents-video" alt="MM Studio Works">
+          <iframe
+            width="100%"
+            height="800px"
+            src="https://www.youtube.com/embed/N1MGORVeR58"
+            className="video-contents"
+            title="MM Studio"
+            frameborder="0"
+          ></iframe>
+        </div>
       </div>
     </>
   );

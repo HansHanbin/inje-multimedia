@@ -55,6 +55,7 @@ function FeaturesPresentation() {
   const darkMode = location.state.darkMode;
   const link = location.state.link;
   const workVideo = location.state.workVideo;
+  const protopieVideo = location.state.protopieVideo;
 
   console.log(location);
 
@@ -115,12 +116,21 @@ function FeaturesPresentation() {
   const [ee, setEE] = useState(false);
   const [ff, setFF] = useState(false);
   const [video, setVideo] = useState(false);
+  const [pVideo, setPVidoe] = useState(false);
 
   const onVideo = () => {
-    if (video === undefined) {
+    if (workVideo === undefined) {
       setVideo(false);
     } else {
       setVideo(true);
+    }
+  };
+
+  const onProtopieVideo = () => {
+    if (protopieVideo === undefined) {
+      setPVidoe(false);
+    } else {
+      setPVidoe(true);
     }
   };
 
@@ -596,6 +606,21 @@ function FeaturesPresentation() {
               onLoad={onFF}
               className={ff === false ? "pt-work none" : "pt-work"}
             />
+            <div
+              className={
+                pVideo === false
+                  ? "pt-work work-video none"
+                  : "pt-work work-video"
+              }
+              alt="video"
+              onLoad={onProtopieVideo}
+            >
+              <iframe
+                width="100%"
+                src={protopieVideo}
+                className="video-contents"
+              ></iframe>
+            </div>
             <a target="_blank" href={link}>
               <img src={light === false ? lightMode : darkMode} />
             </a>

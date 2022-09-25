@@ -3,11 +3,12 @@ import Cards from "../components/Cards";
 import Header from "../components/HeaderDark";
 import Footer from "../components/Footer";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import "./About.scss";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCirclePlay } from "@fortawesome/free-regular-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faCirclePlay } from "@fortawesome/free-regular-svg-icons";
 
 import AboutPeople from "../components/About/AboutPeople";
 import AboutProfessor from "../components/About/AboutProfessor";
@@ -26,6 +27,12 @@ function About() {
     } else if (scrollValue > 300) {
       setScoll("2");
     }
+  };
+
+  const [video, setVideo] = useState(true);
+
+  const onEnded = () => {
+    setVideo(false);
   };
 
   return (
@@ -67,7 +74,7 @@ function About() {
                     main={"Motion Media"}
                     sub={"모션미디어"}
                     description={
-                      "모션미디어 전공은 영상디자인 및 애니메이션 등을 학습하는 것에 특화된 전공입니다. 2D, 3D등의 툴을 배우고 실사 촬영에 대한 수업을 진행합니다."
+                      "모션미디어 전공은 영상디자인 및 애니메이션 등을 학습하는 것에 특화된 전공입니다. 2D, 3D 등의 툴을 배우고 실사 촬영에 대한 수업을 진행합니다."
                     }
                   />
                 </li>
@@ -160,14 +167,32 @@ function About() {
 
           <div className="about-section-one about-section">
             <div className="section-one-wrapper wrapper">
-              <div className="one-text-warpper">
+              <div className={video === true ? "none" : "one-text-warpper"}>
                 <span className="one-title">멀티미디어학부 졸업전시회</span>
                 <div className="one-description">
                   <div>프리즘처럼 빛나는 학생들의 모습을 확인해보세요!</div>
-                  <FontAwesomeIcon icon={faCirclePlay} className="one-play" />
+                  {/* <FontAwesomeIcon icon={faCirclePlay} className="one-play" /> */}
                 </div>
+                <Link to="/project">
+                  <img
+                    src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/main_view project_B.png`}
+                    alt="view project"
+                    className="two-viewProejct"
+                  />
+                </Link>
               </div>
             </div>
+            <video
+              className={video === true ? "one-intro" : "one-intro none"}
+              controls
+              playsInline
+              type="video/mp4"
+              onEnded={onEnded}
+            >
+              <source
+                src={`${process.env.PUBLIC_URL}/assets/video/about_intro.mp4`}
+              />
+            </video>
           </div>
 
           <div className="about-footer ">

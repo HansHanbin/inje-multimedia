@@ -16,17 +16,17 @@ function Features() {
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/2022/project/dc/studio">
+              <Link to="/project/dc/studio">
                 <div className="major-dc active">Digital Contents</div>
                 <div className="major-mobile active">D.C</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/vi/studio">
+              <Link to="/project/vi/studio">
                 <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/mm/studio">
+              <Link to="/project/mm/studio">
                 <div className="major-mm">Motion Media</div>
                 <div className="major-mobile">M.M</div>
               </Link>
@@ -37,11 +37,11 @@ function Features() {
         <div className="project-class">
           <div className="class-wrapper">
             <div className="class-studio class ">
-              <Link to="/2022/project/dc/studio">디지털콘텐츠스튜디오</Link>
+              <Link to="/project/dc/studio">디지털콘텐츠스튜디오</Link>
             </div>
 
             <div className="class-research class class-active">
-              <Link to="/2022/project/dc/research">DC졸업연구</Link>
+              <Link to="/project/dc/research">DC졸업연구</Link>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ function Features() {
                   profileName="구혜진"
                   profileEng="Gu Hyejin"
                   profileMail="fpqlt_326998@naver.com"
-                  path="/2022/project/dc/:Hyejin"
+                  path="/project/dc/research/:Hyejin"
                   work0={imageDcr.HYEJIN.work0}
                   work1={imageDcr.HYEJIN.work1}
                   work2={imageDcr.HYEJIN.work2}
@@ -79,6 +79,7 @@ function Features() {
                   work15={imageDcr.HYEJIN.work15}
                   work16={imageDcr.HYEJIN.work16}
                   work17={imageDcr.HYEJIN.work17}
+                  workVideo="https://www.youtube.com/embed/TA93DL38Yuw"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/12_research_thumbnail.png`}
@@ -91,7 +92,7 @@ function Features() {
                   profileName="이영민"
                   profileEng="Lee Youngmin"
                   profileMail="rjscl343@naver.com"
-                  path="/2022/project/dc/:Youngmin"
+                  path="/project/dc/research/:Youngmin"
                   work0={imageDcr.YM.work0}
                   work1={imageDcr.YM.work1}
                   work2={imageDcr.YM.work2}
@@ -111,6 +112,8 @@ function Features() {
                   work16={imageDcr.YM.work16}
                   work17={imageDcr.YM.work17}
                   work18={imageDcr.YM.work18}
+                  workVideo="https://www.youtube.com/embed/ciGFi4jj2Vs"
+                  protopieVideo="https://www.youtube.com/embed/WzKkvr37w3A"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_research_thumbnail.png`}
@@ -123,7 +126,7 @@ function Features() {
                   profileName="김기성"
                   profileEng="Kim Kiseong"
                   profileMail="kimkiseong98@gmail.com"
-                  path="/2022/project/dc/:Kiseong"
+                  path="/project/dc/research/:Kiseong"
                   work0={imageDcr.KISEONG.work0}
                   work1={imageDcr.KISEONG.work1}
                   work2={imageDcr.KISEONG.work2}
@@ -143,6 +146,7 @@ function Features() {
                   work16={imageDcr.KISEONG.work16}
                   work17={imageDcr.KISEONG.work17}
                   work18={imageDcr.KISEONG.work18}
+                  workVideo="https://www.youtube.com/embed/_yJoQ4M3stE"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/15_research_thumbnail.png`}
@@ -155,11 +159,12 @@ function Features() {
                   profileName="정주현"
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
-                  path="/2022/project/dc/:Juhyun"
+                  path="/project/dc/research/:Juhyun"
                   work0={imageDcr.JUHYUN.work0}
                   work1={imageDcr.JUHYUN.work1}
                   lightMode={imageDcr.JUHYUN.lightMode}
                   darkMode={imageDcr.JUHYUN.darkMode}
+                  workVideo="https://www.youtube.com/embed/MPfJslWHoUY"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_research_thumbnail.png`}
@@ -172,10 +177,11 @@ function Features() {
                   profileName="장은교"
                   profileEng="Jang Eunkyo"
                   profileMail="429650@gmail.com"
-                  path="/2022/project/dc/:Eunkyo"
+                  path="/project/dc/research/:Eunkyo"
                   work0={imageDcr.EUNKYO.work0}
                   work1={imageDcr.EUNKYO.work1}
                   work2={imageDcr.EUNKYO.work2}
+                  workVideo="https://www.youtube.com/embed/St2HOuKIfo4"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/5_research_thumbnaill.png`}
@@ -188,7 +194,7 @@ function Features() {
                   profileName="김시은"
                   profileEng="Kim Sieun"
                   profileMail="kns9559sn@gmail.com"
-                  path="/2022/project/dc/:Sieun"
+                  path="/project/dc/research/:Sieun"
                   work0={imageDcr.SIEUN.work0}
                   work1={imageDcr.SIEUN.work1}
                   work2={imageDcr.SIEUN.work2}
@@ -202,6 +208,7 @@ function Features() {
                   work10={imageDcr.SIEUN.work10}
                   work11={imageDcr.SIEUN.work11}
                   work12={imageDcr.SIEUN.work12}
+                  workVideo="https://www.youtube.com/embed/HxUVam5Rtfw"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/10_research_thumbnail.png`}
@@ -214,7 +221,7 @@ function Features() {
                   profileName="이도현"
                   profileEng="Lee Dohyeon"
                   profileMail="hyeonn323@gmail.com"
-                  path="/2022/project/dc/:Dohyeon"
+                  path="/project/dc/research/:Dohyeon"
                   work0={imageDcr.DOHYEON.work0}
                   work1={imageDcr.DOHYEON.work1}
                   work2={imageDcr.DOHYEON.work2}
@@ -232,6 +239,7 @@ function Features() {
                   work14={imageDcr.DOHYEON.work14}
                   work15={imageDcr.DOHYEON.work15}
                   work16={imageDcr.DOHYEON.work16}
+                  workVideo="https://www.youtube.com/embed/S6Js4ZbJtQQ"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/16_research_thumbnail.png`}
@@ -244,7 +252,7 @@ function Features() {
                   profileName="조성래"
                   profileEng="Cho Seongrae"
                   profileMail="srj9704@naver.com"
-                  path="/2022/project/dc/:Seongrae"
+                  path="/project/dc/research/:Seongrae"
                   work0={imageDcr.SEONGRAE.work0}
                   work1={imageDcr.SEONGRAE.work1}
                   work2={imageDcr.SEONGRAE.work2}
@@ -264,6 +272,7 @@ function Features() {
                   work16={imageDcr.SEONGRAE.work16}
                   work17={imageDcr.SEONGRAE.work17}
                   work18={imageDcr.SEONGRAE.work18}
+                  workVideo="https://www.youtube.com/embed/ceJcKYWJ4Fk"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/17_research_thumbnail.png`}
@@ -276,7 +285,7 @@ function Features() {
                   profileName="조이현"
                   profileEng="Jo Yihyeon"
                   profileMail="j2hyun980@naver.com"
-                  path="/2022/project/dc/:Yihyeon"
+                  path="/project/dc/research/:Yihyeon"
                   work0={imageDcr.YIHYEON.work0}
                   work1={imageDcr.YIHYEON.work1}
                   work2={imageDcr.YIHYEON.work2}
@@ -287,6 +296,8 @@ function Features() {
                   work7={imageDcr.YIHYEON.work7}
                   work8={imageDcr.YIHYEON.work8}
                   work9={imageDcr.YIHYEON.work9}
+                  workVideo="https://www.youtube.com/embed/d3MU4armr4Y"
+                  protopieVideo="https://www.youtube.com/embed/x99etLkYjgs"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/3_research_thumbnail.png`}
@@ -301,7 +312,7 @@ function Features() {
                   profileName={"김나영"}
                   profileEng={"Kim Nayoung"}
                   profileMail="sdf02033@gmail.com"
-                  path="/2022/project/dc/:Nayoung"
+                  path="/project/dc/research/:Nayoung"
                   work0={imageDcr.NAYOUNG.work0}
                   work1={imageDcr.NAYOUNG.work1}
                   work2={imageDcr.NAYOUNG.work2}
@@ -314,6 +325,8 @@ function Features() {
                   work9={imageDcr.NAYOUNG.work9}
                   work10={imageDcr.NAYOUNG.work10}
                   work11={imageDcr.NAYOUNG.work11}
+                  workVideo="https://www.youtube.com/embed/SF-Zxh2jNoo"
+                  protopieVideo="https://www.youtube.com/embed/NaT0JGHcGIc"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_research_thumbnail.png`}
@@ -326,7 +339,7 @@ function Features() {
                   profileName="김문주"
                   profileEng="Kim Moonju"
                   profileMail="m.jju422@gmail.com"
-                  path="/2022/project/dc/:Moonju"
+                  path="/project/dc/research/:Moonju"
                   work0={imageDcr.MOONJU.work0}
                   work1={imageDcr.MOONJU.work1}
                   work2={imageDcr.MOONJU.work2}
@@ -345,6 +358,8 @@ function Features() {
                   work15={imageDcr.MOONJU.work15}
                   work16={imageDcr.MOONJU.work16}
                   work17={imageDcr.MOONJU.work17}
+                  workVideo="https://www.youtube.com/embed/Eznd_dxcT44"
+                  protopieVideo="https://www.youtube.com/embed/Buxn_rGJX_Q"
                 />
 
                 {/* <FeaturesItem
@@ -358,7 +373,7 @@ function Features() {
                   profileName="백제훈"
                   profileEng="Baek Jaehoon"
                   profileMail="bjh990225@gmail.com"
-                  path="/2022/project/dc/:Jaehoon"
+                  path="/project/dc/research/:Jaehoon"
                 /> */}
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/me_research_thumbnail.png`}
@@ -366,12 +381,16 @@ function Features() {
                   description={"ROCAB"}
                   header={`${process.env.PUBLIC_URL}/assets/features/DC/me_research_header.png`}
                   featureName="ROCAB"
-                  featureDescription="코로나19의 영향으로 여행 서비스에도 많은 변화가 생겼습니다. 특히 나만의 시간을 보낼 수 있는 섬 혹은 소도시 등 색다른 여행지를 선호하고 있습니다. 이러한 트렌드에 맞춘 안심하고 여행을 떠날 수 있는 FING은 자율운항선박과 함께 나만의 여행을 만들며 특별한 경험을 만들 수 있는 서비스입니다."
+                  featureDescription="최근 경제는 소유의 시대를 넘어 공유의 시대를 향해 가고 있습니다. 공유 경제 속 우리는 간편 이동 수단, 업무 공간, 주거 공간 등 다양한 재화를 공유 하며 살아갑니다. 우리 ROCAB은 근 미래에 완전 자율주행 차량의 보급에 발맞춰 LEVEL 5 이상의 자율 주행 차량의 공유화를 목표로 합니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/DC/DC12.gif`}
                   profileName="이한빈"
                   profileEng="Lee Hanbin"
                   profileMail="hans.hanbin.lee@gmail.com"
-                  path="/2022/project/dc/:Hanbin"
+                  path="/project/dc/research/:Hanbin"
+                  work0={imageDcr.HANBIN.work0}
+                  work1={imageDcr.HANBIN.work1}
+                  workVideo="https://www.youtube.com/embed/-PyA8xCeG7w"
+                  protopieVideo="https://www.youtube.com/embed/6w1PqOwRRM8"
                 />
 
                 <FeaturesItem
@@ -385,9 +404,11 @@ function Features() {
                   profileName="서보현"
                   profileEng="Seo Bohyeon"
                   profileMail="seobori2000@gmail.com"
-                  path="/2022/project/dc/:Bohyeon"
+                  path="/project/dc/research/:Bohyeon"
                   work0={imageDcr.BOHYEON.work0}
                   work2={imageDcr.BOHYEON.work2}
+                  workVideo="https://www.youtube.com/embed/jqqq0xvEmTE"
+                  protopieVideo="https://www.youtube.com/embed/O35YqESb3pE"
                 />
 
                 {/* <FeaturesItem
@@ -401,7 +422,7 @@ function Features() {
                   profileName="안도연"
                   profileEng="An Doyeon"
                   profileMail="rkornne@gmail.com"
-                  path="/2022/project/dc/:Doyeon"
+                  path="/project/dc/research/:Doyeon"
                 /> */}
                 {/* <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/11_research_thumbnail.png`}
@@ -414,7 +435,7 @@ function Features() {
                   profileName="이승연"
                   profileEng="Lee Seoungyeon"
                   profileMail="lee40095617@gmail.com"
-                  path="/2022/project/dc/:Seoungyeon"
+                  path="/project/dc/research/:Seoungyeon"
                 /> */}
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/18_research_thumbnail.png`}
@@ -427,7 +448,7 @@ function Features() {
                   profileName="지창현"
                   profileEng="Ji Changhyun"
                   profileMail="jchyundesign@gmail.com"
-                  path="/2022/project/dc/:Changhyun"
+                  path="/project/dc/research/:Changhyun"
                   work0={imageDcr.CHANGHYUN.work0}
                   work1={imageDcr.CHANGHYUN.work1}
                   work2={imageDcr.CHANGHYUN.work2}
@@ -435,6 +456,7 @@ function Features() {
                   work4={imageDcr.CHANGHYUN.work4}
                   work5={imageDcr.CHANGHYUN.work5}
                   work6={imageDcr.CHANGHYUN.work6}
+                  workVideo="https://www.youtube.com/embed/7Kwwcpny9CU"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/6_research_thumbnail.png`}
@@ -449,7 +471,7 @@ function Features() {
                   profileName={"박민규"}
                   profileEng={"Park Mingyu"}
                   profileMail="parkmin9yu@naver.com"
-                  path="/2022/project/dc/:Mingyu"
+                  path="/project/dc/research/:Mingyu"
                   work0={imageDcr.MINGYU.work0}
                   work1={imageDcr.MINGYU.work1}
                   work2={imageDcr.MINGYU.work2}
@@ -467,6 +489,7 @@ function Features() {
                   work14={imageDcr.MINGYU.work14}
                   work15={imageDcr.MINGYU.work15}
                   work16={imageDcr.MINGYU.work16}
+                  workVideo={"https://www.youtube.com/embed/1rPwE6x4uEQ"}
                 />
               </ul>
             </div>

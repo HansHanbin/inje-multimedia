@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import imageVir from "../../works/imageVir";
+import imageVis from "../../works/imageVis";
 
 import FeaturesItem from "./FeaturesItem";
 import "./Features.scss";
@@ -18,17 +19,17 @@ function Features() {
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/2022/project/dc/studio">
+              <Link to="/project/dc/studio">
                 <div className="major-dc">Digital Contents</div>
                 <div className="major-mobile">D.C</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/vi/studio">
+              <Link to="/project/vi/studio">
                 <div className="major-vi active">Visual Information Design</div>
                 <div className="major-mobile active">V.I</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/mm/studio">
+              <Link to="/project/mm/studio">
                 <div className="major-mm">Motion Media</div>
                 <div className="major-mobile">M.M</div>
               </Link>
@@ -39,11 +40,11 @@ function Features() {
         <div className="project-class">
           <div className="class-wrapper">
             <div className="class-studio class">
-              <Link to="/2022/project/vi/studio">비주얼인포메이션스튜디오</Link>
+              <Link to="/project/vi/studio">비주얼인포메이션스튜디오</Link>
             </div>
 
             <div className="class-research class class-active">
-              <Link to="/2022/project/vi/research">VI졸업연구</Link>
+              <Link to="/project/vi/research">VI졸업연구</Link>
             </div>
           </div>
         </div>
@@ -62,7 +63,7 @@ function Features() {
                   profileName="박성호"
                   profileEng={"Park Seongho"}
                   profileMail="atree3682@daum.net"
-                  path="/2022/project/vi/:Seongho"
+                  path="/project/vi/research/:Seongho"
                   work1={imageVir.SEONGHO.work1}
                 />
                 <FeaturesItem
@@ -76,7 +77,7 @@ function Features() {
                   profileName="노연희"
                   profileEng={"Noh Yeonhui"}
                   profileMail="wkdch5538@naver.com"
-                  path="/2022/project/vi/:Yeonhui"
+                  path="/project/vi/research/:Yeonhui"
                   work1={imageVir.YEONHUI.work1}
                 />
                 <FeaturesItem
@@ -90,7 +91,7 @@ function Features() {
                   profileName="허유진"
                   profileEng="Heo Yujin"
                   profileMail="heoyujin9041@gmail.com"
-                  path="/2022/project/vi/:Yujin"
+                  path="/project/vi/research/:Yujin"
                   work1={imageVir.YUJIN.work1}
                 />
                 <FeaturesItem
@@ -104,7 +105,7 @@ function Features() {
                   profileName="이민주"
                   profileEng="Lee Minju"
                   profileMail="m06090@naver.com"
-                  path="/2022/project/vi/:Minju"
+                  path="/project/vi/research/:Minju"
                   work1={imageVir.MINJU.work1}
                 />
                 <FeaturesItem
@@ -118,7 +119,7 @@ function Features() {
                   profileName="공효빈"
                   profileEng="Gong Hyobin"
                   profileMail="hyob1130@naver.com"
-                  path="/2022/project/vi/:Hyobin"
+                  path="/project/vi/research/:Hyobin"
                   work1={imageVir.HYOBIN.work1}
                 />
                 <FeaturesItem
@@ -132,7 +133,7 @@ function Features() {
                   profileName="임현우"
                   profileEng="Lim Hyeonwoo"
                   profileMail="gkrktk123@naver.com"
-                  path="/2022/project/vi/:Hyeonwoo"
+                  path="/project/vi/research/:Hyeonwoo"
                   work1={imageVir.HYEONWOO.work1}
                   work2={imageVir.HYEONWOO.work2}
                   work3={imageVir.HYEONWOO.work3}
@@ -166,7 +167,7 @@ function Features() {
                   profileName="정성진"
                   profileEng="Jeong Seongjin"
                   profileMail="jsjpati@naver.com"
-                  path="/2022/project/vi/:Seongjin"
+                  path="/project/vi/research/:Seongjin"
                   work1={imageVir.SEONGJIN.work1}
                 />
                 <FeaturesItem
@@ -180,7 +181,7 @@ function Features() {
                   profileName="정주현"
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
-                  path="/2022/project/vi/:Juhyun"
+                  path="/project/vi/research/:Juhyun"
                   work1={imageVir.JUHYUN.work1}
                 />
                 <FeaturesItem
@@ -194,7 +195,7 @@ function Features() {
                   profileName="이재희"
                   profileEng="Lee Jaehee"
                   profileMail="leejh6873@naver.com"
-                  path="/2022/project/vi/:Jaehee"
+                  path="/project/vi/research/:Jaehee"
                   work1={imageVir.JAEHEE.work1}
                 />
                 <FeaturesItem
@@ -208,23 +209,10 @@ function Features() {
                   profileName="최요셉"
                   profileEng="Choi Yosep"
                   profileMail="tozerothree@gmail.com"
-                  path="/2022/project/vi/:Yosep"
+                  path="/project/vi/research/:Yosep"
                   work1={imageVir.YOSEP.work1}
                 />
-                <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/1_research_thumbnail.png`}
-                  name={"강주언"}
-                  description={"봉황문 인문보"}
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/1_research_header.png`}
-                  featureName="봉황문 인문보"
-                  featureDescription="종이 화병이란 재활용으로 모아둔 병, 캔 등을 화병으로 사용할 때 쓸 수 있는 종이로 된 커버입니다. 종이 화병에 일러스트로 그린 그림은 봉황문인문보 (鳳凰紋引紋袱)를 모티브로 하여 디자인 하였습니다. 봉황문인문보는 조선 왕실에서는 귀중한 물건을 포장한 비단 보자기중 하나로 부귀, 장수 등 염원을 담고 있습니다."
-                  profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI1.gif`}
-                  profileName="강주언"
-                  profileEng="Kang Jueon"
-                  profileMail="3349520@naver.com"
-                  path="/2022/project/vi/:Jueon"
-                  work1={imageVir.JUEON.work1}
-                />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/3_research_thumbnail.png`}
                   name={"곽윤석"}
@@ -236,7 +224,7 @@ function Features() {
                   profileName={"곽윤석"}
                   profileEng={"Kwak Yunseok"}
                   profileMail="dbstjr_98@naver.com"
-                  path="/2022/project/vi/:Yunseok"
+                  path="/project/vi/research/:Yunseok"
                   work1={imageVir.YUNSEOK.work1}
                 />
                 <FeaturesItem
@@ -250,7 +238,7 @@ function Features() {
                   profileName="서보은"
                   profileEng="Seo Boeun"
                   profileMail=""
-                  path="/2022/project/vi/:Boeun"
+                  path="/project/vi/research/:Boeun"
                   work1={imageVir.BOEUN.work1}
                 />
                 <FeaturesItem
@@ -264,23 +252,24 @@ function Features() {
                   profileName="김초희"
                   profileEng="Kim Chohee"
                   profileMail="kch1571@daum.net"
-                  path="/2022/project/vi/:Chohee"
+                  path="/project/vi/research/:Chohee"
                   work1={imageVir.CHOHEE.work1}
                 />
                 <FeaturesItem
-                  src={`${process.env.PUBLIC_URL}/assets/features/VI/6_research_thumbnail.png`}
+                  src={`${process.env.PUBLIC_URL}/assets/features/VI/6_studio_thumbnail.png`}
                   name={"백정훈"}
-                  description="GAP"
-                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_studio_header.png`}
-                  featureName="GAP"
-                  featureDescription="프로젝트 네임 'GAP'은 현시대 게임 중독의 추세와 개념을 알려주고 게임 중독 테스트를 통해서 자신의 게임 중독지수를 판단할 수 있게, 그리고 중독 유형을 분리하고 분석해서 게임마다 어느 중독 유형을 가지고 있는지를 중독 유형 픽토그램을 통해서 알려줘서 스스로 게임 중독에 대해 경계할 수 있는 기회를 제시하는 프로젝트입니다."
+                  description="지향"
+                  header={`${process.env.PUBLIC_URL}/assets/features/VI/6_research_header.png`}
+                  featureName="지향"
+                  featureDescription="프로젝트 네임 ‘지향(紙香)’ 어떤 목표를 향해 달리다라는 의미를 가진 지향(指向)과  중의적인 표현으로써 종이에서 피어나는 향기를 의미하고 있습니다. 작은 카드가 들어 갈 수 있는 공간이면 지향의 작은 카드형 퍼퓸페이퍼를 꽂아 놓음으로써 어느곳이든 당신이 좋아하는 향기를 머무르게 할 수 있습니다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI7.gif`}
                   profileName="백정훈"
                   profileEng="Baek Jeonghun"
                   profileMail="duemno99@naver.com"
-                  path="/2022/project/vi/:Jeonghun"
-                  work1={imageVir.JEONGHUN.work1}
+                  path="/project/vi/studio/:Jeonghun"
+                  work1={imageVis.JEONGHUN.work1}
                 />
+
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/9_research_thumbnail.png`}
                   name={"유지연"}
@@ -291,8 +280,8 @@ function Features() {
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI10.gif`}
                   profileName="유지연"
                   profileEng="Yu Jiyeon"
-                  profileMail="sbe3410@naver.com"
-                  path="/2022/project/vi/:Jiyeon"
+                  profileMail="wcdg1017@naver.com"
+                  path="/project/vi/research/:Jiyeon"
                   work1={imageVir.JIYEON.work1}
                 />
                 <FeaturesItem
@@ -306,7 +295,7 @@ function Features() {
                   profileName="장수영"
                   profileEng="Jang Suyoung"
                   profileMail="wkdtndud0426@naver.com"
-                  path="/2022/project/vi/:Suyoung"
+                  path="/project/vi/research/:Suyoung"
                   work1={imageVir.SUYOUNG.work1}
                 />
                 <FeaturesItem
@@ -320,21 +309,21 @@ function Features() {
                   profileName="백제훈"
                   profileEng="Baek Jaehoon"
                   profileMail="bjh990225@gmail.com"
-                  path="/2022/project/vi/:Jaehoon"
+                  path="/project/vi/research/:Jaehoon"
                   work1={imageVir.JAEHOON.work1}
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_thumbnail.png`}
                   name={"장재석"}
-                  description={"Instant Tale"}
+                  description={"Instant NET"}
                   header={`${process.env.PUBLIC_URL}/assets/features/VI/14_research_header.png`}
-                  featureName="Instant Tale"
+                  featureName="Instant NET"
                   featureDescription="요즘 미술관에 가면 대부분의 사람들이 유명한 작가들의 작품을 찾아 다니며 자신이 작품과 함께 찍은 사진을 SNS에 업로드 함으로서 지적인 이미지를 만들어낸다. 과연 이들은 무엇을 위해 이미지를 만들고 예술을 감상하는가. 경쟁이 과열된 현대사회에서 내재되어 있는 지적 허영심의 근원을 추적하고 앞으로 어떻게 다룰지 생각하는 계기가 되었으면 한다."
                   profileImage={`${process.env.PUBLIC_URL}/assets/images/ProfileImage/VI/VI18.gif`}
                   profileName="장재석"
                   profileEng="Jang Jaeseok"
                   profileMail="bm34c@naver.com"
-                  path="/2022/project/vi/:Jaeseok"
+                  path="/project/vi/research/:Jaeseok"
                   work1={imageVir.JAESEOK.work1}
                 />
                 <FeaturesItem
@@ -348,7 +337,7 @@ function Features() {
                   profileName="지강원"
                   profileEng="Ji Kangwon"
                   profileMail="wlrkddnjs777@naver.com"
-                  path="/2022/project/vi/:Kangwon"
+                  path="/project/vi/research/:Kangwon"
                   work1={imageVir.KANGWON.work1}
                 />
               </ul>

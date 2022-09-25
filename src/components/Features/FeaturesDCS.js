@@ -17,17 +17,17 @@ function Features() {
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/2022/project/dc/studio">
+              <Link to="/project/dc/studio">
                 <div className="major-dc active">Digital Contents</div>
                 <div className="major-mobile active">D.C</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/vi/studio">
+              <Link to="/project/vi/studio">
                 <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>
-              <Link to="/2022/project/mm/studio">
+              <Link to="/project/mm/studio">
                 <div className="major-mm">Motion Media</div>
                 <div className="major-mobile">M.M</div>
               </Link>
@@ -37,11 +37,11 @@ function Features() {
         <div className="project-class">
           <div className="class-wrapper">
             <div className="class-studio class class-active">
-              <Link to="/2022/project/dc/studio">디지털콘텐츠스튜디오</Link>
+              <Link to="/project/dc/studio">디지털콘텐츠스튜디오</Link>
             </div>
 
             <div className="class-research class">
-              <Link to="/2022/project/dc/research">DC졸업연구</Link>
+              <Link to="/project/dc/research">DC졸업연구</Link>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ function Features() {
                   profileName="지창현"
                   profileEng="Ji Changhyun"
                   profileMail="jchyundesign@gmail.com"
-                  path="/2022/project/dc/:Changhyun"
+                  path="/project/dc/studio/:Changhyun"
                   work0={imageDcs.CHANGHYUN.work0}
                   work1={imageDcs.CHANGHYUN.work1}
                   work2={imageDcs.CHANGHYUN.work2}
@@ -73,6 +73,7 @@ function Features() {
                     "https://cloud.protopie.io/p/447a7625ce?touchHint=true&ui=true&scaleToFit=true&cursorType=touch&mockup=true&bgColor=%23F5F5F5&playSpeed=1&playerAppPopup=true"
                   }
                   workVideo="https://www.youtube.com/embed/qXHlphxQQTo"
+                  protopieVideo="https://www.youtube.com/embed/jmMlEZI8XPE"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/me_studio_thumbnail.png`}
@@ -85,8 +86,14 @@ function Features() {
                   profileName="이한빈"
                   profileEng="Lee Hanbin"
                   profileMail="hans.hanbin.lee@gmail.com"
-                  path="/2022/project/dc/:Hanbin"
+                  path="/project/dc/studio/:Hanbin"
+                  work0={imageDcs.HANBIN.work0}
+                  work1={imageDcs.HANBIN.work1}
+                  lightMode={imageDcs.HANBIN.lightMode}
+                  darkMode={imageDcs.HANBIN.darkMode}
                   link="https://cloud.protopie.io/p/cd4bdcb184"
+                  workVideo="https://www.youtube.com/embed/OIVc79HMrIY"
+                  protopieVideo="https://www.youtube.com/embed/KVXfLUno5kQ"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/5_studio_thumbnail.png`}
@@ -99,7 +106,7 @@ function Features() {
                   profileName="김시은"
                   profileEng="Kim Sieun"
                   profileMail="kns9559sn@gmail.com"
-                  path="/2022/project/dc/:Sieun"
+                  path="/project/dc/studio/:Sieun"
                   work0={imageDcs.SIEUN.work0}
                   work1={imageDcs.SIEUN.work1}
                   work2={imageDcs.SIEUN.work2}
@@ -115,6 +122,8 @@ function Features() {
                   lightMode={imageDcs.SIEUN.lightMode}
                   darkMode={imageDcs.SIEUN.darkMode}
                   link="https://cloud.protopie.io/p/7f109309ef "
+                  workVideo="https://www.youtube.com/embed/dAhx4nQqcMQ"
+                  protopieVideo="https://www.youtube.com/embed/u6kRG-CbbzQ"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/15_studio_thumbnail.png`}
@@ -127,12 +136,14 @@ function Features() {
                   profileName="정주현"
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
-                  path="/2022/project/dc/:Juhyun"
+                  path="/project/dc/studio/:Juhyun"
                   work0={imageDcs.JUHYUN.work0}
                   work1={imageDcs.JUHYUN.work1}
                   lightMode={imageDcs.JUHYUN.lightMode}
                   darkMode={imageDcs.JUHYUN.darkMode}
                   link="https://cloud.protopie.io/p/a0667d47db"
+                  workVideo="https://www.youtube.com/embed/btdR06WBLCQ"
+                  protopieVideo="https://www.youtube.com/embed/TxDqK5z9h5s"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/1_studio_thumbnail.png`}
@@ -145,7 +156,7 @@ function Features() {
                   profileName="구혜진"
                   profileEng="Gu Hyejin"
                   profileMail="fpqlt_326998@naver.com"
-                  path="/2022/project/dc/:Hyejin"
+                  path="/project/dc/studio/:Hyejin"
                   work0={imageDcs.HYEJIN.work0}
                   work1={imageDcs.HYEJIN.work1}
                   work2={imageDcs.HYEJIN.work2}
@@ -177,6 +188,8 @@ function Features() {
                   lightMode={imageDcs.HYEJIN.lightMode}
                   darkMode={imageDcs.HYEJIN.darkMode}
                   link="https://cloud.protopie.io/p/434db47ec1"
+                  workVideo="https://www.youtube.com/embed/4Kk_j-Va6Ts"
+                  protopieVideo="https://www.youtube.com/embed/zO7n7g3z1r4"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/6_studio_thumbnail.png`}
@@ -189,7 +202,7 @@ function Features() {
                   profileName="박민규"
                   profileEng={"Park Mingyu"}
                   profileMail="parkmin9yu@naver.com"
-                  path="/2022/project/dc/:Mingyu"
+                  path="/project/dc/studio/:Mingyu"
                   work0={imageDcs.MINGYU.work0}
                   work1={imageDcs.MINGYU.work1}
                   work2={imageDcs.MINGYU.work2}
@@ -211,6 +224,8 @@ function Features() {
                   lightMode={imageDcs.MINGYU.lightMode}
                   darkMode={imageDcs.MINGYU.darkMode}
                   link="https://cloud.protopie.io/p/8ad84e1d51"
+                  workVideo="https://www.youtube.com/embed/zpK-4o1LtGM"
+                  protopieVideo="https://www.youtube.com/embed/e06_a_WuFN8"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_studio_thumbnail.png`}
@@ -223,7 +238,7 @@ function Features() {
                   profileName="김기성"
                   profileEng="Kim Kiseong"
                   profileMail="kimkiseong98@gmail.com"
-                  path="/2022/project/dc/:Kiseong"
+                  path="/project/dc/studio/:Kiseong"
                   work0={imageDcs.KISEONG.work0}
                   work1={imageDcs.KISEONG.work1}
                   work2={imageDcs.KISEONG.work2}
@@ -247,6 +262,8 @@ function Features() {
                   lightMode={imageDcs.KISEONG.lightMode}
                   darkMode={imageDcs.KISEONG.darkMode}
                   link="https://cloud.protopie.io/p/554c122585"
+                  workVideo="https://www.youtube.com/embed/LwJJYbap774"
+                  protopieVideo="https://www.youtube.com/embed/Ujb9hjFPLLA"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/10_studio_thumbnail.png`}
@@ -259,7 +276,7 @@ function Features() {
                   profileName="이도현"
                   profileEng="Lee Dohyeon"
                   profileMail="hyeonn323@gmail.com"
-                  path="/2022/project/dc/:Dohyeon"
+                  path="/project/dc/studio/:Dohyeon"
                   work0={imageDcs.DH.work0}
                   work1={imageDcs.DH.work1}
                   work2={imageDcs.DH.work2}
@@ -281,6 +298,8 @@ function Features() {
                   lightMode={imageDcs.DH.lightMode}
                   darkMode={imageDcs.DH.darkMode}
                   link="https://cloud.protopie.io/p/942ad953a1"
+                  workVideo="https://www.youtube.com/embed/xLDl0rAxxpA"
+                  protopieVideo="https://www.youtube.com/embed/422Vo9axvSg"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/3_studio_thumbnail.png`}
@@ -293,7 +312,7 @@ function Features() {
                   profileName={"김나영"}
                   profileEng={"Kim Nayoung"}
                   profileMail="sdf02033@gmail.com"
-                  path="/2022/project/dc/:Nayoung"
+                  path="/project/dc/studio/:Nayoung"
                   work0={imageDcs.NAYOUNG.work0}
                   work1={imageDcs.NAYOUNG.work1}
                   work2={imageDcs.NAYOUNG.work2}
@@ -312,6 +331,8 @@ function Features() {
                   lightMode={imageDcs.NAYOUNG.lightMode}
                   darkMode={imageDcs.NAYOUNG.darkMode}
                   link="https://cloud.protopie.io/p/d490213dae"
+                  workVideo="https://www.youtube.com/embed/fHpS1nphov8"
+                  protopieVideo="https://www.youtube.com/embed/ATaM1WEAtqs"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/12_studio_thumbnail.png`}
@@ -324,7 +345,7 @@ function Features() {
                   profileName="이영민"
                   profileEng="Lee Youngmin"
                   profileMail="rjscl343@naver.com"
-                  path="/2022/project/dc/:Youngmin"
+                  path="/project/dc/studio/:Youngmin"
                   work0={imageDcs.YM.work0}
                   work1={imageDcs.YM.work1}
                   work2={imageDcs.YM.work2}
@@ -343,6 +364,8 @@ function Features() {
                   lightMode={imageDcs.YM.lightMode}
                   darkMode={imageDcs.YM.darkMode}
                   link="https://cloud.protopie.io/p/c76cb5bcde"
+                  workVideo="https://www.youtube.com/embed/i87bnW_G6l0"
+                  protopieVideo="https://www.youtube.com/embed/Iu0OxxyW3Ts"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/00_studio_thumbnail.png`}
@@ -355,12 +378,14 @@ function Features() {
                   profileName="박성호"
                   profileEng="Park Seongho"
                   profileMail="atree3682@daum.net"
-                  path="/2022/project/dc/:Seongho"
+                  path="/project/dc/studio/:Seongho"
                   work0={imageDcs.SH.work0}
                   work1={imageDcs.SH.work1}
                   lightMode={imageDcs.SH.lightMode}
                   darkMode={imageDcs.SH.darkMode}
                   link="https://cloud.protopie.io/p/3c1949d257"
+                  workVideo="https://www.youtube.com/embed/KaTumK1YRkg"
+                  protopieVideo="https://www.youtube.com/embed/_hovr0H1yZg"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
@@ -373,13 +398,15 @@ function Features() {
                   profileName="장은교"
                   profileEng="Jang Eunkyo"
                   profileMail="429650@gmail.com"
-                  path="/2022/project/dc/:Eunkyo"
+                  path="/project/dc/studio/:Eunkyo"
                   work0={imageDcs.EUNKYO.work0}
                   work1={imageDcs.EUNKYO.work1}
                   work2={imageDcs.EUNKYO.work2}
                   lightMode={imageDcs.EUNKYO.lightMode}
                   darkMode={imageDcs.EUNKYO.darkMode}
                   link="https://cloud.protopie.io/p/ed7365d26a"
+                  workVideo="https://www.youtube.com/embed/-bHpNfaN8Lk"
+                  protopieVideo="https://www.youtube.com/embed/PZUF2xgL7wA"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/8_studio_thumbnail.png`}
@@ -392,12 +419,14 @@ function Features() {
                   profileName="서보현"
                   profileEng="Seo Bohyeon"
                   profileMail="seobori2000@gmail.com"
-                  path="/2022/project/dc/:Bohyeon"
+                  path="/project/dc/studio/:Bohyeon"
                   work0={imageDcs.BH.work0}
                   work2={imageDcs.BH.work2}
                   lightMode={imageDcs.BH.lightMode}
                   darkMode={imageDcs.BH.darkMode}
                   link="https://cloud.protopie.io/p/d8e2d0fefa"
+                  workVideo="https://www.youtube.com/embed/fAthydPOyWo"
+                  protopieVideo="https://www.youtube.com/embed/0Pxnv7JIjD8"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/16_studio_thumbnail.png`}
@@ -410,7 +439,7 @@ function Features() {
                   profileName="조성래"
                   profileEng="Cho Seongrae"
                   profileMail="srj9704@naver.com"
-                  path="/2022/project/dc/:Seongrae"
+                  path="/project/dc/studio/:Seongrae"
                   work0={imageDcs.SR.work0}
                   work1={imageDcs.SR.work1}
                   work2={imageDcs.SR.work2}
@@ -444,6 +473,8 @@ function Features() {
                   lightMode={imageDcs.SR.lightMode}
                   darkMode={imageDcs.SR.darkMode}
                   link="https://cloud.protopie.io/p/88604c81c3"
+                  workVideo="https://www.youtube.com/embed/5JLMHgpqKl0"
+                  protopieVideo="https://www.youtube.com/embed/ut3r227PPHk"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_studio_thumbnail.png`}
@@ -456,7 +487,7 @@ function Features() {
                   profileName="김문주"
                   profileEng="Kim Moonju"
                   profileMail="m.jju422@gmail.com"
-                  path="/2022/project/dc/:Moonju"
+                  path="/project/dc/studio/:Moonju"
                   work0={imageDcs.MOONJU.work0}
                   work1={imageDcs.MOONJU.work1}
                   work2={imageDcs.MOONJU.work2}
@@ -476,6 +507,8 @@ function Features() {
                   lightMode={imageDcs.MOONJU.lightMode}
                   darkMode={imageDcs.MOONJU.darkMode}
                   link="https://cloud.protopie.io/p/ebdc43c31d"
+                  workVideo="https://www.youtube.com/embed/TlrNnE21BZo"
+                  protopieVideo="https://www.youtube.com/embed/lAUZIKtuCeg"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/17_studio_thumbnail.png`}
@@ -488,7 +521,7 @@ function Features() {
                   profileName="조이현"
                   profileEng="Jo Yihyeon"
                   profileMail="j2hyun980@naver.com"
-                  path="/2022/project/dc/:Yihyeon"
+                  path="/project/dc/studio/:Yihyeon"
                   work0={imageDcs.IH.work0}
                   work1={imageDcs.IH.work1}
                   work2={imageDcs.IH.work2}
@@ -501,6 +534,8 @@ function Features() {
                   lightMode={imageDcs.IH.lightMode}
                   darkMode={imageDcs.IH.darkMode}
                   link="https://cloud.protopie.io/p/ac7da1d6b3"
+                  workVideo="https://www.youtube.com/embed/WKW1Y1L0Sls"
+                  protopieVideo="https://www.youtube.com/embed/wd8x8LmDvow"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/9_studio_thumbnail.png`}
@@ -513,7 +548,19 @@ function Features() {
                   profileName="안도연"
                   profileEng="An Doyeon"
                   profileMail="rkornne@gmail.com"
-                  path="/2022/project/dc/:Doyeon"
+                  path="/project/dc/studio/:Doyeon"
+                  work0={imageDcs.DOYEON.work0}
+                  work1={imageDcs.DOYEON.work1}
+                  work2={imageDcs.DOYEON.work2}
+                  work3={imageDcs.DOYEON.work3}
+                  work4={imageDcs.DOYEON.work4}
+                  work5={imageDcs.DOYEON.work5}
+                  work6={imageDcs.DOYEON.work6}
+                  work7={imageDcs.DOYEON.work7}
+                  lightMode={imageDcs.DOYEON.lightMode}
+                  darkMode={imageDcs.DOYEON.darkMode}
+                  workVideo="https://www.youtube.com/embed/Bg3fo5wHWaA"
+                  protopieVideo="https://www.youtube.com/embed/RIiXRnAAvcM"
                 />
 
                 {/* <FeaturesItem
@@ -527,7 +574,7 @@ function Features() {
                   profileName="백제훈"
                   profileEng="Baek Jaehoon"
                   profileMail="bjh990225@gmail.com"
-                  path="/2022/project/dc/:Jaehoon"
+                  path="/project/dc/studio/:Jaehoon"
                 />
 */}
 
@@ -542,7 +589,7 @@ function Features() {
                   profileName="이승연"
                   profileEng="Lee Seoungyeon"
                   profileMail="lee40095617@gmail.com"
-                  path="/2022/project/dc/:Seungyeon"
+                  path="/project/dc/studio/:Seungyeon"
                 /> */}
               </ul>
             </div>

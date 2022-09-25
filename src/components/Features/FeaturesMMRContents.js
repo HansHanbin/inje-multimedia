@@ -51,9 +51,9 @@ function FeaturesMMRContents() {
                     <div className="list-designer">
                       <strong>박은수</strong>
                       <br />
-                      Kim Hyunsoo
+                      Park Eunsu
                       <br />
-                      hyun98soo@naver.com
+                      unsu01181@naver.com
                     </div>
                     <div className="list-designer">
                       <strong>빙소은</strong>
@@ -100,7 +100,7 @@ function FeaturesMMRContents() {
               <div className="MM-list-top">
                 <div className="list-top-time">04 : 54 - 07 : 02</div>
                 <div className="list-top-title">
-                  <strong>엄마의 하루</strong>
+                  <strong>DAY & DAY</strong>
                 </div>
               </div>
               <div className="MM-list-bottom">
@@ -112,7 +112,7 @@ function FeaturesMMRContents() {
                   <div className="list-top-time-mobile">
                     04 : 54 - 07 : 02
                     <br />
-                    <strong>엄마의 하루</strong>
+                    <strong>DAY & DAY</strong>
                   </div>
                 </div>
                 <div className="list-bottom-text">
@@ -249,6 +249,15 @@ function FeaturesMMRContents() {
         </section>
         <div className="MM-contents-manual">
           좌우로 슬라이드 하면 작품 목록을 확인할 수 있습니다.
+        </div>
+        <div className="MM-contents-video" alt="MM Studio Works">
+          <iframe
+            width="100%"
+            src="https://www.youtube.com/embed/qevgj2btdk4"
+            className="video-contents"
+            title="MM 졸업연구"
+            frameborder="0"
+          ></iframe>
         </div>
       </div>
     </>

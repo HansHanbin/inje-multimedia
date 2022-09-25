@@ -1,12 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faInstagram,
-  faFacebook,
-  faYoutube,
-  faChrome,
-} from "@fortawesome/free-brands-svg-icons";
+
 //import Logo from "/assets/images/inje-logo.jpg";
 
 function Footer() {
@@ -33,7 +27,7 @@ function Footer() {
         <a className="link-item multi" href="/">
           {/* <FontAwesomeIcon icon={faChrome} className="icon-internet icon" /> */}
           <img
-            alt="link image"
+            alt="link"
             src={`${process.env.PUBLIC_URL}/assets/images/footer/icon/h.png`}
             className="icon-internet icon"
           />
@@ -42,25 +36,16 @@ function Footer() {
         <a className="link-item insta" href="/">
           {/* <FontAwesomeIcon icon={faInstagram} className="icon-instagram icon" /> */}
           <img
-            alt="link image"
+            alt="link"
             src={`${process.env.PUBLIC_URL}/assets/images/footer/icon/i.png`}
             className="icon-instagram icon"
           />
           인스타그램
         </a>
-        <a className="link-item fb" href="/">
-          {/* <FontAwesomeIcon icon={faFacebook} className="icon-facebook icon" /> */}
-          <img
-            alt="link image"
-            src={`${process.env.PUBLIC_URL}/assets/images/footer/icon/f.png`}
-            className="icon-facebook icon"
-          />
-          페이스북
-        </a>
         <a className="link-item youtube" href="/">
           {/* <FontAwesomeIcon icon={faYoutube} className="icon-youtube icon" /> */}
           <img
-            alt="link image"
+            alt="link"
             src={`${process.env.PUBLIC_URL}/assets/images/footer/icon/y.png`}
             className="icon-youtube icon"
           />

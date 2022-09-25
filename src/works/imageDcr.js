@@ -219,6 +219,11 @@ const CHANGHYUN = {
   work6: `${process.env.PUBLIC_URL}/assets/works/DC/Jichanghyun/Research/Jichanghyun_06.png`,
 };
 
+const HANBIN = {
+  work0: `${process.env.PUBLIC_URL}/assets/works/DC/Leehanbin/Research/Leehanbin_research_mobileheader.png`,
+  work1: `${process.env.PUBLIC_URL}/assets/works/DC/Leehanbin/Research/Leehanbin_01.png`,
+};
+
 // 다 작성한 학생 작품 이름 아래 반드시 기입!!
 
 export default {
@@ -236,4 +241,5 @@ export default {
   YIHYEON,
   CHANGHYUN,
   JUHYUN,
+  HANBIN,
 };

@@ -6,24 +6,26 @@
 .about-sections {
   overflow: scroll;
   height: 100vh;
-  scroll-snap-type: y mandatory;
+  // scroll-snap-type: y mandatory;
   position: relative;
   margin: 0 auto;
 }
 
 .about-section {
+  margin-top: 0;
   scroll-snap-align: start;
   position: relative;
   height: 100%;
   padding: 0 160px;
-  padding-top: 190px;
+  padding-top: 150px;
 }
 
 // section 1
 
 .about-section-one {
   height: 100vh;
-
+  margin-bottom: 60px;
+margin-top:120px;
   background-size: cover;
   .one-title {
     font-size: 5rem;
@@ -38,6 +40,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 0 auto;
   }
 
   .one-description {
@@ -46,15 +50,26 @@
     letter-spacing: 1.2px;
     animation: description_move 1s ease forwards;
     display: block;
+
     :nth-child(1) {
       margin-bottom: 60px;
     }
+  }
+  .two-viewProejct {
+    width: 100%;
+    margin-top: 60px;
+    animation: description_move 1s ease forwards;
   }
   .one-play {
     font-size: 2em;
     color: #333;
   }
-
+  .one-intro {
+    width: 100%;
+  }
+  .none {
+    display: none;
+  }
   .one-title-mobile {
     display: none;
   }
@@ -143,15 +158,21 @@
       scroll-snap-type: none !important;
     }
 
+
+
     .about-section {
+      margin-top:120px;
       padding: 0;
     }
 
     .about-section-one {
+      padding: 120px 40px;
       position: relative;
       display: flex;
       flex-direction: column;
-      justify-content: center;
+
+      height: 65%;
+      padding-bottom: 60px;
 
       .one-title {
         margin: 0 auto;
@@ -160,6 +181,11 @@
       }
       .one-description :nth-child(1) {
         margin-bottom: 35px;
+      }
+      .two-viewProejct {
+        width: 100%;
+        margin-top: 100px;
+        animation: description_move 1s ease forwards;
       }
     }
 
@@ -238,6 +264,10 @@
     height: 100vh !important;
   }
 
+  .about-section{
+    margin-top: 20px !important
+  }
+
   .about-section-one {
     padding: 0 20px !important;
     .one-text-warpper {
@@ -258,6 +288,7 @@
   }
 
   .about-section-two {
+    margin-top:60px !important;
     .two-cards-wrapper {
       margin-top: 78px !important;
       display: flex !important;
@@ -353,6 +384,16 @@
           flex-direction: column;
         }
       }
+    }
+  }
+}
+
+@media (orientation: landscape) {
+
+  .about-section-one {
+    height: 100% !important;
+    .one-text-warpper {
+      margin-top: 60px !important;
     }
   }
 }

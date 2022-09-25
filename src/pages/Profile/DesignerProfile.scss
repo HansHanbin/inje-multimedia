@@ -1,0 +1,210 @@
+.profile {
+  padding: 0 160px;
+  padding-top: 15%;
+  height: 180vh;
+
+  .profile-wrapper {
+    .profile-top {
+      display: flex;
+      align-items: flex-end;
+      margin-bottom: 160px;
+
+      .profile-image {
+        width: 20%;
+      }
+
+      .profile-text {
+        margin-left: 64px;
+        .profile-text-name {
+          display: flex;
+          align-items: flex-end;
+          margin-bottom: 10px;
+          .profile-text-kor {
+            font-size: 2.5rem;
+            font-weight: 700;
+          }
+          .profile-text-eng {
+            font-size: 2rem;
+            margin-left: 10px;
+          }
+        }
+        .profile-text-major {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+        }
+
+        .profile-text-mail {
+          font-size: 1.5rem;
+        }
+      }
+    }
+
+    .profile-bottom {
+      padding-bottom: 60px;
+      .profile-bottom-title {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      .profile-projects {
+        margin-top: 60px;
+        width: 50%;
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-gap: 30px;
+
+        .features-item {
+          width: 100%;
+        }
+
+        .features-image-hover {
+          border: 1px solid rgba(189, 189, 189, 0.5);
+        }
+
+        .profile-project-img {
+          width: 100%;
+          filter: drop-shadow(5px 5px 10px rgba(169, 169, 169, 0.21));
+        }
+        .none {
+          display: none;
+        }
+      }
+      .solo {
+        display: block !important;
+        width: 25%;
+      }
+      .profile-projects-motion {
+        display: flex;
+        margin-top: 60px;
+        :nth-child(1) {
+          margin-right: 60px;
+        }
+        .profile-project-link {
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.165);
+          line-height: 0px;
+          width: 35%;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .profile {
+    padding: 0 40px;
+    padding-top: 160px;
+    height: 100%;
+
+    .profile-top {
+      margin-bottom: 80px !important;
+
+      .profile-image {
+        width: 35%;
+      }
+
+      .profile-text {
+        margin-left: 30px !important;
+        .profile-text-name {
+          flex-direction: column;
+          align-items: flex-start !important;
+          .profile-text-kor {
+            font-size: 1.5rem !important;
+          }
+          .profile-text-eng {
+            font-size: 1.25rem !important;
+            margin-left: 0 !important;
+          }
+        }
+
+        .profile-text-major {
+          font-size: 1.25rem !important;
+        }
+
+        .profile-text-mail {
+          font-size: 1.25rem !important;
+        }
+      }
+    }
+
+    .profile-bottom {
+      .profile-bottom-title {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 737px) {
+  .profile {
+    padding: 0 20px;
+    padding-top: 160px;
+    height: 130vh;
+
+    .profile-wrapper {
+      .profile-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 80px !important;
+        .profile-image {
+          width: 55%;
+        }
+
+        .profile-text {
+          padding-top: 30px;
+          margin: 0 auto !important;
+          text-align: center;
+          .profile-text-name {
+            flex-direction: column;
+            align-items: flex-start !important;
+            .profile-text-kor {
+              font-size: 1.5rem !important;
+              margin: 0 auto;
+            }
+            .profile-text-eng {
+              font-size: 1rem !important;
+              margin: 0 auto !important;
+            }
+          }
+
+          .profile-text-major {
+            font-size: 1rem !important;
+          }
+
+          .profile-text-mail {
+            font-size: 1rem !important;
+          }
+        }
+      }
+
+      .profile-bottom {
+        .profile-bottom-title {
+          font-size: 1.5rem !important;
+          text-align: center;
+        }
+        .profile-projects {
+          width: 100%;
+        }
+        .profile-projects-motion {
+          flex-direction: column;
+          align-items: center;
+          :nth-child(1) {
+            margin-right: 0;
+          }
+          :nth-child(2) {
+            margin-top: 30px;
+          }
+          .profile-project-link {
+            width: 80%;
+          }
+        }
+        .solo {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

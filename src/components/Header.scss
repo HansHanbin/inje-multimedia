@@ -146,6 +146,7 @@
 
 @media screen and (max-width: 737px) {
   .header {
+    position: fixed;
     .header-logo,
     .header-logo-smal {
       display: none;
