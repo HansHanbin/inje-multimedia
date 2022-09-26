@@ -59,7 +59,7 @@ function DesignerProfileYunseok() {
                 profileName={"곽윤석"}
                 profileEng={"Kwak Yunseok"}
                 profileMail="dbstjr_98@naver.com"
-                path="/project/vi/studio/:Yunseok"
+                path="/2022/project/vi/studio/:Yunseok"
                 work1={imageVis.YUNSEOK.work1}
               />
               <FeaturesItem
@@ -73,7 +73,7 @@ function DesignerProfileYunseok() {
                 profileName={"곽윤석"}
                 profileEng={"Kwak Yunseok"}
                 profileMail="dbstjr_98@naver.com"
-                path="/project/vi/research/:Yunseok"
+                path="/2022/project/vi/research/:Yunseok"
                 work1={imageVir.YUNSEOK.work1}
               />
             </div>

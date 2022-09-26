@@ -80,7 +80,7 @@ function DesignerProfileChohee() {
                 profileName="김초희"
                 profileEng="Kim Chohee"
                 profileMail="kch1571@daum.net"
-                path="/project/vi/studio/:Chohee"
+                path="/2022/project/vi/studio/:Chohee"
                 work1={imageVis.CHOHEE.work1}
               />
               <FeaturesItem
@@ -94,7 +94,7 @@ function DesignerProfileChohee() {
                 profileName="김초희"
                 profileEng="Kim Chohee"
                 profileMail="kch1571@daum.net"
-                path="/project/vi/research/:Chohee"
+                path="/2022/project/vi/research/:Chohee"
                 work1={imageVir.CHOHEE.work1}
               />
             </div>

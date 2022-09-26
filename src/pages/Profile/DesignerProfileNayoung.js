@@ -59,7 +59,7 @@ function DesignerProfileNayoung() {
                 profileName={"김나영"}
                 profileEng={"Kim Nayoung"}
                 profileMail="sdf02033@gmail.com"
-                path="/project/dc/studio/:Nayoung"
+                path="/2022/project/dc/studio/:Nayoung"
                 work0={imageDcs.NAYOUNG.work0}
                 work1={imageDcs.NAYOUNG.work1}
                 work2={imageDcs.NAYOUNG.work2}
@@ -94,7 +94,7 @@ function DesignerProfileNayoung() {
                 profileName={"김나영"}
                 profileEng={"Kim Nayoung"}
                 profileMail="sdf02033@gmail.com"
-                path="/project/dc/research/:Nayoung"
+                path="/2022/project/dc/research/:Nayoung"
                 work0={imageDcr.NAYOUNG.work0}
                 work1={imageDcr.NAYOUNG.work1}
                 work2={imageDcr.NAYOUNG.work2}

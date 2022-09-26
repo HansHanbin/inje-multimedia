@@ -70,158 +70,230 @@ function App() {
     <div className="app">
       <Routes>
         <Route>
-          <Route path="/" element={<Home />} />
-          <Route path="/" element={<Home />} />
-          {/* <Route path="/project/dc" element={<ProjectDcontents />} />
-          <Route path="/project/mm" element={<ProjectMcontents />} />
-          <Route path="/project/vi" element={<ProjectVcontents />} /> */}
-          <Route path="/project" element={<Project />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/designer" element={<Designer />} />
-          {/* <Route path="/designer/:id" element={<DesignerProfile />} /> */}
-          <Route path="/project/dc/studio" element={<FeaturesDCS />} />
-          <Route path="/project/dc/research" element={<FeaturesDCR />} />
-          <Route path="/project/mm/studio" element={<FeaturesMMS />} />
-          <Route path="/project/mm/research" element={<FeaturesMMR />} />
-          <Route path="/project/vi/studio" element={<FeaturesVIS />} />
-          <Route path="/project/vi/research" element={<FeatruesVIR />} />
+          <Route path="/2022" element={<Home />} />
+          <Route path="/2022" element={<Home />} />
+          {/* <Route path="/2022/project/dc" element={<ProjectDcontents />} />
+          <Route path="/2022/project/mm" element={<ProjectMcontents />} />
+          <Route path="/2022/project/vi" element={<ProjectVcontents />} /> */}
+          <Route path="/2022/project" element={<Project />} />
+          <Route path="/2022/about" element={<About />} />
+          <Route path="/2022/designer" element={<Designer />} />
+          {/* <Route path="/2022/designer/:id" element={<DesignerProfile />} /> */}
+          <Route path="/2022/project/dc/studio" element={<FeaturesDCS />} />
+          <Route path="/2022/project/dc/research" element={<FeaturesDCR />} />
+          <Route path="/2022/project/mm/studio" element={<FeaturesMMS />} />
+          <Route path="/2022/project/mm/research" element={<FeaturesMMR />} />
+          <Route path="/2022/project/vi/studio" element={<FeaturesVIS />} />
+          <Route path="/2022/project/vi/research" element={<FeatruesVIR />} />
           <Route
-            path="/project/dc/studio/:id"
+            path="/2022/project/dc/studio/:id"
             element={<FeaturesPresentation />}
           />
           <Route
-            path="/project/dc/research/:id"
+            path="/2022/project/dc/research/:id"
             element={<FeaturesPresentation />}
           />
           <Route
-            path="/project/vi/studio/:id"
+            path="/2022/project/vi/studio/:id"
             element={<FeaturesPresentation />}
           />
           <Route
-            path="/project/vi/research/:id"
+            path="/2022/project/vi/research/:id"
             element={<FeaturesPresentation />}
           />
-          <Route path="/project/mm/:id" element={<FeaturesPresentation />} />
           <Route
-            path="/designer/KangSumin"
+            path="/2022/project/mm/:id"
+            element={<FeaturesPresentation />}
+          />
+          <Route
+            path="/2022/designer/KangSumin"
             element={<DesignerProfileKangSumin />}
           />
           <Route
-            path="/designer/KangJueon"
+            path="/2022/designer/KangJueon"
             element={<DesignerProfileJueon />}
           />
-          <Route path="/designer/Hyobin" element={<DesignerProfileHyobin />} />
           <Route
-            path="/designer/Yunseok"
+            path="/2022/designer/Hyobin"
+            element={<DesignerProfileHyobin />}
+          />
+          <Route
+            path="/2022/designer/Yunseok"
             element={<DesignerProfileYunseok />}
           />
-          <Route path="/designer/Hyejin" element={<DesignerProfileHyejin />} />
-          <Route path="/designer/Kiseon" element={<DesignerProfileKiseong />} />
           <Route
-            path="/designer/Nayoung"
-            element={<DesignerProfileNayoung />}
-          />
-          <Route path="/designer/Moonju" element={<DesignerProfileMoonju />} />
-          <Route
-            path="/designer/Byeongjun"
-            element={<DesignerProfileByeongjun />}
-          />
-          <Route path="/designer/Sieun" element={<DesignerProfileSieun />} />
-          <Route path="/designer/Yeawon" element={<DesignerProfileYeawon />} />
-          <Route path="/designer/Chohee" element={<DesignerProfileChohee />} />
-          <Route
-            path="/designer/Hyunsoo"
-            element={<DesignerProfileHyunsoo />}
+            path="/2022/designer/Hyejin"
+            element={<DesignerProfileHyejin />}
           />
           <Route
-            path="/designer/Yeonhui"
-            element={<DesignerProfileYeonhui />}
-          />
-          <Route path="/designer/Jun" element={<DesignerProfileJun />} />
-          <Route
-            path="/designer/Sunghee"
-            element={<DesignerProfileSunghee />}
-          />
-          <Route path="/designer/Mingyu" element={<DesignerProfileMingyu />} />
-          <Route
-            path="/designer/Seongho"
-            element={<DesignerProfileSeongho />}
-          />
-          <Route
-            path="/designer/ParkSumin"
-            element={<DesignerProfileParkSumin />}
-          />
-          <Route path="/designer/Eunsu" element={<DesignerProfileEunsu />} />
-          <Route
-            path="/designer/Jeonghun"
-            element={<DesignerProfileJeonghun />}
-          />
-          <Route
-            path="/designer/Jaehoon"
-            element={<DesignerProfileJaehoon />}
-          />
-          <Route path="/designer/Soeun" element={<DesignerProfileSoeun />} />
-          <Route path="/designer/Boeun" element={<DesignerProfileBoeun />} />
-          <Route path="/designer/Bohyeon" element={<DesignerProfileBohyun />} />
-          <Route
-            path="/designer/Arteleva"
-            element={<DesignerProfileArteleva />}
-          />
-          <Route path="/designer/Doyeon" element={<DesignerProfileDoyeon />} />
-          <Route path="/designer/Jiyeon" element={<DesignerProfileJiyeon />} />
-          <Route path="/designer/Dohyeon" element={<DesignerProfileDohyun />} />
-          <Route path="/designer/Minju" element={<DesignerProfileMinju />} />
-          <Route
-            path="/designer/Seoyeon"
-            element={<DesignerProfileSeoyeon />}
-          />
-          <Route
-            path="/designer/Youngmin"
-            element={<DesignerProfileYoungmin />}
-          />
-          <Route path="/designer/Jaehee" element={<DesignerProfileJaehee />} />
-          <Route path="/designer/Jinho" element={<DesignerProfileJinho />} />
-          <Route path="/designer/Hanbin" element={<DesignerProfileHanbin />} />
-          <Route
-            path="/designer/Hyeonwoo"
-            element={<DesignerProfileHyeonwoo />}
-          />
-          <Route
-            path="/designer/Suyoung"
-            element={<DesignerProfileSuyoung />}
-          />
-          <Route path="/designer/Eunkyo" element={<DesignerProfileEunkyo />} />
-          <Route
-            path="/designer/Jaeseok"
-            element={<DesignerProfileJaeseok />}
-          />
-          <Route
-            path="/designer/Seongjin"
-            element={<DesignerProfileSeongjin />}
-          />
-          <Route path="/designer/Juhyun" element={<DesignerProfileJuhyun />} />
-          <Route
-            path="/designer/Seongrae"
-            element={<DesignerProfileSeongrae />}
-          />
-          <Route
-            path="/designer/Yihyeon"
-            element={<DesignerProfileYihyeon />}
-          />
-          <Route
-            path="/designer/Kiseong"
+            path="/2022/designer/Kiseon"
             element={<DesignerProfileKiseong />}
           />
           <Route
-            path="/designer/Kangwon"
+            path="/2022/designer/Nayoung"
+            element={<DesignerProfileNayoung />}
+          />
+          <Route
+            path="/2022/designer/Moonju"
+            element={<DesignerProfileMoonju />}
+          />
+          <Route
+            path="/2022/designer/Byeongjun"
+            element={<DesignerProfileByeongjun />}
+          />
+          <Route
+            path="/2022/designer/Sieun"
+            element={<DesignerProfileSieun />}
+          />
+          <Route
+            path="/2022/designer/Yeawon"
+            element={<DesignerProfileYeawon />}
+          />
+          <Route
+            path="/2022/designer/Chohee"
+            element={<DesignerProfileChohee />}
+          />
+          <Route
+            path="/2022/designer/Hyunsoo"
+            element={<DesignerProfileHyunsoo />}
+          />
+          <Route
+            path="/2022/designer/Yeonhui"
+            element={<DesignerProfileYeonhui />}
+          />
+          <Route path="/2022/designer/Jun" element={<DesignerProfileJun />} />
+          <Route
+            path="/2022/designer/Sunghee"
+            element={<DesignerProfileSunghee />}
+          />
+          <Route
+            path="/2022/designer/Mingyu"
+            element={<DesignerProfileMingyu />}
+          />
+          <Route
+            path="/2022/designer/Seongho"
+            element={<DesignerProfileSeongho />}
+          />
+          <Route
+            path="/2022/designer/ParkSumin"
+            element={<DesignerProfileParkSumin />}
+          />
+          <Route
+            path="/2022/designer/Eunsu"
+            element={<DesignerProfileEunsu />}
+          />
+          <Route
+            path="/2022/designer/Jeonghun"
+            element={<DesignerProfileJeonghun />}
+          />
+          <Route
+            path="/2022/designer/Jaehoon"
+            element={<DesignerProfileJaehoon />}
+          />
+          <Route
+            path="/2022/designer/Soeun"
+            element={<DesignerProfileSoeun />}
+          />
+          <Route
+            path="/2022/designer/Boeun"
+            element={<DesignerProfileBoeun />}
+          />
+          <Route
+            path="/2022/designer/Bohyeon"
+            element={<DesignerProfileBohyun />}
+          />
+          <Route
+            path="/2022/designer/Arteleva"
+            element={<DesignerProfileArteleva />}
+          />
+          <Route
+            path="/2022/designer/Doyeon"
+            element={<DesignerProfileDoyeon />}
+          />
+          <Route
+            path="/2022/designer/Jiyeon"
+            element={<DesignerProfileJiyeon />}
+          />
+          <Route
+            path="/2022/designer/Dohyeon"
+            element={<DesignerProfileDohyun />}
+          />
+          <Route
+            path="/2022/designer/Minju"
+            element={<DesignerProfileMinju />}
+          />
+          <Route
+            path="/2022/designer/Seoyeon"
+            element={<DesignerProfileSeoyeon />}
+          />
+          <Route
+            path="/2022/designer/Youngmin"
+            element={<DesignerProfileYoungmin />}
+          />
+          <Route
+            path="/2022/designer/Jaehee"
+            element={<DesignerProfileJaehee />}
+          />
+          <Route
+            path="/2022/designer/Jinho"
+            element={<DesignerProfileJinho />}
+          />
+          <Route
+            path="/2022/designer/Hanbin"
+            element={<DesignerProfileHanbin />}
+          />
+          <Route
+            path="/2022/designer/Hyeonwoo"
+            element={<DesignerProfileHyeonwoo />}
+          />
+          <Route
+            path="/2022/designer/Suyoung"
+            element={<DesignerProfileSuyoung />}
+          />
+          <Route
+            path="/2022/designer/Eunkyo"
+            element={<DesignerProfileEunkyo />}
+          />
+          <Route
+            path="/2022/designer/Jaeseok"
+            element={<DesignerProfileJaeseok />}
+          />
+          <Route
+            path="/2022/designer/Seongjin"
+            element={<DesignerProfileSeongjin />}
+          />
+          <Route
+            path="/2022/designer/Juhyun"
+            element={<DesignerProfileJuhyun />}
+          />
+          <Route
+            path="/2022/designer/Seongrae"
+            element={<DesignerProfileSeongrae />}
+          />
+          <Route
+            path="/2022/designer/Yihyeon"
+            element={<DesignerProfileYihyeon />}
+          />
+          <Route
+            path="/2022/designer/Kiseong"
+            element={<DesignerProfileKiseong />}
+          />
+          <Route
+            path="/2022/designer/Kangwon"
             element={<DesignerProfileKangwon />}
           />
           <Route
-            path="/designer/Changhyun"
+            path="/2022/designer/Changhyun"
             element={<DesignerProfileChanghyun />}
           />
-          <Route path="/designer/Yosep" element={<DesignerProfileYosep />} />
-          <Route path="/designer/Yujin" element={<DesignerProfileYujin />} />
+          <Route
+            path="/2022/designer/Yosep"
+            element={<DesignerProfileYosep />}
+          />
+          <Route
+            path="/2022/designer/Yujin"
+            element={<DesignerProfileYujin />}
+          />
         </Route>
       </Routes>
     </div>

@@ -25,7 +25,7 @@
 .about-section-one {
   height: 100vh;
   margin-bottom: 60px;
-margin-top:120px;
+  margin-top: 120px;
   background-size: cover;
   .one-title {
     font-size: 5rem;
@@ -158,10 +158,8 @@ margin-top:120px;
       scroll-snap-type: none !important;
     }
 
-
-
     .about-section {
-      margin-top:120px;
+      margin-top: 120px;
       padding: 0;
     }
 
@@ -264,8 +262,8 @@ margin-top:120px;
     height: 100vh !important;
   }
 
-  .about-section{
-    margin-top: 20px !important
+  .about-section {
+    margin-top: 20px !important;
   }
 
   .about-section-one {
@@ -288,7 +286,7 @@ margin-top:120px;
   }
 
   .about-section-two {
-    margin-top:60px !important;
+    margin-top: 60px !important;
     .two-cards-wrapper {
       margin-top: 78px !important;
       display: flex !important;
@@ -389,7 +387,6 @@ margin-top:120px;
 }
 
 @media (orientation: landscape) {
-
   .about-section-one {
     height: 100% !important;
     .one-text-warpper {

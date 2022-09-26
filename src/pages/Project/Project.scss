@@ -123,21 +123,90 @@
 
 @media screen and (max-width: 1200px) {
   .project {
-    padding: 0 40px;
+    padding: 40px;
     height: 100vh;
     padding-top: 10%;
 
     .project-container {
       margin-top: 0;
       flex-direction: column;
-      justify-content: space-between;
+      justify-content: center;
       padding: 0;
       height: 800px;
 
       .major {
         width: 100%;
-        height: 252px;
+        height: 20%;
 
+        margin: 0 10px;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        position: relative;
+        background: rgba(255, 255, 255, 0.4);
+        box-shadow: 8px 8px 16px rgb(67 151 67 / 10%);
+        @media (hover: hover) {
+          &:hover {
+            height: 100%;
+            .after {
+              opacity: 0;
+              display: flex;
+              padding: 30px;
+              animation: project_description_opacity 0.5s linear forwards;
+              animation-delay: 0.2s;
+              position: absolute;
+
+              .project-wrapper {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+
+                .project-wrapper__top {
+                  h2 {
+                    font-size: 3rem;
+                  }
+                  h4 {
+                    font-size: 2rem;
+                  }
+                }
+                .project-wrapper__bottom {
+                  margin-top: 15%;
+
+                  .project-wrapper__major {
+                    display: flex;
+                    width: 850px;
+                    .project-wrapper__majorTitle {
+                      font-size: 1.25rem;
+                      font-weight: 400;
+                      letter-spacing: -0.5px;
+                    }
+                    .project-wrapper__majorDescription {
+                      font-size: 1.2rem;
+                      font-weight: 400;
+                      margin-top: 25px;
+                      letter-spacing: 0.5px;
+                    }
+                    .project-wrapper-research {
+                      margin-left: 50px;
+                    }
+                  }
+                }
+                .project-wrapper__go {
+                  height: 100%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+
+                  :nth-child(2) {
+                    margin-left: 10%;
+                  }
+                }
+              }
+            }
+          }
+        }
         h4 {
           font-size: 1.5rem;
         }
@@ -152,7 +221,8 @@
         height: auto;
         margin: 0 10px;
         display: flex;
-        justify-content: space-between;
+        flex-direction: column;
+
         align-items: center;
         position: relative;
         background: rgba(255, 255, 255, 0.4);
@@ -232,10 +302,13 @@
   .project {
     padding: 20px;
     padding-bottom: 10%;
+    .project-m {
+      margin-top: 70%;
+    }
     .project-container {
       padding-top: 30%;
       height: 100%;
-      width: 350px;
+      width: 100%;
       .before {
         padding: 20px;
         h4,

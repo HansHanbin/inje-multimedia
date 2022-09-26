@@ -59,7 +59,7 @@ function DesignerProfileMingyu() {
                 profileName="박민규"
                 profileEng={"Park Mingyu"}
                 profileMail="parkmin9yu@naver.com"
-                path="/project/dc/studio/:Mingyu"
+                path="/2022/project/dc/studio/:Mingyu"
                 work0={imageDcs.MINGYU.work0}
                 work1={imageDcs.MINGYU.work1}
                 work2={imageDcs.MINGYU.work2}
@@ -97,7 +97,7 @@ function DesignerProfileMingyu() {
                 profileName={"박민규"}
                 profileEng={"Park Mingyu"}
                 profileMail="parkmin9yu@naver.com"
-                path="/project/dc/research/:Mingyu"
+                path="/2022/project/dc/research/:Mingyu"
                 work0={imageDcr.MINGYU.work0}
                 work1={imageDcr.MINGYU.work1}
                 work2={imageDcr.MINGYU.work2}

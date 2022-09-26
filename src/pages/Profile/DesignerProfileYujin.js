@@ -59,7 +59,7 @@ function DesignerProfileYujin() {
                 profileName="허유진"
                 profileEng="Heo Yujin"
                 profileMail="heoyujin9041@gmail.com"
-                path="/project/vi/studio/:Yujin"
+                path="/2022/project/vi/studio/:Yujin"
                 work1={imageVis.YUJIN.work1}
               />
               <FeaturesItem
@@ -73,7 +73,7 @@ function DesignerProfileYujin() {
                 profileName="허유진"
                 profileEng="Heo Yujin"
                 profileMail="heoyujin9041@gmail.com"
-                path="/project/vi/research/:Yujin"
+                path="/2022/project/vi/research/:Yujin"
                 work1={imageVir.YUJIN.work1}
               />
             </div>

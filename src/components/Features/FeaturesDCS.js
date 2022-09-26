@@ -17,17 +17,17 @@ function Features() {
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/project/dc/studio">
+              <Link to="/2022/project/dc/studio">
                 <div className="major-dc active">Digital Contents</div>
                 <div className="major-mobile active">D.C</div>
               </Link>
               <div>|</div>
-              <Link to="/project/vi/studio">
+              <Link to="/2022/project/vi/studio">
                 <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>
-              <Link to="/project/mm/studio">
+              <Link to="/2022/project/mm/studio">
                 <div className="major-mm">Motion Media</div>
                 <div className="major-mobile">M.M</div>
               </Link>
@@ -37,11 +37,11 @@ function Features() {
         <div className="project-class">
           <div className="class-wrapper">
             <div className="class-studio class class-active">
-              <Link to="/project/dc/studio">디지털콘텐츠스튜디오</Link>
+              <Link to="/2022/project/dc/studio">디지털콘텐츠스튜디오</Link>
             </div>
 
             <div className="class-research class">
-              <Link to="/project/dc/research">DC졸업연구</Link>
+              <Link to="/2022/project/dc/research">DC졸업연구</Link>
             </div>
           </div>
         </div>
@@ -60,7 +60,7 @@ function Features() {
                   profileName="지창현"
                   profileEng="Ji Changhyun"
                   profileMail="jchyundesign@gmail.com"
-                  path="/project/dc/studio/:Changhyun"
+                  path="/2022/project/dc/studio/:Changhyun"
                   work0={imageDcs.CHANGHYUN.work0}
                   work1={imageDcs.CHANGHYUN.work1}
                   work2={imageDcs.CHANGHYUN.work2}
@@ -86,7 +86,7 @@ function Features() {
                   profileName="이한빈"
                   profileEng="Lee Hanbin"
                   profileMail="hans.hanbin.lee@gmail.com"
-                  path="/project/dc/studio/:Hanbin"
+                  path="/2022/project/dc/studio/:Hanbin"
                   work0={imageDcs.HANBIN.work0}
                   work1={imageDcs.HANBIN.work1}
                   lightMode={imageDcs.HANBIN.lightMode}
@@ -106,7 +106,7 @@ function Features() {
                   profileName="김시은"
                   profileEng="Kim Sieun"
                   profileMail="kns9559sn@gmail.com"
-                  path="/project/dc/studio/:Sieun"
+                  path="/2022/project/dc/studio/:Sieun"
                   work0={imageDcs.SIEUN.work0}
                   work1={imageDcs.SIEUN.work1}
                   work2={imageDcs.SIEUN.work2}
@@ -136,7 +136,7 @@ function Features() {
                   profileName="정주현"
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
-                  path="/project/dc/studio/:Juhyun"
+                  path="/2022/project/dc/studio/:Juhyun"
                   work0={imageDcs.JUHYUN.work0}
                   work1={imageDcs.JUHYUN.work1}
                   lightMode={imageDcs.JUHYUN.lightMode}
@@ -156,7 +156,7 @@ function Features() {
                   profileName="구혜진"
                   profileEng="Gu Hyejin"
                   profileMail="fpqlt_326998@naver.com"
-                  path="/project/dc/studio/:Hyejin"
+                  path="/2022/project/dc/studio/:Hyejin"
                   work0={imageDcs.HYEJIN.work0}
                   work1={imageDcs.HYEJIN.work1}
                   work2={imageDcs.HYEJIN.work2}
@@ -202,7 +202,7 @@ function Features() {
                   profileName="박민규"
                   profileEng={"Park Mingyu"}
                   profileMail="parkmin9yu@naver.com"
-                  path="/project/dc/studio/:Mingyu"
+                  path="/2022/project/dc/studio/:Mingyu"
                   work0={imageDcs.MINGYU.work0}
                   work1={imageDcs.MINGYU.work1}
                   work2={imageDcs.MINGYU.work2}
@@ -238,7 +238,7 @@ function Features() {
                   profileName="김기성"
                   profileEng="Kim Kiseong"
                   profileMail="kimkiseong98@gmail.com"
-                  path="/project/dc/studio/:Kiseong"
+                  path="/2022/project/dc/studio/:Kiseong"
                   work0={imageDcs.KISEONG.work0}
                   work1={imageDcs.KISEONG.work1}
                   work2={imageDcs.KISEONG.work2}
@@ -276,7 +276,7 @@ function Features() {
                   profileName="이도현"
                   profileEng="Lee Dohyeon"
                   profileMail="hyeonn323@gmail.com"
-                  path="/project/dc/studio/:Dohyeon"
+                  path="/2022/project/dc/studio/:Dohyeon"
                   work0={imageDcs.DH.work0}
                   work1={imageDcs.DH.work1}
                   work2={imageDcs.DH.work2}
@@ -312,7 +312,7 @@ function Features() {
                   profileName={"김나영"}
                   profileEng={"Kim Nayoung"}
                   profileMail="sdf02033@gmail.com"
-                  path="/project/dc/studio/:Nayoung"
+                  path="/2022/project/dc/studio/:Nayoung"
                   work0={imageDcs.NAYOUNG.work0}
                   work1={imageDcs.NAYOUNG.work1}
                   work2={imageDcs.NAYOUNG.work2}
@@ -345,7 +345,7 @@ function Features() {
                   profileName="이영민"
                   profileEng="Lee Youngmin"
                   profileMail="rjscl343@naver.com"
-                  path="/project/dc/studio/:Youngmin"
+                  path="/2022/project/dc/studio/:Youngmin"
                   work0={imageDcs.YM.work0}
                   work1={imageDcs.YM.work1}
                   work2={imageDcs.YM.work2}
@@ -378,7 +378,7 @@ function Features() {
                   profileName="박성호"
                   profileEng="Park Seongho"
                   profileMail="atree3682@daum.net"
-                  path="/project/dc/studio/:Seongho"
+                  path="/2022/project/dc/studio/:Seongho"
                   work0={imageDcs.SH.work0}
                   work1={imageDcs.SH.work1}
                   lightMode={imageDcs.SH.lightMode}
@@ -398,7 +398,7 @@ function Features() {
                   profileName="장은교"
                   profileEng="Jang Eunkyo"
                   profileMail="429650@gmail.com"
-                  path="/project/dc/studio/:Eunkyo"
+                  path="/2022/project/dc/studio/:Eunkyo"
                   work0={imageDcs.EUNKYO.work0}
                   work1={imageDcs.EUNKYO.work1}
                   work2={imageDcs.EUNKYO.work2}
@@ -419,7 +419,7 @@ function Features() {
                   profileName="서보현"
                   profileEng="Seo Bohyeon"
                   profileMail="seobori2000@gmail.com"
-                  path="/project/dc/studio/:Bohyeon"
+                  path="/2022/project/dc/studio/:Bohyeon"
                   work0={imageDcs.BH.work0}
                   work2={imageDcs.BH.work2}
                   lightMode={imageDcs.BH.lightMode}
@@ -439,7 +439,7 @@ function Features() {
                   profileName="조성래"
                   profileEng="Cho Seongrae"
                   profileMail="srj9704@naver.com"
-                  path="/project/dc/studio/:Seongrae"
+                  path="/2022/project/dc/studio/:Seongrae"
                   work0={imageDcs.SR.work0}
                   work1={imageDcs.SR.work1}
                   work2={imageDcs.SR.work2}
@@ -487,7 +487,7 @@ function Features() {
                   profileName="김문주"
                   profileEng="Kim Moonju"
                   profileMail="m.jju422@gmail.com"
-                  path="/project/dc/studio/:Moonju"
+                  path="/2022/project/dc/studio/:Moonju"
                   work0={imageDcs.MOONJU.work0}
                   work1={imageDcs.MOONJU.work1}
                   work2={imageDcs.MOONJU.work2}
@@ -521,7 +521,7 @@ function Features() {
                   profileName="조이현"
                   profileEng="Jo Yihyeon"
                   profileMail="j2hyun980@naver.com"
-                  path="/project/dc/studio/:Yihyeon"
+                  path="/2022/project/dc/studio/:Yihyeon"
                   work0={imageDcs.IH.work0}
                   work1={imageDcs.IH.work1}
                   work2={imageDcs.IH.work2}
@@ -548,7 +548,7 @@ function Features() {
                   profileName="안도연"
                   profileEng="An Doyeon"
                   profileMail="rkornne@gmail.com"
-                  path="/project/dc/studio/:Doyeon"
+                  path="/2022/project/dc/studio/:Doyeon"
                   work0={imageDcs.DOYEON.work0}
                   work1={imageDcs.DOYEON.work1}
                   work2={imageDcs.DOYEON.work2}
@@ -574,7 +574,7 @@ function Features() {
                   profileName="백제훈"
                   profileEng="Baek Jaehoon"
                   profileMail="bjh990225@gmail.com"
-                  path="/project/dc/studio/:Jaehoon"
+                  path="/2022/project/dc/studio/:Jaehoon"
                 />
 */}
 
@@ -589,7 +589,7 @@ function Features() {
                   profileName="이승연"
                   profileEng="Lee Seoungyeon"
                   profileMail="lee40095617@gmail.com"
-                  path="/project/dc/studio/:Seungyeon"
+                  path="/2022/project/dc/studio/:Seungyeon"
                 /> */}
               </ul>
             </div>

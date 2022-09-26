@@ -59,7 +59,7 @@ function DesignerProfileYoungmin() {
                 profileName="이영민"
                 profileEng="Lee Youngmin"
                 profileMail="rjscl343@naver.com"
-                path="/project/dc/studio/:Youngmin"
+                path="/2022/project/dc/studio/:Youngmin"
                 work0={imageDcs.YM.work0}
                 work1={imageDcs.YM.work1}
                 work2={imageDcs.YM.work2}
@@ -92,7 +92,7 @@ function DesignerProfileYoungmin() {
                 profileName="이영민"
                 profileEng="Lee Youngmin"
                 profileMail="rjscl343@naver.com"
-                path="/project/dc/research/:Youngmin"
+                path="/2022/project/dc/research/:Youngmin"
                 work0={imageDcr.YM.work0}
                 work1={imageDcr.YM.work1}
                 work2={imageDcr.YM.work2}

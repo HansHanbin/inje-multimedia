@@ -19,17 +19,17 @@ function Features() {
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/project/dc/studio">
+              <Link to="/2022/project/dc/studio">
                 <div className="major-dc">Digital Contents</div>
                 <div className="major-mobile">D.C</div>
               </Link>
               <div>|</div>
-              <Link to="/project/vi/studio">
+              <Link to="/2022/project/vi/studio">
                 <div className="major-vi active">Visual Information Design</div>
                 <div className="major-mobile active">V.I</div>
               </Link>
               <div>|</div>
-              <Link to="/project/mm/studio">
+              <Link to="/2022/project/mm/studio">
                 <div className="major-mm">Motion Media</div>
                 <div className="major-mobile">M.M</div>
               </Link>
@@ -40,11 +40,11 @@ function Features() {
         <div className="project-class">
           <div className="class-wrapper">
             <div className="class-studio class">
-              <Link to="/project/vi/studio">비주얼인포메이션스튜디오</Link>
+              <Link to="/2022/project/vi/studio">비주얼인포메이션스튜디오</Link>
             </div>
 
             <div className="class-research class class-active">
-              <Link to="/project/vi/research">VI졸업연구</Link>
+              <Link to="/2022/project/vi/research">VI졸업연구</Link>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ function Features() {
                   profileName="박성호"
                   profileEng={"Park Seongho"}
                   profileMail="atree3682@daum.net"
-                  path="/project/vi/research/:Seongho"
+                  path="/2022/project/vi/research/:Seongho"
                   work1={imageVir.SEONGHO.work1}
                 />
                 <FeaturesItem
@@ -77,7 +77,7 @@ function Features() {
                   profileName="노연희"
                   profileEng={"Noh Yeonhui"}
                   profileMail="wkdch5538@naver.com"
-                  path="/project/vi/research/:Yeonhui"
+                  path="/2022/project/vi/research/:Yeonhui"
                   work1={imageVir.YEONHUI.work1}
                 />
                 <FeaturesItem
@@ -91,7 +91,7 @@ function Features() {
                   profileName="허유진"
                   profileEng="Heo Yujin"
                   profileMail="heoyujin9041@gmail.com"
-                  path="/project/vi/research/:Yujin"
+                  path="/2022/project/vi/research/:Yujin"
                   work1={imageVir.YUJIN.work1}
                 />
                 <FeaturesItem
@@ -105,7 +105,7 @@ function Features() {
                   profileName="이민주"
                   profileEng="Lee Minju"
                   profileMail="m06090@naver.com"
-                  path="/project/vi/research/:Minju"
+                  path="/2022/project/vi/research/:Minju"
                   work1={imageVir.MINJU.work1}
                 />
                 <FeaturesItem
@@ -119,7 +119,7 @@ function Features() {
                   profileName="공효빈"
                   profileEng="Gong Hyobin"
                   profileMail="hyob1130@naver.com"
-                  path="/project/vi/research/:Hyobin"
+                  path="/2022/project/vi/research/:Hyobin"
                   work1={imageVir.HYOBIN.work1}
                 />
                 <FeaturesItem
@@ -133,7 +133,7 @@ function Features() {
                   profileName="임현우"
                   profileEng="Lim Hyeonwoo"
                   profileMail="gkrktk123@naver.com"
-                  path="/project/vi/research/:Hyeonwoo"
+                  path="/2022/project/vi/research/:Hyeonwoo"
                   work1={imageVir.HYEONWOO.work1}
                   work2={imageVir.HYEONWOO.work2}
                   work3={imageVir.HYEONWOO.work3}
@@ -167,7 +167,7 @@ function Features() {
                   profileName="정성진"
                   profileEng="Jeong Seongjin"
                   profileMail="jsjpati@naver.com"
-                  path="/project/vi/research/:Seongjin"
+                  path="/2022/project/vi/research/:Seongjin"
                   work1={imageVir.SEONGJIN.work1}
                 />
                 <FeaturesItem
@@ -181,7 +181,7 @@ function Features() {
                   profileName="정주현"
                   profileEng="Jung Juhyun"
                   profileMail="qwert911262@gmail.com"
-                  path="/project/vi/research/:Juhyun"
+                  path="/2022/project/vi/research/:Juhyun"
                   work1={imageVir.JUHYUN.work1}
                 />
                 <FeaturesItem
@@ -195,7 +195,7 @@ function Features() {
                   profileName="이재희"
                   profileEng="Lee Jaehee"
                   profileMail="leejh6873@naver.com"
-                  path="/project/vi/research/:Jaehee"
+                  path="/2022/project/vi/research/:Jaehee"
                   work1={imageVir.JAEHEE.work1}
                 />
                 <FeaturesItem
@@ -209,7 +209,7 @@ function Features() {
                   profileName="최요셉"
                   profileEng="Choi Yosep"
                   profileMail="tozerothree@gmail.com"
-                  path="/project/vi/research/:Yosep"
+                  path="/2022/project/vi/research/:Yosep"
                   work1={imageVir.YOSEP.work1}
                 />
 
@@ -224,7 +224,7 @@ function Features() {
                   profileName={"곽윤석"}
                   profileEng={"Kwak Yunseok"}
                   profileMail="dbstjr_98@naver.com"
-                  path="/project/vi/research/:Yunseok"
+                  path="/2022/project/vi/research/:Yunseok"
                   work1={imageVir.YUNSEOK.work1}
                 />
                 <FeaturesItem
@@ -238,7 +238,7 @@ function Features() {
                   profileName="서보은"
                   profileEng="Seo Boeun"
                   profileMail=""
-                  path="/project/vi/research/:Boeun"
+                  path="/2022/project/vi/research/:Boeun"
                   work1={imageVir.BOEUN.work1}
                 />
                 <FeaturesItem
@@ -252,7 +252,7 @@ function Features() {
                   profileName="김초희"
                   profileEng="Kim Chohee"
                   profileMail="kch1571@daum.net"
-                  path="/project/vi/research/:Chohee"
+                  path="/2022/project/vi/research/:Chohee"
                   work1={imageVir.CHOHEE.work1}
                 />
                 <FeaturesItem
@@ -266,7 +266,7 @@ function Features() {
                   profileName="백정훈"
                   profileEng="Baek Jeonghun"
                   profileMail="duemno99@naver.com"
-                  path="/project/vi/studio/:Jeonghun"
+                  path="/2022/project/vi/studio/:Jeonghun"
                   work1={imageVis.JEONGHUN.work1}
                 />
 
@@ -281,7 +281,7 @@ function Features() {
                   profileName="유지연"
                   profileEng="Yu Jiyeon"
                   profileMail="wcdg1017@naver.com"
-                  path="/project/vi/research/:Jiyeon"
+                  path="/2022/project/vi/research/:Jiyeon"
                   work1={imageVir.JIYEON.work1}
                 />
                 <FeaturesItem
@@ -295,7 +295,7 @@ function Features() {
                   profileName="장수영"
                   profileEng="Jang Suyoung"
                   profileMail="wkdtndud0426@naver.com"
-                  path="/project/vi/research/:Suyoung"
+                  path="/2022/project/vi/research/:Suyoung"
                   work1={imageVir.SUYOUNG.work1}
                 />
                 <FeaturesItem
@@ -309,7 +309,7 @@ function Features() {
                   profileName="백제훈"
                   profileEng="Baek Jaehoon"
                   profileMail="bjh990225@gmail.com"
-                  path="/project/vi/research/:Jaehoon"
+                  path="/2022/project/vi/research/:Jaehoon"
                   work1={imageVir.JAEHOON.work1}
                 />
                 <FeaturesItem
@@ -323,7 +323,7 @@ function Features() {
                   profileName="장재석"
                   profileEng="Jang Jaeseok"
                   profileMail="bm34c@naver.com"
-                  path="/project/vi/research/:Jaeseok"
+                  path="/2022/project/vi/research/:Jaeseok"
                   work1={imageVir.JAESEOK.work1}
                 />
                 <FeaturesItem
@@ -337,7 +337,7 @@ function Features() {
                   profileName="지강원"
                   profileEng="Ji Kangwon"
                   profileMail="wlrkddnjs777@naver.com"
-                  path="/project/vi/research/:Kangwon"
+                  path="/2022/project/vi/research/:Kangwon"
                   work1={imageVir.KANGWON.work1}
                 />
               </ul>

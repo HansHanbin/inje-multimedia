@@ -59,7 +59,7 @@ function DesignerProfileHyejin() {
                 profileName="구혜진"
                 profileEng="Gu Hyejin"
                 profileMail="fpqlt_326998@naver.com"
-                path="/project/dc/studio/:Hyejin"
+                path="/2022/project/dc/studio/:Hyejin"
                 work0={imageDcs.HYEJIN.work0}
                 work1={imageDcs.HYEJIN.work1}
                 work2={imageDcs.HYEJIN.work2}
@@ -105,7 +105,7 @@ function DesignerProfileHyejin() {
                 profileName="구혜진"
                 profileEng="Gu Hyejin"
                 profileMail="fpqlt_326998@naver.com"
-                path="/project/dc/research/:Hyejin"
+                path="/2022/project/dc/research/:Hyejin"
                 work0={imageDcr.HYEJIN.work0}
                 work1={imageDcr.HYEJIN.work1}
                 work2={imageDcr.HYEJIN.work2}

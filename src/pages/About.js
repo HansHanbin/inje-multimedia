@@ -173,7 +173,7 @@ function About() {
                   <div>프리즘처럼 빛나는 학생들의 모습을 확인해보세요!</div>
                   {/* <FontAwesomeIcon icon={faCirclePlay} className="one-play" /> */}
                 </div>
-                <Link to="/project">
+                <Link to="/2022/project">
                   <img
                     src={`${process.env.PUBLIC_URL}/assets/images/0818Images/1920/main_view project_B.png`}
                     alt="view project"

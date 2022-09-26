@@ -59,7 +59,7 @@ function DesignerProfileSieun() {
                 profileName="김시은"
                 profileEng="Kim Sieun"
                 profileMail="kns9559sn@gmail.com"
-                path="/project/dc/studio/:Sieun"
+                path="/2022/project/dc/studio/:Sieun"
                 work0={imageDcs.SIEUN.work0}
                 work1={imageDcs.SIEUN.work1}
                 work2={imageDcs.SIEUN.work2}
@@ -89,7 +89,7 @@ function DesignerProfileSieun() {
                 profileName="김시은"
                 profileEng="Kim Sieun"
                 profileMail="kns9559sn@gmail.com"
-                path="/project/dc/research/:Sieun"
+                path="/2022/project/dc/research/:Sieun"
                 work0={imageDcr.SIEUN.work0}
                 work1={imageDcr.SIEUN.work1}
                 work2={imageDcr.SIEUN.work2}

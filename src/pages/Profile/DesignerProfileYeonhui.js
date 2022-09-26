@@ -59,7 +59,7 @@ function DesignerProfileYeonhui() {
                 profileName="노연희"
                 profileEng={"Noh Yeonhui"}
                 profileMail="wkdch5538@naver.com"
-                path="/project/vi/studio/:Yeonhui"
+                path="/2022/project/vi/studio/:Yeonhui"
                 work1={imageVis.YEONHUI.work1}
               />
               <FeaturesItem
@@ -73,7 +73,7 @@ function DesignerProfileYeonhui() {
                 profileName="노연희"
                 profileEng={"Noh Yeonhui"}
                 profileMail="wkdch5538@naver.com"
-                path="/project/vi/research/:Yeonhui"
+                path="/2022/project/vi/research/:Yeonhui"
                 work1={imageVir.YEONHUI.work1}
               />
             </div>

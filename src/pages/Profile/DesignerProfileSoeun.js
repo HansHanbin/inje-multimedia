@@ -50,7 +50,7 @@ function DesignerProfileSoeun() {
           <div className="profile-bottom">
             <div className="profile-bottom-title">Project</div>
             <div className="profile-projects-motion">
-              <Link to={link2} className="profile-project-link">
+              <Link to={link1} className="profile-project-link">
                 <img
                   className="profile-project-img"
                   src={work1}

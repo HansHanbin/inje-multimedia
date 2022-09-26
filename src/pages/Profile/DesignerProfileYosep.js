@@ -59,7 +59,7 @@ function DesignerProfileYosep() {
                 profileName="최요셉"
                 profileEng="Choi Yosep"
                 profileMail="tozerothree@gmail.com"
-                path="/project/vi/studio/:Yosep"
+                path="/2022/project/vi/studio/:Yosep"
                 work1={imageVis.YOSEP.work1}
               />
               <FeaturesItem
@@ -73,7 +73,7 @@ function DesignerProfileYosep() {
                 profileName="최요셉"
                 profileEng="Choi Yosep"
                 profileMail="tozerothree@gmail.com"
-                path="/project/vi/research/:Yosep"
+                path="/2022/project/vi/research/:Yosep"
                 work1={imageVir.YOSEP.work1}
               />
             </div>

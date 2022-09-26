@@ -59,7 +59,7 @@ function DesignerProfileBohyun() {
                 profileName="서보현"
                 profileEng="Seo Bohyeon"
                 profileMail="seobori2000@gmail.com"
-                path="/project/dc/studio/:Bohyeon"
+                path="/2022/project/dc/studio/:Bohyeon"
                 work0={imageDcs.BH.work0}
                 work2={imageDcs.BH.work2}
                 lightMode={imageDcs.BH.lightMode}
@@ -79,7 +79,7 @@ function DesignerProfileBohyun() {
                 profileName="서보현"
                 profileEng="Seo Bohyeon"
                 profileMail="seobori2000@gmail.com"
-                path="/project/dc/research/:Bohyeon"
+                path="/2022/project/dc/research/:Bohyeon"
                 work0={imageDcr.BOHYEON.work0}
                 work2={imageDcr.BOHYEON.work2}
                 workVideo="https://www.youtube.com/embed/jqqq0xvEmTE"

@@ -80,7 +80,7 @@ function DesignerProfileJiyeon() {
                 profileName="유지연"
                 profileEng="Yu Jiyeon"
                 profileMail="wcdg1017@naver.com"
-                path="/project/vi/studio/:Jiyeon"
+                path="/2022/project/vi/studio/:Jiyeon"
                 work1={imageVis.JIYEON.work1}
               />
               <FeaturesItem
@@ -94,7 +94,7 @@ function DesignerProfileJiyeon() {
                 profileName="유지연"
                 profileEng="Yu Jiyeon"
                 profileMail="sbe3410@naver.com"
-                path="/project/vi/research/:Jiyeon"
+                path="/2022/project/vi/research/:Jiyeon"
                 work1={imageVir.JIYEON.work1}
               />
             </div>

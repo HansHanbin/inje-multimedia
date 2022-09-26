@@ -31,17 +31,17 @@ function ProjectDcontents() {
         <div className="project-header">
           <div className="major-wrapper">
             <div className="header-major">
-              <Link to="/project/dc">
+              <Link to="/2022/project/dc">
                 <div className="major-dc active">Digital Contents</div>
                 <div className="major-mobile active">D.C</div>
               </Link>
               <div>|</div>
-              <Link to="/project/vi">
+              <Link to="/2022/project/vi">
                 <div className="major-vi">Visual Information Design</div>
                 <div className="major-mobile">V.I</div>
               </Link>
               <div>|</div>
-              <Link to="/project/mm">
+              <Link to="/2022/project/mm">
                 <div className="major-mm">Motion Media</div>
                 <div className="major-mobile">M.M</div>
               </Link>

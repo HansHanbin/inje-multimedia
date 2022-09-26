@@ -14,13 +14,11 @@ function DesignerProfileJaeseok() {
   const mail = location.state.mail;
   const major = location.state.major;
   const major2 = location.state.major2;
-  
 
   console.log(location);
 
   const { pathname } = useLocation();
 
-  
   useEffect(() => {
     window.scrollTo(0, 0);
   }, [pathname]);
@@ -61,7 +59,7 @@ function DesignerProfileJaeseok() {
                 profileName="장재석"
                 profileEng="Jang Jaeseok"
                 profileMail="bm34c@naver.com"
-                path="/project/vi/studio/:Jaeseok"
+                path="/2022/project/vi/studio/:Jaeseok"
                 work1={imageVis.JAESEOK.work1}
               />
               <FeaturesItem
@@ -75,7 +73,7 @@ function DesignerProfileJaeseok() {
                 profileName="장재석"
                 profileEng="Jang Jaeseok"
                 profileMail="bm34c@naver.com"
-                path="/project/vi/research/:Jaeseok"
+                path="/2022/project/vi/research/:Jaeseok"
                 work1={imageVir.JAESEOK.work1}
               />
             </div>

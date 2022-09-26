@@ -59,7 +59,7 @@ function DesignerProfileSuyoung() {
                 profileName="장수영"
                 profileEng="Jang Suyoung"
                 profileMail="wkdtndud0426@naver.com"
-                path="/project/vi/research/:Suyoung"
+                path="/2022/project/vi/research/:Suyoung"
                 work1={imageVir.SUYOUNG.work1}
               />
             </div>

@@ -59,7 +59,7 @@ function DesignerProfileDoyeon() {
                 profileName="안도연"
                 profileEng="An Doyeon"
                 profileMail="rkornne@gmail.com"
-                path="/project/dc/studio/:Doyeon"
+                path="/2022/project/dc/studio/:Doyeon"
                 work0={imageDcs.DOYEON.work0}
                 work1={imageDcs.DOYEON.work1}
                 work2={imageDcs.DOYEON.work2}

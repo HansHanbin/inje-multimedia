@@ -12,7 +12,7 @@ function DesignerProfileJaehoon() {
   const name = location.state.name;
   const eng = location.state.eng;
   const mail = location.state.mail;
-  const major = location.state.major;
+  const major1 = location.state.major1;
   const major2 = location.state.major2;
   const work1 = location.state.work1;
   const work2 = location.state.work2;
@@ -59,7 +59,7 @@ function DesignerProfileJaehoon() {
               </div>
 
               <div className="profile-text-major">
-                {major} <br /> {major2}
+                {major1} <br /> {major2}
               </div>
 
               <div className="profile-text-mail">{mail}</div>
@@ -80,7 +80,7 @@ function DesignerProfileJaehoon() {
                 profileName="백제훈"
                 profileEng="Baek Jaehoon"
                 profileMail="bjh990225@gmail.com"
-                path="/project/vi/studio/:Jaehoon"
+                path="/2022/project/vi/studio/:Jaehoon"
                 work1={imageVis.JAEHOON.work1}
                 work2={imageVis.JAEHOON.work2}
                 work3={imageVis.JAEHOON.work3}
@@ -105,7 +105,7 @@ function DesignerProfileJaehoon() {
                 profileName="백제훈"
                 profileEng="Baek Jaehoon"
                 profileMail="bjh990225@gmail.com"
-                path="/project/vi/research/:Jaehoon"
+                path="/2022/project/vi/research/:Jaehoon"
                 work1={imageVir.JAEHOON.work1}
               />
             </div>

@@ -80,7 +80,7 @@ function DesignerProfileHyejin() {
                 profileName="임현우"
                 profileEng="Lim Hyeonwoo"
                 profileMail="gkrktk123@naver.com"
-                path="/project/vi/studio/:Hyeonwoo"
+                path="/2022/project/vi/studio/:Hyeonwoo"
                 work1={imageVis.HYEONWOO.work1}
                 work2={imageVis.HYEONWOO.work2}
                 work3={imageVis.HYEONWOO.work3}
@@ -108,7 +108,7 @@ function DesignerProfileHyejin() {
                 profileName="임현우"
                 profileEng="Lim Hyeonwoo"
                 profileMail="gkrktk123@naver.com"
-                path="/project/vi/research/:Hyeonwoo"
+                path="/2022/project/vi/research/:Hyeonwoo"
                 work1={imageVir.HYEONWOO.work1}
                 work2={imageVir.HYEONWOO.work2}
                 work3={imageVir.HYEONWOO.work3}

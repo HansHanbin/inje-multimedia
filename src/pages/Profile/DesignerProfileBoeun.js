@@ -80,7 +80,7 @@ function DesignerProfileBoeun() {
                 profileName="서보은"
                 profileEng="Seo Boeun"
                 profileMail="sbe3410@naver.com"
-                path="/project/vi/studio/:Boeun"
+                path="/2022/project/vi/studio/:Boeun"
                 work1={imageVis.BOEUN.work1}
               />
               <FeaturesItem
@@ -94,7 +94,7 @@ function DesignerProfileBoeun() {
                 profileName="서보은"
                 pofileEng="Seo Boeun"
                 pofileMail="sbe3410@naver.com"
-                path="/project/vi/research/:Boeun"
+                path="/2022/project/vi/research/:Boeun"
                 work1={imageVir.BOEUN.work1}
               />
             </div>

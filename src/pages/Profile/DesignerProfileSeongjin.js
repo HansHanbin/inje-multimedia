@@ -59,7 +59,7 @@ function DesignerProfileSeongjin() {
                 profileName="정성진"
                 profileEng="Jeong Seongjin"
                 profileMail="jsjpati@naver.com"
-                path="/project/vi/studio/:Seongjin"
+                path="/2022/project/vi/studio/:Seongjin"
                 work1={imageVis.SEONGJIN.work1}
               />
               <FeaturesItem
@@ -73,7 +73,7 @@ function DesignerProfileSeongjin() {
                 profileName="정성진"
                 profileEng="Jeong Seongjin"
                 profileMail="jsjpati@naver.com"
-                path="/project/vi/research/:Seongjin"
+                path="/2022/project/vi/research/:Seongjin"
                 work1={imageVir.SEONGJIN.work1}
               />
             </div>

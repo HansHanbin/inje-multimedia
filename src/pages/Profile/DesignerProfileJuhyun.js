@@ -61,7 +61,7 @@ function DesignerProfileJuhyun() {
                 profileName="정주현"
                 profileEng="Jung Juhyun"
                 profileMail="qwert911262@gmail.com"
-                path="/project/dc/studio/:Juhyun"
+                path="/2022/project/dc/studio/:Juhyun"
                 work0={imageDcs.JUHYUN.work0}
                 work1={imageDcs.JUHYUN.work1}
                 lightMode={imageDcs.JUHYUN.lightMode}
@@ -81,7 +81,7 @@ function DesignerProfileJuhyun() {
                 profileName="정주현"
                 profileEng="Jung Juhyun"
                 profileMail="qwert911262@gmail.com"
-                path="/project/dc/research/:Juhyun"
+                path="/2022/project/dc/research/:Juhyun"
                 work0={imageDcr.JUHYUN.work0}
                 work1={imageDcr.JUHYUN.work1}
                 lightMode={imageDcr.JUHYUN.lightMode}
@@ -99,7 +99,7 @@ function DesignerProfileJuhyun() {
                 profileName="정주현"
                 profileEng="Jung Juhyun"
                 profileMail="qwert911262@gmail.com"
-                path="/project/vi/studio/:Juhyun"
+                path="/2022/project/vi/studio/:Juhyun"
                 work1={imageVis.JUHYUN.work1}
               />
               <FeaturesItem
@@ -113,7 +113,7 @@ function DesignerProfileJuhyun() {
                 profileName="정주현"
                 profileEng="Jung Juhyun"
                 profileMail="qwert911262@gmail.com"
-                path="/project/vi/research/:Juhyun"
+                path="/2022/project/vi/research/:Juhyun"
                 work1={imageVir.JUHYUN.work1}
               />
             </div>

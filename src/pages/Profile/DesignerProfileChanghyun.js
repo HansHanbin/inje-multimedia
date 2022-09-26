@@ -59,7 +59,7 @@ function DesignerProfileChanghyun() {
                 profileName="지창현"
                 profileEng="Ji Changhyun"
                 profileMail="jchyundesign@gmail.com"
-                path="/project/dc/studio/:Changhyun"
+                path="/2022/project/dc/studio/:Changhyun"
                 work0={imageDcs.CHANGHYUN.work0}
                 work1={imageDcs.CHANGHYUN.work1}
                 work2={imageDcs.CHANGHYUN.work2}
@@ -85,7 +85,7 @@ function DesignerProfileChanghyun() {
                 profileName="지창현"
                 profileEng="Ji Changhyun"
                 profileMail="jchyundesign@gmail.com"
-                path="/project/dc/research/:Changhyun"
+                path="/2022/project/dc/research/:Changhyun"
                 work0={imageDcr.CHANGHYUN.work0}
                 work1={imageDcr.CHANGHYUN.work1}
                 work2={imageDcr.CHANGHYUN.work2}

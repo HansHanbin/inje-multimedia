@@ -59,7 +59,7 @@ function DesignerProfileSeongrae() {
                 profileName="조성래"
                 profileEng="Cho Seongrae"
                 profileMail="srj9704@naver.com"
-                path="/project/dc/studio/:Seongrae"
+                path="/2022/project/dc/studio/:Seongrae"
                 work0={imageDcs.SR.work0}
                 work1={imageDcs.SR.work1}
                 work2={imageDcs.SR.work2}
@@ -107,7 +107,7 @@ function DesignerProfileSeongrae() {
                 profileName="조성래"
                 profileEng="Cho Seongrae"
                 profileMail="srj9704@naver.com"
-                path="/project/dc/research/:Seongrae"
+                path="/2022/project/dc/research/:Seongrae"
                 work0={imageDcr.SEONGRAE.work0}
                 work1={imageDcr.SEONGRAE.work1}
                 work2={imageDcr.SEONGRAE.work2}

@@ -80,7 +80,7 @@ function DesignerProfileJaehee() {
                 profileName="이재희"
                 profileEng="Lee Jaehee"
                 profileMail="leejh6873@naver.com"
-                path="/project/vi/studio/:Jaehee"
+                path="/2022/project/vi/studio/:Jaehee"
                 work1={imageVis.JAEHEE.work1}
               />
               <FeaturesItem
@@ -94,7 +94,7 @@ function DesignerProfileJaehee() {
                 profileName="이재희"
                 profileEng="Lee Jaehee"
                 profileMail="leejh6873@naver.com"
-                path="/project/vi/research/:Jaehee"
+                path="/2022/project/vi/research/:Jaehee"
                 work1={imageVir.JAEHEE.work1}
               />
             </div>

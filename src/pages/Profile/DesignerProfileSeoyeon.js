@@ -58,15 +58,13 @@ function DesignerProfileSeoyeon() {
                 />
               </Link>
 
-                            <Link to={link2} className="profile-project-link">
+              <Link to={link2} className="profile-project-link">
                 <img
                   className="profile-project-img"
                   src={work2}
                   alt="student's work"
                 />
               </Link>
-
-
             </div>
           </div>
         </div>

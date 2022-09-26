@@ -59,7 +59,7 @@ function DesignerProfileKiseong() {
                 profileName="김기성"
                 profileEng="Kim Kiseong"
                 profileMail="kimkiseong98@gmail.com"
-                path="/project/dc/studio/:Kiseong"
+                path="/2022/project/dc/studio/:Kiseong"
                 work0={imageDcs.KISEONG.work0}
                 work1={imageDcs.KISEONG.work1}
                 work2={imageDcs.KISEONG.work2}
@@ -97,7 +97,7 @@ function DesignerProfileKiseong() {
                 profileName="김기성"
                 profileEng="Kim Kiseong"
                 profileMail="kimkiseong98@gmail.com"
-                path="/project/dc/research/:Kiseong"
+                path="/2022/project/dc/research/:Kiseong"
                 work0={imageDcr.KISEONG.work0}
                 work1={imageDcr.KISEONG.work1}
                 work2={imageDcr.KISEONG.work2}

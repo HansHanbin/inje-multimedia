@@ -59,7 +59,7 @@ function DesignerProfileEunkyo() {
                 profileName="장은교"
                 profileEng="Jang Eunkyo"
                 profileMail="429650@gmail.com"
-                path="/project/dc/studio/:Eunkyo"
+                path="/2022/project/dc/studio/:Eunkyo"
                 work0={imageDcs.EUNKYO.work0}
                 work1={imageDcs.EUNKYO.work1}
                 work2={imageDcs.EUNKYO.work2}
@@ -80,7 +80,7 @@ function DesignerProfileEunkyo() {
                 profileName="장은교"
                 profileEng="Jang Eunkyo"
                 profileMail="429650@gmail.com"
-                path="/project/dc/research/:Eunkyo"
+                path="/2022/project/dc/research/:Eunkyo"
                 work0={imageDcr.EUNKYO.work0}
                 work1={imageDcr.EUNKYO.work1}
                 work2={imageDcr.EUNKYO.work2}

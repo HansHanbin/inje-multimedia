@@ -59,7 +59,7 @@ function DesignerProfileKangwon() {
                 profileName="지강원"
                 profileEng="Ji Kangwon"
                 profileMail="wlrkddnjs777@naver.com"
-                path="/project/vi/studio/:Kangwon"
+                path="/2022/project/vi/studio/:Kangwon"
                 work1={imageVis.KANGWON.work1}
               />
               <FeaturesItem
@@ -73,7 +73,7 @@ function DesignerProfileKangwon() {
                 profileName="지강원"
                 profileEng="Ji Kangwon"
                 profileMail="wlrkddnjs777@naver.com"
-                path="/project/vi/research/:Kangwon"
+                path="/2022/project/vi/research/:Kangwon"
                 work1={imageVir.KANGWON.work1}
               />
             </div>

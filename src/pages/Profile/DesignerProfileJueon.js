@@ -80,7 +80,7 @@ function DesignerProfileJueon() {
                 profileName="강주언"
                 profileEng="Kang Jueon"
                 profileMail="3349520@naver.com"
-                path="/project/vi/studio/:Jueon"
+                path="/2022/project/vi/studio/:Jueon"
                 work1={imageVis.JUEON.work1}
               />
             </div>

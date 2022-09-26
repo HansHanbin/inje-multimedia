@@ -59,7 +59,7 @@ function DesignerProfileMoonju() {
                 profileName="김문주"
                 profileEng="Kim Moonju"
                 profileMail="m.jju422@gmail.com"
-                path="/project/dc/studio/:Moonju"
+                path="/2022/project/dc/studio/:Moonju"
                 work0={imageDcs.MOONJU.work0}
                 work1={imageDcs.MOONJU.work1}
                 work2={imageDcs.MOONJU.work2}
@@ -93,7 +93,7 @@ function DesignerProfileMoonju() {
                 profileName="김문주"
                 profileEng="Kim Moonju"
                 profileMail="m.jju422@gmail.com"
-                path="/project/dc/research/:Moonju"
+                path="/2022/project/dc/research/:Moonju"
                 work0={imageDcr.MOONJU.work0}
                 work1={imageDcr.MOONJU.work1}
                 work2={imageDcr.MOONJU.work2}

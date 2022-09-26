@@ -24,16 +24,26 @@ function Footer() {
         </span>
       </div>
       <div className="links">
-        <a className="link-item multi" href="/">
+        <a
+          className="link-item multi"
+          href="https://mm.inje.ac.kr/mm/index.do"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {/* <FontAwesomeIcon icon={faChrome} className="icon-internet icon" /> */}
           <img
-            alt="link"
             src={`${process.env.PUBLIC_URL}/assets/images/footer/icon/h.png`}
             className="icon-internet icon"
+            alt="link"
           />
           학부 홈페이지
         </a>
-        <a className="link-item insta" href="/">
+        <a
+          className="link-item insta"
+          href="https://www.instagram.com/inje_multimedia_design/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {/* <FontAwesomeIcon icon={faInstagram} className="icon-instagram icon" /> */}
           <img
             alt="link"
@@ -42,7 +52,12 @@ function Footer() {
           />
           인스타그램
         </a>
-        <a className="link-item youtube" href="/">
+        <a
+          className="link-item youtube"
+          href="https://www.youtube.com/channel/UCVFE5XvRDILWClQRmBsggWw/featured"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {/* <FontAwesomeIcon icon={faYoutube} className="icon-youtube icon" /> */}
           <img
             alt="link"

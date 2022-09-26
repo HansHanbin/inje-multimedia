@@ -48,9 +48,14 @@ function Project() {
             type="video/mp4"
           />
         </video>
-        <div className="project-container">
-          <Link
-            to="/project/dc"
+        <div
+          className={
+            dcClick || viClick || mmClick === true
+              ? "project-container project-m"
+              : "project-container"
+          }
+        >
+          <div
             className={
               dcClick === true ? "project-dc major-m" : "project-dc major"
             }
@@ -63,7 +68,7 @@ function Project() {
             </div>
             {/* 마우스오버 후 */}
             <div className="project-after after">
-              <Link to="/project/dc/studio" className="innerLink">
+              <Link to="/2022/project/dc/studio" className="innerLink">
                 <div className="project-wrapper">
                   {/* 마우스오버 텍스트 */}
                   <div className="project-wrapper__text">
@@ -120,10 +125,9 @@ function Project() {
                 </div>
               </Link>
             </div>
-          </Link>
+          </div>
 
-          <Link
-            to="/project/mm/studio"
+          <div
             className={
               viClick === true ? "project-vi major-m" : " project-vi major"
             }
@@ -136,7 +140,7 @@ function Project() {
             </div>
             {/* 마우스오버 후 */}
             <div className="project-after after">
-              <Link to="/project/vi/studio" className="innerLink">
+              <Link to="/2022/project/vi/studio" className="innerLink">
                 <div className="project-wrapper">
                   {/* 마우스오버 텍스트 */}
                   <div className="project-wrapper__text">
@@ -195,10 +199,9 @@ function Project() {
                 </div>
               </Link>
             </div>
-          </Link>
+          </div>
 
-          <Link
-            to="/project/vi/studio"
+          <div
             className={
               mmClick === true ? "project-mm major-m" : " project-mm major"
             }
@@ -211,7 +214,7 @@ function Project() {
             </div>
             {/* 마우스오버 후 */}
             <div className="project-after after">
-              <Link to="/project/mm/studio" className="innerLink">
+              <Link to="/2022/project/mm/studio" className="innerLink">
                 <div className="project-wrapper">
                   {/* 마우스오버 텍스트 */}
                   <div className="project-wrapper__text">
@@ -250,7 +253,6 @@ function Project() {
                               애니메이션적 연출에 기반을 두고, 다양한 표현
                               방법들을 활용하여 자신만의 메시지가 담긴 영상
                               콘텐츠를 제작한다.
-                              
                             </div>
                           </div>
                         </div>
@@ -267,7 +269,7 @@ function Project() {
                 </div>
               </Link>
             </div>
-          </Link>
+          </div>
         </div>
       </div>
     </>

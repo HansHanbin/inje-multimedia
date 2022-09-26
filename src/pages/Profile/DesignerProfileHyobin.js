@@ -80,7 +80,7 @@ function DesignerProfileHyobin() {
                 profileName="공효빈"
                 profileEng="Gong Hyobin"
                 profileMail="hyob1130@naver.com"
-                path="/project/vi/studio/:Hyobin"
+                path="/2022/project/vi/studio/:Hyobin"
                 work1={imageVis.HYOBIN.work1}
               />
               <FeaturesItem
@@ -94,7 +94,7 @@ function DesignerProfileHyobin() {
                 profileName="공효빈"
                 profileEng="Gong Hyobin"
                 profileMail="hyob1130@naver.com"
-                path="/project/vi/research/:Hyobin"
+                path="/2022/project/vi/research/:Hyobin"
                 work1={imageVir.HYOBIN.work1}
               />
             </div>

@@ -59,7 +59,7 @@ function DesignerProfileHanbin() {
                 profileName="이한빈"
                 profileEng="Lee Hanbin"
                 profileMail="hans.hanbin.lee@gmail.com"
-                path="/project/dc/studio/:Hanbin"
+                path="/2022/project/dc/studio/:Hanbin"
                 work0={imageDcs.HANBIN.work0}
                 work1={imageDcs.HANBIN.work1}
                 lightMode={imageDcs.HANBIN.lightMode}
@@ -79,7 +79,7 @@ function DesignerProfileHanbin() {
                 profileName="이한빈"
                 profileEng="Lee Hanbin"
                 profileMail="hans.hanbin.lee@gmail.com"
-                path="/project/dc/research/:Hanbin"
+                path="/2022/project/dc/research/:Hanbin"
                 work0={imageDcr.HANBIN.work0}
                 work1={imageDcr.HANBIN.work1}
                 workVideo="https://www.youtube.com/embed/-PyA8xCeG7w"
