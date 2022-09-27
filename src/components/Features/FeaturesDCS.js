@@ -72,8 +72,8 @@ function Features() {
                   link={
                     "https://cloud.protopie.io/p/447a7625ce?touchHint=true&ui=true&scaleToFit=true&cursorType=touch&mockup=true&bgColor=%23F5F5F5&playSpeed=1&playerAppPopup=true"
                   }
-                  workVideo="https://www.youtube.com/embed/qXHlphxQQTo"
-                  protopieVideo="https://www.youtube.com/embed/jmMlEZI8XPE"
+                  workVideo="https://www.youtube.com/embed/qXHlphxQQTo?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/jmMlEZI8XPE?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/me_studio_thumbnail.png`}
@@ -92,8 +92,8 @@ function Features() {
                   lightMode={imageDcs.HANBIN.lightMode}
                   darkMode={imageDcs.HANBIN.darkMode}
                   link="https://cloud.protopie.io/p/cd4bdcb184"
-                  workVideo="https://www.youtube.com/embed/OIVc79HMrIY"
-                  protopieVideo="https://www.youtube.com/embed/KVXfLUno5kQ"
+                  workVideo="https://www.youtube.com/embed/OIVc79HMrIY?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/KVXfLUno5kQ?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/5_studio_thumbnail.png`}
@@ -122,8 +122,8 @@ function Features() {
                   lightMode={imageDcs.SIEUN.lightMode}
                   darkMode={imageDcs.SIEUN.darkMode}
                   link="https://cloud.protopie.io/p/7f109309ef "
-                  workVideo="https://www.youtube.com/embed/dAhx4nQqcMQ"
-                  protopieVideo="https://www.youtube.com/embed/u6kRG-CbbzQ"
+                  workVideo="https://www.youtube.com/embed/dAhx4nQqcMQ?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/u6kRG-CbbzQ?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/15_studio_thumbnail.png`}
@@ -142,8 +142,8 @@ function Features() {
                   lightMode={imageDcs.JUHYUN.lightMode}
                   darkMode={imageDcs.JUHYUN.darkMode}
                   link="https://cloud.protopie.io/p/a0667d47db"
-                  workVideo="https://www.youtube.com/embed/btdR06WBLCQ"
-                  protopieVideo="https://www.youtube.com/embed/TxDqK5z9h5s"
+                  workVideo="https://www.youtube.com/embed/btdR06WBLCQ?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/TxDqK5z9h5s?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/1_studio_thumbnail.png`}
@@ -188,8 +188,8 @@ function Features() {
                   lightMode={imageDcs.HYEJIN.lightMode}
                   darkMode={imageDcs.HYEJIN.darkMode}
                   link="https://cloud.protopie.io/p/434db47ec1"
-                  workVideo="https://www.youtube.com/embed/4Kk_j-Va6Ts"
-                  protopieVideo="https://www.youtube.com/embed/zO7n7g3z1r4"
+                  workVideo="https://www.youtube.com/embed/4Kk_j-Va6Ts?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/zO7n7g3z1r4?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/6_studio_thumbnail.png`}
@@ -224,8 +224,8 @@ function Features() {
                   lightMode={imageDcs.MINGYU.lightMode}
                   darkMode={imageDcs.MINGYU.darkMode}
                   link="https://cloud.protopie.io/p/8ad84e1d51"
-                  workVideo="https://www.youtube.com/embed/zpK-4o1LtGM"
-                  protopieVideo="https://www.youtube.com/embed/e06_a_WuFN8"
+                  workVideo="https://www.youtube.com/embed/zpK-4o1LtGM?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/e06_a_WuFN8?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/2_studio_thumbnail.png`}
@@ -262,8 +262,8 @@ function Features() {
                   lightMode={imageDcs.KISEONG.lightMode}
                   darkMode={imageDcs.KISEONG.darkMode}
                   link="https://cloud.protopie.io/p/554c122585"
-                  workVideo="https://www.youtube.com/embed/LwJJYbap774"
-                  protopieVideo="https://www.youtube.com/embed/Ujb9hjFPLLA"
+                  workVideo="https://www.youtube.com/embed/LwJJYbap774?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/Ujb9hjFPLLA?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/10_studio_thumbnail.png`}
@@ -298,8 +298,8 @@ function Features() {
                   lightMode={imageDcs.DH.lightMode}
                   darkMode={imageDcs.DH.darkMode}
                   link="https://cloud.protopie.io/p/942ad953a1"
-                  workVideo="https://www.youtube.com/embed/xLDl0rAxxpA"
-                  protopieVideo="https://www.youtube.com/embed/422Vo9axvSg"
+                  workVideo="https://www.youtube.com/embed/xLDl0rAxxpA?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/422Vo9axvSg?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/3_studio_thumbnail.png`}
@@ -331,8 +331,8 @@ function Features() {
                   lightMode={imageDcs.NAYOUNG.lightMode}
                   darkMode={imageDcs.NAYOUNG.darkMode}
                   link="https://cloud.protopie.io/p/d490213dae"
-                  workVideo="https://www.youtube.com/embed/fHpS1nphov8"
-                  protopieVideo="https://www.youtube.com/embed/ATaM1WEAtqs"
+                  workVideo="https://www.youtube.com/embed/fHpS1nphov8?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/ATaM1WEAtqs?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/12_studio_thumbnail.png`}
@@ -364,8 +364,8 @@ function Features() {
                   lightMode={imageDcs.YM.lightMode}
                   darkMode={imageDcs.YM.darkMode}
                   link="https://cloud.protopie.io/p/c76cb5bcde"
-                  workVideo="https://www.youtube.com/embed/i87bnW_G6l0"
-                  protopieVideo="https://www.youtube.com/embed/Iu0OxxyW3Ts"
+                  workVideo="https://www.youtube.com/embed/i87bnW_G6l0?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/Iu0OxxyW3Ts?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/00_studio_thumbnail.png`}
@@ -384,8 +384,8 @@ function Features() {
                   lightMode={imageDcs.SH.lightMode}
                   darkMode={imageDcs.SH.darkMode}
                   link="https://cloud.protopie.io/p/3c1949d257"
-                  workVideo="https://www.youtube.com/embed/KaTumK1YRkg"
-                  protopieVideo="https://www.youtube.com/embed/_hovr0H1yZg"
+                  workVideo="https://www.youtube.com/embed/KaTumK1YRkg?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/_hovr0H1yZg?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/14_studio_thumbnail.png`}
@@ -405,8 +405,8 @@ function Features() {
                   lightMode={imageDcs.EUNKYO.lightMode}
                   darkMode={imageDcs.EUNKYO.darkMode}
                   link="https://cloud.protopie.io/p/ed7365d26a"
-                  workVideo="https://www.youtube.com/embed/-bHpNfaN8Lk"
-                  protopieVideo="https://www.youtube.com/embed/PZUF2xgL7wA"
+                  workVideo="https://www.youtube.com/embed/-bHpNfaN8Lk?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/PZUF2xgL7wA?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/8_studio_thumbnail.png`}
@@ -425,8 +425,8 @@ function Features() {
                   lightMode={imageDcs.BH.lightMode}
                   darkMode={imageDcs.BH.darkMode}
                   link="https://cloud.protopie.io/p/d8e2d0fefa"
-                  workVideo="https://www.youtube.com/embed/fAthydPOyWo"
-                  protopieVideo="https://www.youtube.com/embed/0Pxnv7JIjD8"
+                  workVideo="https://www.youtube.com/embed/fAthydPOyWo?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/0Pxnv7JIjD8?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/16_studio_thumbnail.png`}
@@ -473,8 +473,8 @@ function Features() {
                   lightMode={imageDcs.SR.lightMode}
                   darkMode={imageDcs.SR.darkMode}
                   link="https://cloud.protopie.io/p/88604c81c3"
-                  workVideo="https://www.youtube.com/embed/5JLMHgpqKl0"
-                  protopieVideo="https://www.youtube.com/embed/ut3r227PPHk"
+                  workVideo="https://www.youtube.com/embed/5JLMHgpqKl0?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/ut3r227PPHk?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/4_studio_thumbnail.png`}
@@ -507,8 +507,8 @@ function Features() {
                   lightMode={imageDcs.MOONJU.lightMode}
                   darkMode={imageDcs.MOONJU.darkMode}
                   link="https://cloud.protopie.io/p/ebdc43c31d"
-                  workVideo="https://www.youtube.com/embed/TlrNnE21BZo"
-                  protopieVideo="https://www.youtube.com/embed/lAUZIKtuCeg"
+                  workVideo="https://www.youtube.com/embed/TlrNnE21BZo?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/lAUZIKtuCeg?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/17_studio_thumbnail.png`}
@@ -534,8 +534,8 @@ function Features() {
                   lightMode={imageDcs.IH.lightMode}
                   darkMode={imageDcs.IH.darkMode}
                   link="https://cloud.protopie.io/p/ac7da1d6b3"
-                  workVideo="https://www.youtube.com/embed/WKW1Y1L0Sls"
-                  protopieVideo="https://www.youtube.com/embed/wd8x8LmDvow"
+                  workVideo="https://www.youtube.com/embed/WKW1Y1L0Sls?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/wd8x8LmDvow?rel=0"
                 />
                 <FeaturesItem
                   src={`${process.env.PUBLIC_URL}/assets/features/DC/9_studio_thumbnail.png`}
@@ -559,8 +559,8 @@ function Features() {
                   work7={imageDcs.DOYEON.work7}
                   lightMode={imageDcs.DOYEON.lightMode}
                   darkMode={imageDcs.DOYEON.darkMode}
-                  workVideo="https://www.youtube.com/embed/Bg3fo5wHWaA"
-                  protopieVideo="https://www.youtube.com/embed/RIiXRnAAvcM"
+                  workVideo="https://www.youtube.com/embed/Bg3fo5wHWaA?rel=0"
+                  protopieVideo="https://www.youtube.com/embed/RIiXRnAAvcM?rel=0"
                 />
 
                 {/* <FeaturesItem
