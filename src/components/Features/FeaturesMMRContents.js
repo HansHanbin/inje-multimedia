@@ -76,16 +76,16 @@ function FeaturesMMRContents() {
                 <div className="list-designer">
                   <strong>박은수</strong>
                   <br />
-                  Kim Hyunsoo
+                  Park Eunsu
                   <br />
-                  hyun98soo@naver.com
+                  unsu01181@naver.com
                 </div>
                 <div className="list-designer">
                   <strong>빙소은</strong>
                   <br />
                   Bing Soeun
                   <br />
-                  unsu01181@naver.com
+                  ilyjej1208@naver.com
                 </div>
                 <div className="list-designer">
                   <strong>아르텔레바 사이다</strong>
